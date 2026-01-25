@@ -9,6 +9,10 @@ let msFixed = 0;
 // Translation mappings for ALL English sections
 const translations = {
   zh: {
+    // Intro paragraph
+    "With 8 years managing 100+ properties in Melaka, iHousing brings proven expertise to maximize your investment. This comprehensive guide explores": "凭借在马六甲管理100+房产的8年经验，iHousing带来专业知识以最大化您的投资。本综合指南探讨了",
+    " with real data and strategies.": "，提供真实数据和策略。",
+
     // Headings
     "Why This Matters for Melaka Airbnb Investors": "这对马六甲Airbnb投资者为何重要",
     "Key Insights": "关键见解",
@@ -64,6 +68,9 @@ const translations = {
   },
 
   ms: {
+    // Intro paragraph
+    "With 8 years managing 100+ properties in Melaka, iHousing brings proven expertise to maximize your investment. This comprehensive guide explores": "Dengan 8 tahun mengurus 100+ hartanah di Melaka, iHousing membawa kepakaran terbukti untuk memaksimumkan pelaburan anda. Panduan komprehensif ini meneroka",
+
     // Headings
     "Why This Matters for Melaka Airbnb Investors": "Mengapa Ini Penting untuk Pelabur Airbnb Melaka",
     "Key Insights": "Panduan Utama",
@@ -112,6 +119,7 @@ const translations = {
 
     // Footer sections
     "iHousing provides expert guidance for your Melaka Airbnb investment.": "iHousing menyediakan panduan pakar untuk pelaburan Airbnb Melaka anda.",
+    " with real data and strategies.": " dengan data sebenar dan strategi.",
     "WhatsApp:": "WhatsApp:",
     "8 Years Experience. 100+ Properties. 60%+ Occupancy.": "8 Tahun Pengalaman. 100+ Hartanah. Okupansi 60%+.",
     "Updated February 2026 from actual portfolio data.": "Dikemaskini Februari 2026 dari data portfolio sebenar.",

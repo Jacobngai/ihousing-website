@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
-    "build:sitemaps": "node scripts/generate-sitemap-index.js",
-    "build:all": "astro build && node scripts/generate-sitemap-index.js",
+    "build": "astro build && node scripts/generate-production-sitemap.cjs",
+    "build:sitemaps": "node scripts/generate-production-sitemap.cjs",
+    "build:all": "astro build && node scripts/generate-production-sitemap.cjs",
     "preview": "astro preview",
     "astro": "astro",
     "check-sitemap": "playwright test sitemap-check.spec.ts --reporter=json --output=sitemap-check-results.json",

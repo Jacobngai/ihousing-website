@@ -1,0 +1,16 @@
+# www.ihousing.net robots.txt
+# Allow all bots
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.ihousing.net/sitemap.xml
+
+# Crawl-delay (optional, helps prevent overloading)
+Crawl-delay: 1
+
+# Disallow if needed (currently everything is allowed)
+# User-agent: *
+# Disallow: /admin/
+# Disallow: /private/

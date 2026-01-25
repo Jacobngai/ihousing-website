@@ -42,16 +42,31 @@ export default defineConfig({
     sitemap({
       i18n: {
         defaultLocale: DEFAULT_LOCALE,
+        // Only declare the current locale for this domain
         locales: {
-          en: 'en-MY',
-          zh: 'zh-Hans-MY',
-          ms: 'ms-MY',
+          [DEFAULT_LOCALE]: DEFAULT_LOCALE === 'en' ? 'en-MY' :
+                           DEFAULT_LOCALE === 'zh' ? 'zh-Hans-MY' :
+                           DEFAULT_LOCALE === 'ms' ? 'ms-MY' : 'en-MY',
         },
       },
       filter: (page) => {
-        // Exclude language selector root page from sitemap
-        // Only exclude the exact root URL, not language-prefixed pages
-        return page !== `${SITE_URL}/`;
+        // For multi-domain deployment, only include pages for current DEFAULT_LOCALE
+        // This prevents duplicate content across the 3 domains
+
+        // Exclude root URL (it redirects to language homepage)
+        if (page === `${SITE_URL}/`) return false;
+
+        // Only include pages with the current locale prefix
+        // e.g., if DEFAULT_LOCALE='en', only include /en/ pages
+        if (!page.includes(`/${DEFAULT_LOCALE}/`)) return false;
+
+        // Double-check: exclude other language prefixes
+        const otherLocales = ALL_LOCALES.filter(loc => loc !== DEFAULT_LOCALE);
+        for (const locale of otherLocales) {
+          if (page.includes(`/${locale}/`)) return false;
+        }
+
+        return true;
       },
       serialize: (item) => {
         // Extract actual publish date from blog post URLs
@@ -68,7 +83,8 @@ export default defineConfig({
         // Priority rules for iHousing SEO strategy
 
         // Homepage variants: 1.0 (highest priority)
-        if (item.url.match(/\/(en|zh|ms)\/?$/)) {
+        // Only match the current locale's homepage
+        if (item.url.match(new RegExp(`\\/${DEFAULT_LOCALE}\\/?$`))) {
           item.priority = 1.0;
           item.changefreq = 'weekly';
         }

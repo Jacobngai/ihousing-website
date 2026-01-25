@@ -1,24 +1,12 @@
 import { test, expect } from '@playwright/test';
+import { enBlogPosts, msBlogPosts, zhBlogPosts } from '../src/data/blog-posts';
 
 const BASE_URL = process.env.BASE_URL || 'https://www.ihousing.net';
 
-// Import blog posts registry
-const blogPostsModule = require('../src/data/blog-posts.ts');
-
-interface BlogPost {
-  slug: string;
-  title: string;
-  description: string;
-  date: string;
-  category: string;
-  language: string;
-  image?: string;
-}
-
-const allPosts: BlogPost[] = [
-  ...blogPostsModule.enBlogPosts,
-  ...blogPostsModule.msBlogPosts,
-  ...blogPostsModule.zhBlogPosts,
+const allPosts = [
+  ...enBlogPosts.map(p => ({ ...p, lang: 'en' })),
+  ...msBlogPosts.map(p => ({ ...p, lang: 'ms' })),
+  ...zhBlogPosts.map(p => ({ ...p, lang: 'zh' })),
 ];
 
 test.describe(`Blog Link Checker for ${BASE_URL}`, () => {
@@ -43,8 +31,8 @@ test.describe(`Blog Link Checker for ${BASE_URL}`, () => {
       });
 
       // Write results to file
-      const fs = require('fs');
-      fs.writeFileSync(
+      const { writeFileSync } = await import('fs');
+      writeFileSync(
         'blog-check-results.json',
         JSON.stringify({
           timestamp: new Date().toISOString(),
@@ -58,86 +46,37 @@ test.describe(`Blog Link Checker for ${BASE_URL}`, () => {
     }
   });
 
-  // Create a test for each blog post
+  // Create tests for each blog post using data-driven approach
   allPosts.forEach((post) => {
-    test(`${post.language}: ${post.slug}`, async ({ page }) => {
-      const url = `${BASE_URL}/${post.language}/blog/${post.slug}/`;
+    test(`[${post.lang}] ${post.slug}`, async ({ page }) => {
+      const url = `${BASE_URL}/${post.lang}/blog/${post.slug}/`;
 
-      try {
-        const response = await page.goto(url, {
-          waitUntil: 'domcontentloaded',
-          timeout: 30000,
-        });
+      const response = await page.goto(url, {
+        waitUntil: 'domcontentloaded',
+        timeout: 30000,
+      });
 
-        const status = response?.status() || 0;
+      const status = response?.status() || 0;
 
-        if (status === 404 || status === 500) {
-          failedPages.push({
-            url,
-            slug: post.slug,
-            error: `HTTP ${status}`,
-          });
-          throw new Error(`HTTP ${status}`);
-        }
+      // Check for 404 or 500 errors
+      expect(status, `Expected 200, got ${status} for ${url}`).not.toBe(404);
+      expect(status, `Expected 200, got ${status} for ${url}`).not.toBe(500);
 
-        // Check for common error indicators
-        const content = await page.content();
-        const hasNotFoundError = content.includes('404') || content.includes('Not Found');
-        const hasError = content.includes('Error') || content.includes('error');
+      // Check for 404 in content
+      const content = await page.content();
+      const hasNotFoundError = content.includes('404') || content.includes('Not Found');
+      expect(hasNotFoundError, `404 content found in ${url}`).toBe(false);
 
-        if (hasNotFoundError) {
-          failedPages.push({
-            url,
-            slug: post.slug,
-            error: '404 page content detected',
-          });
-          throw new Error('404 page content detected');
-        }
+      // Verify title exists
+      const title = await page.title();
+      expect(title.trim().length, `Empty title for ${url}`).toBeGreaterThan(0);
 
-        if (hasError && status !== 200) {
-          failedPages.push({
-            url,
-            slug: post.slug,
-            error: 'Error page content detected',
-          });
-          throw new Error('Error page content detected');
-        }
+      // Verify blog post content exists
+      const hasContent = await page.locator('main, h1, article').count() > 0;
+      expect(hasContent, `No main content found in ${url}`).toBe(true);
 
-        // Verify title is present
-        const title = await page.title();
-        if (!title || title === '') {
-          failedPages.push({
-            url,
-            slug: post.slug,
-            error: 'Empty page title',
-          });
-          throw new Error('Empty page title');
-        }
-
-        // Verify blog post content exists
-        const hasContent = await page.locator('main, h1, article').count() > 0;
-        if (!hasContent) {
-          failedPages.push({
-            url,
-            slug: post.slug,
-            error: 'No main content found',
-          });
-          throw new Error('No main content found');
-        }
-
-        passedPages++;
-        console.log(`✅ ${post.language}/${post.slug}`);
-      } catch (error) {
-        const errorMessage = error instanceof Error ? error.message : String(error);
-        if (!failedPages.some(p => p.slug === post.slug)) {
-          failedPages.push({
-            url,
-            slug: post.slug,
-            error: errorMessage,
-          });
-        }
-        throw error;
-      }
+      passedPages++;
+      console.log(`✅ ${post.lang}/${post.slug}`);
     });
   });
 });

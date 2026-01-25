@@ -40,8 +40,8 @@ blogDirs.forEach(({ lang, dir }) => {
     const imgMatch = content.match(/const image = ["'](.+?)["']/);
     const image = imgMatch ? imgMatch[1] : undefined;
 
-    // Extract slug from path
-    const slug = folderPath.replace(`${dir}/`, '').replace('/index.astro', '');
+    // Extract slug from path - just the folder name, not the full path
+    const slug = folderPath.replace(/^.*[\/\\]([^\/\\]+)[\/\\]index\.astro$/, '$1');
 
     blogPosts[lang].push({
       slug,

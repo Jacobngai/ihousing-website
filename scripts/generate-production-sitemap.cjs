@@ -16,7 +16,8 @@ const { globSync } = require('glob');
 
 const PRODUCTION_URL = 'https://www.ihousing.net';
 const OUTPUT_DIR = path.join(__dirname, '../dist');
-const SITEMAP_DIR = path.join(OUTPUT_DIR, 'sitemaps');
+const PUBLIC_DIR = path.join(__dirname, '../public');
+const SITEMAP_DIR = path.join(PUBLIC_DIR, 'sitemaps');
 
 // Ensure sitemap directory exists
 if (!fs.existsSync(SITEMAP_DIR)) {
@@ -137,22 +138,9 @@ const allSitemaps = [
 ];
 
 const sitemapIndex = generateSitemapIndex(allSitemaps);
-fs.writeFileSync(path.join(OUTPUT_DIR, 'sitemap.xml'), sitemapIndex);
+fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap.xml'), sitemapIndex);
 
 console.log(`✅ Generated sitemap.xml with ${allSitemaps.length} sitemaps\n`);
-
-// ============================================
-// 4. COPY TO ROOT FOR VERCEL
-// ============================================
-console.log('📋 Copying sitemap.xml to root...');
-
-// Also copy the sitemap index to the public root so it's accessible
-fs.copyFileSync(
-  path.join(OUTPUT_DIR, 'sitemap.xml'),
-  path.join(__dirname, '../public/sitemap.xml')
-);
-
-console.log('✅ Copied sitemap.xml to public/\n');
 
 // ============================================
 // 5. VALIDATE SITEMAP

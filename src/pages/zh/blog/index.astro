@@ -1,44 +1,15 @@
 ---
-import Layout from '../../../layouts/Layout.astro';
+import Layout from '@/layouts/Layout.astro';
 
 const title = "博客 - 马六甲民宿管理指南与房产投资技巧";
 const description = "专家见解：民宿管理、马六甲房产投资、定价策略和短期出租成功案例。";
 const image = "/images/blog/blog-index.jpg";
 
-// Dynamically import all blog posts from subdirectories
-const blogModules = import.meta.glob('./*/index.astro');
-
-// Extract blog post data
-const blogPosts = await Promise.all(
-  Object.entries(blogModules).map(async ([path, module]) => {
-    const { default: Component } = await module();
-
-    // Read the file to extract frontmatter data
-    const fs = await import('fs');
-    const filePath = `./${path}`;
-    const fileContent = fs.readFileSync(new URL(filePath, import.meta.url), 'utf-8');
-
-    // Extract title from const title =
-    const titleMatch = fileContent.match(/const title = ["'](.+?)["']/);
-    const title = titleMatch ? titleMatch[1] : '博客文章';
-
-    // Extract description
-    const descMatch = fileContent.match(/const description = ["'](.+?)["']/);
-    const description = descMatch ? descMatch[1] : '专家见解：民宿管理和马六甲房产投资。';
-
-    // Extract date
-    const dateMatch = fileContent.match(/const date = ["'](\d{4}-\d{2}-\d{2})["']/);
-    const date = dateMatch ? dateMatch[1] : '2026-01-01';
-
-    // Extract slug from path
-    const slug = path.replace('./', '').replace('/index.astro', '');
-
-    return { title, description, date, slug, path };
-  })
-);
-
-// Sort by date (newest first)
-blogPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
+// TEMPORARY: Static blog listing
+// TODO: Implement proper content collection or dynamic loading
+const blogPosts = [
+  // Blog posts will be listed here once proper content collection is set up
+];
 ---
 
 <Layout title={title} description={description} image={image}>

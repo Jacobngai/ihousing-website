@@ -2,6 +2,11 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import vercel from '@astrojs/vercel';
 import tailwind from '@astrojs/tailwind';
+import { resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+// Get __dirname equivalent for ES modules
+const __dirname = fileURLToPath(new URL('.', import.meta.url));
 
 // Read environment variables for multi-site deployment
 // Use build-time vars (without PUBLIC_) first, fallback to runtime vars (with PUBLIC_)
@@ -13,6 +18,13 @@ const ALL_LOCALES = ['en', 'zh', 'ms'];
 const LOCALES = [DEFAULT_LOCALE, ...ALL_LOCALES.filter(loc => loc !== DEFAULT_LOCALE)];
 
 export default defineConfig({
+  vite: {
+    resolve: {
+      alias: {
+        '@': resolve(__dirname, './src'),
+      },
+    },
+  },
   site: SITE_URL,
   output: 'static',
   adapter: vercel({

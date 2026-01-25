@@ -14,7 +14,8 @@
     "check-sitemap": "playwright test sitemap-check.spec.ts --reporter=json --output=sitemap-check-results.json",
     "check-sitemap:local": "SITE_URL=http://localhost:4321 playwright test sitemap-check.spec.ts",
     "check-sitemap:staging": "SITE_URL=https://staging-ihousing.vercel.app playwright test sitemap-check.spec.ts",
-    "check-sitemap:prod": "SITE_URL=https://en.ihousing-temp.vercel.app playwright test sitemap-check.spec.ts"
+    "check-sitemap:prod": "SITE_URL=https://en.ihousing-temp.vercel.app playwright test sitemap-check.spec.ts",
+    "generate-blog-registry": "node scripts/generate-blog-registry.cjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.6.0",

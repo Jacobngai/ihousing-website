@@ -1,4 +1,17 @@
 ---
-// Root redirect - redirect to default language (English)
-return Astro.redirect('/en/', 301);
+// Root redirect - redirect based on domain
+const url = Astro.url;
+const hostname = url.hostname;
+
+// Domain-based language routing
+if (hostname.includes('ihousing.biz')) {
+  // iHousing.biz → Chinese (ZH)
+  return Astro.redirect('/zh/', 301);
+} else if (hostname.includes('kreditloan.my')) {
+  // kreditloan.my → Malay (MS)
+  return Astro.redirect('/ms/', 301);
+} else {
+  // Default (ihousing.net, etc.) → English (EN)
+  return Astro.redirect('/en/', 301);
+}
 ---

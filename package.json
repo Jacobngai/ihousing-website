@@ -17,8 +17,8 @@
     "check-sitemap:prod": "SITE_URL=https://en.ihousing-temp.vercel.app playwright test sitemap-check.spec.ts",
     "generate-blog-registry": "node scripts/generate-blog-registry.cjs",
     "check-blog": "playwright test tests/blog-check.spec.ts",
-    "check-blog:prod": "BASE_URL=https://www.ihousing.net playwright test tests/blog-check.spec.ts",
-    "check-blog:staging": "BASE_URL=https://ihousing-website-pd3t23iym-ngsanzen-gmailcoms-projects.vercel.app playwright test tests/blog-check.spec.ts"
+    "check-blog:prod": "cross-env BASE_URL=https://www.ihousing.net playwright test tests/blog-check.spec.ts",
+    "check-blog:staging": "cross-env BASE_URL=https://ihousing-website-pd3t23iym-ngsanzen-gmailcoms-projects.vercel.app playwright test tests/blog-check.spec.ts"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.6.0",
@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.40.0",
+    "cross-env": "^10.1.0",
     "prettier": "^3.0.0",
     "prettier-plugin-astro": "^0.12.0"
   },

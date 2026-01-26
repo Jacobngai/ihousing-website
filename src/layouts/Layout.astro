@@ -64,6 +64,12 @@ const t = navLabels[currentLang as keyof typeof navLabels] || navLabels.en;
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
 
+    <!-- Hreflang for International SEO -->
+    <link rel="alternate" hreflang="en" href="https://www.ihousing.net/en/" />
+    <link rel="alternate" hreflang="zh" href="https://www.ihousing.biz/zh/" />
+    <link rel="alternate" hreflang="ms" href="https://www.ihousing.net/ms/" />
+    <link rel="alternate" hreflang="x-default" href="https://www.ihousing.net/en/" />
+
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 

@@ -1,0 +1,112 @@
+---
+import BlogPost from '@/layouts/BlogPost.astro';
+
+const title = "Best Airbnb Investment Locations in Melaka: Jonker vs. Klebang (2026)";
+const description = "Where should you buy your next Melaka investment property? We compare the high-traffic Jonker area against the family-friendly Klebang coast for ROI potential.";
+const image = "/images/blog/jonker-vs-klebang-melaka-2026.jpg";
+const date = "2026-02-08";
+const category = "investment";
+const language = "en";
+
+const content = `
+<div class="bg-blue-50 p-6 rounded-lg mb-8">
+<h3 class="text-lg font-bold text-blue-800 mb-2">Should You Invest in Jonker or Klebang?</h3>
+<p class="text-blue-700"><strong>Jonker offers higher occupancy (85%+) but lower nightly rates for small units. Klebang commands higher rates for large family units but has lower weekday demand (65% Occ).</strong> In 2026, the smart money is diversifying. If you want steady cash flow, buy near Jonker. If you want capital appreciation and lower wear-and-tear, buy in Klebang.</p>
+</div>
+
+<p>Every investor asks: "Where is the hotspot?" In Melaka, the battle is between the historic center (Jonker/Kota Laksamana) and the emerging coastal belt (Klebang/Limbongan).</p>
+
+<p>At iHousing, we manage properties in both zones. Here is the insider comparison.</p>
+
+<h2>Zone 1: The Heart of Action (Jonker / Kota Laksamana)</h2>
+
+<p>This includes <strong>The Wave</strong>, <strong>Atlantis</strong>, and <strong>The Apple</strong>. It is the default choice for first-time visitors.</p>
+<ul class="list-disc pl-5 mb-6">
+    <li><strong>Pros:</strong> Insane demand. Weekends are always full. Easy to market.</li>
+    <li><strong>Cons:</strong> Traffic is a nightmare. Parking is scarce. Noise complaints are common.</li>
+    <li><strong>Tenant Profile:</strong> Young couples, backpackers, small families (short stays, 1-2 nights).</li>
+</ul>
+
+<h2>Zone 2: The Family Retreat (Klebang / Limbongan)</h2>
+
+<p>This includes <strong>Riviera Suites</strong> and <strong>Avenue-by-the-Sea</strong>. It is where repeat visitors go to relax.</p>
+<ul class="list-disc pl-5 mb-6">
+    <li><strong>Pros:</strong> Quiet. Beach access. Bigger units (3-4 bedrooms). Higher nightly rate per booking.</li>
+    <li><strong>Cons:</strong> Requires a car. Lower occupancy on weekdays.</li>
+    <li><strong>Tenant Profile:</strong> Big multi-generational families (Grandma + Kids), Singaporeans driving up.</li>
+</ul>
+
+<h2>Investment Data Comparison (2026)</h2>
+
+<div class="overflow-x-auto my-8">
+<table class="w-full text-left border-collapse border border-gray-200">
+<thead>
+<tr class="bg-gray-100">
+<th class="p-4 border border-gray-200 font-bold">Metric</th>
+<th class="p-4 border border-gray-200 font-bold">Jonker Area (Studio/2BR)</th>
+<th class="p-4 border border-gray-200 font-bold">Klebang Area (3BR Condo)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="p-4 border border-gray-200"><strong>Entry Price</strong></td>
+<td class="p-4 border border-gray-200">RM 350k - 500k</td>
+<td class="p-4 border border-gray-200">RM 400k - 600k</td>
+</tr>
+<tr>
+<td class="p-4 border border-gray-200"><strong>Avg Nightly Rate</strong></td>
+<td class="p-4 border border-gray-200">RM 180 - 250</td>
+<td class="p-4 border border-gray-200">RM 350 - 500</td>
+</tr>
+<tr>
+<td class="p-4 border border-gray-200"><strong>Occupancy (Wknd)</strong></td>
+<td class="p-4 border border-gray-200">95%</td>
+<td class="p-4 border border-gray-200">90%</td>
+</tr>
+<tr>
+<td class="p-4 border border-gray-200"><strong>Occupancy (Wkday)</strong></td>
+<td class="p-4 border border-gray-200">60%</td>
+<td class="p-4 border border-gray-200">30%</td>
+</tr>
+<tr>
+<td class="p-4 border border-gray-200"><strong>Maintenance</strong></td>
+<td class="p-4 border border-gray-200">High (High turnover cleaning)</td>
+<td class="p-4 border border-gray-200">Medium (Longer stays, less cleaning)</td>
+</tr>
+<tr>
+<td class="p-4 border border-gray-200"><strong>Est. Net Yield</strong></td>
+<td class="p-4 border border-gray-200"><strong>7.5% - 9%</strong></td>
+<td class="p-4 border border-gray-200"><strong>6% - 8%</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2>The Traffic Factor</h2>
+
+<p>Do not underestimate Melaka's traffic. Getting from Klebang to Jonker on a Saturday night can take 45 minutes. Guests staying in Klebang usually skip Jonker and stick to the <strong>Klebang Coconut Shake</strong> area or drive to <strong>Porta de Santiago</strong> early morning.</p>
+
+<p><strong>iHousing Strategy:</strong> For Klebang properties, we market "Staycation" packages (board games, BBQ pits, beach gear) because guests spend more time <em>inside</em> the unit.</p>
+
+<h2>Conclusion</h2>
+
+<p><strong>Buy Jonker</strong> if you want volume and don't mind the hustle.
+<br><strong>Buy Klebang</strong> if you want higher-quality guests and a potential retirement home later.</p>
+
+<p><strong>Still undecided?</strong> We can show you actual revenue reports from both areas.</p>
+
+<a href="https://wa.me/60123456789?text=Hi%20iHousing,%20I'm%20comparing%20Jonker%20vs%20Klebang" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+    <i class="fab fa-whatsapp mr-2"></i> Get Location ROI Data
+</a>
+`;
+---
+
+<BlogPost
+  title={title}
+  description={description}
+  image={image}
+  date={date}
+  category={category}
+  language={language}
+  content={content}
+/>

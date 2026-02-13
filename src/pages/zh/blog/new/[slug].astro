@@ -1,0 +1,21 @@
+---
+/**
+ * Dynamic Blog Post Page - Chinese (NEW posts from content collections)
+ */
+import { getCollection } from 'astro:content';
+import BlogPostMD from '@/layouts/BlogPostMD.astro';
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('blogs');
+  return allPosts
+    .filter(post => post.data.locale === 'zh' && !post.data.draft)
+    .map(post => ({
+      params: { slug: post.slug.replace('zh/', '') },
+      props: { post },
+    }));
+}
+
+const { post } = Astro.props;
+---
+
+<BlogPostMD post={post} />

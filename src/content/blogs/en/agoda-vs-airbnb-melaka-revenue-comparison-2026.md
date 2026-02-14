@@ -306,3 +306,60 @@ Use Agoda for weekday bookings targeting business and international travelers. U
 For most Melaka property owners, **the optimal strategy in 2026 is dual-listing**, using Agoda's international reach and Airbnb's domestic dominance to achieve maximum revenue across both weekday and weekend bookings.
 
 **Ready to optimize your Melaka property revenue?** Contact iHousing for professional property management that maximizes bookings across all platforms while ensuring full regulatory compliance.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Which platform is better for Melaka properties - Agoda or Airbnb?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Heritage homes and unique properties earn 37-54% more on Airbnb due to domestic market strength. Hotels and serviced apartments earn 37-42% more on Agoda due to international reach. Property type determines the winner."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which platform has faster bookings in Melaka?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Agoda typically converts faster for serviced apartments and hotels (24-48 hours from listing). Airbnb bookings for unique homes may take longer but command higher rates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use both Agoda and Airbnb for the same property?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but you must use a channel manager or manually sync calendars to prevent double bookings. Many Melaka hosts successfully dual-list to maximize occupancy across both international and domestic markets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which platform is better for new hosts in Melaka?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Airbnb is generally easier for first-time hosts due to lower commission (3% split-fee), better host support, and more forgiving cancellation policies. Once you build a reputation, add Agoda for international reach."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a MOTAC license for both platforms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, both Agoda and Airbnb require Malaysian properties to comply with MOTAC (Ministry of Tourism) regulations. Short-term rentals need proper licensing regardless of platform."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the commission rates for Agoda vs Airbnb in Melaka?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Agoda charges 15-18% commission per booking with no host fees. Airbnb offers two models: 3% host fee (with guest paying 14-16%), or all-inclusive 14-15% host-only fee option."
+      }
+    }
+  ]
+}
+</script>

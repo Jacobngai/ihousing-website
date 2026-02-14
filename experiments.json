@@ -103,5 +103,44 @@
     "status": "active",
     "git_commit": "99dc156",
     "notes": "SEO Brain Experiment Runner - iHousing rotation. Integrated headline optimization with above-fold content alignment and FAQ schema."
+  },
+  {
+    "id": "IH-EXP-007",
+    "date_started": "2026-02-15T02:30:00+08:00",
+    "type": "headline_query_match",
+    "page": "/en/blog/guest-screening-process-ihousing-property-protection/",
+    "file": "src/pages/en/blog/guest-screening-process-ihousing-property-protection/index.astro",
+    "old_headline": "Guest Screening Process: How iHousing Protects Your Property from Bad Guests",
+    "new_headline": "What Are the Guest Screening and Selection Processes for Airbnb Property Management?",
+    "hypothesis": "Query asks 'WHAT ARE the processes' - very procedural, informational tone. Current headline focused on 'How iHousing Protects' (company-centric). New headline directly mirrors query language (what are + processes + selection + airbnb property management) to match search intent. Should improve CTR and ranking.",
+    "baseline_metrics": {
+      "impressions": 6,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 83.17,
+      "period": "28 days ending 2026-02-15"
+    },
+    "check_date": "2026-02-22",
+    "status": "active",
+    "notes": "SEO Loop - iHousing (2:30 AM). Changed title + H1 to directly answer the query's exact phrasing. Position 83 suggests weak content match despite comprehensive guide existing in content folder."
+  },
+  {
+    "id": "IH-EXP-008",
+    "date_started": "2026-02-15T03:29:00+08:00",
+    "type": "faq_schema",
+    "page": "/blog/agoda-vs-airbnb-melaka-revenue-comparison-2026",
+    "file": "src/content/blogs/en/agoda-vs-airbnb-melaka-revenue-comparison-2026.md",
+    "hypothesis": "Position 11.4 for 'agoda melaka' query - extremely close to page 1 (top of page 2). Article has strong headline (IH-RETRO-001) but missing FAQ schema which can: (1) Trigger rich snippets in SERP, (2) Increase CTR via FAQ expansion, (3) Signal relevance to Google for comparison queries. Added 6 FAQs covering platform comparison, licensing, commissions, booking speed, dual-listing, and new host advice. Targets both 'agoda melaka' and 'airbnb vs agoda' queries.",
+    "baseline_metrics": {
+      "impressions": 5,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 11.4,
+      "period": "28 days ending 2026-02-15",
+      "query": "agoda melaka"
+    },
+    "check_date": "2026-02-22",
+    "status": "pending_deployment",
+    "notes": "SEO Brain Experiment Runner - iHousing rotation. HIGH IMPACT: Position 11.4 means one ranking boost away from page 1. FAQ schema targets rich snippet opportunity."
   }
 ]

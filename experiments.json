@@ -1,0 +1,66 @@
+[
+  {
+    "id": "IH-RETRO-001",
+    "date_started": "2026-02-14T02:34:45+08:00",
+    "type": "headline",
+    "page": "/blog/agoda-vs-airbnb-melaka-revenue-comparison-2026",
+    "file": "src/content/blogs/en/agoda-vs-airbnb-melaka-revenue-comparison-2026.md",
+    "old_headline": "(unknown - pre-experiment logging)",
+    "new_headline": "We Ran the Numbers: Agoda vs Airbnb in Melaka - Which Platform Pays More?",
+    "hypothesis": "Comparison searchers want direct answer. 'We Ran the Numbers' builds authority, question format matches search intent.",
+    "baseline_metrics": {
+      "impressions": 42,
+      "clicks": 0,
+      "ctr": 0,
+      "position": "(unknown)",
+      "period": "week of 2026-02-07"
+    },
+    "check_date": "2026-02-21",
+    "status": "active",
+    "git_commit": "aefd024",
+    "committed_at": "2026-02-14T02:34:45+08:00",
+    "notes": "RETROACTIVE LOG: Experiment run before experiments.json tracking was established. Discovered via git log during SEO Brain run at 11:56 AM."
+  },
+  {
+    "id": "IH-RETRO-002",
+    "date_started": "2026-02-14T02:34:45+08:00",
+    "type": "headline",
+    "page": "/blog/motac-license-melaka-airbnb-checklist-2026",
+    "file": "src/content/blogs/en/motac-license-melaka-airbnb-checklist-2026.md",
+    "old_headline": "(unknown - pre-experiment logging)",
+    "new_headline": "Do You Need a MOTAC License for Your Melaka Airbnb? (What's Actually Required in 2026)",
+    "hypothesis": "Searchers have yes/no question about MOTAC requirement. Question headline format matches intent. Parenthetical adds specificity (2026 requirements).",
+    "baseline_metrics": {
+      "impressions": 25,
+      "clicks": 0,
+      "ctr": 0,
+      "position": "(unknown)",
+      "period": "week of 2026-02-07"
+    },
+    "check_date": "2026-02-21",
+    "status": "active",
+    "git_commit": "aefd024",
+    "committed_at": "2026-02-14T02:34:45+08:00",
+    "notes": "RETROACTIVE LOG: Experiment run before experiments.json tracking was established. Discovered via git log during SEO Brain run at 11:56 AM."
+  },
+  {
+    "id": "IH-EXP-003",
+    "date_started": "2026-02-14T12:50:00+08:00",
+    "type": "headline",
+    "page": "/blog/airbnb-vs-booking-vs-agoda-melaka-comparison-2026",
+    "file": "src/content/blogs/en/airbnb-vs-booking-vs-agoda-melaka-comparison-2026.md",
+    "old_headline": "Airbnb vs Booking.com vs Agoda: Which Platform Wins in Melaka? (2026)",
+    "new_headline": "Airbnb vs Booking.com vs Agoda: Melaka 2026 Earnings Comparison",
+    "hypothesis": "Searchers comparing platforms are ultimately interested in 'earnings'. Switching from the vague 'Which Platform Wins' to the benefit-driven 'Earnings Comparison' targets that intent. Matches common search patterns like 'airbnb vs agoda earnings'.",
+    "baseline_metrics": {
+      "impressions": 15,
+      "clicks": 0,
+      "ctr": 0,
+      "position": "(unknown)",
+      "period": "est. baseline"
+    },
+    "check_date": "2026-02-21",
+    "status": "active",
+    "notes": "SEO Brain Experiment Runner - iHousing rotation. Targeting revenue-focused comparison intent."
+  }
+]

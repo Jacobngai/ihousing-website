@@ -274,6 +274,9 @@ After all expenses (cleaning, utilities, maintenance, management fees), you shou
 ### Do properties near Jonker Walk really earn that much more?
 Yes, but the property prices are also higher. A condo near Jonker Walk might cost RM400-500k vs RM250-300k in other areas. The ROI is often similar when you factor in the property cost.
 
+### How much can I make from Airbnb in Melaka on average?
+On average, a well-managed 2-bedroom condo in Melaka earns between RM4,000 and RM8,000 per month gross, with net profits typically ranging from RM2,800 to RM5,500 depending on location and management strategy.
+
 ---
 
 **Bottom line:** Airbnb in Melaka can be genuinely profitable if you approach it as a business, not a hobby. Invest in the right property, furnish it well, price it smartly, and either manage it properly or hire someone who does.

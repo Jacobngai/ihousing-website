@@ -62,5 +62,25 @@
     "check_date": "2026-02-21",
     "status": "active",
     "notes": "SEO Brain Experiment Runner - iHousing rotation. Targeting revenue-focused comparison intent."
+  },
+  {
+    "id": "IH-EXP-005",
+    "date_started": "2026-02-14T17:35:00+08:00",
+    "type": "FAQ",
+    "page": "/blog/how-much-can-you-really-make-from-airbnb-in-melaka-real-numbers",
+    "file": "src/content/blogs/en/how-much-can-you-really-make-from-airbnb-in-melaka-real-numbers.md",
+    "old_content": "(no 'average income' FAQ)",
+    "new_content": "Added 'How much can I make from Airbnb in Melaka on average?' FAQ item.",
+    "hypothesis": "High impressions for 'airbnb melaka income' but missing a direct answer to the 'average' question. Adding a specific FAQ targets this long-tail keyword and provides a clear snippet for Google.",
+    "baseline_metrics": {
+      "impressions": "(to be measured)",
+      "clicks": 0,
+      "ctr": 0,
+      "position": "(to be measured)",
+      "period": "baseline Feb 14"
+    },
+    "check_date": "2026-02-21",
+    "status": "active",
+    "notes": "SEO Brain Experiment Runner - iHousing rotation. Adding FAQ to high-potential content."
   }
 ]

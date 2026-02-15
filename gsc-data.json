@@ -1,0 +1,295 @@
+{
+  "property": "sc-domain:ihousing.net",
+  "dateRange": "2026-01-16 to 2026-02-15",
+  "fetchedAt": "2026-02-15T06:51:03.679629",
+  "data": [
+    {
+      "keys": [
+        "ihousing",
+        "https://www.ihousing.net/"
+      ],
+      "clicks": 2,
+      "impressions": 15,
+      "ctr": 0.13333333333333333,
+      "position": 5.666666666666667
+    },
+    {
+      "keys": [
+        "i housing",
+        "https://www.ihousing.net/"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 8
+    },
+    {
+      "keys": [
+        "ihousing melaka",
+        "https://www.ihousing.net/"
+      ],
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": 0.16666666666666666,
+      "position": 5.833333333333333
+    },
+    {
+      "keys": [
+        "ihousing melaka",
+        "https://www.ihousing.net/en/"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 3
+    },
+    {
+      "keys": [
+        "agoda airbnb",
+        "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "keys": [
+        "agoda homes vs airbnb",
+        "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 14.333333333333334
+    },
+    {
+      "keys": [
+        "agoda malaysia melaka",
+        "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 19
+    },
+    {
+      "keys": [
+        "agoda melaka",
+        "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 11.4
+    },
+    {
+      "keys": [
+        "airbnb commission rate malaysia",
+        "https://www.ihousing.net/blog/flat-fee-airbnb-management-melaka"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "airbnb property management malaysia",
+        "https://www.ihousing.net/blog/airbnb-management-fees-malaysia"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 37
+    },
+    {
+      "keys": [
+        "airbnb vs agoda",
+        "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison"
+      ],
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 21.8
+    },
+    {
+      "keys": [
+        "airbnb vs agoda comparison",
+        "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-performance/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "evaluate the airbnb company agoda on experiences - brand",
+        "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "keys": [
+        "i housing melaka",
+        "https://ihousing.net/"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "ihousing",
+        "https://ihousing.net/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 7.333333333333333
+    },
+    {
+      "keys": [
+        "ihousing melaka",
+        "https://ihousing.net/"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "keys": [
+        "requirements to become a host in malaysia",
+        "https://www.ihousing.net/blog/motac-license-requirements-airbnb-malaysia/"
+      ],
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.666666666666668
+    },
+    {
+      "keys": [
+        "what are the guest screening and selection processes for managing an airbnb property",
+        "https://www.ihousing.net/blog/guest-screening-process-ihousing-property-protection/"
+      ],
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 83.16666666666667
+    },
+    {
+      "keys": [
+        "which is better agoda or airbnb",
+        "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    }
+  ],
+  "totals": {
+    "clicks": 9,
+    "impressions": 512,
+    "ctr": 0.017578125,
+    "position": 8.728515625
+  },
+  "processed": [
+    {
+      "query": "what are the guest screening and selection processes for managing an airbnb property",
+      "page": "https://www.ihousing.net/blog/guest-screening-process-ihousing-property-protection/",
+      "impressions": 6,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 83.16666666666667,
+      "action": "create_content",
+      "reason": "High impressions (6) but poor position (83.2)"
+    }
+  ],
+  "ignored": [
+    {
+      "query": "i housing",
+      "page": "https://www.ihousing.net/",
+      "impressions": 1,
+      "reason": "Low opportunity - impressions < 5"
+    },
+    {
+      "query": "ihousing melaka",
+      "page": "https://www.ihousing.net/en/",
+      "impressions": 1,
+      "reason": "Low opportunity - impressions < 5"
+    },
+    {
+      "query": "agoda airbnb",
+      "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison",
+      "impressions": 1,
+      "reason": "Low opportunity - impressions < 5"
+    },
+    {
+      "query": "agoda homes vs airbnb",
+      "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison",
+      "impressions": 3,
+      "reason": "Low opportunity - impressions < 5"
+    },
+    {
+      "query": "agoda malaysia melaka",
+      "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison",
+      "impressions": 1,
+      "reason": "Low opportunity - impressions < 5"
+    },
+    {
+      "query": "airbnb commission rate malaysia",
+      "page": "https://www.ihousing.net/blog/flat-fee-airbnb-management-melaka",
+      "impressions": 1,
+      "reason": "Low opportunity - impressions < 5"
+    },
+    {
+      "query": "airbnb property management malaysia",
+      "page": "https://www.ihousing.net/blog/airbnb-management-fees-malaysia",
+      "impressions": 1,
+      "reason": "Low opportunity - impressions < 5"
+    },
+    {
+      "query": "airbnb vs agoda comparison",
+      "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-performance/",
+      "impressions": 1,
+      "reason": "Low opportunity - impressions < 5"
+    },
+    {
+      "query": "evaluate the airbnb company agoda on experiences - brand",
+      "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison",
+      "impressions": 1,
+      "reason": "Low opportunity - impressions < 5"
+    },
+    {
+      "query": "i housing melaka",
+      "page": "https://ihousing.net/",
+      "impressions": 1,
+      "reason": "Low opportunity - impressions < 5"
+    },
+    {
+      "query": "ihousing",
+      "page": "https://ihousing.net/",
+      "impressions": 3,
+      "reason": "Low opportunity - impressions < 5"
+    },
+    {
+      "query": "requirements to become a host in malaysia",
+      "page": "https://www.ihousing.net/blog/motac-license-requirements-airbnb-malaysia/",
+      "impressions": 3,
+      "reason": "Low opportunity - impressions < 5"
+    },
+    {
+      "query": "which is better agoda or airbnb",
+      "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison",
+      "impressions": 1,
+      "reason": "Low opportunity - impressions < 5"
+    }
+  ]
+}

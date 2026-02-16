@@ -164,5 +164,68 @@
     "git_commit": "7caed1c",
     "committed_at": "2026-02-15T03:29:00+08:00",
     "notes": "SEO Brain Experiment Runner - iHousing rotation. HIGH IMPACT: Position 11.4 means one ranking boost away from page 1. FAQ schema targets rich snippet opportunity."
+  },
+  {
+    "id": "IH-EXP-010",
+    "date_started": "2026-02-16T14:45:00+08:00",
+    "type": "headline_plus_faq_freshness",
+    "page": "/en/blog/airbnb-management-fees-malaysia",
+    "file": "website/src/pages/en/blog/airbnb-management-fees-malaysia/index.astro",
+    "old_headline": "Airbnb Management Fees Malaysia: Complete Pricing Guide 2025",
+    "new_headline": "Airbnb Management Fees Malaysia: Complete Pricing Guide 2026",
+    "hypothesis": "1) Freshness update (2026) targets users looking for current-year data. 2) TL;DR box provides immediate value and addresses the core pain point (percentage fees eating profit). 3) FAQ schema targets rich snippets for 'airbnb management fees malaysia' queries. High-intent decision stage content.",
+    "baseline_metrics": {
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 37,
+      "period": "28 days ending 2026-02-15",
+      "query": "airbnb property management malaysia"
+    },
+    "check_date": "2026-02-23",
+    "status": "active",
+    "notes": "SEO Brain Experiment Runner - iHousing rotation. Combined freshness (2026) + TL;DR + FAQ schema optimization."
+  },
+  {
+    "id": "IH-EXP-009",
+    "date_started": "2026-02-16T14:20:00+08:00",
+    "type": "headline_plus_faq_freshness",
+    "page": "/blog/agoda-vs-airbnb-melaka-market-comparison",
+    "file": "src/pages/en/blog/agoda-vs-airbnb-melaka-market-comparison/index.astro",
+    "old_headline": "Agoda vs Airbnb Melaka: Real Revenue Data from 100+ Properties",
+    "new_headline": "Agoda vs Airbnb Melaka 2026: Which Platform Pays More? (Real Data)",
+    "hypothesis": "1) Updating year to 2026 (freshness) targets current-year intent. 2) Question headline 'Which Platform Pays More?' creates a curiosity gap and addresses the searcher's core concern. 3) FAQ schema (4 questions) targets rich snippets for platform comparison queries. 4) TL;DR box addresses the 'Build In Public' finding that users want immediate answers, improving dwell time and conversion probability.",
+    "baseline_metrics": {
+      "impressions": 5,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 11.4,
+      "period": "28 days ending 2026-02-15",
+      "query": "agoda melaka"
+    },
+    "check_date": "2026-02-23",
+    "status": "active",
+    "git_commit": "120571c",
+    "notes": "SEO Brain Experiment Runner - iHousing rotation. Combined freshness (2026) + Headline optimization + FAQ schema + TL;DR box. Target: Push position from 11.4 into top 5."
+  }
+  {
+    "id": "IH-EXP-011",
+    "date_started": "2026-02-16T16:20:00+08:00",
+    "type": "content_expansion_plus_faq_schema",
+    "page": "/en/blog/airbnb-seo-basics-how-to-get-found-in-search",
+    "file": "clients/ihousing/website/src/pages/en/blog/airbnb-seo-basics-how-to-get-found-in-search/index.astro",
+    "old_headline": "Airbnb SEO Basics: How to Get Found in Search",
+    "new_headline": "Airbnb SEO Checklist 2026: 12 Factors to Rank Your Listing #1",
+    "hypothesis": "1) Freshness update (2026) targets users looking for current-year data. 2) Content expansion from thin (100 words) to detailed (800+ words) providing high value. 3) FAQ schema targets rich snippets for 'airbnb seo' queries. 4) TL;DR box addresses the 'Build In Public' finding that users want immediate answers, improving dwell time and conversion probability.",
+    "baseline_metrics": {
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 0,
+      "period": "new content optimization"
+    },
+    "check_date": "2026-02-23",
+    "status": "active",
+    "notes": "SEO Brain Experiment Runner - iHousing rotation. Combined freshness (2026) + Content Expansion + FAQ schema + TL;DR box."
   }
 ]

@@ -119,10 +119,10 @@
       "position": 28,
       "period": "week of 2026-02-07"
     },
-    "check_date": "2026-02-21",
+    "check_date": "2026-02-23",
     "status": "active",
-    "git_commit": "99dc156",
-    "notes": "SEO Brain Experiment Runner - iHousing rotation. Integrated headline optimization with above-fold content alignment and FAQ schema."
+    "git_commit": "a7a3e38",
+    "notes": "SEO Brain Experiment Runner - iHousing rotation. Updated 2026-02-16 with latest 2026 freshness, TOUREX compliance details, and FAQ schema."
   },
   {
     "id": "IH-EXP-007",

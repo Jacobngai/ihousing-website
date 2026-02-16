@@ -127,12 +127,12 @@
   {
     "id": "IH-EXP-007",
     "date_started": "2026-02-15T02:30:00+08:00",
-    "type": "headline_query_match",
+    "type": "content_expansion_alignment",
     "page": "/en/blog/guest-screening-process-ihousing-property-protection/",
-    "file": "src/pages/en/blog/guest-screening-process-ihousing-property-protection/index.astro",
+    "file": "clients/ihousing/website/src/pages/en/blog/guest-screening-process-ihousing-property-protection/index.astro",
     "old_headline": "Guest Screening Process: How iHousing Protects Your Property from Bad Guests",
     "new_headline": "What Are the Guest Screening and Selection Processes for Airbnb Property Management?",
-    "hypothesis": "Query asks 'WHAT ARE the processes' - very procedural, informational tone. Current headline focused on 'How iHousing Protects' (company-centric). New headline directly mirrors query language (what are + processes + selection + airbnb property management) to match search intent. Should improve CTR and ranking.",
+    "hypothesis": "Query asks 'WHAT ARE the processes' - very procedural, informational tone. 1) Changed title/H1 to mirror query exactly (Lesson 19/20). 2) Expanded content from ~150 words to ~800 words with specific 7-step process. 3) Added TL;DR box for immediate answer. 4) Added FAQ schema to target rich snippets and structured answers for LLMs. High impressions (6) at position 83 suggests the page is relevant but needs depth to rank on page 1.",
     "baseline_metrics": {
       "impressions": 6,
       "clicks": 0,
@@ -140,9 +140,9 @@
       "position": 83.17,
       "period": "28 days ending 2026-02-15"
     },
-    "check_date": "2026-02-22",
+    "check_date": "2026-02-23",
     "status": "active",
-    "notes": "SEO Loop - iHousing (2:30 AM). Changed title + H1 to directly answer the query's exact phrasing. Position 83 suggests weak content match despite comprehensive guide existing in content folder."
+    "notes": "SEO Brain Experiment Runner - iHousing rotation. Content expansion + FAQ schema + Query alignment. Supersedes previous entry with deeper optimization."
   },
   {
     "id": "IH-EXP-008",

@@ -1,7 +1,7 @@
 {
   "property": "sc-domain:ihousing.net",
-  "dateRange": "2026-01-16 to 2026-02-15",
-  "fetchedAt": "2026-02-15T06:51:03.679629",
+  "dateRange": "2026-01-17 to 2026-02-16",
+  "fetchedAt": "2026-02-16T15:13:06.511623",
   "data": [
     {
       "keys": [
@@ -149,9 +149,9 @@
         "https://ihousing.net/"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 5,
       "ctr": 0,
-      "position": 7.333333333333333
+      "position": 6
     },
     {
       "keys": [
@@ -169,9 +169,9 @@
         "https://www.ihousing.net/blog/motac-license-requirements-airbnb-malaysia/"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 5,
       "ctr": 0,
-      "position": 8.666666666666668
+      "position": 8.6
     },
     {
       "keys": [
@@ -196,9 +196,9 @@
   ],
   "totals": {
     "clicks": 9,
-    "impressions": 512,
-    "ctr": 0.017578125,
-    "position": 8.728515625
+    "impressions": 537,
+    "ctr": 0.01675977653631285,
+    "position": 8.612662942271882
   },
   "processed": [
     {
@@ -271,18 +271,6 @@
       "query": "i housing melaka",
       "page": "https://ihousing.net/",
       "impressions": 1,
-      "reason": "Low opportunity - impressions < 5"
-    },
-    {
-      "query": "ihousing",
-      "page": "https://ihousing.net/",
-      "impressions": 3,
-      "reason": "Low opportunity - impressions < 5"
-    },
-    {
-      "query": "requirements to become a host in malaysia",
-      "page": "https://www.ihousing.net/blog/motac-license-requirements-airbnb-malaysia/",
-      "impressions": 3,
       "reason": "Low opportunity - impressions < 5"
     },
     {

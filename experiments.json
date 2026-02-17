@@ -1,21 +1,63 @@
 {
-    "date_started":  "2026-02-17T00:57:00+08:00",
-    "id":  "IH-EXP-014",
-    "check_date":  "2026-02-24",
-    "file":  "src/content/blogs/en/best-areas-airbnb-investment-melaka-2026.md",
-    "hypothesis":  "Comprehensive investment guide targeting high-intent commercial keyword \u0027best area airbnb investment melaka\u0027. Content provides: (1) Real ROI data from 100+ managed properties by area (Jonker Walk RM8.2-8.8K, Klebang RM6.4-7.1K, Melaka Raya RM5.8-6.5K, Taman Merdeka RM4.8-5.4K, Hang Tuah Jaya RM4.2-4.8K), (2) Area-by-area breakdown with performance metrics, property prices, occupancy rates, and ROI percentages, (3) Investment cost analysis (overheads, net profit), (4) Decision framework by budget/goal/time horizon, (5) FAQ schema with 6 questions targeting rich snippets. Targets property investors, first-time Airbnb hosts, and ROI-conscious buyers.",
-    "committed_at":  "2026-02-17T00:57:00+08:00",
-    "type":  "content_creation",
-    "git_commit":  "0a736fc",
-    "status":  "active",
-    "client":  "iHousing",
-    "notes":  "SEO Brain Experiment Runner - iHousing rotation. New content creation for high-intent investment keyword with real ROI data.",
-    "page":  "/blog/best-areas-airbnb-investment-melaka-2026",
-    "baseline_metrics":  {
-                             "position":  0,
-                             "period":  "baseline - new content",
-                             "impressions":  0,
-                             "ctr":  0,
-                             "clicks":  0
-                         }
-}
+    "date_started": "2026-02-17T12:45:00+08:00",
+    "id": "IH-EXP-016",
+    "check_date": "2026-02-24",
+    "file": "src/pages/en/index.astro",
+    "hypothesis": "Homepage had 537 impressions but lacked focus on core category keyword 'Airbnb Management Melaka'. (1) Updated title and H1 to lead with 'Airbnb Management Melaka'. (2) Added FAQ section + FAQ Schema targeting high-intent pricing/legal/platform queries. (3) Added more property context (Atlantis, Amber Cove, The Wave) to increase local relevance. Expecting higher CTR for core brand/category searches.",
+    "committed_at": "2026-02-17T12:45:00+08:00",
+    "type": "headline_plus_faq",
+    "git_commit": "259fc42",
+    "status": "active",
+    "client": "iHousing",
+    "notes": "SEO Brain Experiment Runner - iHousing rotation. Core homepage optimization for category keywords.",
+    "page": "/",
+    "baseline_metrics": {
+      "position": 8.6,
+      "period": "Last 30 days (sc-domain)",
+      "impressions": 537,
+      "ctr": 1.6,
+      "clicks": 9
+    }
+  },
+  {
+    "date_started": "2026-02-17T09:43:00+08:00",
+    "id": "IH-EXP-015",
+    "check_date": "2026-02-24",
+    "file": "src/pages/en/switch-to-us/atlantis-residence.astro",
+    "hypothesis": "Adding FAQ schema and visible FAQ section to Atlantis Residence management page to capture rich snippets and address specific owner concerns. Targets 'atlantis residence airbnb management' and 'switch airbnb manager melaka' queries. FAQ addresses flat fee vs 20% commission, transition timeline, and cleaning quality.",
+    "committed_at": "2026-02-17T09:43:00+08:00",
+    "type": "faq_schema",
+    "git_commit": "4c0e420",
+    "status": "active",
+    "client": "iHousing",
+    "notes": "SEO Brain Experiment Runner - iHousing rotation. Added FAQ schema and visible FAQ section to condo-specific management page.",
+    "page": "/switch-to-us/atlantis-residence",
+    "baseline_metrics": {
+      "position": 11.4,
+      "period": "Last 7 days",
+      "impressions": 5,
+      "ctr": 0,
+      "clicks": 0
+    }
+  },
+  {
+    "date_started": "2026-02-17T00:57:00+08:00",
+    "id": "IH-EXP-014",
+    "check_date": "2026-02-24",
+    "file": "src/content/blogs/en/best-areas-airbnb-investment-melaka-2026.md",
+    "hypothesis": "Comprehensive investment guide targeting high-intent commercial keyword 'best area airbnb investment melaka'. Content provides: (1) Real ROI data from 100+ managed properties by area (Jonker Walk RM8.2-8.8K, Klebang RM6.4-7.1K, Melaka Raya RM5.8-6.5K, Taman Merdeka RM4.8-5.4K, Hang Tuah Jaya RM4.2-4.8K), (2) Area-by-area breakdown with performance metrics, property prices, occupancy rates, and ROI percentages, (3) Investment cost analysis (overheads, net profit), (4) Decision framework by budget/goal/time horizon, (5) FAQ schema with 6 questions targeting rich snippets. Targets property investors, first-time Airbnb hosts, and ROI-conscious buyers.",
+    "committed_at": "2026-02-17T00:57:00+08:00",
+    "type": "content_creation",
+    "git_commit": "0a736fc",
+    "status": "active",
+    "client": "iHousing",
+    "notes": "SEO Brain Experiment Runner - iHousing rotation. New content creation for high-intent investment keyword with real ROI data.",
+    "page": "/blog/best-areas-airbnb-investment-melaka-2026",
+    "baseline_metrics": {
+      "position": 0,
+      "period": "baseline - new content",
+      "impressions": 0,
+      "ctr": 0,
+      "clicks": 0
+    }
+  }

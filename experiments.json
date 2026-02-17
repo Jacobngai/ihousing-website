@@ -18,10 +18,10 @@
       "notes": "Page existed since initial commit but never had SEO work done."
     },
     "check_date": "2026-02-24",
-    "status": "active",
+    "status": "pending_deployment",
     "git_commit": "21703f0",
     "committed_at": "2026-02-17T17:06:00+08:00",
-    "notes": "SEO Brain Experiment Runner - iHousing rotation. First-ever optimization of the Airbnb legality page. Freshness + YES-answer headline + FAQ schema."
+    "notes": "SEO Brain Experiment Runner - iHousing rotation. First-ever optimization of the Airbnb legality page. Freshness + YES-answer headline + FAQ schema. BLOCKER: Vercel builds not triggering for iHousing since 12:45 PM (IH-EXP-016 also stuck). Jacob alerted via Discord."
   },
   {
     "id": "IH-EXP-017",

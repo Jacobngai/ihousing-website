@@ -1,111 +1,135 @@
 [
-  {
-    "id": "IH-EXP-018",
-    "client": "iHousing",
-    "type": "freshness_plus_faq_schema",
-    "date_started": "2026-02-17T17:06:00+08:00",
-    "page": "/blog/is-airbnb-legal-in-melaka-2025",
-    "file": "src/pages/en/blog/is-airbnb-legal-in-melaka-2025/index.astro",
-    "old_headline": "Is Airbnb Legal in Melaka 2025? Complete Guide for Property Owners",
-    "new_headline": "Is Airbnb Legal in Melaka 2026? YES — MOTAC Rules, STR Laws & Condo Guide",
-    "hypothesis": "High-intent query ('is airbnb legal in melaka') from property owners evaluating investment. Page had never been SEO-optimized. (1) Updated year 2025→2026 for freshness signal — financial/legal content must feel current. (2) Added 'YES' answer in title for immediate CTR boost (answers intent before click). (3) Added MOTAC, STR Laws, Condo as specific terms matching searcher sub-intents. (4) Added FAQ JSON-LD schema (6 questions) targeting rich snippet eligibility. Targets: 'is airbnb legal in melaka', 'airbnb regulations melaka 2026', 'motac airbnb rules malaysia'.",
-    "baseline_metrics": {
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0,
-      "position": 0,
-      "period": "baseline - never optimized before",
-      "notes": "Page existed since initial commit but never had SEO work done."
+    {
+        "date_started":  "2026-02-17T19:49:00+08:00",
+        "id":  "IH-EXP-019",
+        "baseline_metrics":  {
+                                 "position":  8.6,
+                                 "query":  "requirements to become a host in malaysia",
+                                 "impressions":  5,
+                                 "clicks":  0,
+                                 "period":  "Last 30 days",
+                                 "ctr":  0
+                             },
+        "check_date":  "2026-02-24",
+        "file":  "src/pages/blog/motac-license-requirements-airbnb-malaysia/index.astro",
+        "hypothesis":  "GSC shows 5 impressions at position 8.6 for \u0027requirements to become a host in malaysia\u0027. Current title focuses on \u0027Is it Mandatory?\u0027 which doesn\u0027t match the intent of someone searching for HOW to become a host. New title: (1) Leads with \u0027Airbnb Host Requirements Malaysia 2026\u0027 to directly match search intent, (2) Keyword-led formula, (3) Adds freshness signal (2026), (4) Brand in title for entity authority. Position 8-9 with 0 clicks = title mismatch, not relevance issue.",
+        "committed_at":  "2026-02-17T19:49:00+08:00",
+        "type":  "headline_optimization",
+        "git_commit":  "66cded1",
+        "old_headline":  "MOTAC License Requirements for Airbnb Malaysia 2025 - Complete Compliance Guide",
+        "client":  "iHousing",
+        "notes":  "SEO Brain Experiment Runner - iHousing rotation. Also batched: 30+ blog articles, homepage title update, airbnb legal freshness, guest screening optimization, Atlantis FAQ. Root cause fixed: all previous experiments were committed to wrong repo (ihousing-website instead of ihousing-website-en). Vercel now building from correct repo.",
+        "status":  "active",
+        "page":  "/blog/motac-license-requirements-airbnb-malaysia/",
+        "new_headline":  "Airbnb Host Requirements Malaysia 2026 | MOTAC License \u0026 STR Compliance | iHousing"
     },
-    "check_date": "2026-02-24",
-    "status": "pending_deployment",
-    "git_commit": "21703f0",
-    "committed_at": "2026-02-17T17:06:00+08:00",
-    "notes": "SEO Brain Experiment Runner - iHousing rotation. First-ever optimization of the Airbnb legality page. Freshness + YES-answer headline + FAQ schema. BLOCKER: Vercel builds not triggering for iHousing since 12:45 PM (IH-EXP-016 also stuck). Jacob alerted via Discord."
-  },
-  {
-    "id": "IH-EXP-017",
-    "client": "iHousing",
-    "type": "headline_content",
-    "date_started": "2026-02-17T00:00:00+08:00",
-    "page": "/blog/guest-screening-process-ihousing-property-protection",
-    "file": "src/pages/en/blog/guest-screening-process-ihousing-property-protection/index.astro",
-    "hypothesis": "GSC: 6 impressions at position 83. Headline and content optimization to improve position and CTR.",
-    "baseline_metrics": {
-      "impressions": 6,
-      "clicks": 0,
-      "ctr": 0,
-      "position": 83.2,
-      "period": "Last 30 days"
+    {
+        "id":  "IH-EXP-018",
+        "client":  "iHousing",
+        "type":  "freshness_plus_faq_schema",
+        "date_started":  "2026-02-17T17:06:00+08:00",
+        "page":  "/blog/is-airbnb-legal-in-melaka-2025",
+        "file":  "src/pages/en/blog/is-airbnb-legal-in-melaka-2025/index.astro",
+        "old_headline":  "Is Airbnb Legal in Melaka 2025? Complete Guide for Property Owners",
+        "new_headline":  "Is Airbnb Legal in Melaka 2026? YES — MOTAC Rules, STR Laws \u0026 Condo Guide",
+        "hypothesis":  "High-intent query (\u0027is airbnb legal in melaka\u0027) from property owners evaluating investment. Page had never been SEO-optimized. (1) Updated year 2025→2026 for freshness signal — financial/legal content must feel current. (2) Added \u0027YES\u0027 answer in title for immediate CTR boost (answers intent before click). (3) Added MOTAC, STR Laws, Condo as specific terms matching searcher sub-intents. (4) Added FAQ JSON-LD schema (6 questions) targeting rich snippet eligibility. Targets: \u0027is airbnb legal in melaka\u0027, \u0027airbnb regulations melaka 2026\u0027, \u0027motac airbnb rules malaysia\u0027.",
+        "baseline_metrics":  {
+                                 "impressions":  0,
+                                 "clicks":  0,
+                                 "ctr":  0,
+                                 "position":  0,
+                                 "period":  "baseline - never optimized before",
+                                 "notes":  "Page existed since initial commit but never had SEO work done."
+                             },
+        "check_date":  "2026-02-24",
+        "status":  "pending_deployment",
+        "git_commit":  "21703f0",
+        "committed_at":  "2026-02-17T17:06:00+08:00",
+        "notes":  "SEO Brain Experiment Runner - iHousing rotation. First-ever optimization of the Airbnb legality page. Freshness + YES-answer headline + FAQ schema. BLOCKER: Vercel builds not triggering for iHousing since 12:45 PM (IH-EXP-016 also stuck). Jacob alerted via Discord."
     },
-    "check_date": "2026-02-24",
-    "status": "active",
-    "git_commit": "b9bf974",
-    "notes": "Committed but not previously logged. Retroactively added to experiments.json."
-  },
-  {
-    "id": "IH-EXP-016",
-    "client": "iHousing",
-    "type": "headline_plus_faq",
-    "date_started": "2026-02-17T12:45:00+08:00",
-    "page": "/",
-    "file": "src/pages/en/index.astro",
-    "old_headline": "(previous homepage headline)",
-    "new_headline": "Airbnb Management Melaka | iHousing",
-    "hypothesis": "Homepage had 537 impressions but lacked focus on core category keyword 'Airbnb Management Melaka'. (1) Updated title and H1 to lead with 'Airbnb Management Melaka'. (2) Added FAQ section + FAQ Schema targeting high-intent pricing/legal/platform queries. (3) Added more property context (Atlantis, Amber Cove, The Wave) to increase local relevance. Expecting higher CTR for core brand/category searches.",
-    "baseline_metrics": {
-      "impressions": 537,
-      "clicks": 9,
-      "ctr": 1.6,
-      "position": 8.6,
-      "period": "Last 30 days (sc-domain)"
+    {
+        "id":  "IH-EXP-017",
+        "client":  "iHousing",
+        "type":  "headline_content",
+        "date_started":  "2026-02-17T00:00:00+08:00",
+        "page":  "/blog/guest-screening-process-ihousing-property-protection",
+        "file":  "src/pages/en/blog/guest-screening-process-ihousing-property-protection/index.astro",
+        "hypothesis":  "GSC: 6 impressions at position 83. Headline and content optimization to improve position and CTR.",
+        "baseline_metrics":  {
+                                 "impressions":  6,
+                                 "clicks":  0,
+                                 "ctr":  0,
+                                 "position":  83.2,
+                                 "period":  "Last 30 days"
+                             },
+        "check_date":  "2026-02-24",
+        "status":  "active",
+        "git_commit":  "b9bf974",
+        "notes":  "Committed but not previously logged. Retroactively added to experiments.json."
     },
-    "check_date": "2026-02-24",
-    "status": "active",
-    "git_commit": "259fc42",
-    "committed_at": "2026-02-17T12:45:00+08:00",
-    "notes": "SEO Brain Experiment Runner - iHousing rotation. Core homepage optimization for category keywords."
-  },
-  {
-    "id": "IH-EXP-015",
-    "client": "iHousing",
-    "type": "faq_schema",
-    "date_started": "2026-02-17T09:43:00+08:00",
-    "page": "/switch-to-us/atlantis-residence",
-    "file": "src/pages/en/switch-to-us/atlantis-residence.astro",
-    "hypothesis": "Adding FAQ schema and visible FAQ section to Atlantis Residence management page to capture rich snippets and address specific owner concerns. Targets 'atlantis residence airbnb management' and 'switch airbnb manager melaka' queries.",
-    "baseline_metrics": {
-      "impressions": 5,
-      "clicks": 0,
-      "ctr": 0,
-      "position": 11.4,
-      "period": "Last 7 days"
+    {
+        "id":  "IH-EXP-016",
+        "client":  "iHousing",
+        "type":  "headline_plus_faq",
+        "date_started":  "2026-02-17T12:45:00+08:00",
+        "page":  "/",
+        "file":  "src/pages/en/index.astro",
+        "old_headline":  "(previous homepage headline)",
+        "new_headline":  "Airbnb Management Melaka | iHousing",
+        "hypothesis":  "Homepage had 537 impressions but lacked focus on core category keyword \u0027Airbnb Management Melaka\u0027. (1) Updated title and H1 to lead with \u0027Airbnb Management Melaka\u0027. (2) Added FAQ section + FAQ Schema targeting high-intent pricing/legal/platform queries. (3) Added more property context (Atlantis, Amber Cove, The Wave) to increase local relevance. Expecting higher CTR for core brand/category searches.",
+        "baseline_metrics":  {
+                                 "impressions":  537,
+                                 "clicks":  9,
+                                 "ctr":  1.6,
+                                 "position":  8.6,
+                                 "period":  "Last 30 days (sc-domain)"
+                             },
+        "check_date":  "2026-02-24",
+        "status":  "active",
+        "git_commit":  "259fc42",
+        "committed_at":  "2026-02-17T12:45:00+08:00",
+        "notes":  "SEO Brain Experiment Runner - iHousing rotation. Core homepage optimization for category keywords."
     },
-    "check_date": "2026-02-24",
-    "status": "active",
-    "git_commit": "4c0e420",
-    "committed_at": "2026-02-17T09:43:00+08:00",
-    "notes": "SEO Brain Experiment Runner - iHousing rotation."
-  },
-  {
-    "id": "IH-EXP-014",
-    "client": "iHousing",
-    "type": "content_creation",
-    "date_started": "2026-02-17T00:57:00+08:00",
-    "page": "/blog/best-areas-airbnb-investment-melaka-2026",
-    "file": "src/content/blogs/en/best-areas-airbnb-investment-melaka-2026.md",
-    "hypothesis": "Comprehensive investment guide targeting 'best area airbnb investment melaka'. Real ROI data by area + FAQ schema.",
-    "baseline_metrics": {
-      "impressions": 0,
-      "clicks": 0,
-      "ctr": 0,
-      "position": 0,
-      "period": "baseline - new content"
+    {
+        "id":  "IH-EXP-015",
+        "client":  "iHousing",
+        "type":  "faq_schema",
+        "date_started":  "2026-02-17T09:43:00+08:00",
+        "page":  "/switch-to-us/atlantis-residence",
+        "file":  "src/pages/en/switch-to-us/atlantis-residence.astro",
+        "hypothesis":  "Adding FAQ schema and visible FAQ section to Atlantis Residence management page to capture rich snippets and address specific owner concerns. Targets \u0027atlantis residence airbnb management\u0027 and \u0027switch airbnb manager melaka\u0027 queries.",
+        "baseline_metrics":  {
+                                 "impressions":  5,
+                                 "clicks":  0,
+                                 "ctr":  0,
+                                 "position":  11.4,
+                                 "period":  "Last 7 days"
+                             },
+        "check_date":  "2026-02-24",
+        "status":  "active",
+        "git_commit":  "4c0e420",
+        "committed_at":  "2026-02-17T09:43:00+08:00",
+        "notes":  "SEO Brain Experiment Runner - iHousing rotation."
     },
-    "check_date": "2026-02-24",
-    "status": "active",
-    "git_commit": "0a736fc",
-    "committed_at": "2026-02-17T00:57:00+08:00",
-    "notes": "SEO Brain Experiment Runner - iHousing rotation."
-  }
+    {
+        "id":  "IH-EXP-014",
+        "client":  "iHousing",
+        "type":  "content_creation",
+        "date_started":  "2026-02-17T00:57:00+08:00",
+        "page":  "/blog/best-areas-airbnb-investment-melaka-2026",
+        "file":  "src/content/blogs/en/best-areas-airbnb-investment-melaka-2026.md",
+        "hypothesis":  "Comprehensive investment guide targeting \u0027best area airbnb investment melaka\u0027. Real ROI data by area + FAQ schema.",
+        "baseline_metrics":  {
+                                 "impressions":  0,
+                                 "clicks":  0,
+                                 "ctr":  0,
+                                 "position":  0,
+                                 "period":  "baseline - new content"
+                             },
+        "check_date":  "2026-02-24",
+        "status":  "active",
+        "git_commit":  "0a736fc",
+        "committed_at":  "2026-02-17T00:57:00+08:00",
+        "notes":  "SEO Brain Experiment Runner - iHousing rotation."
+    }
 ]

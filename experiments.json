@@ -1,5 +1,26 @@
 [
     {
+        "date_started":  "2026-02-17T19:48:00+08:00",
+        "id":  "IH-EXP-019",
+        "baseline_metrics":  {
+                                 "position":  8.6,
+                                 "query":  "requirements to become a host in malaysia",
+                                 "impressions":  5,
+                                 "ctr":  0,
+                                 "clicks":  0
+                             },
+        "check_date":  "2026-02-24",
+        "file":  "src/pages/blog/motac-license-requirements-airbnb-malaysia/index.astro",
+        "hypothesis":  "GSC shows 5 impressions at position 8.6 for \u0027requirements to become a host in malaysia\u0027. Keyword-led format matches searcher intent better than question format.",
+        "type":  "headline_optimization",
+        "old_headline":  "MOTAC License Requirements for Airbnb Malaysia 2025 - Complete Compliance Guide",
+        "client":  "iHousing",
+        "notes":  "BLOCKER: Vercel build failing due to malformed blog pages using wrong Astro format (export const frontmatter = {}). Need to fix ~100 blog files before deployment. MOTAC headline change is ready in git but blocked by build errors.",
+        "status":  "blocked_deployment",
+        "page":  "/blog/motac-license-requirements-airbnb-malaysia/",
+        "new_headline":  "Airbnb Host Requirements Malaysia 2026 | MOTAC License \u0026 STR Compliance | iHousing"
+    },
+    {
         "date_started":  "2026-02-17T19:49:00+08:00",
         "id":  "IH-EXP-019",
         "baseline_metrics":  {

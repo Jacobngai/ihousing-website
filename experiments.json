@@ -21,28 +21,49 @@
         "new_headline":  "Airbnb Host Requirements Malaysia 2026 | MOTAC License \u0026 STR Compliance | iHousing"
     },
     {
-        "date_started":  "2026-02-17T19:49:00+08:00",
-        "id":  "IH-EXP-019",
-        "baseline_metrics":  {
-                                 "position":  8.6,
-                                 "query":  "requirements to become a host in malaysia",
-                                 "impressions":  5,
-                                 "clicks":  0,
-                                 "period":  "Last 30 days",
-                                 "ctr":  0
-                             },
-        "check_date":  "2026-02-24",
-        "file":  "src/pages/blog/motac-license-requirements-airbnb-malaysia/index.astro",
-        "hypothesis":  "GSC shows 5 impressions at position 8.6 for \u0027requirements to become a host in malaysia\u0027. Current title focuses on \u0027Is it Mandatory?\u0027 which doesn\u0027t match the intent of someone searching for HOW to become a host. New title: (1) Leads with \u0027Airbnb Host Requirements Malaysia 2026\u0027 to directly match search intent, (2) Keyword-led formula, (3) Adds freshness signal (2026), (4) Brand in title for entity authority. Position 8-9 with 0 clicks = title mismatch, not relevance issue.",
-        "committed_at":  "2026-02-17T19:49:00+08:00",
-        "type":  "headline_optimization",
-        "git_commit":  "66cded1",
-        "old_headline":  "MOTAC License Requirements for Airbnb Malaysia 2025 - Complete Compliance Guide",
-        "client":  "iHousing",
-        "notes":  "SEO Brain Experiment Runner - iHousing rotation. Also batched: 30+ blog articles, homepage title update, airbnb legal freshness, guest screening optimization, Atlantis FAQ. Root cause fixed: all previous experiments were committed to wrong repo (ihousing-website instead of ihousing-website-en). Vercel now building from correct repo.",
-        "status":  "active",
-        "page":  "/blog/motac-license-requirements-airbnb-malaysia/",
-        "new_headline":  "Airbnb Host Requirements Malaysia 2026 | MOTAC License \u0026 STR Compliance | iHousing"
+        "id": "IH-EXP-021",
+        "client": "iHousing",
+        "type": "headline_optimization",
+        "date_started": "2026-02-18T11:28:00+08:00",
+        "page": "/",
+        "file": "src/pages/en/index.astro",
+        "old_headline": "iHousing Melaka | Airbnb Management Melaka | Professional Property Services",
+        "new_headline": "Airbnb Management Melaka 2026 | #1 Property Manager | iHousing",
+        "hypothesis": "Homepage has 537 impressions but title lacked 2026 freshness and clear USP. New title: (1) Leads with core category keyword 'Airbnb Management Melaka', (2) Adds '2026' freshness signal, (3) Includes '#1 Property Manager' authority signal. Expected to improve position from 8.6 to top 3.",
+        "baseline_metrics": {
+            "impressions": 537,
+            "clicks": 9,
+            "ctr": 1.6,
+            "position": 8.6,
+            "period": "Last 30 days (sc-domain)"
+        },
+        "check_date": "2026-02-25",
+        "status": "active",
+        "git_commit": "c5483e8",
+        "notes": "SEO Brain Experiment Runner - iHousing rotation. Baseline title was outdated (no year) and lacked authority markers."
+    },
+    {
+        "id": "IH-EXP-022",
+        "client": "iHousing",
+        "type": "headline_optimization",
+        "date_started": "2026-02-18T11:28:00+08:00",
+        "page": "/blog/motac-license-requirements-airbnb-malaysia/",
+        "file": "src/pages/en/blog/motac-license-requirements-airbnb-malaysia/index.astro",
+        "old_headline": "MOTAC License for Airbnb Malaysia 2026: Is it Mandatory?",
+        "new_headline": "Airbnb Host Requirements Malaysia 2026: MOTAC License Guide",
+        "hypothesis": "GSC shows 5 impressions at position 8.6 for 'requirements to become a host in malaysia'. Previous title was a question about MOTAC license. New title: (1) Leads with 'Airbnb Host Requirements Malaysia 2026' to directly match high-intent search query, (2) Maintains MOTAC context, (3) Uses 'Guide' as a click-magnet. Expecting position improvement and first clicks for this high-intent intent.",
+        "baseline_metrics": {
+            "impressions": 5,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 8.6,
+            "query": "requirements to become a host in malaysia",
+            "period": "Last 30 days"
+        },
+        "check_date": "2026-02-25",
+        "status": "active",
+        "git_commit": "c5483e8",
+        "notes": "SEO Brain Experiment Runner - iHousing rotation. Replaces IH-EXP-019 which was blocked/misconfigured."
     },
     {
         "id":  "IH-EXP-018",

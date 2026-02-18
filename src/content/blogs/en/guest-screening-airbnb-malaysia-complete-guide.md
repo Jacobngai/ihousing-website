@@ -3,7 +3,7 @@ title: "Guest Screening for Airbnb Malaysia: How to Avoid Bad Guests (Complete G
 description: "Proven guest screening and selection processes to protect your Airbnb property in Malaysia. Learn red flags, verification methods, and when to say no."
 author: "iHousing Team"
 publishDate: 2026-02-13
-category: Property Management
+category: Management Tips
 tags:
   - Airbnb Management
   - Guest Screening

@@ -3,7 +3,7 @@ title: "Airbnb Cleaning Melaka: Why Your 5-Star Rating Depends on It"
 description: "Professional Airbnb cleaning in Melaka is the secret to 5-star reviews. Learn how iHousing manages cleaning for 100+ properties to ensure guest satisfaction and high occupancy."
 author: "iHousing"
 publishDate: "2026-02-16"
-category: "managementTips"
+category: "Management Tips"
 tags: ["Airbnb Cleaning Melaka", "Homestay Cleaning", "Property Maintenance", "Guest Satisfaction", "Melaka Airbnb"]
 keywords: ["Airbnb cleaning Melaka", "homestay cleaning service Melaka", "airbnb turnover service", "5 star airbnb reviews"]
 locale: "en"

@@ -1,10 +1,11 @@
 ---
 title: 'Pricing Your Melaka Airbnb: Strategies for Maximum Occupancy'
 description: 'Dynamic pricing, seasonal rates, and weekend premiums. Learn how Melaka hosts optimize their Airbnb pricing to maximize income while maintaining high occupancy.'
-date: 2026-02-13
+publishDate: 2026-02-13
 author: 'iHousing'
+locale: 'en'
 tags: ['airbnb pricing', 'melaka airbnb', 'dynamic pricing', 'airbnb income', 'occupancy rate']
-category: 'how-to-guides'
+category: "Management Tips"
 ---
 
 # Pricing Your Melaka Airbnb: Strategies for Maximum Occupancy

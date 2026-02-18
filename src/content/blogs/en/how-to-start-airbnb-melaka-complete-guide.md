@@ -2,6 +2,9 @@
 title: "How to Start an Airbnb in Melaka: The Complete Step-by-Step Guide"
 description: "Thinking about turning your Melaka property into an Airbnb? Here's everything you need to know about getting started, from choosing the right location to welcoming your first guest."
 publishDate: 2026-02-13
+category: "Airbnb Tips"
+locale: 'en'
+
 author: "iHousing Melaka"
 image: "/images/blog/start-airbnb-melaka.jpg"
 tags: ["Airbnb Guide", "Melaka Property", "How-To", "Getting Started"]

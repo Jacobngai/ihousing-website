@@ -2,6 +2,9 @@
 title: "DIY vs Managed Airbnb in Melaka: What's Right for Your Property?"
 description: "You bought a property for passive income, not a second job. Here's how to decide between managing your own Airbnb in Melaka or hiring a property manager - real numbers from 100+ Melaka properties."
 publishDate: 2026-02-13
+category: "Property Investment"
+locale: 'en'
+
 author: "iHousing"
 tags: ["airbnb-management", "melaka-property", "passive-income", "property-investment"]
 schema:

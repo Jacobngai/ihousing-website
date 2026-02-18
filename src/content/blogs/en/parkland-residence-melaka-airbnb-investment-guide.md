@@ -1,8 +1,11 @@
 ---
 title: 'Parkland Residence Melaka: Is It a Good Airbnb Investment in 2026?'
-description: 'Considering Parkland Residence for Airbnb? Here's what 100+ managed properties taught us about occupancy rates, guest profiles, and realistic income for this Jonker area condo.'
+description: "Considering Parkland Residence for Airbnb? Here's what 100+ managed properties taught us about occupancy rates, guest profiles, and realistic income for this Jonker area condo."
+category: "Property Investment"
 author: 'iHousing'
 publishDate: 2026-02-13
+locale: 'en'
+
 image:
   url: '/images/blog/parkland-residence-melaka.jpg'
   alt: 'Parkland Residence Melaka condominium near Jonker Street'

@@ -3,7 +3,7 @@ title: "Airbnb Furniture Checklist for Melaka: What to Buy to Maximize ROI"
 description: "Furnishing your Melaka Airbnb? Don't just guess. Here's our 2026 ROI-focused furniture checklist based on managing 100+ properties in Silverscape, Parkland, and Jonker."
 author: "iHousing Team"
 publishDate: "2026-02-17"
-category: "Property Management"
+category: "Management Tips"
 tags: ["Airbnb Furniture", "Melaka Property", "Investment Tips", "Interior Design"]
 locale: "en"
 featured: false

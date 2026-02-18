@@ -3,7 +3,7 @@ title: "Do You Need a MOTAC License for Your Melaka Airbnb? (What's Actually Req
 description: "Confused about MOTAC license requirements for your Melaka Airbnb? Here is the complete 2026 checklist for legal compliance, safety standards, and future-proofing."
 author: "iHousing"
 publishDate: "2026-02-13"
-category: "howToGuides"
+category: "Management Tips"
 tags: ["MOTAC license", "Melaka Airbnb regulations", "legal requirements", "property management"]
 keywords: ["MOTAC license Melaka", "Airbnb license Malaysia", "Airbnb regulations Melaka 2026", "STR guidelines Melaka"]
 locale: "en"

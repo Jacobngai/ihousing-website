@@ -3,7 +3,7 @@ title: "Melaka Airbnb Income: Real Monthly Earnings for 2026 (100+ Properties)"
 description: "How much can you really make from Airbnb in Melaka? We analyze real monthly earnings from 100+ properties in Jonker, Klebang, and Melaka Raya. See the 2026 data."
 author: "iHousing Team"
 publishDate: 2026-02-13
-category: Investment Analysis
+category: Property Investment
 tags:
   - Airbnb Income Melaka
   - Melaka Property Investment

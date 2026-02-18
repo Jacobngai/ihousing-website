@@ -3,7 +3,7 @@ title: "Silverscape Residence Melaka: The Airbnb Investment That Actually Works"
 description: "Real performance data: Silverscape Residence units earn RM7,500/month with 75% occupancy. We manage multiple units here and share what owners actually make."
 author: "iHousing Team"
 publishDate: 2026-02-13
-category: Property Spotlights
+category: Melaka Guide
 tags:
   - Silverscape Residence
   - Melaka Airbnb

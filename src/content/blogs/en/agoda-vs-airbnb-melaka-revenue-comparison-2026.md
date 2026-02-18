@@ -3,7 +3,7 @@ title: "We Ran the Numbers: Agoda vs Airbnb in Melaka - Which Platform Pays More
 description: "Heritage homes earn 54% more on one platform, hotels 42% more on the other. Real revenue data shows which booking platform wins for your Melaka property type."
 author: "iHousing Team"
 publishDate: 2026-02-12
-category: Property Management
+category: Management Tips
 tags:
   - Agoda
   - Airbnb

@@ -3,7 +3,7 @@ title: "Airbnb Guest Selection Process: 5 Proven Methods to Protect Your Propert
 description: "Master the Airbnb guest selection process to avoid nightmare guests and property damage. Professional screening tips from Melaka's veteran property managers."
 author: "iHousing Team"
 publishDate: 2026-02-17
-category: Property Management
+category: Management Tips
 tags:
   - Airbnb Management
   - Guest Screening

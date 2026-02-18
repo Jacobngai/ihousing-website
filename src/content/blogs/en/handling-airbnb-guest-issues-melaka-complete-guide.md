@@ -2,8 +2,10 @@
 title: "Handling Airbnb Guest Issues in Melaka: The Complete Playbook for Every Problem"
 description: "From midnight noise complaints to property damage, here's how to handle every Airbnb guest issue in Melaka. Real solutions from managing 100+ properties."
 publishDate: 2026-02-13
+locale: 'en'
+
 author: "iHousing"
-category: "howToGuides"
+category: "Management Tips"
 image: "/images/blog/handling-airbnb-guest-issues-melaka.jpg"
 schema:
   "@context": "https://schema.org"

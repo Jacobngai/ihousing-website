@@ -3,7 +3,7 @@ title: "Jonker vs Klebang vs Melaka Raya: Which Area is Best for Your Airbnb?"
 description: "Comparing Melaka's top Airbnb neighborhoods. Real occupancy data, guest profiles, and income potential for Jonker Street, Klebang Beach, and Melaka Raya areas."
 author: "iHousing Team"
 publishDate: 2026-02-13
-category: Market Insights
+category: Market Analysis
 tags:
   - Melaka Neighborhoods
   - Airbnb Investment

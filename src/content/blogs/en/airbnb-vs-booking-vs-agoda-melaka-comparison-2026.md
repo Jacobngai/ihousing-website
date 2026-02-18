@@ -3,7 +3,7 @@ title: "Airbnb vs Booking.com vs Agoda: Melaka 2026 Earnings Comparison"
 description: "Is Airbnb the best for Melaka hosts? We compare Airbnb vs Booking.com vs Agoda Homes earnings, guest profiles, and weekday occupancy for Melaka properties in 2026."
 author: "iHousing"
 publishDate: "2026-02-13"
-category: "managementComparisons"
+category: "Market Analysis"
 tags: ["Airbnb vs Booking.com", "Agoda Homes Melaka", "multi-platform listing", "property management", "Melaka Airbnb"]
 keywords: ["Airbnb vs Booking.com Melaka", "Agoda Homes Malaysia", "best platform for homestay Melaka", "maximize airbnb income melaka"]
 locale: "en"

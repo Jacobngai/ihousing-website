@@ -1,5 +1,29 @@
 [
     {
+        "id": "IH-EXP-024",
+        "client": "iHousing",
+        "type": "freshness_quick_fix",
+        "date_started": "2026-02-19T02:30:00+08:00",
+        "page": "/blog/airbnb-management-fees-malaysia",
+        "file": "src/pages/en/blog/airbnb-management-fees-malaysia/index.astro",
+        "old_headline": "Airbnb Management Fees Malaysia: Complete Pricing Guide 2025",
+        "new_headline": "Airbnb Management Fees Malaysia 2026: Flat Fee RM200-300 | No Commission",
+        "hypothesis": "GSC shows 29 impressions at position 7.1 with 0% CTR. Quick freshness fix: (1) Updated year 2025→2026, (2) Added flat-fee USP to title (RM200-300/month), (3) Added 'No Commission' differentiator. Not a full experiment - minimal change to signal freshness and match brand voice.",
+        "baseline_metrics": {
+            "impressions": 29,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 7.1,
+            "query": "airbnb management fees malaysia",
+            "period": "Last 30 days"
+        },
+        "check_date": "2026-02-26",
+        "status": "active",
+        "git_commit": "ca3c5fe",
+        "deployed": "pending",
+        "notes": "SEO Loop - Quick freshness fix for management fees page. Git commit made, awaiting manual push due to auth token issue."
+    },
+    {
         "id": "IH-EXP-023",
         "client": "iHousing",
         "type": "headline_plus_faq_intent",

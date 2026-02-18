@@ -8,6 +8,21 @@ const date = "2026-02-16";
 const category = "legal-regulatory";
 const language = "en";
 
+const faq = [
+  {
+    question: "Is a MOTAC license mandatory for Airbnb in Malaysia 2026?",
+    answer: "As of early 2026, most individual hosts in private condos are not yet strictly required to hold a federal MOTAC license, but registration via national systems is becoming standard. Professional management companies and dedicated apartment hotels are required to be licensed."
+  },
+  {
+    question: "Can my condo management ban Airbnb in Melaka?",
+    answer: "Yes. Under the Strata Management Act 2013, a Management Corporation (MC) or Joint Management Body (JMB) can pass house rules to restrict or ban short-term rentals in their building."
+  },
+  {
+    question: "What insurance do I need for Airbnb in Malaysia?",
+    answer: "Standard residential fire insurance usually doesn't cover commercial short-term rental activity. iHousing recommends specialized host insurance that covers property damage and public liability for guests."
+  }
+];
+
 // Content as HTML directly - simpler and more reliable
 const content = `
 <h1>MOTAC License for Airbnb Malaysia 2026: Is it Mandatory?</h1>
@@ -712,4 +727,5 @@ const content = `
   category={category}
   language={language}
   content={content}
+  faq={faq}
 />

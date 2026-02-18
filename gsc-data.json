@@ -1,7 +1,7 @@
 {
   "property": "sc-domain:ihousing.net",
-  "dateRange": "2026-01-17 to 2026-02-16",
-  "fetchedAt": "2026-02-16T15:13:06.511623",
+  "dateRange": "2026-01-19 to 2026-02-18",
+  "fetchedAt": "2026-02-18T02:32:59.715610",
   "data": [
     {
       "keys": [
@@ -149,9 +149,9 @@
         "https://ihousing.net/"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 6
+      "position": 5.666666666666667
     },
     {
       "keys": [
@@ -159,9 +159,19 @@
         "https://ihousing.net/"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 9,
       "ctr": 0,
-      "position": 6
+      "position": 5.333333333333333
+    },
+    {
+      "keys": [
+        "melaka agoda",
+        "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
     },
     {
       "keys": [
@@ -196,9 +206,9 @@
   ],
   "totals": {
     "clicks": 9,
-    "impressions": 537,
-    "ctr": 0.01675977653631285,
-    "position": 8.612662942271882
+    "impressions": 561,
+    "ctr": 0.016042780748663103,
+    "position": 8.55258467023173
   },
   "processed": [
     {
@@ -270,6 +280,12 @@
     {
       "query": "i housing melaka",
       "page": "https://ihousing.net/",
+      "impressions": 1,
+      "reason": "Low opportunity - impressions < 5"
+    },
+    {
+      "query": "melaka agoda",
+      "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison",
       "impressions": 1,
       "reason": "Low opportunity - impressions < 5"
     },

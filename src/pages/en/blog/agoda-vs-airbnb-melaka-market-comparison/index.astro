@@ -8,6 +8,21 @@ const date = "2026-02-16";
 const category = "comparison";
 const language = "en";
 
+const faq = [
+  {
+    question: "Is Airbnb or Agoda better for Melaka homestay owners?",
+    answer: "The best platform depends on your property type. Heritage homes in Jonker Walk tend to perform better on Airbnb due to the platform's focus on unique stays. Modern business condos in areas like Melaka Raya often see higher occupancy on Agoda, which is the dominant OTA in Southeast Asia."
+  },
+  {
+    question: "Can I list my Melaka property on both Airbnb and Agoda?",
+    answer: "Yes, and it is highly recommended. Properties listed on both platforms typically see a 25% increase in annual revenue. Use a channel manager to sync your calendars and prevent double bookings."
+  },
+  {
+    question: "Which platform has lower fees for Melaka hosts?",
+    answer: "Airbnb typically charges hosts a 3% flat fee, while guests pay a service fee. Agoda's model varies but often involves a higher commission (usually 12-15%) deducted from the total booking amount. However, Agoda's higher volume in Asia often offsets the higher fee."
+  }
+];
+
 const content = `
 <h1>Airbnb vs Agoda Melaka 2026: Which Platform Pays More? (Real Data from 100+ Properties)</h1>
 
@@ -646,4 +661,5 @@ li>Cancel <strong>less than 1%</strong> of reservations</li></ul>
   category={category}
   language={language}
   content={content}
+  faq={faq}
 />

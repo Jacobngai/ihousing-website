@@ -1,5 +1,27 @@
 [
     {
+        "id": "IH-EXP-023",
+        "client": "iHousing",
+        "type": "headline_plus_faq_intent",
+        "date_started": "2026-02-18T16:25:00+08:00",
+        "page": "/blog/guest-screening-process-ihousing-property-protection/",
+        "file": "src/pages/en/blog/guest-screening-process-ihousing-property-protection/index.astro",
+        "old_headline": "Airbnb Guest Selection Process: 5 Proven Methods to Protect Your Property",
+        "new_headline": "Airbnb Guest Screening and Selection Processes Guide 2026 | iHousing",
+        "hypothesis": "GSC shows 6 impressions at position 83.2 for 'what are the guest screening and selection processes for managing an airbnb property'. Old title was benefit-led but missed the exact long-tail keyword. New title: (1) Leads with exact-match intent keyword, (2) Adds '2026' freshness, (3) Corrected FAQ schema format (missing acceptedAnswer). Expecting position improvement from 83 to top 20.",
+        "baseline_metrics": {
+            "impressions": 6,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 83.2,
+            "query": "what are the guest screening and selection processes for managing an airbnb property",
+            "period": "Last 30 days"
+        },
+        "check_date": "2026-02-25",
+        "status": "active",
+        "notes": "SEO Brain Experiment Runner - iHousing rotation. Exact intent-match headline + FAQ bugfix."
+    },
+    {
         "date_started":  "2026-02-17T19:48:00+08:00",
         "id":  "IH-EXP-019",
         "baseline_metrics":  {

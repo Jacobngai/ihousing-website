@@ -1,5 +1,28 @@
 [
     {
+        "id": "IH-EXP-026",
+        "client": "iHousing",
+        "type": "headline_query_match_exact",
+        "date_started": "2026-02-20T14:30:00+08:00",
+        "page": "/en/blog/how-to-become-airbnb-host-malaysia/",
+        "file": "src/pages/en/blog/how-to-become-airbnb-host-malaysia/index.astro",
+        "old_headline": "Airbnb Host Requirements Malaysia 2026: Steps to Start",
+        "new_headline": "Host Requirements to Start Airbnb Malaysia 2026 | iHousing Guide",
+        "hypothesis": "GSC shows 10 impressions for 'requirements to become a host in malaysia' (pos 9.7) and 6 impressions for 'what are the guest screening and selection processes...' (pos 83.2). Old title led with 'Airbnb Host Requirements' but missed 'to Start' and 'Host Requirements' leading phrase. (1) Re-ordered title to lead with 'Host Requirements' to match exact query intent. (2) Added 'iHousing Guide' for brand authority. (3) Re-ordered FAQ schema so 'requirements to become a host' is first. Matches 'Keyword | Unique Value | Brand' formula. Targeting high-intent users at the start of their journey.",
+        "baseline_metrics": {
+            "impressions": 16,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 9.7,
+            "queries": ["requirements to become a host in malaysia", "guest screening and selection processes"],
+            "period": "Last 30 days"
+        },
+        "check_date": "2026-02-27",
+        "status": "active",
+        "git_commit": "pending",
+        "notes": "SEO Brain Experiment Runner - iHousing rotation. Exact intent-match headline optimization + FAQ re-ordering."
+    },
+    {
         "id": "IH-EXP-025",
         "client": "iHousing",
         "type": "headline_query_match",

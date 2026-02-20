@@ -1,5 +1,20 @@
 [
     {
+        "id": "IH-SKIP-006",
+        "client": "iHousing",
+        "type": "skipped",
+        "date_started": "2026-02-21T02:30:00+08:00",
+        "description": "SEO Loop run skipped - top opportunities already under experimentation",
+        "reason": "GSC 7-day data shows 2 high-priority opportunities (8 impressions for host requirements at pos 10, 30 impressions for Agoda comparison at pos 7.3). Both pages already have active experiments: (1) IH-EXP-026 targeting same host requirements query (check Feb 27), (2) IH-EXP-020 targeting Agoda comparison (check Feb 24). Per Lesson 16, minimum 7 days between experiments on same pages. Cannot create new experiments without violating isolation principle.",
+        "active_experiments": {
+            "IH-EXP-026": "Host requirements headline (Feb 20) - check Feb 27",
+            "IH-EXP-020": "Agoda comparison headline (Feb 17) - check Feb 24"
+        },
+        "next_available_optimization": "2026-02-28",
+        "status": "skipped",
+        "notes": "SEO Loop - iHousing. Lesson 16 applied. Next optimization after Feb 28 (when both experiments complete 7-day measurement window)."
+    },
+    {
         "id": "IH-EXP-026",
         "client": "iHousing",
         "type": "headline_query_match_exact",

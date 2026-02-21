@@ -1,9 +1,9 @@
 {
-  "generated": "2026-02-18T00:57:00+08:00",
+  "generated": "2026-02-21T01:50:49+08:00",
   "site": "sc-domain:ihousing.net",
-  "status": "existing_content_block",
-  "message": "Only 1 qualifying keyword (>5 imp, pos >10): 'guest screening airbnb' (6 imp, pos 83.2), but guest-screening-airbnb-malaysia-complete-guide.md already exists. Other keywords have <5 impressions.",
-  "keywords_analyzed": 20,
+  "status": "saturation",
+  "message": "Saturation reached - 21 query/page combinations: 8 monitor, 13 ignore. No qualifying keywords (>5 imp, pos >10) without existing pages. The 'guest screening' query (6 imp, pos 83.2) has an existing article - ranking issue not content gap.",
+  "keywords_analyzed": 21,
   "opportunities_found": 0,
-  "blocker": "Top opportunity (guest screening) already covered by existing article. Remaining keywords are branded terms or low volume (<5 imp)."
+  "blocker": "All high-value keywords covered by existing 20 blogs. Low-volume queries (<5 imp) don't justify new content creation."
 }

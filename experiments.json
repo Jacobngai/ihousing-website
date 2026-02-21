@@ -1,5 +1,64 @@
 [
     {
+        "date_started":  "2026-02-21T21:54:00+08:00",
+        "id":  "ALL-SKIP-031",
+        "type":  "skipped",
+        "active_experiments":  {
+                                   "result_marketing":  "RM-EXP-035/036/037/038/039 (oldest ~65h, need 103h more)",
+                                   "ing_heng_credit":  "IHC-EXP-059/060/061/062 (oldest ~48.5h, need 119.5h more)",
+                                   "ihousing":  "IH-EXP-021/022/023/024/025/026 (oldest ~79.5h, need 88.5h more)"
+                               },
+        "client":  "All Clients",
+        "next_check_date":  "2026-02-27",
+        "reason":  "Same as 9:22 PM run (32 mins ago). All clients blocked: (1) Result Marketing - site too new (9 days, needs 7-14 days for GSC) + 5 experiments ~65h, (2) iHousing - saturation + 6 experiments ~79.5h, (3) Ing Heng Credit - ranking issue + 4 experiments ~48.5h. Per Lesson 16: Minimum 7 days (168h) between experiments.",
+        "description":  "SEO Brain Experiment Runner - 7-day breathing period (13th consecutive skip)",
+        "status":  "skipped",
+        "day7_checkpoints_upcoming":  [
+                                          "IH-EXP-021/022/023 (check_date 2026-02-25, Day 7)",
+                                          "RM-EXP-001/002 (check_date 2026-02-26, Day 14)",
+                                          "All other experiments (check_date 2026-02-27, Day 7)"
+                                      ],
+        "notes":  "13th consecutive skip since Feb 21 morning. Measurement window active until Feb 25 (iHousing), Feb 26 (Result Marketing Day 14), Feb 27 (all other Day 7 checkpoints). Automation discipline per Lesson 21."
+    },
+    {
+        "date_started":  "2026-02-21T21:22:00+08:00",
+        "id":  "IH-SKIP-017",
+        "type":  "skipped",
+        "active_experiments":  {
+                                   "IH-EXP-023":  "Guest screening headline (Feb 18, 20:30) - ~78.5h old",
+                                   "IH-EXP-025":  "Host requirements headline v1 (Feb 20, 13:45) - ~31.5h old",
+                                   "IH-EXP-026":  "Host requirements headline (Feb 20, 14:30) - ~29h old",
+                                   "IH-EXP-024":  "Management fees freshness (Feb 19, 02:30) - ~67h old",
+                                   "IH-EXP-021":  "Homepage headline (Feb 18, 20:30) - ~78.5h old",
+                                   "IH-EXP-022":  "MOTAC headline (Feb 18, 20:30) - ~78.5h old"
+                               },
+        "client":  "iHousing",
+        "next_check_date":  "2026-02-25",
+        "reason":  "6 active experiments, oldest deployed ~78.5h ago. Per Lesson 16: Minimum 7 days (168h) between experiments. Latest IH-EXP-026 deployed ~29h ago. All high-impression GSC opportunities covered. Remaining opportunities \u003c6 impressions. Next measurement: Feb 25 (Day 7 checkpoint for IH-EXP-021/022/023).",
+        "description":  "SEO Brain Experiment Runner - 7-day breathing period (9th consecutive skip)",
+        "status":  "skipped",
+        "notes":  "9th consecutive skip. All experiments need time to breathe. Next check: Feb 25 (Day 7 for oldest experiments)."
+    },
+    {
+        "id":  "IH-SKIP-016",
+        "date_started":  "2026-02-21T18:39:00+08:00",
+        "type":  "skipped",
+        "client":  "iHousing",
+        "status":  "skipped",
+        "description":  "SEO Brain Experiment Runner - 7-day breathing period (8th consecutive skip)",
+        "reason":  "6 active experiments, oldest deployed ~69h ago. Per Lesson 16: Minimum 7 days (168h) between experiments. Latest IH-EXP-026 deployed ~28h ago. All high-value opportunities covered. Next measurement: Feb 25 (Day 7 checkpoint for IH-EXP-021/022/023).",
+        "active_experiments":  {
+                                   "IH-EXP-021":  "Homepage headline (Feb 18, 20:30) - ~69h old",
+                                   "IH-EXP-022":  "MOTAC headline (Feb 18, 20:30) - ~69h old",
+                                   "IH-EXP-023":  "Guest screening headline (Feb 18, 20:30) - ~69h old",
+                                   "IH-EXP-024":  "Management fees freshness (Feb 19, 02:30) - ~64h old",
+                                   "IH-EXP-025":  "Host requirements headline v1 (Feb 20, 13:45) - ~29h old",
+                                   "IH-EXP-026":  "Host requirements headline (Feb 20, 14:30) - ~28h old"
+                               },
+        "next_check_date":  "2026-02-25",
+        "notes":  "8th consecutive skip. All experiments need time to breathe. Next check: Feb 25 (Day 7 for oldest experiments)."
+    },
+    {
         "date_started":  "2026-02-21T09:05:00+08:00",
         "id":  "IH-SKIP-015",
         "type":  "skipped",

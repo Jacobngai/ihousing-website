@@ -1,0 +1,229 @@
+﻿python : Fetching GSC data for sc-domain:ihousing.net (last 28 days)...
+At line:1 char:69
++ ... NG="utf-8"; python skills/gsc-performance-checker/scripts/analyze.py  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Fetching GSC da...ast 28 days)...:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+Found 20 query/page combinations
+
+{
+  "site": "sc-domain:ihousing.net",
+  "generated": "2026-02-18T00:56:42.583747",
+  "summary": {
+    "change_headline": 0,
+    "improve_content": 0,
+    "working_well": 0,
+    "monitor": 0,
+    "ignore": 20
+  },
+  "actions": {
+    "change_headline": [],
+    "improve_content": [],
+    "ignore": [
+      {
+        "query": "ihousing",
+        "page": "https://www.ihousing.net/",
+        "clicks": 2,
+        "impressions": 15,
+        "ctr": 13.33,
+        "position": 5.7,
+        "action": "ignore",
+        "reason": "Low impressions (15) - wrong keyword target"
+      },
+      {
+        "query": "ihousing melaka",
+        "page": "https://www.ihousing.net/",
+        "clicks": 1,
+        "impressions": 6,
+        "ctr": 16.67,
+        "position": 5.8,
+        "action": "ignore",
+        "reason": "Low impressions (6) - wrong keyword target"
+      },
+      {
+        "query": "ihousing melaka",
+        "page": "https://ihousing.net/",
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 6,
+        "action": "ignore",
+        "reason": "Low impressions (6) - wrong keyword target"
+      },
+      {
+        "query": "what are the guest screening and selection processes for managing an airbnb property",
+        "page": "https://www.ihousing.net/blog/guest-screening-process-ihousing-property-protection/",
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 83.2,
+        "action": "ignore",
+        "reason": "Low impressions (6) - wrong keyword target"
+      },
+      {
+        "query": "agoda melaka",
+        "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 11.4,
+        "action": "ignore",
+        "reason": "Low impressions (5) - wrong keyword target"
+      },
+      {
+        "query": "airbnb vs agoda",
+        "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 21.8,
+        "action": "ignore",
+        "reason": "Low impressions (5) - wrong keyword target"
+      },
+      {
+        "query": "ihousing",
+        "page": "https://ihousing.net/",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 6,
+        "action": "ignore",
+        "reason": "Low impressions (5) - wrong keyword target"
+      },
+      {
+        "query": "requirements to become a host in malaysia",
+        "page": "https://www.ihousing.net/blog/motac-license-requirements-airbnb-malaysia/",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 8.6,
+        "action": "ignore",
+        "reason": "Low impressions (5) - wrong keyword target"
+      },
+      {
+        "query": "agoda homes vs airbnb",
+        "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 14.3,
+        "action": "ignore",
+        "reason": "Low impressions (3) - wrong keyword target"
+      },
+      {
+        "query": "i housing",
+        "page": "https://www.ihousing.net/",
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 100,
+        "position": 8,
+        "action": "ignore",
+        "reason": "Low impressions (1) - wrong keyword target"
+      },
+      {
+        "query": "ihousing melaka",
+        "page": "https://www.ihousing.net/en/",
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 100,
+        "position": 3,
+        "action": "ignore",
+        "reason": "Low impressions (1) - wrong keyword target"
+      },
+      {
+        "query": "agoda airbnb",
+        "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10,
+        "action": "ignore",
+        "reason": "Low impressions (1) - wrong keyword target"
+      },
+      {
+        "query": "agoda malaysia melaka",
+        "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 19,
+        "action": "ignore",
+        "reason": "Low impressions (1) - wrong keyword target"
+      },
+      {
+        "query": "airbnb commission rate malaysia",
+        "page": "https://www.ihousing.net/blog/flat-fee-airbnb-management-melaka",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9,
+        "action": "ignore",
+        "reason": "Low impressions (1) - wrong keyword target"
+      },
+      {
+        "query": "airbnb property management malaysia",
+        "page": "https://www.ihousing.net/blog/airbnb-management-fees-malaysia",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 37,
+        "action": "ignore",
+        "reason": "Low impressions (1) - wrong keyword target"
+      },
+      {
+        "query": "airbnb vs agoda comparison",
+        "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-performance/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9,
+        "action": "ignore",
+        "reason": "Low impressions (1) - wrong keyword target"
+      },
+      {
+        "query": "evaluate the airbnb company agoda on experiences - brand",
+        "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9,
+        "action": "ignore",
+        "reason": "Low impressions (1) - wrong keyword target"
+      },
+      {
+        "query": "i housing melaka",
+        "page": "https://ihousing.net/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6,
+        "action": "ignore",
+        "reason": "Low impressions (1) - wrong keyword target"
+      },
+      {
+        "query": "melaka agoda",
+        "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8,
+        "action": "ignore",
+        "reason": "Low impressions (1) - wrong keyword target"
+      },
+      {
+        "query": "which is better agoda or airbnb",
+        "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7,
+        "action": "ignore",
+        "reason": "Low impressions (1) - wrong keyword target"
+      }
+    ],
+    "working_well": [],
+    "monitor": []
+  }
+}

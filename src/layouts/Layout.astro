@@ -23,6 +23,7 @@ const currentLang = langMatch ? langMatch[1] : 'en';
 // Language-aware link helpers
 const l = (link: string) => `/${currentLang}${link}`;
 const contactFormLink = l('/contact-form/');
+const whatsappLink = 'https://wa.me/60196996688?text=Hi%20iHousing%2C%20I%27m%20interested%20in%20property%20management';
 const homeLink = l('/');
 const blogLink = l('/blog/');
 const aboutLink = l('/about/');
@@ -159,7 +160,7 @@ const t = navLabels[currentLang as keyof typeof navLabels] || navLabels.en;
           </svg>
         </button>
 
-        <a href={contactFormLink} class="hidden md:block bg-green-500 hover:bg-green-400 text-white px-5 py-2.5 rounded-lg font-semibold transition-colors">
+        <a href={whatsappLink} target="_blank" rel="noopener" class="hidden md:block bg-green-500 hover:bg-green-400 text-white px-5 py-2.5 rounded-lg font-semibold transition-colors">
           {t.contactUs}
         </a>
       </div>
@@ -195,7 +196,7 @@ const t = navLabels[currentLang as keyof typeof navLabels] || navLabels.en;
         <a href={blogLink} class="block py-2 hover:text-green-300 font-medium">{t.blog}</a>
         <a href={aboutLink} class="block py-2 hover:text-green-300 font-medium">{t.about}</a>
         <a href={contactLink} class="block py-2 hover:text-green-300 font-medium">{t.contact}</a>
-        <a href={contactFormLink} class="block mt-4 bg-green-500 hover:bg-green-400 text-white px-4 py-2.5 rounded-lg font-semibold text-center">
+        <a href={whatsappLink} target="_blank" rel="noopener" class="block mt-4 bg-green-500 hover:bg-green-400 text-white px-4 py-2.5 rounded-lg font-semibold text-center">
           {t.contactUs}
         </a>
       </div>
@@ -243,7 +244,7 @@ const t = navLabels[currentLang as keyof typeof navLabels] || navLabels.en;
           <div>
             <h4 class="font-semibold mb-4">{t.contactUs}</h4>
             <p class="text-gray-400 mb-2">Get a free consultation for your property</p>
-            <a href={contactFormLink} class="inline-block bg-green-600 hover:bg-green-500 text-white px-4 py-2 rounded-lg transition-colors">
+            <a href={whatsappLink} target="_blank" rel="noopener" class="inline-block bg-green-600 hover:bg-green-500 text-white px-4 py-2 rounded-lg transition-colors">
               {t.sendMsg}
             </a>
           </div>

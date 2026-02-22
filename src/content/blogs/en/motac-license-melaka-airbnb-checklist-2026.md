@@ -125,7 +125,7 @@ That’s why iHousing handles the entire compliance suite for our owners.
 
 Let’s check. We offer a **Free Compliance Assessment** for property owners in Melaka. We'll look at your building rules and your current setup to tell you exactly what you're missing.
 
-[Get Your Free Compliance Assessment →](/en/contact-form/)
+[Get Your Free Compliance Assessment →](https://wa.me/60196996688?text=Hi%20iHousing%2C%20I%27m%20interested%20in%20property%20management)
 
 ---
 

@@ -146,7 +146,7 @@ Listing on more platforms doesn't just mean more bookings—it means **better** 
 
 We offer a **Free Revenue Assessment** for Melaka property owners. We’ll show you exactly which platforms your property is missing from and estimate the "Hidden Revenue" you could be capturing.
 
-[Get Your Free Revenue Assessment →](/en/contact-form/)
+[Get Your Free Revenue Assessment →](https://wa.me/60196996688?text=Hi%20iHousing%2C%20I%27m%20interested%20in%20property%20management)
 
 ---
 

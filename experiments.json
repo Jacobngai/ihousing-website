@@ -1,20 +1,38 @@
-{
-    "id": "IH-EXP-063",
-    "client": "iHousing",
-    "date_started": "2026-02-23T09:25:00+08:00",
-    "type": "headline_optimization",
-    "url": "https://www.ihousing.net/blog/airbnb-description-writing-conversions/",
-    "baseline": {
-        "avg_position": 14.2,
-        "ctr": 1.8,
-        "clicks_per_week": 2
+[
+    {
+        "id": "IH-EXP-065",
+        "client": "iHousing",
+        "date_started": "2026-02-25T04:30:00+08:00",
+        "type": "headline_optimization",
+        "description": "Optimized title and H1 for 'Airbnb License Malaysia' intent to improve CTR from 0%.",
+        "page": "/en/blog/motac-license-requirements-airbnb-malaysia/",
+        "baseline": {
+            "impressions": 13,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 9.6
+        },
+        "check_date": "2026-03-04",
+        "status": "active"
     },
-    "changes": {
-        "old_title": "Airbnb Description Writing: Listings That Convert",
-        "new_title": "Airbnb Description Writing: 7 Secrets to Listings That Convert (2025 Guide)",
-        "old_description": "How to write compelling Airbnb descriptions that convert browsers to bookers. Data shows well-written descriptions increase booking rates by 35% and allow 15-20% higher rates.",
-        "new_description": "Stop losing bookings to boring descriptions. Learn the 7 secrets of Airbnb description writing that increased our bookings by 35% in Melaka. 2025 structure, triggers, and SEO keywords."
-    },
-    "check_date": "2026-03-02",
-    "status": "active"
-}
+    {
+        "id": "IH-EXP-063",
+        "client": "iHousing",
+        "date_started": "2026-02-23T09:25:00+08:00",
+        "type": "headline_optimization",
+        "url": "https://www.ihousing.net/blog/airbnb-description-writing-conversions/",
+        "baseline": {
+            "avg_position": 14.2,
+            "ctr": 1.8,
+            "clicks_per_week": 2
+        },
+        "changes": {
+            "old_title": "Airbnb Description Writing: Listings That Convert",
+            "new_title": "Airbnb Description Writing: 7 Secrets to Listings That Convert (2025 Guide)",
+            "old_description": "How to write compelling Airbnb descriptions that convert browsers to bookers. Data shows well-written descriptions increase booking rates by 35% and allow 15-20% higher rates.",
+            "new_description": "Stop losing bookings to boring descriptions. Learn the 7 secrets of Airbnb description writing that increased our bookings by 35% in Melaka. 2025 structure, triggers, and SEO keywords."
+        },
+        "check_date": "2026-03-02",
+        "status": "active"
+    }
+]

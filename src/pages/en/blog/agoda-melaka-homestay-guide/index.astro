@@ -1,15 +1,30 @@
 ---
 import BlogPost from '@/layouts/BlogPost.astro';
 
-const title = "Agoda Melaka Homestay Guide: Comparison & Revenue Analysis 2026";
-const description = "Planning to list or stay in an Agoda Melaka homestay? Discover the best areas, platform comparisons (Agoda vs Airbnb), and how to maximize revenue for owners.";
+const title = "Agoda Melaka Homestay: Top 10 High-ROI Areas & Management Tips 2026";
+const description = "Want to maximize your Agoda Melaka homestay revenue? Compare Agoda vs Airbnb, find high-occupancy areas, and learn how iHousing hits 85% occupancy with flat fees.";
 const image = "/images/blog/agoda-melaka-homestay-guide.jpg";
 const date = "2026-02-12";
 const category = "comparison";
 const language = "en";
 
+const faq = [
+  {
+    question: "Is it better to list my Melaka property on Agoda or Airbnb?",
+    answer: "In Melaka, the best strategy is to list on both. Agoda provides high volume from domestic and Singaporean travelers, while Airbnb captures higher-paying international tourists. iHousing manages both simultaneously to maximize your occupancy."
+  },
+  {
+    question: "What is the average occupancy rate for an Agoda homestay in Melaka?",
+    answer: "Well-managed properties in prime areas like Jonker Walk or Klebang typically see 65-75% occupancy on average, peaking at 95% during public holidays and school holidays."
+  },
+  {
+    question: "How much commission does Agoda charge Melaka hosts?",
+    answer: "Agoda's commission typically ranges from 12% to 18% depending on whether you participate in their marketing programs like 'Agoda Preferred' or 'Private Sales'."
+  }
+];
+
 const content = `
-<h1>Agoda Melaka Homestay: The Ultimate Guide for Travelers and Property Owners</h1>
+<h1>Agoda Melaka Homestay: Top 10 High-ROI Areas & Management Tips 2026</h1>
 
 <p>Melaka, a UNESCO World Heritage city, continues to be one of Malaysia's most visited destinations. For many travelers, booking an <strong>agoda melaka homestay</strong> has become the preferred alternative to traditional hotels, offering more space, local charm, and better value for money. For property owners, the platform represents a massive opportunity to tap into the Asian travel market.</p>
 
@@ -146,4 +161,5 @@ const content = `
   category={category}
   language={language}
   content={content}
+  faq={faq}
 />

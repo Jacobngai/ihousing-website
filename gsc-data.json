@@ -1,8 +1,18 @@
 {
   "property": "sc-domain:ihousing.net",
-  "dateRange": "2026-01-19 to 2026-02-18",
-  "fetchedAt": "2026-02-18T02:32:59.715610",
+  "dateRange": "2026-01-26 to 2026-02-25",
+  "fetchedAt": "2026-02-25T04:32:20.220292",
   "data": [
+    {
+      "keys": [
+        "i housing",
+        "https://ihousing.net/"
+      ],
+      "clicks": 2,
+      "impressions": 5,
+      "ctr": 0.4,
+      "position": 4.8
+    },
     {
       "keys": [
         "ihousing",
@@ -55,6 +65,16 @@
     },
     {
       "keys": [
+        "agoda experiences vs airbnb experiences comparison",
+        "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison"
+      ],
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 9.5
+    },
+    {
+      "keys": [
         "agoda homes vs airbnb",
         "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison"
       ],
@@ -79,9 +99,9 @@
         "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 11.4
+      "position": 12
     },
     {
       "keys": [
@@ -149,7 +169,7 @@
         "https://ihousing.net/"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 12,
       "ctr": 0,
       "position": 5.666666666666667
     },
@@ -159,9 +179,9 @@
         "https://ihousing.net/"
       ],
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 10,
       "ctr": 0,
-      "position": 5.333333333333333
+      "position": 4.9
     },
     {
       "keys": [
@@ -169,7 +189,7 @@
         "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 4,
       "ctr": 0,
       "position": 8
     },
@@ -179,9 +199,9 @@
         "https://www.ihousing.net/blog/motac-license-requirements-airbnb-malaysia/"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 17,
       "ctr": 0,
-      "position": 8.6
+      "position": 9.705882352941176
     },
     {
       "keys": [
@@ -205,12 +225,22 @@
     }
   ],
   "totals": {
-    "clicks": 9,
-    "impressions": 561,
-    "ctr": 0.016042780748663103,
-    "position": 8.55258467023173
+    "clicks": 13,
+    "impressions": 790,
+    "ctr": 0.016455696202531647,
+    "position": 8.149367088607594
   },
   "processed": [
+    {
+      "query": "agoda melaka",
+      "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison",
+      "impressions": 6,
+      "clicks": 0,
+      "ctr": 0,
+      "position": 12,
+      "action": "create_content",
+      "reason": "High impressions (6) but poor position (12.0)"
+    },
     {
       "query": "what are the guest screening and selection processes for managing an airbnb property",
       "page": "https://www.ihousing.net/blog/guest-screening-process-ihousing-property-protection/",
@@ -239,6 +269,12 @@
       "query": "agoda airbnb",
       "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison",
       "impressions": 1,
+      "reason": "Low opportunity - impressions < 5"
+    },
+    {
+      "query": "agoda experiences vs airbnb experiences comparison",
+      "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison",
+      "impressions": 4,
       "reason": "Low opportunity - impressions < 5"
     },
     {
@@ -286,7 +322,7 @@
     {
       "query": "melaka agoda",
       "page": "https://www.ihousing.net/blog/agoda-vs-airbnb-melaka-market-comparison",
-      "impressions": 1,
+      "impressions": 4,
       "reason": "Low opportunity - impressions < 5"
     },
     {

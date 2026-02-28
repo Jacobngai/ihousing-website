@@ -1,5 +1,5 @@
 ---
-title: "Airbnb Management Fees Melaka: Flat Fee vs Commission (Stop Losing 20%)"
+title: "Airbnb Management Fees Melaka: Flat Fee vs 20% Commission"
 description: "Still paying 20% commission for Airbnb property management in Melaka? Learn how a flat fee model puts RM1,000s back in your pocket. 2026 ROI guide."
 pubDate: 2026-02-23
 author: "iHousing Melaka"

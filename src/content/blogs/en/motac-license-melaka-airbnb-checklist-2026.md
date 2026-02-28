@@ -1,5 +1,5 @@
 ---
-title: "MOTAC License Requirements: Your 2026 Melaka Airbnb Legal Checklist"
+title: "2026 Melaka Airbnb Legal Checklist: How to Get Your MOTAC License"
 description: "Confused about MOTAC license requirements for your Melaka Airbnb? Here is the complete 2026 checklist for legal compliance, safety standards, and future-proofing."
 author: "iHousing"
 publishDate: "2026-02-13"

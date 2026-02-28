@@ -1,5 +1,50 @@
 [
     {
+        "id": "IH-EXP-075",
+        "client": "iHousing",
+        "date_started": "2026-03-01T02:08:00+08:00",
+        "type": "headline_optimization",
+        "description": "Optimized title to match search intent 'requirements to become a host' - shifting from license-focused to action-oriented. User wants to know HOW to become a host, not just licensing.",
+        "page": "/en/blog/motac-license-requirements-airbnb-malaysia/",
+        "query": "requirements to become a host...",
+        "baseline": {
+            "impressions": 19,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 9.5
+        },
+        "change": {
+            "old_title": "Airbnb License Malaysia 2026: MOTAC Host Requirements Guide",
+            "new_title": "Requirements to Become an Airbnb Host in Malaysia (2026 Guide)",
+            "rationale": "Search query shows user wants comprehensive 'requirements to become a host' not just license info. New title directly matches search intent, sounds approachable vs. regulatory-heavy."
+        },
+        "check_date": "2026-03-08",
+        "status": "active"
+    },
+    {
+        "id": "IH-EXP-074",
+        "client": "iHousing",
+        "date_started": "2026-02-28T03:39:00+08:00",
+        "type": "headline_optimization",
+        "description": "Optimized title and subheadlines for 'Airbnb vs Booking.com vs Agoda Melaka' to improve CTR and search relevance. Added curiosity gap and front-loaded keywords.",
+        "page": "/en/blog/airbnb-vs-booking-vs-agoda-melaka-comparison-2026/",
+        "query": "airbnb vs booking.com melaka",
+        "baseline": {
+            "impressions": 15,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 18.5
+        },
+        "change": {
+            "old_title": "Agoda Melaka vs Airbnb vs Booking.com: 2026 Earnings Comparison",
+            "new_title": "Airbnb vs Booking.com vs Agoda Melaka: 2026 Earnings Secret",
+            "old_desc": "Is Airbnb the best for Melaka hosts? We compare Airbnb vs Booking.com vs Agoda Homes earnings, guest profiles, and weekday occupancy for Melaka properties in 2026.",
+            "new_desc": "Is Airbnb the best for Melaka hosts? We compare Airbnb vs Booking.com vs Agoda Homes earnings, guest profiles, and weekday occupancy for Melaka properties in 2026."
+        },
+        "check_date": "2026-03-07",
+        "status": "active"
+    },
+    {
         "id": "IH-EXP-067",
         "client": "iHousing",
         "date_started": "2026-02-26T19:45:00+08:00",

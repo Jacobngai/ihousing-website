@@ -1,5 +1,201 @@
 [
     {
+        "id": "IH-EXP-083",
+        "client": "iHousing",
+        "date_started": "2026-03-04T22:15:00+08:00",
+        "type": "headline_optimization",
+        "description": "Optimized Agoda Melaka Homestay blog title to front-load 'Agoda Melaka Homestay' and update properties count to 700+ for authority signaling.",
+        "page": "/en/blog/agoda-melaka-homestay-guide/",
+        "query": "Agoda Melaka Homestay",
+        "baseline": {
+            "impressions": 14,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 14.5
+        },
+        "change": {
+            "old_title": "Agoda Melaka Homestay: Top 10 High-ROI Areas & Management Tips 2026",
+            "new_title": "Agoda Melaka Homestay 2026: Top 10 High-ROI Areas & Management Tips",
+            "old_desc": "Want to maximize your Agoda Melaka homestay revenue? Compare Agoda vs Airbnb, find high-occupancy areas, and learn how iHousing hits 85% occupancy with flat fees.",
+            "new_desc": "Looking for an Agoda Melaka homestay? We manage 700+ Melaka properties. Compare Agoda vs Airbnb, find high-occupancy areas, and learn how iHousing hits 85% occupancy."
+        },
+        "check_date": "2026-03-11",
+        "status": "active"
+    },
+    {
+        "id": "IH-EXP-082",
+        "client": "iHousing",
+        "date_started": "2026-03-04T05:15:00+08:00",
+        "type": "new_tool_and_cta",
+        "description": "Created interactive Airbnb ROI Calculator and added as primary CTA on homepage. Inspired by Antigravity 'oneshot value' principle.",
+        "page": "/blog/airbnb-roi-calculator/",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0
+        },
+        "change": {
+            "action": "created_tool_and_linked_hero",
+            "rationale": "High-intent investors need to justify property purchases. An interactive calculator provides immediate value and establishes iHousing as the authority on real data vs. agency hype."
+        },
+        "check_date": "2026-03-11",
+        "status": "active"
+    },
+    {
+        "id": "IH-EXP-081",
+        "client": "iHousing",
+        "date_started": "2026-03-03T22:30:00+08:00",
+        "type": "headline_optimization",
+        "description": "Optimized cleaning blog title to add '5 Secrets' trigger and updated 100+ to 700+ properties for high-fidelity authority signaling. Targeting 'Airbnb cleaning Melaka'.",
+        "page": "/en/blog/airbnb-cleaning-melaka-5-star-reviews/",
+        "query": "Airbnb cleaning Melaka",
+        "baseline": {
+            "impressions": 10,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 15.0
+        },
+        "change": {
+            "old_title": "Airbnb Cleaning Melaka: Why Your 5-Star Rating Depends on It",
+            "new_title": "Airbnb Cleaning Melaka: 5 Secrets to 5-Star Reviews (2026)",
+            "old_desc": "Professional Airbnb cleaning in Melaka is the secret to 5-star reviews. Learn how iHousing manages cleaning for 100+ properties to ensure guest satisfaction and high occupancy.",
+            "new_desc": "Why your Melaka Airbnb's 5-star rating depends on professional cleaning. Data-driven secrets from iHousing's 700+ managed properties across Melaka."
+        },
+        "check_date": "2026-03-10",
+        "status": "active"
+    },
+    {
+        "id": "IH-EXP-080",
+        "client": "iHousing",
+        "date_started": "2026-03-03T12:35:00+08:00",
+        "type": "headline_optimization",
+        "description": "Optimized Agoda vs Airbnb blog title to match 'agoda melaka' intent and add authority signal (700+ properties).",
+        "page": "/en/blog/agoda-vs-airbnb-melaka-market-comparison/",
+        "query": "agoda melaka",
+        "baseline": {
+            "impressions": 6,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 12.0
+        },
+        "change": {
+            "old_title": "Airbnb vs Agoda Melaka 2026 | Which Platform Pays More? | iHousing",
+            "new_title": "Agoda vs Airbnb Melaka 2026: Real Revenue Data Comparison",
+            "old_desc": "Airbnb vs Agoda Melaka 2026: Real revenue data from 100+ properties. Heritage homes earn 54% more on Airbnb; condos earn 42% more on Agoda. Which wins for YOUR property?",
+            "new_desc": "We manage 700+ Melaka properties on both platforms. Heritage homes earn 54% more on Airbnb, hotels get 42% more on Agoda. Here's the data."
+        },
+        "check_date": "2026-03-10",
+        "status": "active"
+    },
+    {
+        "id": "IH-EXP-079",
+        "client": "iHousing",
+        "date_started": "2026-03-03T09:10:00+08:00",
+        "type": "headline_optimization",
+        "description": "Meta update for homepage to emphasize Flat Fee USP and authority. Inspired by Antigravity high-fidelity signaling.",
+        "page": "/en/",
+        "query": "Airbnb Management Melaka",
+        "baseline": {
+            "impressions": 18,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 5.7
+        },
+        "change": {
+            "old_title": "Airbnb Management Melaka 2026 | #1 Property Manager | iHousing",
+            "new_title": "iHousing | Melaka Airbnb Management | Flat Fee, No Commission",
+            "old_desc": "Professional Airbnb property management in Melaka. 8 years experience, 700+ properties, 5 platforms. 0% Commission options available.",
+            "new_desc": "Stop overpaying 20% commission. iHousing manages your Melaka Airbnb with a flat monthly fee. 8 years experience, 700+ properties. Back in your pocket."
+        },
+        "check_date": "2026-03-10",
+        "status": "active"
+    },
+    {
+        "id": "IH-EXP-078",
+        "client": "iHousing",
+        "date_started": "2026-03-01T02:30:00+08:00",
+        "type": "headline_optimization",
+        "description": "Optimized homepage title for branded searches 'ihousing' and 'ihousing melaka'. Changed from promotional/benefit-driven to direct brand identification with primary USP (flat fee vs commission).",
+        "page": "/en/",
+        "query": "ihousing, ihousing melaka",
+        "baseline": {
+            "impressions_ihousing": 13,
+            "clicks_ihousing": 0,
+            "ctr_ihousing": 0,
+            "position_ihousing": 5.5,
+            "impressions_ihousing_melaka": 11,
+            "clicks_ihousing_melaka": 0,
+            "ctr_ihousing_melaka": 0,
+            "position_ihousing_melaka": 4.7
+        },
+        "change": {
+            "old_title": "Airbnb Management Melaka 2026 | Save RM10,000+ Yearly | iHousing",
+            "new_title": "iHousing | Melaka Airbnb Management | Flat Fee, No Commission",
+            "old_desc": "Professional Airbnb property management in Melaka. 8 years experience, 700+ properties, 5 platforms. 0% Commission options available. Maximize your ROI today.",
+            "new_desc": "Stop overpaying 20% commission. iHousing manages your Melaka Airbnb with a flat monthly fee. 8 years experience, 700+ properties, 5 platforms. Back in your pocket.",
+            "rationale": "For branded searches, users want brand confirmation not sales pitch. New title front-loads brand name, includes primary USP (flat fee vs commission), matches brand voice of 'transparent' and 'against commission status quo'."
+        },
+        "check_date": "2026-03-08",
+        "status": "active",
+        "commit": "30dccf9"
+    },
+    {
+        "id": "IH-EXP-077",
+        "client": "iHousing",
+        "date_started": "2026-03-01T02:30:00+08:00",
+        "type": "headline_optimization",
+        "description": "Enhanced title with proof and expertise signal for 'agoda melaka' and 'airbnb vs agoda' searches. Added specificity (real revenue data) and authority (700+ properties managed).",
+        "page": "/en/blog/agoda-vs-airbnb-melaka-revenue-comparison-2026/",
+        "query": "agoda melaka, airbnb vs agoda",
+        "baseline": {
+            "impressions_agoda_melaka": 6,
+            "clicks_agoda_melaka": 0,
+            "ctr_agoda_melaka": 0,
+            "position_agoda_melaka": 12,
+            "impressions_airbnb_vs_agoda": 5,
+            "clicks_airbnb_vs_agoda": 0,
+            "ctr_airbnb_vs_agoda": 0,
+            "position_airbnb_vs_agoda": 21.8
+        },
+        "change": {
+            "old_title": "Agoda vs Airbnb Melaka: Which Platform Wins in 2026?",
+            "new_title": "Agoda vs Airbnb Melaka: Real Revenue Data Shows Which Pays More",
+            "old_desc": "Heritage homes earn 54% more on one platform, hotels 42% more on the other. Real revenue data shows which booking platform wins for your Melaka property type.",
+            "new_desc": "We manage 700+ Melaka properties on both platforms. Heritage homes earn 54% more on Airbnb, hotels get 42% more on Agoda. Here's the data.",
+            "rationale": "Generic 'Which Wins' doesn't convey value. New title promises data-driven answer and authority (700+ properties). Description adds credibility signal upfront."
+        },
+        "check_date": "2026-03-08",
+        "status": "active",
+        "commit": "30dccf9"
+    },
+    {
+        "id": "IH-EXP-076",
+        "client": "iHousing",
+        "date_started": "2026-03-01T02:30:00+08:00",
+        "type": "headline_optimization",
+        "description": "Reframed title to match 'what are the guest screening' question-based query intent. Changed from 'how to avoid' to directly answering 'what to check' with authority signal (10,000+ bookings).",
+        "page": "/en/blog/guest-screening-airbnb-malaysia-complete-guide/",
+        "query": "what are the guest screening a...",
+        "baseline": {
+            "impressions": 6,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 83.2
+        },
+        "change": {
+            "old_title": "Guest Screening for Airbnb Malaysia: How to Avoid Bad Guests (Complete Guide)",
+            "new_title": "Airbnb Guest Screening Answers: What to Check Before Accepting Bookings",
+            "old_desc": "Proven guest screening and selection processes to protect your Airbnb property in Malaysia. Learn red flags, verification methods, and when to say no.",
+            "new_desc": "What are the must-check guest screening answers for Airbnb Malaysia? We vet 10,000+ bookings yearly. Here are the red flags that matter.",
+            "rationale": "Query 'what are the guest screening' requires direct question-answer format. Title now includes 'answers' and 'what to check' to match intent. Description adds volume signal (10,000+) for trust."
+        },
+        "check_date": "2026-03-08",
+        "status": "active",
+        "commit": "30dccf9",
+        "note": "Position 83.2 is very poor - may need content improvement beyond headline"
+    },
+    {
         "id": "IH-EXP-075",
         "client": "iHousing",
         "date_started": "2026-03-01T02:08:00+08:00",

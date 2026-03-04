@@ -1,5 +1,48 @@
 [
     {
+        "id": "IH-EXP-083",
+        "client": "iHousing",
+        "date_started": "2026-03-04T22:15:00+08:00",
+        "type": "headline_optimization",
+        "description": "Optimized Agoda Melaka Homestay blog title to front-load 'Agoda Melaka Homestay' and update properties count to 700+ for authority signaling.",
+        "page": "/en/blog/agoda-melaka-homestay-guide/",
+        "query": "Agoda Melaka Homestay",
+        "baseline": {
+            "impressions": 14,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 14.5
+        },
+        "change": {
+            "old_title": "Agoda Melaka Homestay: Top 10 High-ROI Areas & Management Tips 2026",
+            "new_title": "Agoda Melaka Homestay 2026: Top 10 High-ROI Areas & Management Tips",
+            "old_desc": "Want to maximize your Agoda Melaka homestay revenue? Compare Agoda vs Airbnb, find high-occupancy areas, and learn how iHousing hits 85% occupancy with flat fees.",
+            "new_desc": "Looking for an Agoda Melaka homestay? We manage 700+ Melaka properties. Compare Agoda vs Airbnb, find high-occupancy areas, and learn how iHousing hits 85% occupancy."
+        },
+        "check_date": "2026-03-11",
+        "status": "active"
+    },
+    {
+        "id": "IH-EXP-082",
+        "client": "iHousing",
+        "date_started": "2026-03-04T05:15:00+08:00",
+        "type": "new_tool_and_cta",
+        "description": "Created interactive Airbnb ROI Calculator and added as primary CTA on homepage. Inspired by Antigravity 'oneshot value' principle.",
+        "page": "/blog/airbnb-roi-calculator/",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0
+        },
+        "change": {
+            "action": "created_tool_and_linked_hero",
+            "rationale": "High-intent investors need to justify property purchases. An interactive calculator provides immediate value and establishes iHousing as the authority on real data vs. agency hype."
+        },
+        "check_date": "2026-03-11",
+        "status": "active"
+    },
+    {
         "id": "IH-EXP-081",
         "client": "iHousing",
         "date_started": "2026-03-03T22:30:00+08:00",

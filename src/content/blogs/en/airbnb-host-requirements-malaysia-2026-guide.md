@@ -1,6 +1,6 @@
 ---
-title: "Airbnb Host Requirements Malaysia: The Ultimate 2026 Legal & Operational Guide"
-description: "Everything you need to know about Airbnb host requirements in Malaysia. Complete guide on MOTAC licensing, legal regulations, property setup, and tax obligations for 2026."
+title: "Airbnb Host Requirements Malaysia: Ultimate 2026 Melaka Legal Guide"
+description: "Confused about Airbnb laws in Malaysia? Our 2026 Melaka host requirements guide covers MOTAC, legal rules, and property setup to keep your STR business safe."
 author: "iHousing Team"
 publishDate: 2026-02-12
 category: Management Tips

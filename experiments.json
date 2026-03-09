@@ -2,11 +2,19 @@
     {
         "id": "IH-EXP-084",
         "client": "iHousing",
+<<<<<<< Updated upstream
         "date_started": "2026-03-08T02:30:00+08:00",
         "type": "headline_optimization",
         "description": "Refreshed agoda-melaka-homestay-guide title - removed generic 'Top 10', added curiosity '7 Tips' and anti-commission angle. Matches brand voice of rebellious against 20% fees. Supersedes IH-EXP-083.",
         "page": "/en/blog/agoda-melaka-homestay-guide/",
         "query": "agoda melaka homestay",
+=======
+        "date_started": "2026-03-08T03:55:00+08:00",
+        "type": "headline_optimization",
+        "description": "Optimized Agoda Melaka Homestay blog title and description to front-load keywords and add authority signaling (700+ properties). Based on Jay Abraham's principle of monetizing distribution through high-fidelity trust signals.",
+        "page": "/en/blog/agoda-melaka-homestay-guide/",
+        "query": "Agoda Melaka Homestay",
+>>>>>>> Stashed changes
         "baseline": {
             "impressions": 14,
             "clicks": 0,
@@ -14,10 +22,17 @@
             "position": 14.5
         },
         "change": {
+<<<<<<< Updated upstream
             "old_title": "Agoda Melaka Homestay 2026: Top 10 High-ROI Areas & Management Tips",
             "new_title": "Agoda Melaka Homestay: 7 Tips for Higher ROI (2026)",
             "old_desc": "Looking for an Agoda Melaka homestay? We manage 700+ Melaka properties. Compare Agoda vs Airbnb, find high-occupancy areas, and learn how iHousing hits 85% occupancy.",
             "new_desc": "Want to maximize your Agoda Melaka homestay revenue? 8-year veterans share how to beat the 20% commission trap and hit 85% occupancy. Stop overpaying today."
+=======
+            "old_title": "Agoda Melaka Homestay: 7 Tips for Higher ROI (2026)",
+            "new_title": "Agoda Melaka Homestay 2026: Top 10 High-ROI Areas & Tips",
+            "old_desc": "Want to maximize your Agoda Melaka homestay revenue? 8-year veterans share how to beat the 20% commission trap and hit 85% occupancy. Stop overpaying today.",
+            "new_desc": "Looking for an Agoda Melaka homestay? We manage 700+ Melaka properties. Compare Agoda vs Airbnb, find high-occupancy areas, and learn how iHousing hits 85% occupancy."
+>>>>>>> Stashed changes
         },
         "check_date": "2026-03-15",
         "status": "active"
@@ -43,8 +58,12 @@
             "new_desc": "Looking for an Agoda Melaka homestay? We manage 700+ Melaka properties. Compare Agoda vs Airbnb, find high-occupancy areas, and learn how iHousing hits 85% occupancy."
         },
         "check_date": "2026-03-11",
+<<<<<<< Updated upstream
         "status": "superseded",
         "superseded_by": "IH-EXP-084"
+=======
+        "status": "archived"
+>>>>>>> Stashed changes
     },
     {
         "id": "IH-EXP-082",
@@ -211,10 +230,10 @@
             "old_title": "Guest Screening for Airbnb Malaysia: How to Avoid Bad Guests (Complete Guide)",
             "new_title": "Airbnb Guest Screening Answers: What to Check Before Accepting Bookings",
             "old_desc": "Proven guest screening and selection processes to protect your Airbnb property in Malaysia. Learn red flags, verification methods, and when to say no.",
-            "new_desc": "What are the must-check guest screening answers for Airbnb Malaysia? We vet 10,000+ bookings yearly. Here are the red flags that matter.",
+            "new_desc": "What are the must-check guest screening answers for Airbnb Malaysia? We vet 10,000+ bookings yearly. Here are the red flags that matter for Melaka hosts.",
             "rationale": "Query 'what are the guest screening' requires direct question-answer format. Title now includes 'answers' and 'what to check' to match intent. Description adds volume signal (10,000+) for trust."
         },
-        "check_date": "2026-03-08",
+        "check_date": "2026-03-16",
         "status": "active",
         "commit": "30dccf9",
         "note": "Position 83.2 is very poor - may need content improvement beyond headline"
@@ -269,7 +288,7 @@
         "client": "iHousing",
         "date_started": "2026-02-26T19:45:00+08:00",
         "type": "headline_and_faq",
-        "description": "Optimized title for high-intent 'Agoda Melaka Homestay' and added FAQ schema to improve SERP real estate.",
+        "description": "Optimized title for high-intent 'Agoda Melaka Homestay' and added FAQ schema to improve SERP real heritage.",
         "page": "/en/blog/agoda-melaka-homestay-guide/",
         "query": "agoda melaka homestay",
         "baseline": {
@@ -304,7 +323,7 @@
         "change": {
             "old_title": "Airbnb Host Requirements Malaysia 2026 | MOTAC License & STR Compliance | iHousing",
             "new_title": "MOTAC License Requirements Malaysia 2026 | Airbnb Host Guide | iHousing",
-            "old_desc": "Complete guide to Airbnb host requirements in Malaysia 2026. MOTAC license rules, strata approval, TOUREX registration, and Melaka-specific compliance. Start legally — most condo hosts don't need a license yet.",
+            "old_desc": "Complete guide to Airbnb host requirements in Malaysia 2026. MOTAC license rules, strata approval, TOUREX registration, and Melaka-specific compliance. Start legally ?" most condo hosts don't need a license yet.",
             "new_desc": "Do you need a MOTAC license for Airbnb in Malaysia? 2026 update on host requirements, TOUREX registration, and building-level compliance for Melaka, KL, and Penang hosts."
         },
         "check_date": "2026-03-04",

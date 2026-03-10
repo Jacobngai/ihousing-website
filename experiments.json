@@ -1,5 +1,51 @@
 [
     {
+        "id": "IH-EXP-087",
+        "client": "iHousing",
+        "date_started": "2026-03-10T08:55:00+08:00",
+        "type": "content_expansion",
+        "description": "Expanded the MOTAC license guide with a property-specific compliance section (Commercial vs Residential vs Heritage). Aimed at improving relevance for 'property-specific' legal queries and increasing dwell time.",
+        "page": "/en/blog/motac-license-requirements-airbnb-malaysia/",
+        "query": "airbnb license malaysia",
+        "baseline": {
+            "impressions": 110,
+            "clicks": 1,
+            "ctr": 0.9,
+            "position": 25.4
+        },
+        "change": {
+            "action": "added_property_specific_compliance_section",
+            "content_added": "Segmented compliance advice for Commercial Condos, Residential Condos, Heritage Shophouses, and Landed Properties.",
+            "rationale": "Following the principle of 'Depth Over Breadth'. High-intent searchers aren't just looking for general legality; they want to know if THEIR specific property type (e.g., heritage shophouse) is safe. This expansion increases E-E-A-T and target query relevance."
+        },
+        "check_date": "2026-03-17",
+        "status": "active"
+    },
+    {
+        "id": "IH-EXP-086",
+        "client": "iHousing",
+        "date_started": "2026-03-10T04:55:00+08:00",
+        "type": "headline_optimization",
+        "description": "Optimized 'Agoda vs Airbnb Melaka' blog title to better match the 'Airbnb vs Agoda' high-volume query and increase CTR. Added authority signals (100+ Properties).",
+        "page": "/en/blog/agoda-vs-airbnb-melaka-market-comparison/",
+        "query": "airbnb vs agoda",
+        "baseline": {
+            "impressions": 5,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 21.8
+        },
+        "change": {
+            "old_title": "Agoda vs Airbnb Melaka 2026: Which Platform Pays More? (Real Data)",
+            "new_title": "Airbnb vs Agoda Melaka 2026: Which Pays More? (100+ Properties Data)",
+            "old_desc": "Data-driven 2026 comparison: 100+ Melaka properties reveal which platform pays more. Heritage homes, condos, hotels—see actual revenue by property type.",
+            "new_desc": "Real 2026 data from 100+ Melaka properties: Airbnb vs Agoda fee & revenue comparison. See which platform earns more for heritage homes, condos, and hotels.",
+            "rationale": "Query 'airbnb vs agoda' has higher baseline impressions. Swapping the name order in the title to front-load 'Airbnb' matches the likely search intent and improves CTR. Added '100+ Properties' to the title for social proof/authority."
+        },
+        "check_date": "2026-03-17",
+        "status": "active"
+    },
+    {
         "id": "IH-EXP-085",
         "client": "iHousing",
         "date_started": "2026-03-09T16:45:00+08:00",

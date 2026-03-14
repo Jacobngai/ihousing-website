@@ -1,5 +1,34 @@
 [
     {
+        "id": "IH-EXP-089",
+        "client": "iHousing",
+        "date_started": "2026-03-13T18:40:00+08:00",
+        "type": "faq_schema_implementation",
+        "description": "Added FAQ schema to flat-fee-airbnb-management-melaka page. 5 FAQs targeting 'airbnb commission rate malaysia', 'flat fee vs commission', 'airbnb management fees' queries. Schema enables rich snippets in Google SERPs for increased CTR.",
+        "page": "/en/blog/flat-fee-airbnb-management-melaka/",
+        "query": "airbnb commission rate malaysia",
+        "baseline": {
+            "impressions": 1,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 9
+        },
+        "change": {
+            "action": "added_faq_schema",
+            "questions": [
+                "What is flat fee Airbnb management?",
+                "How much can I save with flat fee vs commission?",
+                "What are the hidden costs of commission-based Airbnb management?",
+                "What's included in iHousing flat fee management?",
+                "Is flat fee pricing available for my condo in Melaka?"
+            ],
+            "rationale": "Page has strong content (~2000 words) but no FAQ schema. Adding structured data enables rich snippets in SERPs, increases SERP real estate, and provides direct answers to common user questions. Targets early-stage queries around pricing comparisons."
+        },
+        "check_date": "2026-03-20",
+        "status": "active",
+        "commit": "9e013fe"
+    },
+    {
         "id": "IH-EXP-088",
         "client": "iHousing",
         "date_started": "2026-03-10T11:25:00+08:00",

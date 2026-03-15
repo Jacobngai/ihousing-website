@@ -1,14 +1,63 @@
 ---
 import BlogPost from '@/layouts/BlogPost.astro';
 
-const title = "Airbnb Income Tax Malaysia: What Hosts Need to Know";
-const description = "Complete guide to Airbnb income tax in Malaysia. Learn how to declare rental income, claim deductions, and maximize your returns legally.";
+const title = "Airbnb Income Tax Malaysia 2026: LHDN Guide for Hosts (Deductions + Filing)";
+const description = "How to declare Airbnb income to LHDN Malaysia. Complete 2026 tax guide: what's deductible, capital allowances, filing requirements. From 700+ property management experience.";
 const date = "2026-01-16";
 const category = "educational";
 const language = "en";
 const image = "/images/blog/airbnb-tax-malaysia.jpg";
 
+// FAQ Schema for rich snippets
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Airbnb income taxable in Malaysia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Airbnb income is rental income and must be declared to LHDN (Lembaga Hasil Dalam Negeri). Even without receiving a tax form, you MUST declare all Airbnb income. LHDN cross-references bank deposits and platform data."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What can Airbnb hosts deduct for tax in Malaysia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Malaysian Airbnb hosts can deduct: quit rent and assessment tax, property insurance, repairs and maintenance (not improvements), cleaning and laundry, utilities (electricity, water, internet), management fees, advertising costs, and consumables. Capital items like furniture are claimed as capital allowances over time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much tax does an Airbnb host pay in Malaysia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Airbnb rental income is added to your total income and taxed at progressive rates (0-28% depending on bracket). Proper deductions can reduce taxable income by 30-40%. For example, RM5,000 monthly gross rental with RM1,480 deductions = RM3,520 net income, taxed at your marginal rate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What records must Airbnb hosts keep for LHDN?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "LHDN requires 7 years of records: monthly income statements from Airbnb, all expense receipts organized by category, bank statements showing deposits and expenses, management agreements, utility bills, property tax receipts, and insurance policies. Use a dedicated bank account and cloud storage for organization."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which tax form do Malaysian Airbnb hosts use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Occasional hosts (1-2 properties, under RM50k/year) use Form BE. Active hosts (2-5 properties, RM50k-150k/year) use Form B for business income. Professional hosts (5+ properties, over RM150k/year) use Form B and may need business registration and SST."
+      }
+    }
+  ]
+};
+
 const content = `
+<script type="application/ld+json">${JSON.stringify(faqSchema)}</script>
 <h1>Airbnb Income Tax Malaysia: What Hosts Need to Know</h1>
 
 <h2>Is Your Airbnb Income Taxable in Malaysia?</h2>

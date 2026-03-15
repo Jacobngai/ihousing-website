@@ -1,12 +1,35 @@
 ---
 import BlogPost from '@/layouts/BlogPost.astro';
 
-const title = "Airbnb Regulations in Melaka (2026): The Complete Host Guide";
-const description = "Is Airbnb legal in Melaka? A definitive 2026 guide to Strata bylaws, local council licenses (MBMB/MPHTJ), and how to operate 100% legally.";
+const title = "Airbnb Regulations Melaka 2026: Is Airbnb Legal? Complete Host Guide";
+const description = "Is Airbnb legal in Melaka 2026? Complete guide to strata bylaws, JMB rules, MBMB/MPHTJ licenses, and how iHousing manages 700+ compliant properties.";
 const image = "/images/blog/airbnb-regulations-melaka-2026.jpg";
 const date = "2026-02-08";
 const category = "regulations";
 const language = "en";
+
+const faq = [
+  {
+    question: "Is Airbnb legal in Melaka in 2026?",
+    answer: "Yes, but strictly regulated. Legality depends on your property's land title (Commercial vs Residential) and your building's JMB bylaws. Commercial title properties like Atlantis and Silverscape are designed for short-term rentals. Residential title condos can ban Airbnb via AGM vote."
+  },
+  {
+    question: "Can my condo JMB ban Airbnb in Melaka?",
+    answer: "Yes. Under the Strata Management Act 2013 and the 2020 Federal Court ruling, your JMB or MC can legally ban short-term rentals via AGM resolution. Breaking this ban can result in fines of up to RM200 per day."
+  },
+  {
+    question: "What is the difference between Commercial and Residential title for Airbnb?",
+    answer: "Commercial Title (Service Apartments/SoHo) is zoned for business activities including tourism, making Airbnb bans difficult. Residential Title properties prioritize long-term living and JMBs can easily ban STRs. Commercial titles have higher utility rates but lower regulatory risk for Airbnb."
+  },
+  {
+    question: "Do I need a license to run Airbnb in Melaka?",
+    answer: "Yes. As of 2026, Melaka's local councils (MBMB and MPHTJ) require short-term rental operators to register under the 'Smart Tourism' initiative. Requirements include safety inspections, fire equipment, and nuisance control compliance."
+  },
+  {
+    question: "Which Melaka condos are safest for Airbnb investment?",
+    answer: "Commercial title developments like Atlantis Residences, Silverscape, Imperio, The Apple, and Avenue-by-the-Sea are safest. They're designed for transient guests and their JMBs welcome investors. iHousing manages 700+ properties across these developments."
+  }
+];
 
 const content = `
 <div class="bg-blue-50 p-6 rounded-lg mb-8">
@@ -128,4 +151,5 @@ const content = `
   category={category}
   language={language}
   content={content}
+  faq={faq}
 />

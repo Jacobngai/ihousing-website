@@ -1,252 +1,360 @@
 [
     {
-        "id": "IH-EXP-092",
+        "id": "IH-EXP-095",
         "client": "iHousing",
-        "date_started": "2026-03-15T22:30:00+08:00",
+        "date_started": "2026-03-17T08:33:00+08:00",
         "type": "faq_schema_headline_optimization",
-        "description": "Added FAQ schema (5 questions) to comprehensive Airbnb Income Tax Malaysia guide (~2,500 words). Optimized title to include '2026', 'LHDN', and 'Deductions + Filing' for high-intent searchers. Added authority signal (700+ properties).",
-        "page": "/en/blog/airbnb-income-tax-malaysia-what-hosts-need-to-know/",
-        "query": "airbnb income tax malaysia",
+        "description": "Added FAQ schema (5 questions) to high-value 'How Much Can You Earn from Airbnb in Melaka' page (~3,000 words). Updated from 2025 to 2026, added 'Real Data' hook. Updated authority signals from 100+ to 700+ properties.",
+        "page": "/en/blog/how-much-can-i-earn-from-airbnb-in-melaka/",
+        "query": "how much can i earn from airbnb in melaka",
         "baseline": {
             "impressions": 0,
             "clicks": 0,
             "ctr": 0,
             "position": 0,
-            "note": "High-value tax compliance content - no GSC data available currently"
+            "note": "GSC API access issue for ihousing.my - no data available"
         },
         "change": {
-            "old_title": "Airbnb Income Tax Malaysia: What Hosts Need to Know",
-            "new_title": "Airbnb Income Tax Malaysia 2026: LHDN Guide for Hosts (Deductions + Filing)",
-            "old_desc": "Complete guide to Airbnb income tax in Malaysia. Learn how to declare rental income, claim deductions, and maximize your returns legally.",
-            "new_desc": "How to declare Airbnb income to LHDN Malaysia. Complete 2026 tax guide: what's deductible, capital allowances, filing requirements. From 700+ property management experience.",
+            "old_title": "How Much Can You Earn from Airbnb in Melaka? RM7,000-15,000/Year Potential (2025 Data)",
+            "new_title": "How Much Can You Earn from Airbnb in Melaka 2026? RM7,000-15,000/Year (Real Data)",
+            "old_desc": "Discover real Melaka Airbnb income data for 2025. Studio condos earn RM5,000-8,000/year, 3-bedroom units up to RM15,000. Calculate your potential with our free income estimator.",
+            "new_desc": "Real Melaka Airbnb income data from 700+ managed properties. Studio condos: RM5,000-8,000/year. 3BR units: up to RM15,000. Free ROI calculator + income estimator inside.",
             "action": "added_faq_schema",
             "questions": [
-                "Is Airbnb income taxable in Malaysia?",
-                "What can Airbnb hosts deduct for tax in Malaysia?",
-                "How much tax does an Airbnb host pay in Malaysia?",
-                "What records must Airbnb hosts keep for LHDN?",
-                "Which tax form do Malaysian Airbnb hosts use?"
+                "How much can I earn from Airbnb in Melaka?",
+                "What is the average occupancy rate for Airbnb in Melaka?",
+                "Is Airbnb more profitable than long-term rental in Melaka?",
+                "What are the best Melaka areas for Airbnb investment?",
+                "How can I increase my Airbnb income in Melaka?"
             ],
-            "rationale": "Comprehensive 2,500+ word tax guide with tables, examples, and deduction breakdowns - ideal for FAQ rich snippets. High-intent query target (hosts preparing to file or concerned about compliance). Title optimized to front-load 'Airbnb Income Tax Malaysia 2026' and include 'LHDN' (Malaysian tax authority keyword)."
+            "content_updates": [
+                "Updated H1 from 2025 to 2026",
+                "Updated authority signals: 100+ → 700+ properties",
+                "Updated experience: 8 years → 8+ years",
+                "Added visible FAQ section to page content"
+            ],
+            "rationale": "High-intent bottom-funnel query ('how much can I earn'). Page had comprehensive ~3,000 word content with income data, calculators, location analysis - but was dated 2025 with no FAQ schema. FAQ schema enables rich snippets for income-related questions. Title update to 2026 signals fresh data."
         },
-        "check_date": "2026-03-22",
+        "check_date": "2026-03-24",
         "status": "active",
-        "commit": "e11fc33"
+        "commit": "f2bc72d"
     },
     {
-        "id": "IH-EXP-091",
+        "id": "IH-EXP-094",
         "client": "iHousing",
-        "date_started": "2026-03-15T16:30:00+08:00",
+        "date_started": "2026-03-16T20:30:00+08:00",
         "type": "faq_schema_headline_optimization",
-        "description": "Added FAQ schema (5 questions) to Airbnb Regulations Melaka page. Optimized title to front-load 'Airbnb Regulations Melaka 2026' and include 'Is Airbnb Legal?' to match high-intent search queries. Added authority signal (700+ properties).",
-        "page": "/blog/airbnb-regulations-melaka-2026-guide/",
-        "query": "airbnb regulations melaka",
+        "description": "Added FAQ schema (5 questions) to comprehensive Airbnb vs Long-Term Rental ROI comparison page (~2,500 words). Optimized title to include '2026' and '200% More Returns' hook. Added authority signals (700+ properties).",
+        "page": "/en/blog/airbnb-vs-long-term-rental-melaka-5-year-roi/",
+        "query": "airbnb vs long term rental melaka",
         "baseline": {
             "impressions": 0,
             "clicks": 0,
             "ctr": 0,
             "position": 0,
-            "note": "High-value regulatory content page - no GSC data available currently"
+            "note": "GSC API access issue for ihousing.my - no data available"
         },
         "change": {
-            "old_title": "Airbnb Regulations in Melaka (2026): The Complete Host Guide",
-            "new_title": "Airbnb Regulations Melaka 2026: Is Airbnb Legal? Complete Host Guide",
-            "old_desc": "Is Airbnb legal in Melaka? A definitive 2026 guide to Strata bylaws, local council licenses (MBMB/MPHTJ), and how to operate 100% legally.",
-            "new_desc": "Is Airbnb legal in Melaka 2026? Complete guide to strata bylaws, JMB rules, MBMB/MPHTJ licenses, and how iHousing manages 700+ compliant properties.",
+            "old_title": "Airbnb vs Long-Term Rental Melaka: 5-Year ROI Calculator",
+            "new_title": "Airbnb vs Long-Term Rental Melaka 2026 | 5-Year ROI Comparison | 200% More Returns",
+            "old_desc": "Compare Airbnb vs long-term rental returns in Melaka with our detailed 5-year ROI calculator. See which strategy maximizes your property investment returns.",
+            "new_desc": "Airbnb earns 200-250% more than long-term rental in Melaka over 5 years. Real ROI data from 700+ managed properties. Compare year-by-year income with our free calculator.",
             "action": "added_faq_schema",
             "questions": [
-                "Is Airbnb legal in Melaka in 2026?",
-                "Can my condo JMB ban Airbnb in Melaka?",
-                "What is the difference between Commercial and Residential title for Airbnb?",
-                "Do I need a license to run Airbnb in Melaka?",
-                "Which Melaka condos are safest for Airbnb investment?"
+                "Is Airbnb more profitable than long-term rental in Melaka?",
+                "How much more can I earn with Airbnb vs renting out long-term?",
+                "What are the risks of Airbnb vs long-term rental in Melaka?",
+                "Can I switch from long-term rental to Airbnb in Melaka?",
+                "Which Melaka properties are best suited for Airbnb?"
             ],
-            "rationale": "Comprehensive regulatory content without FAQ schema. High-intent query target - property investors and hosts actively researching compliance. Added 5 FAQs covering legality, JMB rules, title types, licensing, and safe investments. Title optimized to front-load 'Airbnb Regulations Melaka 2026' and include direct answer 'Is Airbnb Legal?'"
+            "rationale": "High-value comparison content (~2,500 words) with detailed 5-year ROI calculations but no FAQ schema. Title was missing year and authority signals. Added 5 FAQs targeting comparison search intent. Title optimized to front-load 'Airbnb vs Long-Term Rental Melaka 2026' and include '200% More Returns' hook for CTR."
         },
-        "check_date": "2026-03-22",
+        "check_date": "2026-03-23",
         "status": "active",
-        "commit": "16190c3"
+        "commit": "d2af64a"
     },
     {
-        "id": "IH-EXP-090",
-        "client": "iHousing",
-        "date_started": "2026-03-15T10:30:00+08:00",
-        "type": "content_expansion_faq_schema",
-        "description": "Massive content expansion for Airbnb host insurance Malaysia page. Original 269 words was a content mismatch (title promised insurance info, content was generic). Expanded to 1500+ words with comprehensive insurance guide, insurer comparison table, real cost data, and FAQ schema.",
-        "page": "/en/blog/airbnb-host-insurance-malaysia/",
-        "query": "airbnb host insurance malaysia",
-        "baseline": {
-            "impressions": 0,
-            "clicks": 0,
-            "ctr": 0,
-            "position": 0,
-            "note": "Page existed but had no GSC visibility due to thin/mismatched content"
-        },
-        "change": {
-            "old_title": "Airbnb Host Insurance Malaysia: What Coverage Do You Need?",
-            "new_title": "Airbnb Host Insurance Malaysia 2026: Complete Coverage Guide",
-            "old_desc": "Complete insurance guide for Melaka Airbnb hosts. Public liability, contents, building cover. Protect your investment properly.",
-            "new_desc": "What insurance do Malaysian Airbnb hosts need? AirCover limits, public liability, contents & building cover explained. Real costs from 700+ managed properties.",
-            "content_expansion": "269 words → 1500+ words. Added: 4 insurance types explained, insurer comparison table (Allianz, AXA, Etiqa, MSIG), real cost breakdowns by property type, coverage gaps section, iHousing risk mitigation services.",
-            "action": "added_faq_schema",
-            "questions": [
-                "Does Airbnb AirCover replace host insurance in Malaysia?",
-                "How much does Airbnb host insurance cost in Malaysia?",
-                "What insurance do I need for my Melaka Airbnb?",
-                "Which Malaysian insurers cover short-term rentals?",
-                "Does my condo's JMB insurance cover Airbnb guests?"
-            ],
-            "rationale": "Critical content mismatch: title promised insurance info but content was generic iHousing pitch. High-value keyword (hosts actively seeking insurance info). Fixed by creating comprehensive guide with actionable data from 700+ property portfolio."
-        },
-        "check_date": "2026-03-22",
-        "status": "active",
-        "commit": "f6a202e"
+        "date_started":  "2026-03-16T14:30:00+08:00",
+        "id":  "IH-EXP-093",
+        "type":  "faq_schema_headline_optimization",
+        "change":  {
+                       "action":  "added_faq_schema",
+                       "new_title":  "Airbnb Superhost Requirements Malaysia 2026: How to Achieve \u0026 Keep Status",
+                       "questions":  [
+                                         "What are the 4 Airbnb Superhost requirements in Malaysia?",
+                                         "How long does it take to become an Airbnb Superhost in Malaysia?",
+                                         "Do Superhosts get more bookings on Airbnb?",
+                                         "What happens if I lose my Superhost status?",
+                                         "Can iHousing help me become a Superhost in Malaysia?"
+                                     ],
+                       "rationale":  "~1,600 word comprehensive Superhost guide without FAQ schema. High-value evergreen content covering the 4 criteria, benefits, timeline. Title was outdated (2025). FAQ questions target common searcher intent. Updated authority signals to 700+ properties.",
+                       "old_title":  "Airbnb Superhost Requirements Malaysia 2025: Complete Guide to Achieving Status",
+                       "new_desc":  "What are the 4 Airbnb Superhost requirements in Malaysia? 4.8+ rating, 10+ stays, \u003c1% cancellation, 90%+ response rate. Real insights from managing 700+ properties. WhatsApp for consultation.",
+                       "old_desc":  "Airbnb Superhost requirements in Malaysia. Learn the 4 criteria, how to achieve Superhost status, benefits, and tips for maintaining it. Real insights from managing 100+ properties. WhatsApp for consultation."
+                   },
+        "query":  "airbnb superhost requirements malaysia",
+        "client":  "iHousing",
+        "page":  "/en/blog/airbnb-superhost-requirements-malaysia/",
+        "commit":  "dea52cd",
+        "baseline":  {
+                         "position":  0,
+                         "note":  "GSC API access issue for ihousing.my - no data available",
+                         "impressions":  0,
+                         "ctr":  0,
+                         "clicks":  0
+                     },
+        "description":  "Added FAQ schema (5 questions) to comprehensive Superhost Requirements Malaysia guide (~1,600 words). Updated title from 2025 to 2026, optimized H1, updated authority signals to 700+ properties.",
+        "check_date":  "2026-03-23",
+        "status":  "active"
     },
     {
-        "id": "IH-EXP-089",
-        "client": "iHousing",
-        "date_started": "2026-03-13T18:40:00+08:00",
-        "type": "faq_schema_implementation",
-        "description": "Added FAQ schema to flat-fee-airbnb-management-melaka page. 5 FAQs targeting 'airbnb commission rate malaysia', 'flat fee vs commission', 'airbnb management fees' queries. Schema enables rich snippets in Google SERPs for increased CTR.",
-        "page": "/en/blog/flat-fee-airbnb-management-melaka/",
-        "query": "airbnb commission rate malaysia",
-        "baseline": {
-            "impressions": 1,
-            "clicks": 0,
-            "ctr": 0,
-            "position": 9
-        },
-        "change": {
-            "action": "added_faq_schema",
-            "questions": [
-                "What is flat fee Airbnb management?",
-                "How much can I save with flat fee vs commission?",
-                "What are the hidden costs of commission-based Airbnb management?",
-                "What's included in iHousing flat fee management?",
-                "Is flat fee pricing available for my condo in Melaka?"
-            ],
-            "rationale": "Page has strong content (~2000 words) but no FAQ schema. Adding structured data enables rich snippets in SERPs, increases SERP real estate, and provides direct answers to common user questions. Targets early-stage queries around pricing comparisons."
-        },
-        "check_date": "2026-03-20",
-        "status": "active",
-        "commit": "9e013fe"
+        "id":  "IH-EXP-092",
+        "client":  "iHousing",
+        "date_started":  "2026-03-15T22:30:00+08:00",
+        "type":  "faq_schema_headline_optimization",
+        "description":  "Added FAQ schema (5 questions) to comprehensive Airbnb Income Tax Malaysia guide (~2,500 words). Optimized title to include \u00272026\u0027, \u0027LHDN\u0027, and \u0027Deductions + Filing\u0027 for high-intent searchers. Added authority signal (700+ properties).",
+        "page":  "/en/blog/airbnb-income-tax-malaysia-what-hosts-need-to-know/",
+        "query":  "airbnb income tax malaysia",
+        "baseline":  {
+                         "impressions":  0,
+                         "clicks":  0,
+                         "ctr":  0,
+                         "position":  0,
+                         "note":  "High-value tax compliance content - no GSC data available currently"
+                     },
+        "change":  {
+                       "old_title":  "Airbnb Income Tax Malaysia: What Hosts Need to Know",
+                       "new_title":  "Airbnb Income Tax Malaysia 2026: LHDN Guide for Hosts (Deductions + Filing)",
+                       "old_desc":  "Complete guide to Airbnb income tax in Malaysia. Learn how to declare rental income, claim deductions, and maximize your returns legally.",
+                       "new_desc":  "How to declare Airbnb income to LHDN Malaysia. Complete 2026 tax guide: what\u0027s deductible, capital allowances, filing requirements. From 700+ property management experience.",
+                       "action":  "added_faq_schema",
+                       "questions":  [
+                                         "Is Airbnb income taxable in Malaysia?",
+                                         "What can Airbnb hosts deduct for tax in Malaysia?",
+                                         "How much tax does an Airbnb host pay in Malaysia?",
+                                         "What records must Airbnb hosts keep for LHDN?",
+                                         "Which tax form do Malaysian Airbnb hosts use?"
+                                     ],
+                       "rationale":  "Comprehensive 2,500+ word tax guide with tables, examples, and deduction breakdowns - ideal for FAQ rich snippets. High-intent query target (hosts preparing to file or concerned about compliance). Title optimized to front-load \u0027Airbnb Income Tax Malaysia 2026\u0027 and include \u0027LHDN\u0027 (Malaysian tax authority keyword)."
+                   },
+        "check_date":  "2026-03-22",
+        "status":  "active",
+        "commit":  "e11fc33"
     },
     {
-        "id": "IH-EXP-088",
-        "client": "iHousing",
-        "date_started": "2026-03-10T11:25:00+08:00",
-        "type": "headline_and_authority_optimization",
-        "description": "Optimized 'Is Airbnb Legal in Melaka' blog metadata and intro to match high-intent queries and add authority signals (700+ properties). Based on Jay Abraham's principles of specific scale signals to build trust.",
-        "page": "/en/blog/is-airbnb-legal-in-melaka-2025/",
-        "query": "is airbnb legal in melaka",
-        "baseline": {
-            "impressions": 150,
-            "clicks": 5,
-            "ctr": 3.3,
-            "position": 5.2
-        },
-        "change": {
-            "old_title": "Is Airbnb Legal in Melaka 2026? YES — MOTAC Rules, STR Laws & Condo Guide",
-            "new_title": "Is Airbnb Legal in Melaka 2026? YES — MOTAC Rules, STR Laws & Condo Guide",
-            "old_desc": "YES — Airbnb is legal in Melaka in 2026. No minimum stay, no state ban, no tourism license required yet. Learn MOTAC rules, condo regulations, and how to start legally. Updated for 2026.",
-            "new_desc": "YES — Airbnb is legal in Melaka in 2026. iHousing manages 700+ properties here. No minimum stay, no state ban, no license required yet. Learn MOTAC rules & condo laws.",
-            "rationale": "Even with a good CTR, this high-intent page can perform better by leading with authority. Adding 'iHousing manages 700+ properties' to the meta description creates high-fidelity trust for potential investors/hosts searching for legal clarity."
-        },
-        "check_date": "2026-03-17",
-        "status": "active"
+        "id":  "IH-EXP-091",
+        "client":  "iHousing",
+        "date_started":  "2026-03-15T16:30:00+08:00",
+        "type":  "faq_schema_headline_optimization",
+        "description":  "Added FAQ schema (5 questions) to Airbnb Regulations Melaka page. Optimized title to front-load \u0027Airbnb Regulations Melaka 2026\u0027 and include \u0027Is Airbnb Legal?\u0027 to match high-intent search queries. Added authority signal (700+ properties).",
+        "page":  "/blog/airbnb-regulations-melaka-2026-guide/",
+        "query":  "airbnb regulations melaka",
+        "baseline":  {
+                         "impressions":  0,
+                         "clicks":  0,
+                         "ctr":  0,
+                         "position":  0,
+                         "note":  "High-value regulatory content page - no GSC data available currently"
+                     },
+        "change":  {
+                       "old_title":  "Airbnb Regulations in Melaka (2026): The Complete Host Guide",
+                       "new_title":  "Airbnb Regulations Melaka 2026: Is Airbnb Legal? Complete Host Guide",
+                       "old_desc":  "Is Airbnb legal in Melaka? A definitive 2026 guide to Strata bylaws, local council licenses (MBMB/MPHTJ), and how to operate 100% legally.",
+                       "new_desc":  "Is Airbnb legal in Melaka 2026? Complete guide to strata bylaws, JMB rules, MBMB/MPHTJ licenses, and how iHousing manages 700+ compliant properties.",
+                       "action":  "added_faq_schema",
+                       "questions":  [
+                                         "Is Airbnb legal in Melaka in 2026?",
+                                         "Can my condo JMB ban Airbnb in Melaka?",
+                                         "What is the difference between Commercial and Residential title for Airbnb?",
+                                         "Do I need a license to run Airbnb in Melaka?",
+                                         "Which Melaka condos are safest for Airbnb investment?"
+                                     ],
+                       "rationale":  "Comprehensive regulatory content without FAQ schema. High-intent query target - property investors and hosts actively researching compliance. Added 5 FAQs covering legality, JMB rules, title types, licensing, and safe investments. Title optimized to front-load \u0027Airbnb Regulations Melaka 2026\u0027 and include direct answer \u0027Is Airbnb Legal?\u0027"
+                   },
+        "check_date":  "2026-03-22",
+        "status":  "active",
+        "commit":  "16190c3"
     },
     {
-        "id": "IH-EXP-087",
-        "client": "iHousing",
-        "date_started": "2026-03-10T08:55:00+08:00",
-        "type": "content_expansion",
-        "description": "Expanded the MOTAC license guide with a property-specific compliance section (Commercial vs Residential vs Heritage). Aimed at improving relevance for 'property-specific' legal queries and increasing dwell time.",
-        "page": "/en/blog/motac-license-requirements-airbnb-malaysia/",
-        "query": "airbnb license malaysia",
-        "baseline": {
-            "impressions": 110,
-            "clicks": 1,
-            "ctr": 0.9,
-            "position": 25.4
-        },
-        "change": {
-            "action": "added_property_specific_compliance_section",
-            "content_added": "Segmented compliance advice for Commercial Condos, Residential Condos, Heritage Shophouses, and Landed Properties.",
-            "rationale": "Following the principle of 'Depth Over Breadth'. High-intent searchers aren't just looking for general legality; they want to know if THEIR specific property type (e.g., heritage shophouse) is safe. This expansion increases E-E-A-T and target query relevance."
-        },
-        "check_date": "2026-03-17",
-        "status": "active"
+        "id":  "IH-EXP-090",
+        "client":  "iHousing",
+        "date_started":  "2026-03-15T10:30:00+08:00",
+        "type":  "content_expansion_faq_schema",
+        "description":  "Massive content expansion for Airbnb host insurance Malaysia page. Original 269 words was a content mismatch (title promised insurance info, content was generic). Expanded to 1500+ words with comprehensive insurance guide, insurer comparison table, real cost data, and FAQ schema.",
+        "page":  "/en/blog/airbnb-host-insurance-malaysia/",
+        "query":  "airbnb host insurance malaysia",
+        "baseline":  {
+                         "impressions":  0,
+                         "clicks":  0,
+                         "ctr":  0,
+                         "position":  0,
+                         "note":  "Page existed but had no GSC visibility due to thin/mismatched content"
+                     },
+        "change":  {
+                       "old_title":  "Airbnb Host Insurance Malaysia: What Coverage Do You Need?",
+                       "new_title":  "Airbnb Host Insurance Malaysia 2026: Complete Coverage Guide",
+                       "old_desc":  "Complete insurance guide for Melaka Airbnb hosts. Public liability, contents, building cover. Protect your investment properly.",
+                       "new_desc":  "What insurance do Malaysian Airbnb hosts need? AirCover limits, public liability, contents \u0026 building cover explained. Real costs from 700+ managed properties.",
+                       "content_expansion":  "269 words → 1500+ words. Added: 4 insurance types explained, insurer comparison table (Allianz, AXA, Etiqa, MSIG), real cost breakdowns by property type, coverage gaps section, iHousing risk mitigation services.",
+                       "action":  "added_faq_schema",
+                       "questions":  [
+                                         "Does Airbnb AirCover replace host insurance in Malaysia?",
+                                         "How much does Airbnb host insurance cost in Malaysia?",
+                                         "What insurance do I need for my Melaka Airbnb?",
+                                         "Which Malaysian insurers cover short-term rentals?",
+                                         "Does my condo\u0027s JMB insurance cover Airbnb guests?"
+                                     ],
+                       "rationale":  "Critical content mismatch: title promised insurance info but content was generic iHousing pitch. High-value keyword (hosts actively seeking insurance info). Fixed by creating comprehensive guide with actionable data from 700+ property portfolio."
+                   },
+        "check_date":  "2026-03-22",
+        "status":  "active",
+        "commit":  "f6a202e"
     },
     {
-        "id": "IH-EXP-086",
-        "client": "iHousing",
-        "date_started": "2026-03-10T04:55:00+08:00",
-        "type": "headline_optimization",
-        "description": "Optimized 'Agoda vs Airbnb Melaka' blog title to better match the 'Airbnb vs Agoda' high-volume query and increase CTR. Added authority signals (100+ Properties).",
-        "page": "/en/blog/agoda-vs-airbnb-melaka-market-comparison/",
-        "query": "airbnb vs agoda",
-        "baseline": {
-            "impressions": 5,
-            "clicks": 0,
-            "ctr": 0,
-            "position": 21.8
-        },
-        "change": {
-            "old_title": "Agoda vs Airbnb Melaka 2026: Which Platform Pays More? (Real Data)",
-            "new_title": "Airbnb vs Agoda Melaka 2026: Which Pays More? (100+ Properties Data)",
-            "old_desc": "Data-driven 2026 comparison: 100+ Melaka properties reveal which platform pays more. Heritage homes, condos, hotels—see actual revenue by property type.",
-            "new_desc": "Real 2026 data from 100+ Melaka properties: Airbnb vs Agoda fee & revenue comparison. See which platform earns more for heritage homes, condos, and hotels.",
-            "rationale": "Query 'airbnb vs agoda' has higher baseline impressions. Swapping the name order in the title to front-load 'Airbnb' matches the likely search intent and improves CTR. Added '100+ Properties' to the title for social proof/authority."
-        },
-        "check_date": "2026-03-17",
-        "status": "active"
+        "id":  "IH-EXP-089",
+        "client":  "iHousing",
+        "date_started":  "2026-03-13T18:40:00+08:00",
+        "type":  "faq_schema_implementation",
+        "description":  "Added FAQ schema to flat-fee-airbnb-management-melaka page. 5 FAQs targeting \u0027airbnb commission rate malaysia\u0027, \u0027flat fee vs commission\u0027, \u0027airbnb management fees\u0027 queries. Schema enables rich snippets in Google SERPs for increased CTR.",
+        "page":  "/en/blog/flat-fee-airbnb-management-melaka/",
+        "query":  "airbnb commission rate malaysia",
+        "baseline":  {
+                         "impressions":  1,
+                         "clicks":  0,
+                         "ctr":  0,
+                         "position":  9
+                     },
+        "change":  {
+                       "action":  "added_faq_schema",
+                       "questions":  [
+                                         "What is flat fee Airbnb management?",
+                                         "How much can I save with flat fee vs commission?",
+                                         "What are the hidden costs of commission-based Airbnb management?",
+                                         "What\u0027s included in iHousing flat fee management?",
+                                         "Is flat fee pricing available for my condo in Melaka?"
+                                     ],
+                       "rationale":  "Page has strong content (~2000 words) but no FAQ schema. Adding structured data enables rich snippets in SERPs, increases SERP real estate, and provides direct answers to common user questions. Targets early-stage queries around pricing comparisons."
+                   },
+        "check_date":  "2026-03-20",
+        "status":  "active",
+        "commit":  "9e013fe"
     },
     {
-        "id": "IH-EXP-085",
-        "client": "iHousing",
-        "date_started": "2026-03-09T16:45:00+08:00",
-        "type": "headline_optimization",
-        "description": "Optimized 'MOTAC License for Airbnb Malaysia' blog headline. Front-loaded exact high-volume keyword and added year '2026' for freshness. Targeted regulatory-seeking hosts to increase CTR.",
-        "page": "/en/blog/motac-license-requirements-airbnb-malaysia/",
-        "query": "motac license for airbnb malaysia",
-        "baseline": {
-            "impressions": 110,
-            "clicks": 1,
-            "ctr": 0.9,
-            "position": 25.4
-        },
-        "change": {
-            "old_title": "Requirements to Become an Airbnb Host in Malaysia (2026 Guide)",
-            "new_title": "MOTAC License for Airbnb Malaysia 2026: Host Legal Guide",
-            "old_desc": "Do you need a MOTAC license for Airbnb in Malaysia? 2026 update on STR regulations, host requirements, and legality for Melaka, KL, and Penang property owners.",
-            "new_desc": "Is a MOTAC license mandatory for Airbnb in Malaysia? 2026 legal guide on host requirements, STR regulations, and MOTAC registration for property owners.",
-            "rationale": "Page ranks #25.4 for 'motac license for airbnb malaysia'. Previous title was generic ('Requirements to become...'). New title uses the exact high-intent keyword as the first phrase to increase relevance score and click-through curiosity."
-        },
-        "check_date": "2026-03-16",
-        "status": "active",
-        "commit": "c64844b8"
+        "id":  "IH-EXP-088",
+        "client":  "iHousing",
+        "date_started":  "2026-03-10T11:25:00+08:00",
+        "type":  "headline_and_authority_optimization",
+        "description":  "Optimized \u0027Is Airbnb Legal in Melaka\u0027 blog metadata and intro to match high-intent queries and add authority signals (700+ properties). Based on Jay Abraham\u0027s principles of specific scale signals to build trust.",
+        "page":  "/en/blog/is-airbnb-legal-in-melaka-2025/",
+        "query":  "is airbnb legal in melaka",
+        "baseline":  {
+                         "impressions":  150,
+                         "clicks":  5,
+                         "ctr":  3.3,
+                         "position":  5.2
+                     },
+        "change":  {
+                       "old_title":  "Is Airbnb Legal in Melaka 2026? YES — MOTAC Rules, STR Laws \u0026 Condo Guide",
+                       "new_title":  "Is Airbnb Legal in Melaka 2026? YES — MOTAC Rules, STR Laws \u0026 Condo Guide",
+                       "old_desc":  "YES — Airbnb is legal in Melaka in 2026. No minimum stay, no state ban, no tourism license required yet. Learn MOTAC rules, condo regulations, and how to start legally. Updated for 2026.",
+                       "new_desc":  "YES — Airbnb is legal in Melaka in 2026. iHousing manages 700+ properties here. No minimum stay, no state ban, no license required yet. Learn MOTAC rules \u0026 condo laws.",
+                       "rationale":  "Even with a good CTR, this high-intent page can perform better by leading with authority. Adding \u0027iHousing manages 700+ properties\u0027 to the meta description creates high-fidelity trust for potential investors/hosts searching for legal clarity."
+                   },
+        "check_date":  "2026-03-17",
+        "status":  "active"
     },
     {
-        "id": "IH-EXP-084",
-        "client": "iHousing",
-        "date_started": "2026-03-08T03:55:00+08:00",
-        "type": "headline_optimization",
-        "description": "Optimized Agoda Melaka Homestay blog title and description to front-load keywords and add authority signaling (700+ properties). Based on Jay Abraham's principle of monetizing distribution through high-fidelity trust signals.",
-        "page": "/en/blog/agoda-melaka-homestay-guide/",
-        "query": "Agoda Melaka Homestay",
-        "baseline": {
-            "impressions": 14,
-            "clicks": 0,
-            "ctr": 0,
-            "position": 14.5
-        },
-        "change": {
-            "old_title": "Agoda Melaka Homestay: 7 Tips for Higher ROI (2026)",
-            "new_title": "Agoda Melaka Homestay 2026: Top 10 High-ROI Areas & Tips",
-            "old_desc": "Want to maximize your Agoda Melaka homestay revenue? 8-year veterans share how to beat the 20% commission trap and hit 85% occupancy. Stop overpaying today.",
-            "new_desc": "Looking for an Agoda Melaka homestay? We manage 700+ Melaka properties. Compare Agoda vs Airbnb, find high-occupancy areas, and learn how iHousing hits 85% occupancy."
-        },
-        "check_date": "2026-03-15",
-        "status": "active"
+        "id":  "IH-EXP-087",
+        "client":  "iHousing",
+        "date_started":  "2026-03-10T08:55:00+08:00",
+        "type":  "content_expansion",
+        "description":  "Expanded the MOTAC license guide with a property-specific compliance section (Commercial vs Residential vs Heritage). Aimed at improving relevance for \u0027property-specific\u0027 legal queries and increasing dwell time.",
+        "page":  "/en/blog/motac-license-requirements-airbnb-malaysia/",
+        "query":  "airbnb license malaysia",
+        "baseline":  {
+                         "impressions":  110,
+                         "clicks":  1,
+                         "ctr":  0.9,
+                         "position":  25.4
+                     },
+        "change":  {
+                       "action":  "added_property_specific_compliance_section",
+                       "content_added":  "Segmented compliance advice for Commercial Condos, Residential Condos, Heritage Shophouses, and Landed Properties.",
+                       "rationale":  "Following the principle of \u0027Depth Over Breadth\u0027. High-intent searchers aren\u0027t just looking for general legality; they want to know if THEIR specific property type (e.g., heritage shophouse) is safe. This expansion increases E-E-A-T and target query relevance."
+                   },
+        "check_date":  "2026-03-17",
+        "status":  "active"
+    },
+    {
+        "id":  "IH-EXP-086",
+        "client":  "iHousing",
+        "date_started":  "2026-03-10T04:55:00+08:00",
+        "type":  "headline_optimization",
+        "description":  "Optimized \u0027Agoda vs Airbnb Melaka\u0027 blog title to better match the \u0027Airbnb vs Agoda\u0027 high-volume query and increase CTR. Added authority signals (100+ Properties).",
+        "page":  "/en/blog/agoda-vs-airbnb-melaka-market-comparison/",
+        "query":  "airbnb vs agoda",
+        "baseline":  {
+                         "impressions":  5,
+                         "clicks":  0,
+                         "ctr":  0,
+                         "position":  21.8
+                     },
+        "change":  {
+                       "old_title":  "Agoda vs Airbnb Melaka 2026: Which Platform Pays More? (Real Data)",
+                       "new_title":  "Airbnb vs Agoda Melaka 2026: Which Pays More? (100+ Properties Data)",
+                       "old_desc":  "Data-driven 2026 comparison: 100+ Melaka properties reveal which platform pays more. Heritage homes, condos, hotels—see actual revenue by property type.",
+                       "new_desc":  "Real 2026 data from 100+ Melaka properties: Airbnb vs Agoda fee \u0026 revenue comparison. See which platform earns more for heritage homes, condos, and hotels.",
+                       "rationale":  "Query \u0027airbnb vs agoda\u0027 has higher baseline impressions. Swapping the name order in the title to front-load \u0027Airbnb\u0027 matches the likely search intent and improves CTR. Added \u0027100+ Properties\u0027 to the title for social proof/authority."
+                   },
+        "check_date":  "2026-03-17",
+        "status":  "active"
+    },
+    {
+        "id":  "IH-EXP-085",
+        "client":  "iHousing",
+        "date_started":  "2026-03-09T16:45:00+08:00",
+        "type":  "headline_optimization",
+        "description":  "Optimized \u0027MOTAC License for Airbnb Malaysia\u0027 blog headline. Front-loaded exact high-volume keyword and added year \u00272026\u0027 for freshness. Targeted regulatory-seeking hosts to increase CTR.",
+        "page":  "/en/blog/motac-license-requirements-airbnb-malaysia/",
+        "query":  "motac license for airbnb malaysia",
+        "baseline":  {
+                         "impressions":  110,
+                         "clicks":  1,
+                         "ctr":  0.9,
+                         "position":  25.4
+                     },
+        "change":  {
+                       "old_title":  "Requirements to Become an Airbnb Host in Malaysia (2026 Guide)",
+                       "new_title":  "MOTAC License for Airbnb Malaysia 2026: Host Legal Guide",
+                       "old_desc":  "Do you need a MOTAC license for Airbnb in Malaysia? 2026 update on STR regulations, host requirements, and legality for Melaka, KL, and Penang property owners.",
+                       "new_desc":  "Is a MOTAC license mandatory for Airbnb in Malaysia? 2026 legal guide on host requirements, STR regulations, and MOTAC registration for property owners.",
+                       "rationale":  "Page ranks #25.4 for \u0027motac license for airbnb malaysia\u0027. Previous title was generic (\u0027Requirements to become...\u0027). New title uses the exact high-intent keyword as the first phrase to increase relevance score and click-through curiosity."
+                   },
+        "check_date":  "2026-03-16",
+        "status":  "active",
+        "commit":  "c64844b8"
+    },
+    {
+        "id":  "IH-EXP-084",
+        "client":  "iHousing",
+        "date_started":  "2026-03-08T03:55:00+08:00",
+        "type":  "headline_optimization",
+        "description":  "Optimized Agoda Melaka Homestay blog title and description to front-load keywords and add authority signaling (700+ properties). Based on Jay Abraham\u0027s principle of monetizing distribution through high-fidelity trust signals.",
+        "page":  "/en/blog/agoda-melaka-homestay-guide/",
+        "query":  "Agoda Melaka Homestay",
+        "baseline":  {
+                         "impressions":  14,
+                         "clicks":  0,
+                         "ctr":  0,
+                         "position":  14.5
+                     },
+        "change":  {
+                       "old_title":  "Agoda Melaka Homestay: 7 Tips for Higher ROI (2026)",
+                       "new_title":  "Agoda Melaka Homestay 2026: Top 10 High-ROI Areas \u0026 Tips",
+                       "old_desc":  "Want to maximize your Agoda Melaka homestay revenue? 8-year veterans share how to beat the 20% commission trap and hit 85% occupancy. Stop overpaying today.",
+                       "new_desc":  "Looking for an Agoda Melaka homestay? We manage 700+ Melaka properties. Compare Agoda vs Airbnb, find high-occupancy areas, and learn how iHousing hits 85% occupancy."
+                   },
+        "check_date":  "2026-03-15",
+        "status":  "active"
     }
 ]

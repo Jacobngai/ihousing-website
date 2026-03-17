@@ -1,20 +1,71 @@
 ---
 import BlogPost from '@/layouts/BlogPost.astro';
 
-const title = "Airbnb Startup Costs Breakdown Malaysia - Complete 2025 Guide (RM25K-100K+)";
-const description = "Starting Airbnb in Malaysia? Complete breakdown of ALL startup costs from furnishing to licensing. Includes hidden costs, ROI timeline, and Melaka-specific pricing. Avoid expensive surprises.";
+const title = "Airbnb Startup Costs Malaysia 2026 | RM25K-100K+ Complete Guide | Real Data";
+const description = "How much does it REALLY cost to start Airbnb in Malaysia 2026? Complete breakdown from RM25K-100K+: furnishing, licensing, hidden costs, ROI timeline. Data from 700+ managed properties.";
 const image = "/images/blog/airbnb-startup-costs-breakdown-malaysia.jpg";
-const date = "2025-01-24";
+const date = "2026-03-17";
 const category = "financial-roi";
 const language = "en";
 
+// FAQ Schema for Google Rich Snippets
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does it cost to start Airbnb in Malaysia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Starting an Airbnb in Malaysia costs RM25,000-100,000+ depending on property type and quality tier. Budget tier (studio/1BR): RM25K-35K. Standard tier (1-2BR): RM35K-55K. Premium tier (2-3BR): RM55K-100K+. This includes furnishing, setup, and first-year hidden costs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the hidden costs of starting Airbnb in Malaysia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hidden Airbnb startup costs in Malaysia include: maintenance reserve (RM2K-8K), utility deposits (RM500-2K), insurance (RM800-2.5K/year), legal compliance (RM500-3K), and first-year marketing (RM500-3K). Most new hosts underestimate total costs by 40-60%."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long to break even on Airbnb investment in Malaysia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a typical Melaka condo with RM55K startup costs and 60% occupancy, break-even takes 4-5 years. Professionally managed properties break even faster due to 25-35% higher revenue and lower damage/maintenance costs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What furniture is essential for Airbnb Malaysia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Essential Airbnb furniture for Malaysia: quality mattress (RM1.5-2.5K), comfortable sofa (RM1.5-2.5K), smart lock (RM800-1.2K), TV + WiFi, kitchen essentials, and proper bedding. Focus budget on mattress (70% of guest experience) and first impressions (living room)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I hire Airbnb property management or self-manage in Malaysia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional Airbnb management in Malaysia typically increases net income by 30-50% after fees (15-25% of revenue). Benefits include: optimized pricing, 24/7 guest support, professional photography, and maintenance coordination. Self-management saves fees but requires 10-15 hours/week."
+      }
+    }
+  ]
+};
+
 // Content as HTML directly - simpler and more reliable
 const content = `
-<h1>Airbnb Startup Costs Breakdown Malaysia - Complete 2025 Guide</h1>
+<script type="application/ld+json">${JSON.stringify(faqSchema)}</script>
+
+<h1>Airbnb Startup Costs Malaysia 2026 - Complete Guide (RM25K-100K+)</h1>
 
 <h2>The Hidden Costs Nobody Tells You About</h2>
 
-<p>Thinking about starting an Airbnb in Malaysia? You've probably calculated the big expenses - property purchase, furnishing, appliances. But what about the costs that hosts discover only AFTER they've started?</p>
+<p>Thinking about starting an Airbnb in Malaysia? You've probably calculated the big expenses - property purchase, furnishing, appliances. But what about the costs that hosts discover only AFTER they've started?
+</p>
 
 <strong>The reality of Airbnb startup costs in Malaysia:</strong>
 
@@ -31,7 +82,8 @@ const content = `
 
 <h2>Quick Overview: Total Startup Investment by Property Type</h2>
 
-<p>Before diving into details, here's the big picture for typical Melaka condos:</p>
+<p>Before diving into details, here's the big picture for typical Melaka condos:
+</p>
 
 <h3>One-Time Startup Costs (First Year)</h3>
 
@@ -91,7 +143,8 @@ const content = `
 
 <h2>Cost Category 2: Furnishing & Renovation (RM12K-100K)</h2>
 
-<p>This is typically the largest startup expense after property purchase. We'll break it down by quality tier.</p>
+<p>This is typically the largest startup expense after property purchase. We'll break it down by quality tier.
+</p>
 
 <h3>Furnishing Budget Tiers</h3>
 
@@ -115,7 +168,8 @@ const content = `
 
 <h2>Cost Category 3: Setup & Launch Costs (RM3,000-15,000)</h2>
 
-<p>These are one-time costs to get your property from "furnished" to "bookable."</p>
+<p>These are one-time costs to get your property from "furnished" to "bookable."
+</p>
 
 <h3>Professional Photography (RM300-1,200)</h3>
 
@@ -167,7 +221,8 @@ const content = `
 
 <h2>Cost Category 4: The Hidden Costs (RM5,000-30,000)</h2>
 
-<p>These are the expenses most new hosts don't anticipate until they're already committed.</p>
+<p>These are the expenses most new hosts don't anticipate until they're already committed.
+</p>
 
 <h3>Maintenance Reserve Fund (RM2,000-8,000)</h3>
 
@@ -207,7 +262,7 @@ const content = `
 
 <h3>Licensing & Permits (RM0-1,500)</h3>
 
-<strong>Current Status (2025):</strong>
+<strong>Current Status (2026):</strong>
 <ul>
 <li><strong>Melaka:</strong> No STR license required yet</li></ul>
 
@@ -224,7 +279,8 @@ const content = `
 
 <h2>Cost Category 5: Ongoing Annual Costs (RM8,000-25,000/year)</h2>
 
-<p>These are recurring expenses you'll pay every year.</p>
+<p>These are recurring expenses you'll pay every year.
+</p>
 
 <h3>Fixed Monthly Costs</h3>
 
@@ -461,7 +517,8 @@ const content = `
 
 <h2>Get Your Custom Cost Breakdown</h2>
 
-<p>Every property is different. Stop guessing and start planning with accurate numbers.</p>
+<p>Every property is different. Stop guessing and start planning with accurate numbers.
+</p>
 
 <strong>Enter your phone number and we'll WhatsApp you with:</strong>
 
@@ -485,13 +542,14 @@ const content = `
 
 <h2>About iHousing</h2>
 
-<p>We're Melaka's leading Airbnb property management company:</p>
+<p>We're Melaka's leading Airbnb property management company:
+</p>
 
 <ul>
-<li><strong>8 years experience</strong> helping investors start profitable Airbnbs</li></ul>
+<li><strong>8+ years experience</strong> helping investors start profitable Airbnbs</li></ul>
 
 <ul>
-<li><strong>100+ properties</strong> under management</li></ul>
+<li><strong>700+ properties</strong> under management</li></ul>
 
 <ul>
 <li><strong>60%+ average occupancy</strong> (vs. market 19-22%)</li></ul>
@@ -505,7 +563,25 @@ const content = `
 <ul>
 <li><strong>Trusted supplier network</strong> (10-20% discounts for owners)</li></ul>
 
-<p>We don't just manage - we help you plan, launch, and profit from your Airbnb investment with full cost transparency.</p>
+<p>We don't just manage - we help you plan, launch, and profit from your Airbnb investment with full cost transparency.
+</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>How much does it cost to start Airbnb in Malaysia?</h3>
+<p>Starting an Airbnb in Malaysia costs RM25,000-100,000+ depending on property type and quality tier. Budget tier (studio/1BR): RM25K-35K. Standard tier (1-2BR): RM35K-55K. Premium tier (2-3BR): RM55K-100K+. This includes furnishing, setup, and first-year hidden costs.</p>
+
+<h3>What are the hidden costs of starting Airbnb in Malaysia?</h3>
+<p>Hidden Airbnb startup costs in Malaysia include: maintenance reserve (RM2K-8K), utility deposits (RM500-2K), insurance (RM800-2.5K/year), legal compliance (RM500-3K), and first-year marketing (RM500-3K). Most new hosts underestimate total costs by 40-60%.</p>
+
+<h3>How long to break even on Airbnb investment in Malaysia?</h3>
+<p>For a typical Melaka condo with RM55K startup costs and 60% occupancy, break-even takes 4-5 years. Professionally managed properties break even faster due to 25-35% higher revenue and lower damage/maintenance costs.</p>
+
+<h3>What furniture is essential for Airbnb Malaysia?</h3>
+<p>Essential Airbnb furniture for Malaysia: quality mattress (RM1.5-2.5K), comfortable sofa (RM1.5-2.5K), smart lock (RM800-1.2K), TV + WiFi, kitchen essentials, and proper bedding. Focus budget on mattress (70% of guest experience) and first impressions (living room).</p>
+
+<h3>Should I hire Airbnb property management or self-manage in Malaysia?</h3>
+<p>Professional Airbnb management in Malaysia typically increases net income by 30-50% after fees (15-25% of revenue). Benefits include: optimized pricing, 24/7 guest support, professional photography, and maintenance coordination. Self-management saves fees but requires 10-15 hours/week.</p>
 
 <em>Planning your Airbnb startup? Let's talk. We'll provide a complete cost breakdown, help you avoid hidden expenses, and ensure your investment generates maximum returns from day one. WhatsApp us for a free consultation.</em>
 `;

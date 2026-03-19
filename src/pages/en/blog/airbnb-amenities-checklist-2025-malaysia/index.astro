@@ -1,41 +1,68 @@
 ---
 import BlogPost from '@/layouts/BlogPost.astro';
+import FAQSchema from '@/components/FAQSchema.astro';
 
-const title = "Airbnb Amenities Checklist 2025 Malaysia: Complete Guide for Hosts";
-const description = "What amenities do guests expect in 2025? Complete checklist for Airbnb Malaysia including kitchen essentials, safety requirements, and smart home features. WhatsApp for setup assistance.";
+const title = "Airbnb Amenities Checklist Malaysia 2026 | Complete Host Setup Guide | 700+ Properties";
+const description = "What amenities do Malaysian Airbnb guests expect in 2026? Complete checklist: kitchen essentials, safety requirements, smart home features, Muslim-friendly items. From 700+ property experience.";
 const image = "/images/blog/airbnb-amenities-checklist-2025-malaysia.jpg";
-const date = "2025-01-24";
+const date = "2026-03-19";
 const category = "setup-guide";
 const language = "en";
 
+const faqs = [
+  {
+    question: "What are the must-have amenities for Airbnb Malaysia in 2026?",
+    answer: "The essential amenities for Malaysian Airbnb in 2026 include: quality bedding (mattress, pillows, linens), high-speed WiFi (minimum 100 Mbps), air conditioning in all rooms, kitchen basics (fridge, microwave, kettle, rice cooker, utensils), bathroom essentials (towels, toilet paper, toiletries), safety items (fire extinguisher, first aid kit), and cleaning supplies. Based on managing 700+ properties, these are non-negotiable for positive guest reviews."
+  },
+  {
+    question: "How much does it cost to furnish an Airbnb in Malaysia?",
+    answer: "For a 2-bedroom condo in Malaysia: Essential setup costs RM13,000-25,000, comfortable setup with nice-to-haves is RM18,000-35,000, and premium setup with luxury features runs RM25,000-50,000. Prioritize bedding and WiFi first—these have the biggest impact on reviews."
+  },
+  {
+    question: "What Muslim-friendly amenities should I provide in Malaysia?",
+    answer: "For Malaysian Airbnb properties: provide prayer mats (1-2), Quran direction indicator or sticker, halal-certified toiletries, bidet/spray hose in bathrooms (standard in Malaysia), and ensure kitchen has never been used for non-halal cooking or provide separate utensils. Over 60% of Malaysian guests are Muslim, so this is significant for your target market."
+  },
+  {
+    question: "What kitchen appliances do Airbnb guests expect in Malaysia?",
+    answer: "Malaysian guests expect: refrigerator, microwave, electric kettle, rice cooker (essential in Malaysia), basic cookware and utensils, plates/bowls/cups for the maximum guest count, and dish soap with cleaning supplies. Optional upgrades that increase satisfaction by 20-30%: coffee maker, toaster, blender, and water dispenser."
+  },
+  {
+    question: "What smart home features increase Airbnb bookings in 2026?",
+    answer: "Top smart home features for Malaysian Airbnbs: digital door lock (essential for contactless check-in), smart TV with Netflix/streaming subscriptions, USB charging ports on bedside lamps, high-speed WiFi with visible password display, and air conditioning with remote control. Digital locks alone can reduce check-in issues by 80%."
+  }
+];
+
 // Content as HTML directly - simpler and more reliable
 const content = `
-<h1>Airbnb Amenities Checklist 2025 Malaysia: Complete Guide for Hosts</h1>
+<h1>Airbnb Amenities Checklist Malaysia 2026: Complete Host Setup Guide</h1>
 
-<h2>What Amenities Do Guests Really Expect in 2025?</h2>
+<h2>What Amenities Do Guests Really Expect in 2026?</h2>
 
-<p>You're setting up your condo for Airbnb. You want to provide everything guests need for a 5-star experience. But what's essential? What's nice-to-have? What are guests actually looking for in 2025?</p>
+<p>You're setting up your condo for Airbnb. You want to provide everything guests need for a 5-star experience. But what's essential? What's nice-to-have? What are guests actually looking for in 2026?
+</p>
 
-<p>This guide provides a complete amenities checklist based on:</p>
+<p>This guide provides a complete amenities checklist based on:
+</p>
 <ul>
-<li>100+ properties we manage in Melaka</li></ul>
+<li>700+ properties we manage in Melaka</li></ul>
 
 <ul>
 <li>10,000+ guest reviews analyzed</li></ul>
 
 <ul>
-<li>2025 guest expectations (post-pandemic standards)</li></ul>
+<li>2026 guest expectations (post-pandemic standards)</li></ul>
 
 <ul>
 <li>Malaysian market specifics (climate, culture, regulations)</li></ul>
 
 <strong>By the end, you'll know exactly what to provide to maximize bookings and reviews.</strong>
 
-<h2>2025 Guest Expectations: What Changed?</h2>
+<h2>2026 Guest Expectations: What Changed?</h2>
 
 <h3>Post-Pandemic Standards</h3>
 
-<p>Guests in 2025 have higher expectations than ever:</p>
+<p>Guests in 2026 have higher expectations than ever:
+</p>
 
 <strong>Hygiene is non-negotiable:</strong>
 <ul>
@@ -132,7 +159,8 @@ const content = `
 
 <h2>The Essential Checklist: Must-Haves (Non-Negotiable)</h2>
 
-<p>These are amenities guests expect in EVERY listing. Missing these will result in poor reviews and lower bookings.</p>
+<p>These are amenities guests expect in EVERY listing. Missing these will result in poor reviews and lower bookings.
+</p>
 
 <h3>1. Sleeping Essentials</h3>
 
@@ -242,7 +270,8 @@ const content = `
 
 <h2>The Nice-to-Have Checklist: Differentiators</h2>
 
-<p>These amenities aren't essential, but they'll set you apart from competitors and justify higher nightly rates.</p>
+<p>These amenities aren't essential, but they'll set you apart from competitors and justify higher nightly rates.
+</p>
 
 <h3>1. Premium Bedding</h3>
 
@@ -364,7 +393,8 @@ const content = `
 
 <h2>The Luxury Checklist: Premium Touches</h2>
 
-<p>For premium properties targeting higher nightly rates (RM250+).</p>
+<p>For premium properties targeting higher nightly rates (RM250+).
+</p>
 
 <h3>1. Smart Home Features</h3>
 
@@ -390,11 +420,13 @@ const content = `
 
 <h3>Including Nice-to-Haves</h3>
 
-<p>Add RM3,000-8,000 for upgraded amenities.</p>
+<p>Add RM3,000-8,000 for upgraded amenities.
+</p>
 
 <h3>Including Luxury Features</h3>
 
-<p>Add RM8,000-20,000 for premium amenities.</p>
+<p>Add RM8,000-20,000 for premium amenities.
+</p>
 
 <strong>Total Range:</strong>
 <ul>
@@ -514,33 +546,52 @@ const content = `
 <strong>What to include:</strong>
 
 <li><strong>WiFi Information</strong></li>
-<p>   - Network name</p>
-<p>   - Password</p>
-<p>   - How to restart router</p>
+<p>   - Network name
+</p>
+<p>   - Password
+</p>
+<p>   - How to restart router
+</p>
 
 <li><strong>Appliance Instructions</strong></li>
-<p>   - Air conditioning remote</p>
-<p>   - Water heater</p>
-<p>   - Washing machine (if provided)</p>
-<p>   - TV/Streaming setup</p>
+<p>   - Air conditioning remote
+</p>
+<p>   - Water heater
+</p>
+<p>   - Washing machine (if provided)
+</p>
+<p>   - TV/Streaming setup
+</p>
 
 <li><strong>House Rules</strong></li>
-<p>   - Check-out time</p>
-<p>   - Smoking policy</p>
-<p>   - Quiet hours</p>
-<p>   - Guest count</p>
+<p>   - Check-out time
+</p>
+<p>   - Smoking policy
+</p>
+<p>   - Quiet hours
+</p>
+<p>   - Guest count
+</p>
 
 <li><strong>Local Information</strong></li>
-<p>   - Nearby restaurants</p>
-<p>   - Convenience stores</p>
-<p>   - Attractions</p>
-<p>   - Transportation</p>
+<p>   - Nearby restaurants
+</p>
+<p>   - Convenience stores
+</p>
+<p>   - Attractions
+</p>
+<p>   - Transportation
+</p>
 
 <li><strong>Emergency Contacts</strong></li>
-<p>   - Host/Manager (Available during business hours)</p>
-<p>   - Building management</p>
-<p>   - Emergency services</p>
-<p>   - Nearest hospital</p>
+<p>   - Host/Manager (Available during business hours)
+</p>
+<p>   - Building management
+</p>
+<p>   - Emergency services
+</p>
+<p>   - Nearest hospital
+</p>
 
 <strong>Format:</strong>
 <ul>
@@ -630,7 +681,8 @@ const content = `
 
 <h3>Free Amenities Consultation</h3>
 
-<p>We offer property owners:</p>
+<p>We offer property owners:
+</p>
 <ul>
 <li><strong>Amenities checklist</strong> customized to your unit</li></ul>
 
@@ -678,17 +730,46 @@ const content = `
 
 <strong>Enter your phone number and we'll WhatsApp you with a customized amenities checklist for your property.</strong>
 
-<p>Whether you're starting from scratch or upgrading an existing Airbnb, we'll help you provide the 5-star experience guests expect in 2025.</p>
+<p>Whether you're starting from scratch or upgrading an existing Airbnb, we'll help you provide the 5-star experience guests expect in 2026.
+</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<details>
+<summary><strong>What are the must-have amenities for Airbnb Malaysia in 2026?</strong></summary>
+<p>The essential amenities for Malaysian Airbnb in 2026 include: quality bedding (mattress, pillows, linens), high-speed WiFi (minimum 100 Mbps), air conditioning in all rooms, kitchen basics (fridge, microwave, kettle, rice cooker, utensils), bathroom essentials (towels, toilet paper, toiletries), safety items (fire extinguisher, first aid kit), and cleaning supplies. Based on managing 700+ properties, these are non-negotiable for positive guest reviews.</p>
+</details>
+
+<details>
+<summary><strong>How much does it cost to furnish an Airbnb in Malaysia?</strong></summary>
+<p>For a 2-bedroom condo in Malaysia: Essential setup costs RM13,000-25,000, comfortable setup with nice-to-haves is RM18,000-35,000, and premium setup with luxury features runs RM25,000-50,000. Prioritize bedding and WiFi first—these have the biggest impact on reviews.</p>
+</details>
+
+<details>
+<summary><strong>What Muslim-friendly amenities should I provide in Malaysia?</strong></summary>
+<p>For Malaysian Airbnb properties: provide prayer mats (1-2), Quran direction indicator or sticker, halal-certified toiletries, bidet/spray hose in bathrooms (standard in Malaysia), and ensure kitchen has never been used for non-halal cooking or provide separate utensils. Over 60% of Malaysian guests are Muslim, so this is significant for your target market.</p>
+</details>
+
+<details>
+<summary><strong>What kitchen appliances do Airbnb guests expect in Malaysia?</strong></summary>
+<p>Malaysian guests expect: refrigerator, microwave, electric kettle, rice cooker (essential in Malaysia), basic cookware and utensils, plates/bowls/cups for the maximum guest count, and dish soap with cleaning supplies. Optional upgrades that increase satisfaction by 20-30%: coffee maker, toaster, blender, and water dispenser.</p>
+</details>
+
+<details>
+<summary><strong>What smart home features increase Airbnb bookings in 2026?</strong></summary>
+<p>Top smart home features for Malaysian Airbnbs: digital door lock (essential for contactless check-in), smart TV with Netflix/streaming subscriptions, USB charging ports on bedside lamps, high-speed WiFi with visible password display, and air conditioning with remote control. Digital locks alone can reduce check-in issues by 80%.</p>
+</details>
 
 <h2>About iHousing</h2>
 
-<p>We're Melaka's leading Airbnb property management company:</p>
+<p>We're Melaka's leading Airbnb property management company:
+</p>
 
 <ul>
-<li><strong>8 years experience</strong> setting up properties</li></ul>
+<li><strong>8+ years experience</strong> setting up properties</li></ul>
 
 <ul>
-<li><strong>100+ properties</strong> under management</li></ul>
+<li><strong>700+ properties</strong> under management</li></ul>
 
 <ul>
 <li><strong>60%+ average occupancy</strong> (vs. market 19-22%)</li></ul>
@@ -705,7 +786,8 @@ const content = `
 <ul>
 <li><strong>Transparent pricing</strong></li></ul>
 
-<p>We know exactly what amenities guests expect and how to provide them cost-effectively.</p>
+<p>We know exactly what amenities guests expect and how to provide them cost-effectively.
+</p>
 
 <em>Setting up your Airbnb? Let's talk. We'll provide a customized amenities checklist, help you prioritize your budget, and ensure your property is guest-ready from day one. WhatsApp us for a free consultation.</em>
 `;
@@ -719,3 +801,4 @@ const content = `
   language={language}
   content={content}
 />
+<FAQSchema faqs={faqs} />

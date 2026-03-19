@@ -1,20 +1,45 @@
 ---
 import BlogPost from '@/layouts/BlogPost.astro';
+import { FAQPageJsonLd } from 'astro-seo-schema';
 
-const title = "Dynamic Pricing Strategies for Melaka Airbnb - Complete 2025 Guide";
-const description = "Maximize Airbnb revenue with dynamic pricing strategies for Melaka. Complete guide to automated pricing tools, seasonal adjustments, event-based pricing, and occupancy optimization. Includes sample pricing calendars.";
+const title = "Airbnb Pricing Strategy Melaka 2026 | Dynamic Pricing Guide | 700+ Properties";
+const description = "How top Melaka Airbnb hosts earn 25-35% more with dynamic pricing. Weekend premiums, seasonal rates, event-based pricing. Real data from 700+ managed properties.";
 const image = "/images/blog/dynamic-pricing-strategies-melaka-airbnb.jpg";
-const date = "2025-01-24";
+const date = "2026-03-19";
 const category = "operational-guide";
 const language = "en";
 
+const faqData = [
+  {
+    question: "How much more can I earn with dynamic pricing for my Melaka Airbnb?",
+    answer: "Professional hosts using dynamic pricing earn 25-35% more than those with static pricing. For a typical Melaka 1-bedroom condo, this means an extra RM1,200-1,800/month. The key is adjusting rates for weekends (+30-50%), school holidays (+40-70%), and peak events like Chinese New Year (+100-120%)."
+  },
+  {
+    question: "What is the best dynamic pricing tool for Airbnb in Malaysia?",
+    answer: "Beyond Pricing is the best-in-class tool (RM80-200/month) with Melaka-specific market data and automatic adjustments. PriceLabs is a good mid-range alternative (RM60-140/month). Airbnb's free Smart Pricing works but often underprices—use it as a baseline and manually override for peak periods."
+  },
+  {
+    question: "What should I charge for weekends vs weekdays in Melaka?",
+    answer: "Melaka is a weekend destination. Typical pricing structure: Weekdays (Mon-Thu) at base rate, Friday +30-50%, Saturday +40-60%, Sunday +10-20%. For example, if your base rate is RM200, charge RM260-300 on Friday/Saturday. Singapore long weekends can justify even higher premiums."
+  },
+  {
+    question: "When are peak pricing periods for Melaka Airbnb?",
+    answer: "Peak periods include: Chinese New Year (+100-120% premium), Malaysian school holidays (March, June, September, December), Singapore long weekends, Hari Raya, Deepavali, and major Melaka events like Jonker Walk festivals. Always check both Malaysian and Singapore public holiday calendars."
+  },
+  {
+    question: "Should I lower prices to get more Airbnb bookings in Melaka?",
+    answer: "Not necessarily. The sweet spot is 70-75% occupancy at your target rate. Higher occupancy at lower prices often means similar profit but more cleaning costs and wear. A 1-bedroom earning RM220/night at 70% occupancy often nets more than RM180/night at 100% occupancy after cleaning and utilities."
+  }
+];
+
 // Content as HTML directly - simpler and more reliable
 const content = `
-<h1>Dynamic Pricing Strategies for Melaka Airbnb - Complete 2025 Guide</h1>
+<h1>Airbnb Pricing Strategy Melaka 2026: Dynamic Pricing Guide</h1>
 
 <h2>The Pricing Secret Top Hosts Don't Share</h2>
 
-<p>You've listed your Melaka condo on Airbnb. You're getting bookings. But are you leaving 20-40% revenue on the table by using static pricing?</p>
+<p>You've listed your Melaka condo on Airbnb. You're getting bookings. But are you leaving 20-40% revenue on the table by using static pricing?
+</p>
 
 <strong>The reality:</strong>
 <ul>
@@ -358,9 +383,12 @@ const content = `
 <li><strong>Compare:</strong> 5-10 similar listings</li>
 <li><strong>Calculate:</strong> Average rate for next 30 days</li>
 <li><strong>Position:</strong></li>
-<p>   - Premium listings: +5-10% above average</p>
-<p>   - Standard: Match average</p>
-<p>   - Value listings: -5-10% below average</p>
+<p>   - Premium listings: +5-10% above average
+</p>
+<p>   - Standard: Match average
+</p>
+<p>   - Value listings: -5-10% below average
+</p>
 
 <strong>Key Factors:</strong>
 <ul>
@@ -372,7 +400,7 @@ const content = `
 <ul>
 <li>Consider your amenities (Netflix, pool view, etc.)</li></ul>
 
-<h2>Melaka 2025 Pricing Calendar</h2>
+<h2>Melaka 2026 Pricing Calendar</h2>
 
 <h3>Sample Annual Pricing Plan</h3>
 
@@ -491,7 +519,8 @@ const content = `
 
 <h2>Get Your Pricing Strategy</h2>
 
-<p>Tired of leaving revenue on the table? Let us optimize your pricing.</p>
+<p>Tired of leaving revenue on the table? Let us optimize your pricing.
+</p>
 
 <strong>Enter your phone number and we'll WhatsApp you with:</strong>
 
@@ -510,15 +539,43 @@ const content = `
 <ul>
 <li>Setup assistance (if you want to DIY) or full management (if you want hands-free)</li></ul>
 
+<h2>Frequently Asked Questions</h2>
+
+<details>
+<summary><strong>How much more can I earn with dynamic pricing for my Melaka Airbnb?</strong></summary>
+<p>Professional hosts using dynamic pricing earn 25-35% more than those with static pricing. For a typical Melaka 1-bedroom condo, this means an extra RM1,200-1,800/month. The key is adjusting rates for weekends (+30-50%), school holidays (+40-70%), and peak events like Chinese New Year (+100-120%).</p>
+</details>
+
+<details>
+<summary><strong>What is the best dynamic pricing tool for Airbnb in Malaysia?</strong></summary>
+<p>Beyond Pricing is the best-in-class tool (RM80-200/month) with Melaka-specific market data and automatic adjustments. PriceLabs is a good mid-range alternative (RM60-140/month). Airbnb's free Smart Pricing works but often underprices—use it as a baseline and manually override for peak periods.</p>
+</details>
+
+<details>
+<summary><strong>What should I charge for weekends vs weekdays in Melaka?</strong></summary>
+<p>Melaka is a weekend destination. Typical pricing structure: Weekdays (Mon-Thu) at base rate, Friday +30-50%, Saturday +40-60%, Sunday +10-20%. For example, if your base rate is RM200, charge RM260-300 on Friday/Saturday. Singapore long weekends can justify even higher premiums.</p>
+</details>
+
+<details>
+<summary><strong>When are peak pricing periods for Melaka Airbnb?</strong></summary>
+<p>Peak periods include: Chinese New Year (+100-120% premium), Malaysian school holidays (March, June, September, December), Singapore long weekends, Hari Raya, Deepavali, and major Melaka events like Jonker Walk festivals. Always check both Malaysian and Singapore public holiday calendars.</p>
+</details>
+
+<details>
+<summary><strong>Should I lower prices to get more Airbnb bookings in Melaka?</strong></summary>
+<p>Not necessarily. The sweet spot is 70-75% occupancy at your target rate. Higher occupancy at lower prices often means similar profit but more cleaning costs and wear. A 1-bedroom earning RM220/night at 70% occupancy often nets more than RM180/night at 100% occupancy after cleaning and utilities.</p>
+</details>
+
 <h2>About iHousing</h2>
 
-<p>We're Melaka's leading Airbnb property management company:</p>
+<p>We're Melaka's leading Airbnb property management company:
+</p>
 
 <ul>
-<li><strong>8 years experience</strong> maximizing Airbnb revenue</li></ul>
+<li><strong>8+ years experience</strong> maximizing Airbnb revenue</li></ul>
 
 <ul>
-<li><strong>100+ properties</strong> under management</li></ul>
+<li><strong>700+ properties</strong> under management</li></ul>
 
 <ul>
 <li><strong>60%+ average occupancy</strong> (vs. market 19-22%)</li></ul>
@@ -532,11 +589,23 @@ const content = `
 <ul>
 <li><strong>Transparent pricing</strong> (Parkland: flat RM200-300/month)</li></ul>
 
-<p>We don't just manage your property - we optimize every aspect of revenue generation, starting with dynamic pricing strategies that maximize your income.</p>
+<p>We don't just manage your property - we optimize every aspect of revenue generation, starting with dynamic pricing strategies that maximize your income.
+</p>
 
 <em>Ready to maximize your Airbnb revenue? Let's talk. We'll analyze your current pricing, implement dynamic strategies, and ensure you're earning the maximum possible from your Melaka property. WhatsApp us for a free pricing assessment.</em>
 `;
 ---
+<FAQPageJsonLd
+  mainEntity={faqData.map(faq => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: faq.answer
+    }
+  }))}
+/>
+
 <BlogPost
   title={title}
   description={description}

@@ -1,20 +1,69 @@
 ---
 import BlogPost from '@/layouts/BlogPost.astro';
 
-const title = "Airbnb Management Service Malaysia: Complete Guide for Property Owners 2025";
-const description = "Looking for Airbnb management service in Malaysia? Learn what's included, costs, how to choose, and why Melaka is a top location. Real data from 100+ managed properties. WhatsApp for quote.";
+const title = "Airbnb Management Service Malaysia 2026 | Complete Property Owner Guide | 700+ Properties";
+const description = "Looking for Airbnb management service in Malaysia? What's included, costs (commission vs flat fee), and how to choose. Real data from 700+ managed properties since 2017. WhatsApp for free quote.";
 const image = "/images/blog/airbnb-management-service-malaysia.jpg";
-const date = "2025-01-24";
+const date = "2026-03-20";
 const category = "solution-aware-roi";
 const language = "en";
 
+// FAQ Schema for rich snippets
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does Airbnb management cost in Malaysia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Airbnb management in Malaysia typically costs 15-25% commission on gross revenue. iHousing offers flat-fee pricing from RM200-300/month for Parkland Avenue properties, saving owners RM11,000-14,000/year vs commission-based models. Hidden fees (cleaning markup, maintenance markup) can push commission costs to 25-35% effective rate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Airbnb management worth it in Malaysia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, professional management typically increases net income by 25-40% through better occupancy (62% vs 45% self-managed), dynamic pricing, and multi-platform listing. A 2BR Melaka condo earning RM58,500/year professionally managed vs RM38,500 self-managed = RM20,000 extra income minus management fees."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does an Airbnb management company do in Malaysia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Full-service management includes: professional photography, listing optimization, guest communication, 5-platform distribution (Airbnb, Booking, Agoda, VRBO, Expedia), cleaning coordination, maintenance, dynamic pricing, and monthly financial reporting. You provide the property; they handle everything else."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I choose an Airbnb property manager in Malaysia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Focus on net income, not fee percentage. Ask for real performance data (occupancy rates, revenue examples), verify they have local presence, check contract terms (avoid long lock-in periods), and test response time via WhatsApp. Avoid managers who can't show specific numbers for similar properties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between flat fee and commission-based Airbnb management?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Commission-based charges 15-25% of revenue (plus hidden fees), so you pay more when you earn more. Flat fee (like iHousing's RM200-300/month) stays constant regardless of revenue. High-performing properties save significantly with flat fees - a RM6,000/month property saves RM11,400/year vs 20% commission."
+      }
+    }
+  ]
+};
+
 // Content as HTML directly - simpler and more reliable
 const content = `
-<h1>Airbnb Management Service Malaysia: Complete Guide for Property Owners 2025</h1>
+<h1>Airbnb Management Service Malaysia 2026: Complete Property Owner Guide</h1>
 
 <strong>Your condo is sitting empty. Or rented to a tenant who pays RM1,500/month but trashed your unit. Meanwhile, you hear about owners earning RM5,000-8,000/month with Airbnb.</strong>
 
-<p>The math is tempting. But you don't have time to:</p>
+<p>The math is tempting. But you don't have time to:
+</p>
 <ul>
 <li>Respond to guests at 11 PM on Tuesday</li></ul>
 
@@ -29,9 +78,11 @@ const content = `
 
 <strong>This is where Airbnb management services come in. They handle everything. You collect passive income.</strong>
 
-<p>But are they worth it? How much do they cost? What do they actually do?</p>
+<p>But are they worth it? How much do they cost? What do they actually do?
+</p>
 
-<p>This guide covers everything you need to know about Airbnb management services in Malaysia.</p>
+<p>This guide covers everything you need to know about Airbnb management services in Malaysia.
+</p>
 
 <h2>What Is an Airbnb Management Service?</h2>
 
@@ -92,7 +143,8 @@ const content = `
 
 <strong>There are THREE main pricing models:</strong>
 
-<p>#### Model 1: Percentage Commission (Most Common)</p>
+<p>#### Model 1: Percentage Commission (Most Common)
+</p>
 
 <strong>Plus hidden costs:</strong>
 <ul>
@@ -109,7 +161,8 @@ const content = `
 
 <strong>Real annual cost:</strong> Often 25-35% of revenue
 
-<p>#### Model 2: Flat Fee (iHousing Parkland Avenue)</p>
+<p>#### Model 2: Flat Fee (iHousing Parkland Avenue)
+</p>
 
 <strong>Exclusive for Parkland Avenue by the Sea:</strong>
 
@@ -119,7 +172,8 @@ const content = `
 
 <strong>Savings vs. 20% commission:</strong> RM11,000-14,000/year
 
-<p>#### Model 3: Tiered Pricing</p>
+<p>#### Model 3: Tiered Pricing
+</p>
 
 <strong>Some companies offer tiers:</strong>
 
@@ -133,7 +187,8 @@ const content = `
 
 <h3>Full-Service Management (What iHousing Provides)</h3>
 
-<p>#### 1. Listing Creation & Optimization</p>
+<p>#### 1. Listing Creation & Optimization
+</p>
 
 <strong>What We Do:</strong>
 <ul>
@@ -153,7 +208,8 @@ const content = `
 
 <strong>Value:</strong> Professional listings get 40-60% more bookings than amateur ones.
 
-<p>#### 2. Guest Communication (Available during business hours)</p>
+<p>#### 2. Guest Communication (Available during business hours)
+</p>
 
 <strong>What We Handle:</strong>
 <ul>
@@ -176,7 +232,8 @@ const content = `
 
 <strong>Value:</strong> Fast response = Superhost eligibility = higher rankings = more bookings.
 
-<p>#### 3. Cleaning & Quality Control</p>
+<p>#### 3. Cleaning & Quality Control
+</p>
 
 <strong>What We Do:</strong>
 <ul>
@@ -196,7 +253,8 @@ const content = `
 
 <strong>Value:</strong> Consistent cleanliness = 5-star reviews = repeat guests.
 
-<p>#### 4. Maintenance & Repairs</p>
+<p>#### 4. Maintenance & Repairs
+</p>
 
 <strong>What We Coordinate:</strong>
 <ul>
@@ -216,7 +274,8 @@ const content = `
 
 <strong>Value:</strong> Prevent negative reviews ("broken AC"). Extend property life.
 
-<p>#### 5. Revenue Optimization</p>
+<p>#### 5. Revenue Optimization
+</p>
 
 <strong>Our Strategy:</strong>
 <ul>
@@ -236,7 +295,8 @@ const content = `
 
 <strong>Result:</strong> 25-35% higher revenue vs. fixed pricing.
 
-<p>#### 6. Multi-Platform Distribution</p>
+<p>#### 6. Multi-Platform Distribution
+</p>
 
 <strong>Platforms We List On:</strong>
 <ul>
@@ -256,7 +316,8 @@ const content = `
 
 <strong>Benefit:</strong> 60% more bookings than single-platform managers.
 
-<p>#### 7. Financial Reporting</p>
+<p>#### 7. Financial Reporting
+</p>
 
 <strong>Monthly Reports Include:</strong>
 <ul>
@@ -405,7 +466,8 @@ const content = `
 
 <strong>Use this checklist when comparing managers:</strong>
 
-<p>#### 1. Track Record</p>
+<p>#### 1. Track Record
+</p>
 
 <strong>Ask:</strong>
 <ul>
@@ -423,7 +485,8 @@ const content = `
 <strong>Green Flag:</strong> 3+ years, 50+ properties, 60%+ occupancy
 <strong>Red Flag:</strong> New operation, vague performance claims
 
-<p>#### 2. Fee Structure</p>
+<p>#### 2. Fee Structure
+</p>
 
 <strong>Ask:</strong>
 <ul>
@@ -441,7 +504,8 @@ const content = `
 <strong>Green Flag:</strong> All fees disclosed, no markup
 <strong>Red Flag:</strong> Vague "plus expenses", hidden markups
 
-<p>#### 3. Services Included</p>
+<p>#### 3. Services Included
+</p>
 
 <strong>Ask:</strong>
 <ul>
@@ -459,7 +523,8 @@ const content = `
 <strong>Green Flag:</strong> Full-service, 5-platform, &lt;1 hour response
 <strong>Red Flag:</strong> Basic services, extra charges for essentials
 
-<p>#### 4. Contract Terms</p>
+<p>#### 4. Contract Terms
+</p>
 
 <strong>Ask:</strong>
 <ul>
@@ -477,7 +542,8 @@ const content = `
 <strong>Green Flag:</strong> 12 months, 30-day notice, no penalty
 <strong>Red Flag:</strong> 24+ months, early termination fees
 
-<p>#### 5. References</p>
+<p>#### 5. References
+</p>
 
 <strong>Ask:</strong>
 <ul>
@@ -581,10 +647,10 @@ const content = `
 
 <strong>1. Proven Performance</strong>
 <ul>
-<li>100+ properties managed</li></ul>
+<li>700+ properties managed</li></ul>
 
 <ul>
-<li>8 years in Melaka market</li></ul>
+<li>8+ years in Melaka market</li></ul>
 
 <ul>
 <li>62% average occupancy</li></ul>
@@ -698,23 +764,25 @@ const content = `
 
 <strong>WhatsApp us for custom pricing.</strong>
 
-<p>We provide personalized quotes based on your specific property and goals.</p>
+<p>We provide personalized quotes based on your specific property and goals.
+</p>
 
 <strong>Take Action Today:</strong>
 
 <strong>Enter your phone number and we'll WhatsApp you with a free consultation and performance projection.</strong>
 
-<p>Stop leaving money on the table. Your condo can earn RM50,000-70,000/year with professional management. Let us show you how.</p>
+<p>Stop leaving money on the table. Your condo can earn RM50,000-70,000/year with professional management. Let us show you how.
+</p>
 
 <h2>About iHousing</h2>
 
 <strong>Malaysia's Transparent Airbnb Management Company:</strong>
 
 <ul>
-<li>100+ properties under management</li></ul>
+<li>700+ properties under management</li></ul>
 
 <ul>
-<li>8 years of experience</li></ul>
+<li>8+ years of experience</li></ul>
 
 <ul>
 <li>62% average occupancy rate</li></ul>
@@ -734,7 +802,37 @@ const content = `
 <ul>
 <li>Flexible contracts</li></ul>
 
-<p>We've helped 100+ Malaysia property owners achieve hands-free passive income. We can help you too.</p>
+<p>We've helped 700+ Malaysia property owners achieve hands-free passive income since 2017. We can help you too.
+</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="space-y-6 my-8">
+<details class="border border-gray-200 rounded-lg p-4">
+<summary class="font-bold cursor-pointer">How much does Airbnb management cost in Malaysia?</summary>
+<p class="mt-3">Airbnb management in Malaysia typically costs 15-25% commission on gross revenue. iHousing offers flat-fee pricing from RM200-300/month for Parkland Avenue properties, saving owners RM11,000-14,000/year vs commission-based models. Hidden fees (cleaning markup, maintenance markup) can push commission costs to 25-35% effective rate.</p>
+</details>
+
+<details class="border border-gray-200 rounded-lg p-4">
+<summary class="font-bold cursor-pointer">Is Airbnb management worth it in Malaysia?</summary>
+<p class="mt-3">Yes, professional management typically increases net income by 25-40% through better occupancy (62% vs 45% self-managed), dynamic pricing, and multi-platform listing. A 2BR Melaka condo earning RM58,500/year professionally managed vs RM38,500 self-managed = RM20,000 extra income minus management fees.</p>
+</details>
+
+<details class="border border-gray-200 rounded-lg p-4">
+<summary class="font-bold cursor-pointer">What does an Airbnb management company do in Malaysia?</summary>
+<p class="mt-3">Full-service management includes: professional photography, listing optimization, guest communication, 5-platform distribution (Airbnb, Booking, Agoda, VRBO, Expedia), cleaning coordination, maintenance, dynamic pricing, and monthly financial reporting. You provide the property; they handle everything else.</p>
+</details>
+
+<details class="border border-gray-200 rounded-lg p-4">
+<summary class="font-bold cursor-pointer">How do I choose an Airbnb property manager in Malaysia?</summary>
+<p class="mt-3">Focus on net income, not fee percentage. Ask for real performance data (occupancy rates, revenue examples), verify they have local presence, check contract terms (avoid long lock-in periods), and test response time via WhatsApp. Avoid managers who can't show specific numbers for similar properties.</p>
+</details>
+
+<details class="border border-gray-200 rounded-lg p-4">
+<summary class="font-bold cursor-pointer">What's the difference between flat fee and commission-based Airbnb management?</summary>
+<p class="mt-3">Commission-based charges 15-25% of revenue (plus hidden fees), so you pay more when you earn more. Flat fee (like iHousing's RM200-300/month) stays constant regardless of revenue. High-performing properties save significantly with flat fees - a RM6,000/month property saves RM11,400/year vs 20% commission.</p>
+</details>
+</div>
 
 <em>Ready to explore Airbnb management? We'll provide real data, transparent pricing, and honest answers. No pressure, just facts. WhatsApp us for a free consultation.</em>
 `;
@@ -748,3 +846,4 @@ const content = `
   language={language}
   content={content}
 />
+<script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />

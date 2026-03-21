@@ -1,16 +1,65 @@
 ---
 import BlogPost from '@/layouts/BlogPost.astro';
 
-const title = "What to Do With Empty Condo in Melaka? Stop Losing RM500+/month";
-const description = "Your empty condo in Melaka is costing you RM6,000-20,000 annually. Discover why it sits empty and how Airbnb management can turn it into RM7,000+ annual income. Free consultation.";
+const title = "What to Do With Empty Condo in Melaka 2026 | Stop Losing RM500/month | iHousing";
+const description = "Empty condo in Melaka costing you RM6,000-20,000 yearly? Convert to Airbnb and earn RM7,000+ annual income. 700+ properties managed since 2017. Free analysis via WhatsApp.";
 const image = "/images/blog/what-to-do-with-empty-condo-in-melaka.jpg";
-const date = "2025-01-23";
+const date = "2026-03-22";
 const category = "problem-aware-empty";
 const language = "en";
 
+// FAQ Schema for rich snippets
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does an empty condo in Melaka cost monthly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An empty condo in Melaka costs RM450-950/month in maintenance fees, assessment, sinking fund, and insurance. That's RM5,400-11,400 annually in direct costs alone, not counting lost rental income opportunity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I convert my empty Melaka condo to Airbnb?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, most Melaka condos can be converted to Airbnb. Melaka attracts 16+ million tourists annually, making it ideal for short-term rentals. Commercial title condos have fewer restrictions than residential titles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much can I earn from Airbnb in Melaka?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A professionally managed 2-bedroom Melaka condo can earn RM8,000-12,000 annually from Airbnb at 20-24% occupancy. Studios earn RM5,000-8,000, and 3-bedrooms can reach RM10,000-15,000."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Airbnb better than long-term rental for empty condos in Melaka?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Airbnb avoids common long-term rental problems: no bad tenants, no 12-18 month eviction processes, payment upfront, and you can use the condo yourself. However, net income varies by location and property type."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to manage Airbnb myself in Melaka?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Professional management companies like iHousing handle everything: guest communication, cleaning, maintenance, multi-platform listing (5 platforms), dynamic pricing, and monthly reporting. Your time investment is zero."
+      }
+    }
+  ]
+};
+
 // Content as HTML directly - simpler and more reliable
 const content = `
-<h1>The Hidden Cost of Your Empty Condo: What to Do When It Sits Vacant in Melaka</h1>
+<script type="application/ld+json">${JSON.stringify(faqSchema)}</script>
+<h1>What to Do With Empty Condo in Melaka 2026: Stop Losing RM500+/month</h1>
         <h2>Is Your Melaka Condo Costing You Money Every Month?</h2>
         <p>You own a condo in Melaka. It was supposed to be an investment - a steady stream of rental income or a future retirement haven. But right now? It's sitting empty. Month after month, you're paying maintenance fees, assessment charges, and insurance, while getting absolutely nothing in return.</p>
         <p>You're not alone. Malaysia has approximately <strong>1.9 million unoccupied homes</strong>, and Melaka property owners face the same frustrating dilemma. The condo you bought with high hopes is slowly draining your bank account instead of filling it.</p>
@@ -153,7 +202,7 @@ const content = `
         </table>
         <h2>Ready to Stop Losing Money? Let's Talk About Your Condo</h2>
         <p>Your empty Melaka condo doesn't have to be a financial burden. In fact, with the right strategy, it can become a consistent income source that builds wealth over time.</p>
-        <p>At iHousing, we manage <strong>100+ properties in Melaka</strong> and have 8 years of experience turning empty condos into profitable Airbnb rentals. We know exactly what works in this market.</p>
+        <p>At iHousing, we manage <strong>700+ properties in Melaka</strong> and have 8+ years of experience (since 2017) turning empty condos into profitable Airbnb rentals. We know exactly what works in this market.</p>
         <h3>Get a Free, No-Obligation Analysis</h3>
         <p>We'll analyze:</p>
         <ul>
@@ -168,8 +217,35 @@ const content = `
         <strong>Take Action Today:</strong>
         <strong>Enter your phone number and we'll WhatsApp you with a free analysis of your condo's potential.</strong>
         <p>Your Melaka condo can start generating income instead of draining your savings. Let's explore your options together - no obligation, no pressure, just a straightforward conversation about what's possible for your specific property.</p>
+        <h2>Frequently Asked Questions: Empty Condo in Melaka</h2>
+        
+        <details>
+          <summary><strong>How much does an empty condo in Melaka cost monthly?</strong></summary>
+          <p>An empty condo in Melaka costs RM450-950/month in maintenance fees, assessment, sinking fund, and insurance. That's RM5,400-11,400 annually in direct costs alone. When you add lost rental income opportunity (RM18,000-48,000/year), your empty condo could be costing you RM24,000-54,000 annually.</p>
+        </details>
+        
+        <details>
+          <summary><strong>Can I convert my empty Melaka condo to Airbnb?</strong></summary>
+          <p>Yes, most Melaka condos can be converted to Airbnb. Melaka attracts 16+ million tourists annually, making it ideal for short-term rentals. Commercial title condos (like Silverscape, The Shore) have fewer restrictions than residential titles. Contact your JMB to confirm your building's policy.</p>
+        </details>
+        
+        <details>
+          <summary><strong>How much can I earn from Airbnb in Melaka?</strong></summary>
+          <p>Based on our 700+ managed properties: Studios earn RM5,000-8,000/year, 2-bedroom condos earn RM8,000-12,000/year, and 3-bedroom units can reach RM10,000-15,000/year. These are net figures before management fees at 18-24% occupancy.</p>
+        </details>
+        
+        <details>
+          <summary><strong>Is Airbnb better than long-term rental for empty condos in Melaka?</strong></summary>
+          <p>Airbnb avoids common long-term rental nightmares: no bad tenants who squat, no 12-18 month eviction processes, payment is upfront before guests arrive, and you can block dates to use your own condo. However, net income varies by location—contact us for a property-specific analysis.</p>
+        </details>
+        
+        <details>
+          <summary><strong>Do I need to manage Airbnb myself in Melaka?</strong></summary>
+          <p>No. Professional management companies like iHousing handle everything: guest communication, cleaning, maintenance, multi-platform listing (Airbnb + Booking.com + Agoda + VRBO + Expedia), dynamic pricing, and monthly reporting. Your time investment is zero—just receive income deposits.</p>
+        </details>
+        
         <hr class="my-8">
-        <em>About iHousing:</em> We're Melaka's leading Airbnb property management company, specializing in turning vacant condos into profitable short-term rentals. We manage properties across 10+ condo developments in Melaka, delivering 60%+ average occupancy through our 5-platform listing strategy and in-house cleaning team.
+        <em>About iHousing:</em> We're Melaka's leading Airbnb property management company since 2017, specializing in turning vacant condos into profitable short-term rentals. We manage 700+ properties across 10+ condo developments in Melaka, delivering 60%+ average occupancy through our 5-platform listing strategy and in-house cleaning team. <a href="https://wa.me/60166996688">WhatsApp us for a free consultation</a>.
 `;
 ---
 <BlogPost

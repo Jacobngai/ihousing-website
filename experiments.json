@@ -1,52 +1,422 @@
-[
-    {
-        "id": "IH-EXP-095",
+[    {
+        "id": "IH-EXP-109",
         "client": "iHousing",
-        "date_started": "2026-03-17T08:33:00+08:00",
+        "date_started": "2026-03-22T06:35:00+08:00",
         "type": "faq_schema_headline_optimization",
-        "description": "Added FAQ schema (5 questions) to high-value 'How Much Can You Earn from Airbnb in Melaka' page (~3,000 words). Updated from 2025 to 2026, added 'Real Data' hook. Updated authority signals from 100+ to 700+ properties.",
-        "page": "/en/blog/how-much-can-i-earn-from-airbnb-in-melaka/",
-        "query": "how much can i earn from airbnb in melaka",
+        "description": "Added FAQ schema (5 questions) to high-value 'What to Do With Empty Condo in Melaka' page (~2,000 words). Pain-point content targeting property owners with vacant condos losing RM500+/month. Updated title to 'What to Do With Empty Condo in Melaka 2026'. Updated authority signals (700+ properties since 2017).",
+        "page": "/en/blog/what-to-do-with-empty-condo-in-melaka/",
+        "query": "what to do with empty condo melaka",
         "baseline": {
             "impressions": 0,
             "clicks": 0,
             "ctr": 0,
             "position": 0,
-            "note": "GSC API access issue for ihousing.my - no data available"
+            "note": "GSC API access issue for ihousing.my - no data. High-intent pain-point content targeting property owners with vacant condos."
         },
         "change": {
-            "old_title": "How Much Can You Earn from Airbnb in Melaka? RM7,000-15,000/Year Potential (2025 Data)",
-            "new_title": "How Much Can You Earn from Airbnb in Melaka 2026? RM7,000-15,000/Year (Real Data)",
-            "old_desc": "Discover real Melaka Airbnb income data for 2025. Studio condos earn RM5,000-8,000/year, 3-bedroom units up to RM15,000. Calculate your potential with our free income estimator.",
-            "new_desc": "Real Melaka Airbnb income data from 700+ managed properties. Studio condos: RM5,000-8,000/year. 3BR units: up to RM15,000. Free ROI calculator + income estimator inside.",
+            "old_title": "What to Do With Empty Condo in Melaka? Stop Losing RM500+/month",
+            "new_title": "What to Do With Empty Condo in Melaka 2026 | Stop Losing RM500/month | iHousing",
+            "old_desc": "Your empty condo in Melaka is costing you RM6,000-20,000 annually. Discover why it sits empty and how Airbnb management can turn it into RM7,000+ annual income. Free consultation.",
+            "new_desc": "Empty condo in Melaka costing you RM6,000-20,000 yearly? Convert to Airbnb and earn RM7,000+ annual income. 700+ properties managed since 2017. Free analysis via WhatsApp.",
             "action": "added_faq_schema",
             "questions": [
+                "How much does an empty condo in Melaka cost monthly?",
+                "Can I convert my empty Melaka condo to Airbnb?",
                 "How much can I earn from Airbnb in Melaka?",
-                "What is the average occupancy rate for Airbnb in Melaka?",
-                "Is Airbnb more profitable than long-term rental in Melaka?",
-                "What are the best Melaka areas for Airbnb investment?",
-                "How can I increase my Airbnb income in Melaka?"
+                "Is Airbnb better than long-term rental for empty condos in Melaka?",
+                "Do I need to manage Airbnb myself in Melaka?"
             ],
             "content_updates": [
-                "Updated H1 from 2025 to 2026",
-                "Updated authority signals: 100+ → 700+ properties",
-                "Updated experience: 8 years → 8+ years",
-                "Added visible FAQ section to page content"
+                "Updated H1 to match new title with 2026",
+                "Added FAQ schema for rich snippet eligibility",
+                "Added visible FAQ section with 5 expandable details elements",
+                "Updated authority signals: 100+ to 700+ properties",
+                "Updated experience: 8 years to 8+ years / since 2017",
+                "Added WhatsApp CTA link in About section",
+                "Updated date to 2026-03-22"
             ],
-            "rationale": "High-intent bottom-funnel query ('how much can I earn'). Page had comprehensive ~3,000 word content with income data, calculators, location analysis - but was dated 2025 with no FAQ schema. FAQ schema enables rich snippets for income-related questions. Title update to 2026 signals fresh data."
+            "rationale": "Pain-point content targeting property owners with vacant condos - exactly iHousing's target market. Page addresses RM500+/month losses and converts readers to Airbnb management leads. FAQ questions target exact owner concerns: costs, conversion possibility, earning potential, Airbnb vs long-term, and management requirements. High conversion potential."
         },
-        "check_date": "2026-03-24",
+        "check_date": "2026-03-29",
         "status": "active",
-        "commit": "f2bc72d"
+        "commit": "e6e4a1a"
     },
     {
-        "id": "IH-EXP-094",
+        "id": "IH-EXP-108",
         "client": "iHousing",
-        "date_started": "2026-03-16T20:30:00+08:00",
+        "date_started": "2026-03-22T00:35:00+08:00",
         "type": "faq_schema_headline_optimization",
-        "description": "Added FAQ schema (5 questions) to comprehensive Airbnb vs Long-Term Rental ROI comparison page (~2,500 words). Optimized title to include '2026' and '200% More Returns' hook. Added authority signals (700+ properties).",
-        "page": "/en/blog/airbnb-vs-long-term-rental-melaka-5-year-roi/",
-        "query": "airbnb vs long term rental melaka",
+        "description": "Added FAQ schema (5 questions) to Airbnb Investment Calculator Malaysia page (~2,500 words). Updated title to 'Airbnb Investment Calculator Malaysia 2026 | Free ROI Download | 700+ Properties'. Tool page targeting high-intent investors searching for ROI calculators.",
+        "page": "/en/blog/airbnb-investment-calculator-malaysia-free-download/",
+        "query": "airbnb investment calculator malaysia",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no data. High-value tool page for serious property investors calculating ROI before purchase."
+        },
+        "change": {
+            "old_title": "Airbnb Investment Calculator Malaysia: Free Download from iHousing",
+            "new_title": "Airbnb Investment Calculator Malaysia 2026 | Free ROI Download | 700+ Properties",
+            "old_desc": "Download our free Airbnb investment calculator for Melaka properties. Calculate ROI, occupancy rates, and potential returns. Accurate projections based on real 2026 data.",
+            "new_desc": "Free Airbnb investment calculator for Malaysia properties. Calculate ROI, occupancy, and returns based on REAL data from 700+ managed properties since 2017. Download instantly via WhatsApp.",
+            "action": "added_faq_schema",
+            "questions": [
+                "How accurate is the Airbnb investment calculator for Malaysia?",
+                "What ROI can I expect from Airbnb in Melaka?",
+                "How do I download the free Airbnb calculator?",
+                "Does management fee affect my Airbnb investment returns?",
+                "What expenses should I include when calculating Airbnb ROI in Malaysia?"
+            ],
+            "content_updates": [
+                "Updated H1 to match new title with 2026",
+                "Added FAQ schema for rich snippet eligibility",
+                "Added visible FAQ section with 5 expandable details elements",
+                "Updated authority signals: 100+ to 700+ properties, 8 years to since 2017",
+                "Updated all instances of property count throughout content"
+            ],
+            "rationale": "Calculator/tool pages are link magnets and attract high-intent investors at decision stage. Page had comprehensive content (~2,500 words) with neighborhood ROI data but no FAQ schema. FAQ questions target exact concerns: accuracy, expected returns, download process, management fee impact, and expense calculations. Title now includes year (2026) and authority signal (700+ Properties) for trust."
+        },
+        "check_date": "2026-03-29",
+        "status": "active",
+        "commit": "ba5e659"
+    },
+    {
+        "id": "IH-EXP-107",
+        "client": "iHousing",
+        "date_started": "2026-03-21T18:35:00+08:00",
+        "type": "faq_schema_headline_optimization",
+        "description": "Added FAQ schema (5 questions) to comprehensive Airbnb Guest Screening Malaysia guide (~2,500 words). Updated title to 'Airbnb Guest Screening Malaysia 2026 | 7-Step Vetting Process | 700+ Properties'. Added visible FAQ section covering screening process, red flags, Instant Book settings, pre-screening questions, and how to decline bookings.",
+        "page": "/en/blog/guest-screening-airbnb-malaysia-complete-guide/",
+        "query": "guest screening airbnb malaysia",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no data. High-value operational content for hosts wanting to avoid nightmare bookings."
+        },
+        "change": {
+            "old_title": "Airbnb Guest Screening Answers: What to Check Before Accepting Bookings",
+            "new_title": "Airbnb Guest Screening Malaysia 2026 | 7-Step Vetting Process | 700+ Properties",
+            "old_desc": "What are the must-check guest screening answers for Airbnb Malaysia? We vet 10,000+ bookings yearly. Here are the red flags that matter.",
+            "new_desc": "How to screen Airbnb guests in Malaysia and avoid nightmare bookings. Our 7-step vetting process from 700+ managed properties—red flags, pre-screening questions, and instant book settings that actually work.",
+            "action": "added_faq_schema",
+            "questions": [
+                "How do I screen Airbnb guests in Malaysia?",
+                "What are the red flags for bad Airbnb guests in Malaysia?",
+                "Should I use Instant Book for Airbnb in Malaysia?",
+                "What pre-screening questions should I ask Airbnb guests?",
+                "How do I politely decline an Airbnb booking in Malaysia?"
+            ],
+            "content_updates": [
+                "Updated H1 to match new title with 2026 and 700+ properties",
+                "Added FAQ schema for rich snippet eligibility",
+                "Added visible FAQ section with 5 expandable details elements",
+                "Updated authority signals: 100+ to 700+ properties, added 'since 2017'",
+                "Updated footer CTA with WhatsApp consultation offer"
+            ],
+            "rationale": "Comprehensive operational guide (~2,500 words) covering the exact 7-step screening process hosts need. FAQ questions target common searcher concerns: how to screen, what red flags to look for, Instant Book settings, pre-screening questions, and declining professionally. High-value for hosts burned by bad guests."
+        },
+        "check_date": "2026-03-28",
+        "status": "active",
+        "commit": "b384947"
+    },
+    {
+        "id": "IH-EXP-106",
+        "client": "iHousing",
+        "date_started": "2026-03-21T08:35:00+08:00",
+        "type": "faq_schema_headline_optimization",
+        "description": "Added FAQ schema (5 questions) to comprehensive Airbnb Seasonality Melaka guide (~3,500 words). Month-by-month occupancy data, pricing strategies (RM280-700/night ranges), peak vs low season tactics. Updated title to 'Airbnb Seasonality Melaka 2026 | Month-by-Month Occupancy Guide | 700+ Properties'.",
+        "page": "/en/blog/airbnb-seasonality-melaka-monthly-occupancy-guide/",
+        "query": "airbnb seasonality melaka",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no data. High-value evergreen content for hosts planning year-round pricing."
+        },
+        "change": {
+            "old_title": "Airbnb Seasonality in Melaka: Month-by-Month Occupancy Guide",
+            "new_title": "Airbnb Seasonality Melaka 2026 | Month-by-Month Occupancy Guide | 700+ Properties",
+            "old_desc": "Complete guide to Melaka Airbnb seasonality. Learn peak months, low season strategies, and how to maximize occupancy year-round with dynamic pricing and smart targeting.",
+            "new_desc": "When is peak season for Airbnb in Melaka? Complete month-by-month guide: 80-90% occupancy in Dec vs 50% in June. Pricing strategies from 700+ managed properties since 2017.",
+            "action": "added_faq_schema",
+            "questions": [
+                "When is the best month to book Airbnb in Melaka?",
+                "What is the average Airbnb occupancy rate in Melaka?",
+                "How much can I charge for Airbnb in Melaka during peak season?",
+                "What are the peak and low seasons for Airbnb in Melaka?",
+                "How do I maximize Airbnb income during low season in Melaka?"
+            ],
+            "content_updates": [
+                "Updated H1 to match new title with 2026",
+                "Added 700+ properties authority signal",
+                "Added visible FAQ section with 5 expandable details elements",
+                "Added FAQ schema for rich snippet eligibility",
+                "Updated WhatsApp number to +60166996688"
+            ],
+            "rationale": "Comprehensive seasonality guide (~3,500 words) with month-by-month breakdown, specific occupancy percentages (50-90%), and pricing tiers (RM280-700/night). Perfect for hosts planning year-round strategy. FAQ questions target exact searcher intent: when to book, average occupancy, pricing by season, peak/low periods, and low-season maximization."
+        },
+        "check_date": "2026-03-28",
+        "status": "active",
+        "commit": "f0407dd"
+    },
+    {
+        "id": "IH-EXP-105",
+        "client": "iHousing",
+        "date_started": "2026-03-21T02:35:00+08:00",
+        "type": "faq_schema_headline_optimization",
+        "description": "Added FAQ schema (5 questions) to high-value occupancy case study page. Updated title to 'Airbnb Occupancy 40% to 85% in 90 Days | Melaka Case Study 2026'. Added authority signals (700+ properties since 2017), updated WhatsApp to correct number.",
+        "page": "/en/blog/case-study-increasing-occupancy-40-to-85-percent/",
+        "query": "how to increase airbnb occupancy melaka",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no data. High-value social proof content targeting hosts struggling with low bookings."
+        },
+        "change": {
+            "old_title": "Case Study: Increasing Melaka Airbnb Occupancy from 40% to 85%",
+            "new_title": "Airbnb Occupancy 40% to 85% in 90 Days | Melaka Case Study 2026 | iHousing",
+            "old_desc": "See how iHousing transformed a struggling unit at The Wave Residence. Learn the exact steps we took to double revenue in just 3 months.",
+            "new_desc": "Real case study: How iHousing increased a Melaka Airbnb from 40% to 85% occupancy in 90 days. Revenue jumped from RM2,160 to RM5,990/month. 700+ properties managed since 2017.",
+            "action": "added_faq_schema",
+            "questions": [
+                "How do I increase my Airbnb occupancy in Melaka?",
+                "What is a good occupancy rate for Airbnb in Melaka?",
+                "How much can I earn from Airbnb in Melaka with professional management?",
+                "How long does it take to improve Airbnb occupancy?",
+                "Why is my Melaka Airbnb not getting bookings?"
+            ],
+            "content_updates": [
+                "Updated title with 2026 and specific results (40% to 85%)",
+                "Added 700+ properties authority signal in intro",
+                "Added visible FAQ section with 5 expandable details elements",
+                "Added FAQ schema for rich snippet eligibility",
+                "Fixed WhatsApp number to +60166996688"
+            ],
+            "rationale": "Case studies are powerful social proof. Page had compelling data (177% revenue increase) but no FAQ schema, outdated title without year. FAQ questions target hosts actively searching for ways to improve their Airbnb performance. Title now front-loads the result (40% to 85%) to capture attention."
+        },
+        "check_date": "2026-03-28",
+        "status": "active",
+        "commit": "a8cdb0d"
+    },
+    {
+        "id": "IH-EXP-104",
+        "client": "iHousing",
+        "date_started": "2026-03-20T18:35:00+08:00",
+        "type": "faq_schema_headline_optimization",
+        "description": "Added FAQ schema (5 questions) to high-value 'Airbnb Management Service Malaysia' guide (~750+ words). Updated title to 'Airbnb Management Service Malaysia 2026 | Complete Property Owner Guide | 700+ Properties'. Updated authority signals from 100+ to 700+ properties, added '8+ years' experience.",
+        "page": "/en/blog/airbnb-management-service-malaysia/",
+        "query": "airbnb management service malaysia",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no data. High-intent service page targeting property owners seeking management companies."
+        },
+        "change": {
+            "old_title": "Airbnb Management Service Malaysia: Complete Guide for Property Owners 2025",
+            "new_title": "Airbnb Management Service Malaysia 2026 | Complete Property Owner Guide | 700+ Properties",
+            "old_desc": "Looking for Airbnb management service in Malaysia? Learn what's included, costs, how to choose, and why Melaka is a top location. Real data from 100+ managed properties. WhatsApp for quote.",
+            "new_desc": "Looking for Airbnb management service in Malaysia? What's included, costs (commission vs flat fee), and how to choose. Real data from 700+ managed properties since 2017. WhatsApp for free quote.",
+            "action": "added_faq_schema",
+            "questions": [
+                "How much does Airbnb management cost in Malaysia?",
+                "Is Airbnb management worth it in Malaysia?",
+                "What does an Airbnb management company do in Malaysia?",
+                "How do I choose an Airbnb property manager in Malaysia?",
+                "What's the difference between flat fee and commission-based Airbnb management?"
+            ],
+            "content_updates": [
+                "Updated H1 to match new title with 2026",
+                "Updated all 100+ references to 700+",
+                "Updated '8 years' to '8+ years' experience",
+                "Added visible FAQ section with 5 expandable answers",
+                "Added FAQ schema for rich snippet eligibility"
+            ],
+            "rationale": "High-value service page (~750+ words) targeting property owners searching for Airbnb management. Page was dated 2025 with outdated authority signals (100+ vs 700+). No FAQ schema existed. FAQ questions target exact decision-making questions: cost, worth, services, selection criteria, fee models."
+        },
+        "check_date": "2026-03-27",
+        "status": "active",
+        "commit": "daa56be"
+    },
+    {
+        "id": "IH-EXP-103",
+        "client": "iHousing",
+        "date_started": "2026-03-20T00:35:00+08:00",
+        "type": "faq_schema_headline_optimization",
+        "description": "Added FAQ schema (5 questions) to comprehensive furnishing cost guide (~5,000+ words). Updated title to 'Cost to Furnish Condo for Airbnb Malaysia 2026 | RM10K-120K Budget Guide | 700+ Properties'. Updated all 2025 references to 2026, added authority signals (700+ managed properties experience).",
+        "page": "/en/blog/cost-to-furnish-condo-for-airbnb-malaysia/",
+        "query": "cost to furnish condo for airbnb malaysia",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no data. High-intent furnishing cost keyword for new investors."
+        },
+        "change": {
+            "old_title": "Cost to Furnish Condo for Airbnb Malaysia - Complete 2025 Breakdown (RM10K-120K)",
+            "new_title": "Cost to Furnish Condo for Airbnb Malaysia 2026 | RM10K-120K Budget Guide | 700+ Properties",
+            "old_desc": "Planning to furnish your Melaka condo for Airbnb? Complete cost breakdown from budget RM10K to luxury RM120K. Room-by-room guide with supplier recommendations and money-saving tips.",
+            "new_desc": "How much to furnish a condo for Airbnb in Malaysia? Complete 2026 cost breakdown: budget RM10K to luxury RM120K. Room-by-room guide from 700+ managed properties experience.",
+            "action": "added_faq_schema",
+            "questions": [
+                "How much does it cost to furnish a condo for Airbnb in Malaysia?",
+                "What furniture is most important for Airbnb Malaysia?",
+                "Where to buy furniture for Airbnb condo in Melaka?",
+                "What is the ROI timeline for Airbnb furnishing investment?",
+                "Should I buy new or second-hand furniture for Airbnb?"
+            ],
+            "content_updates": [
+                "Updated H1 to match new title with 2026",
+                "Updated all 2025 references to 2026 (3 instances)",
+                "Added visible FAQ section with 5 comprehensive answers",
+                "Added FAQ schema for rich snippet eligibility",
+                "Added 700+ properties authority signal"
+            ],
+            "rationale": "Comprehensive furnishing guide (~5,000+ words) covering budget tiers RM10K-120K, room-by-room breakdowns, supplier recommendations, and ROI calculations. Perfect for new investors. Title was dated 2025, no FAQ schema. High commercial intent keyword."
+        },
+        "check_date": "2026-03-27",
+        "status": "active",
+        "commit": "a5ad967"
+    },
+    {
+        "id": "IH-EXP-102",
+        "client": "iHousing",
+        "date_started": "2026-03-19T10:35:00+08:00",
+        "type": "faq_schema_headline_optimization",
+        "description": "Added FAQ schema (5 questions) to comprehensive Airbnb Amenities Checklist guide (~2,000+ words). Updated title to 'Airbnb Amenities Checklist Malaysia 2026 | Complete Host Setup Guide | 700+ Properties'. Updated all 2025 references to 2026, authority signals from 100+ to 700+ properties.",
+        "page": "/en/blog/airbnb-amenities-checklist-2025-malaysia/",
+        "query": "airbnb amenities checklist malaysia",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no data. Targeting high-intent setup keyword for new hosts."
+        },
+        "change": {
+            "old_title": "Airbnb Amenities Checklist 2025 Malaysia: Complete Guide for Hosts",
+            "new_title": "Airbnb Amenities Checklist Malaysia 2026 | Complete Host Setup Guide | 700+ Properties",
+            "old_desc": "What amenities do guests expect in 2025? Complete checklist for Airbnb Malaysia including kitchen essentials, safety requirements, and smart home features.",
+            "new_desc": "What amenities do Malaysian Airbnb guests expect in 2026? Complete checklist: kitchen essentials, safety requirements, smart home features, Muslim-friendly items. From 700+ property experience.",
+            "action": "added_faq_schema",
+            "questions": [
+                "What are the must-have amenities for Airbnb Malaysia in 2026?",
+                "How much does it cost to furnish an Airbnb in Malaysia?",
+                "What Muslim-friendly amenities should I provide in Malaysia?",
+                "What kitchen appliances do Airbnb guests expect in Malaysia?",
+                "What smart home features increase Airbnb bookings in 2026?"
+            ],
+            "content_updates": [
+                "Updated H1 to match new title",
+                "Updated all 2025 references to 2026",
+                "Updated authority signals: 100+ to 700+ properties, 8 years to 8+ years",
+                "Added visible FAQ section with 5 expandable answers",
+                "Added FAQ schema for rich snippet eligibility"
+            ],
+            "rationale": "Comprehensive amenities checklist (~2,000+ words) with room-by-room guide, budget breakdowns (RM13K-50K), and Malaysian-specific items including Muslim-friendly amenities. Perfect for new hosts setting up properties. No FAQ schema existed, title was dated 2025 with outdated authority signals."
+        },
+        "check_date": "2026-03-26",
+        "status": "active",
+        "commit": "c7e347c"
+    },
+    {
+        "id": "IH-EXP-101",
+        "client": "iHousing",
+        "date_started": "2026-03-19T04:33:00+08:00",
+        "type": "faq_schema_headline_optimization",
+        "description": "Added FAQ schema (5 questions) to Dynamic Pricing Strategies guide. Updated title to 'Airbnb Pricing Strategy Melaka 2026 | Dynamic Pricing Guide | 700+ Properties'. Updated year 2025→2026 throughout. Authority signals: 100+→700+ properties, 8→8+ years.",
+        "page": "/en/blog/dynamic-pricing-strategies-melaka-airbnb/",
+        "query": "airbnb pricing strategy melaka",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no data. Targeting high-value pricing keyword."
+        },
+        "change": {
+            "old_title": "Dynamic Pricing Strategies for Melaka Airbnb - Complete 2025 Guide",
+            "new_title": "Airbnb Pricing Strategy Melaka 2026 | Dynamic Pricing Guide | 700+ Properties",
+            "old_desc": "Maximize Airbnb revenue with dynamic pricing strategies for Melaka...",
+            "new_desc": "How top Melaka Airbnb hosts earn 25-35% more with dynamic pricing. Weekend premiums, seasonal rates, event-based pricing. Real data from 700+ managed properties.",
+            "action": "added_faq_schema",
+            "questions": [
+                "How much more can I earn with dynamic pricing for my Melaka Airbnb?",
+                "What is the best dynamic pricing tool for Airbnb in Malaysia?",
+                "What should I charge for weekends vs weekdays in Melaka?",
+                "When are peak pricing periods for Melaka Airbnb?",
+                "Should I lower prices to get more Airbnb bookings in Melaka?"
+            ],
+            "content_updates": [
+                "Updated H1 and title with authority signals",
+                "Updated year references 2025→2026",
+                "Authority signals: 100+→700+ properties, 8→8+ years",
+                "Added visible FAQ section with 5 comprehensive answers",
+                "Added FAQ schema for rich snippet eligibility"
+            ],
+            "rationale": "Comprehensive 2,500+ word pricing guide targeting hosts optimizing revenue. FAQ questions address exact revenue potential (+25-35%), pricing tool comparisons, weekend premiums, peak periods - all decision-critical info for hosts considering managed vs DIY."
+        },
+        "check_date": "2026-03-26",
+        "status": "active",
+        "commit": "7a1e07e"
+    },
+    {
+        "id": "IH-EXP-100",
+        "client": "iHousing",
+        "date_started": "2026-03-18T18:33:00+08:00",
+        "type": "faq_schema_headline_optimization",
+        "description": "Added FAQ schema (5 questions) to Airbnb Operating Costs Malaysia guide (~1,000 words). Optimized title to front-load 'Airbnb Operating Costs Malaysia 2026' and add '700+ Properties' authority signal. Updated authority signals throughout content (8 years → 8+ years, added 700+ properties count).",
+        "page": "/en/blog/melaka-airbnb-operating-costs-2026/",
+        "query": "airbnb operating costs malaysia",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no data available. Targeting high-intent cost-analysis searchers."
+        },
+        "change": {
+            "old_title": "Melaka Airbnb Operating Costs 2026: Hidden Leakages Eating Your ROI",
+            "new_title": "Airbnb Operating Costs Malaysia 2026: Melaka Complete Guide | 700+ Properties",
+            "old_desc": "How much does it really cost to run an Airbnb in Melaka? Complete 2026 guide on utilities, maintenance, hidden fees, and how to plug the leakages.",
+            "new_desc": "How much does it REALLY cost to run Airbnb in Melaka 2026? Utilities RM300-600/mo, maintenance 2% gross, platform fees 15-20%. Real data from 700+ managed properties.",
+            "action": "added_faq_schema",
+            "questions": [
+                "How much does electricity cost for Airbnb in Melaka?",
+                "What are the hidden costs of running Airbnb in Malaysia?",
+                "What is the typical profit margin for Melaka Airbnb?",
+                "Should I hire Airbnb property management in Melaka?",
+                "How much should I budget for Airbnb maintenance in Melaka?"
+            ],
+            "content_updates": [
+                "Updated H1 to match new title with authority signals",
+                "Updated authority signals: 8 years → 8+ years, 100+ → 700+ properties",
+                "Added visible FAQ section with 5 comprehensive answers",
+                "Added FAQ schema for rich snippet eligibility"
+            ],
+            "rationale": "Operational costs content (~1,000 words) targeting hosts evaluating profitability. No FAQ schema existed. High-intent keyword 'airbnb operating costs malaysia' attracts hosts comparing DIY vs managed options. FAQ questions address electricity costs, hidden fees, profit margins, and maintenance budgets - directly supporting iHousing's flat-fee management value proposition."
+        },
+        "check_date": "2026-03-25",
+        "status": "active",
+        "commit": "f54739e"
+    },
+    {
+        "id": "IH-EXP-099",
+        "client": "iHousing",
+        "date_started": "2026-03-18T08:33:00+08:00",
+        "type": "faq_schema_headline_optimization",
+        "description": "Added FAQ schema (5 questions) to Airbnb Cleaning Checklist Melaka page. Updated title to 'Airbnb Cleaning Checklist Malaysia 2026' with '700+ Properties' authority signal. Added visible FAQ section with cleaning-specific questions.",
+        "page": "/en/blog/airbnb-cleaning-checklist-melaka-2026/",
+        "query": "airbnb cleaning checklist malaysia",
         "baseline": {
             "impressions": 0,
             "clicks": 0,
@@ -55,23 +425,219 @@
             "note": "GSC API access issue for ihousing.my - no data available"
         },
         "change": {
-            "old_title": "Airbnb vs Long-Term Rental Melaka: 5-Year ROI Calculator",
-            "new_title": "Airbnb vs Long-Term Rental Melaka 2026 | 5-Year ROI Comparison | 200% More Returns",
-            "old_desc": "Compare Airbnb vs long-term rental returns in Melaka with our detailed 5-year ROI calculator. See which strategy maximizes your property investment returns.",
-            "new_desc": "Airbnb earns 200-250% more than long-term rental in Melaka over 5 years. Real ROI data from 700+ managed properties. Compare year-by-year income with our free calculator.",
+            "old_title": "The Ultimate 2026 Airbnb Cleaning Checklist for Melaka Hosts",
+            "new_title": "Airbnb Cleaning Checklist Malaysia 2026 | Melaka Host Guide | 700+ Properties",
+            "old_desc": "Don't get hit with a 3-star review for cleanliness. Download the 2026 Airbnb cleaning checklist specifically designed for Melaka's humid, sandy environment.",
+            "new_desc": "Don't lose bookings to bad reviews. The 2026 Airbnb cleaning checklist for Melaka's humid climate—zone-by-zone guide with realistic timing. From 700+ property experience.",
             "action": "added_faq_schema",
             "questions": [
-                "Is Airbnb more profitable than long-term rental in Melaka?",
-                "How much more can I earn with Airbnb vs renting out long-term?",
-                "What are the risks of Airbnb vs long-term rental in Melaka?",
-                "Can I switch from long-term rental to Airbnb in Melaka?",
-                "Which Melaka properties are best suited for Airbnb?"
+                "How long should an Airbnb cleaning take in Melaka?",
+                "What is the most common cleaning problem for Melaka Airbnbs?",
+                "How do I remove durian smell from an Airbnb fridge?",
+                "How often should Airbnb linens be deep cleaned in Malaysia?",
+                "Should I hire a professional Airbnb cleaning service in Melaka?"
             ],
-            "rationale": "High-value comparison content (~2,500 words) with detailed 5-year ROI calculations but no FAQ schema. Title was missing year and authority signals. Added 5 FAQs targeting comparison search intent. Title optimized to front-load 'Airbnb vs Long-Term Rental Melaka 2026' and include '200% More Returns' hook for CTR."
+            "content_updates": [
+                "Updated authority signals: hundreds → 700+ properties",
+                "Updated experience: 8 years → 8+ years",
+                "Added visible FAQ section with 5 expandable answers",
+                "Fixed WhatsApp number to +60166996688"
+            ],
+            "rationale": "High-value operational content (~1,500 words) with zone-by-zone cleaning guide, timing tables, and Melaka-specific tips (sand, humidity, durian). Page had no FAQ schema. FAQ questions target common host concerns about cleaning time, local challenges, and professional services."
         },
-        "check_date": "2026-03-23",
+        "check_date": "2026-03-25",
         "status": "active",
-        "commit": "d2af64a"
+        "commit": "c096716"
+    },
+    {
+        "date_started": "2026-03-18T02:33:00+08:00",
+        "id": "IH-EXP-098",
+        "type": "faq_schema_headline_optimization",
+        "change": {
+            "old_title": "Self-Manage Airbnb vs Hire Company Malaysia: 20 Hours/Week vs RM250/month",
+            "new_title": "Self-Manage Airbnb vs Hire Company Malaysia 2026 | Real Cost Breakdown",
+            "old_desc": "Should you manage Airbnb yourself or hire a professional? Self-managing costs 20+ hours/week. Professional management: RM200-400/month. Compare time, money, and results.",
+            "new_desc": "Should you manage Airbnb yourself or hire a professional? DIY costs 20+ hours/week. Professional management: RM200-400/month. See real ROI comparison from 700+ properties.",
+            "action": "added_faq_schema",
+            "questions": [
+                "Is it worth hiring an Airbnb management company in Malaysia?",
+                "How much does Airbnb property management cost in Malaysia?",
+                "How many hours per week does self-managing Airbnb take?",
+                "Can I switch from self-managing to professional management easily?",
+                "What's the effective hourly rate for self-managing Airbnb in Malaysia?"
+            ],
+            "rationale": "High-intent comparison content (~3,500 words) for hosts deciding between DIY and professional management. FAQ questions target ROI, cost, time investment."
+        },
+        "query": "self manage airbnb vs hire company malaysia",
+        "client": "iHousing",
+        "page": "/en/blog/self-manage-airbnb-vs-hire-company-malaysia/",
+        "commit": "80ad506",
+        "baseline": {
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no data available",
+            "impressions": 0,
+            "ctr": 0,
+            "clicks": 0
+        },
+        "description": "Added FAQ schema (5 questions) to Self-Manage vs Hire Company comparison page. Updated title with 2026. Updated authority signals (700+ properties).",
+        "check_date": "2026-03-25",
+        "status": "active"
+    },
+    {
+        "date_started":  "2026-03-17T20:33:00+08:00",
+        "id":  "IH-EXP-097",
+        "type":  "faq_schema_headline_optimization",
+        "change":  {
+                       "old_title":  "How to Become an Airbnb Host in Malaysia: Requirements \u0026 Guide (2026)",
+                       "new_title":  "How to Become Airbnb Host Malaysia 2026 | Complete Requirements Guide",
+                       "new_desc":  "Step-by-step guide to becoming an Airbnb host in Malaysia 2026. MOTAC license, JMB approval, legal requirements, and startup costs. From 700+ managed properties experience.",
+                       "rationale":  "High-intent keyword for new hosts researching how to start Airbnb. Comprehensive ~1,800 word guide covering legal requirements, MOTAC licensing, and step-by-step setup process. FAQ schema enables rich snippets for common host questions.",
+                       "old_desc":  "Want to start hosting? Learn the airbnb host requirements in Malaysia, from legal compliance and MOTAC licenses to a step-by-step guide for new hosts.",
+                       "questions":  [
+                                         "How much does it cost to become an Airbnb host in Malaysia?",
+                                         "Do I need a MOTAC license to host Airbnb in Malaysia?",
+                                         "Can my condo JMB ban Airbnb hosting?",
+                                         "How long does it take to start earning from Airbnb in Malaysia?",
+                                         "Should I self-manage or hire an Airbnb management company?"
+                                     ],
+                       "content_updates":  [
+                                               "Updated H1 to include 2026",
+                                               "Added 700+ properties authority signal throughout",
+                                               "Added visible FAQ section with 5 comprehensive answers",
+                                               "Updated experience: 8 years to 8+ years",
+                                               "Added specific cost breakdowns in FAQ"
+                                           ],
+                       "action":  "added_faq_schema"
+                   },
+        "query":  "how to become airbnb host malaysia",
+        "client":  "iHousing",
+        "page":  "/en/blog/how-to-become-airbnb-host-malaysia/",
+        "commit":  "08ce403",
+        "baseline":  {
+                         "position":  0,
+                         "note":  "GSC API access issue for ihousing.my - no data available",
+                         "impressions":  0,
+                         "ctr":  0,
+                         "clicks":  0
+                     },
+        "description":  "Added FAQ schema (5 questions) to comprehensive How to Become Airbnb Host Malaysia guide. Updated title to front-load keyword. Added authority signals (700+ properties, 8+ years).",
+        "check_date":  "2026-03-24",
+        "status":  "active"
+    },
+    {
+        "date_started":  "2026-03-17T14:33:00+08:00",
+        "id":  "IH-EXP-096",
+        "type":  "faq_schema_headline_optimization",
+        "change":  {
+                       "old_title":  "Airbnb Startup Costs Breakdown Malaysia - Complete 2025 Guide (RM25K-100K+)",
+                       "new_title":  "Airbnb Startup Costs Malaysia 2026 | RM25K-100K+ Complete Guide | Real Data",
+                       "new_desc":  "How much does it REALLY cost to start Airbnb in Malaysia 2026? Complete breakdown from RM25K-100K+: furnishing, licensing, hidden costs, ROI timeline. Data from 700+ managed properties.",
+                       "rationale":  "High-intent bottom-funnel query for new Airbnb hosts. Comprehensive ~2,500 word guide covering all startup costs from RM25K-100K+, but was dated 2025 with no FAQ schema. FAQ schema enables rich snippets for cost-related questions.",
+                       "old_desc":  "Starting Airbnb in Malaysia? Complete breakdown of ALL startup costs from furnishing to licensing. Includes hidden costs, ROI timeline, and Melaka-specific pricing. Avoid expensive surprises.",
+                       "questions":  [
+                                         "How much does it cost to start Airbnb in Malaysia?",
+                                         "What are the hidden costs of starting Airbnb in Malaysia?",
+                                         "How long to break even on Airbnb investment in Malaysia?",
+                                         "What furniture is essential for Airbnb Malaysia?",
+                                         "Should I hire Airbnb property management or self-manage in Malaysia?"
+                                     ],
+                       "content_updates":  [
+                                               "Updated H1 from 2025 to 2026",
+                                               "Updated authority signals: 100+ ? 700+ properties",
+                                               "Updated experience: 8 years ? 8+ years",
+                                               "Added visible FAQ section to page content",
+                                               "Updated Current Status section from 2025 to 2026"
+                                           ],
+                       "action":  "added_faq_schema"
+                   },
+        "query":  "airbnb startup costs malaysia",
+        "client":  "iHousing",
+        "page":  "/en/blog/airbnb-startup-costs-breakdown-malaysia/",
+        "commit":  "aeccd68",
+        "baseline":  {
+                         "position":  0,
+                         "note":  "GSC API access issue for ihousing.my - no data available",
+                         "impressions":  0,
+                         "ctr":  0,
+                         "clicks":  0
+                     },
+        "description":  "Added FAQ schema (5 questions) to comprehensive Airbnb Startup Costs Malaysia guide (~2,500 words). Updated title to \u0027Airbnb Startup Costs Malaysia 2026\u0027 with \u0027Real Data\u0027 hook. Updated authority signals from 100+ to 700+ properties, 8 ? 8+ years.",
+        "check_date":  "2026-03-24",
+        "status":  "active"
+    },
+    {
+        "id":  "IH-EXP-095",
+        "client":  "iHousing",
+        "date_started":  "2026-03-17T08:33:00+08:00",
+        "type":  "faq_schema_headline_optimization",
+        "description":  "Added FAQ schema (5 questions) to high-value \u0027How Much Can You Earn from Airbnb in Melaka\u0027 page (~3,000 words). Updated from 2025 to 2026, added \u0027Real Data\u0027 hook. Updated authority signals from 100+ to 700+ properties.",
+        "page":  "/en/blog/how-much-can-i-earn-from-airbnb-in-melaka/",
+        "query":  "how much can i earn from airbnb in melaka",
+        "baseline":  {
+                         "impressions":  0,
+                         "clicks":  0,
+                         "ctr":  0,
+                         "position":  0,
+                         "note":  "GSC API access issue for ihousing.my - no data available"
+                     },
+        "change":  {
+                       "old_title":  "How Much Can You Earn from Airbnb in Melaka? RM7,000-15,000/Year Potential (2025 Data)",
+                       "new_title":  "How Much Can You Earn from Airbnb in Melaka 2026? RM7,000-15,000/Year (Real Data)",
+                       "old_desc":  "Discover real Melaka Airbnb income data for 2025. Studio condos earn RM5,000-8,000/year, 3-bedroom units up to RM15,000. Calculate your potential with our free income estimator.",
+                       "new_desc":  "Real Melaka Airbnb income data from 700+ managed properties. Studio condos: RM5,000-8,000/year. 3BR units: up to RM15,000. Free ROI calculator + income estimator inside.",
+                       "action":  "added_faq_schema",
+                       "questions":  [
+                                         "How much can I earn from Airbnb in Melaka?",
+                                         "What is the average occupancy rate for Airbnb in Melaka?",
+                                         "Is Airbnb more profitable than long-term rental in Melaka?",
+                                         "What are the best Melaka areas for Airbnb investment?",
+                                         "How can I increase my Airbnb income in Melaka?"
+                                     ],
+                       "content_updates":  [
+                                               "Updated H1 from 2025 to 2026",
+                                               "Updated authority signals: 100+ → 700+ properties",
+                                               "Updated experience: 8 years → 8+ years",
+                                               "Added visible FAQ section to page content"
+                                           ],
+                       "rationale":  "High-intent bottom-funnel query (\u0027how much can I earn\u0027). Page had comprehensive ~3,000 word content with income data, calculators, location analysis - but was dated 2025 with no FAQ schema. FAQ schema enables rich snippets for income-related questions. Title update to 2026 signals fresh data."
+                   },
+        "check_date":  "2026-03-24",
+        "status":  "active",
+        "commit":  "f2bc72d"
+    },
+    {
+        "id":  "IH-EXP-094",
+        "client":  "iHousing",
+        "date_started":  "2026-03-16T20:30:00+08:00",
+        "type":  "faq_schema_headline_optimization",
+        "description":  "Added FAQ schema (5 questions) to comprehensive Airbnb vs Long-Term Rental ROI comparison page (~2,500 words). Optimized title to include \u00272026\u0027 and \u0027200% More Returns\u0027 hook. Added authority signals (700+ properties).",
+        "page":  "/en/blog/airbnb-vs-long-term-rental-melaka-5-year-roi/",
+        "query":  "airbnb vs long term rental melaka",
+        "baseline":  {
+                         "impressions":  0,
+                         "clicks":  0,
+                         "ctr":  0,
+                         "position":  0,
+                         "note":  "GSC API access issue for ihousing.my - no data available"
+                     },
+        "change":  {
+                       "old_title":  "Airbnb vs Long-Term Rental Melaka: 5-Year ROI Calculator",
+                       "new_title":  "Airbnb vs Long-Term Rental Melaka 2026 | 5-Year ROI Comparison | 200% More Returns",
+                       "old_desc":  "Compare Airbnb vs long-term rental returns in Melaka with our detailed 5-year ROI calculator. See which strategy maximizes your property investment returns.",
+                       "new_desc":  "Airbnb earns 200-250% more than long-term rental in Melaka over 5 years. Real ROI data from 700+ managed properties. Compare year-by-year income with our free calculator.",
+                       "action":  "added_faq_schema",
+                       "questions":  [
+                                         "Is Airbnb more profitable than long-term rental in Melaka?",
+                                         "How much more can I earn with Airbnb vs renting out long-term?",
+                                         "What are the risks of Airbnb vs long-term rental in Melaka?",
+                                         "Can I switch from long-term rental to Airbnb in Melaka?",
+                                         "Which Melaka properties are best suited for Airbnb?"
+                                     ],
+                       "rationale":  "High-value comparison content (~2,500 words) with detailed 5-year ROI calculations but no FAQ schema. Title was missing year and authority signals. Added 5 FAQs targeting comparison search intent. Title optimized to front-load \u0027Airbnb vs Long-Term Rental Melaka 2026\u0027 and include \u0027200% More Returns\u0027 hook for CTR."
+                   },
+        "check_date":  "2026-03-23",
+        "status":  "active",
+        "commit":  "d2af64a"
     },
     {
         "date_started":  "2026-03-16T14:30:00+08:00",

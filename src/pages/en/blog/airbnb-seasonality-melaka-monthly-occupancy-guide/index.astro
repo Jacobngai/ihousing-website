@@ -1,15 +1,39 @@
 ---
 import BlogPost from '@/layouts/BlogPost.astro';
+import FAQSchema from '@/components/FAQSchema.astro';
 
-const title = "Airbnb Seasonality in Melaka: Month-by-Month Occupancy Guide";
-const description = "Complete guide to Melaka Airbnb seasonality. Learn peak months, low season strategies, and how to maximize occupancy year-round with dynamic pricing and smart targeting.";
-const date = "2026-01-06";
+const title = "Airbnb Seasonality Melaka 2026 | Month-by-Month Occupancy Guide | 700+ Properties";
+const description = "When is peak season for Airbnb in Melaka? Complete month-by-month guide: 80-90% occupancy in Dec vs 50% in June. Pricing strategies from 700+ managed properties since 2017.";
+const date = "2026-03-21";
 const category = "educational";
 const language = "en";
 const image = "/images/blog/airbnb-seasonality-melaka-monthly-occupancy-guide.jpg";
 
+const faqs = [
+  {
+    question: "When is the best month to book Airbnb in Melaka?",
+    answer: "December is peak season with 80-90% occupancy due to school holidays, Christmas, and New Year. January is also strong (70-85% occupancy) during CNY. April sees 75-85% occupancy for Melaka's birthday celebrations. June is lowest season at 55-65% occupancy."
+  },
+  {
+    question: "What is the average Airbnb occupancy rate in Melaka?",
+    answer: "Annual average occupancy is 60-70% for well-managed properties. Peak months (December, January, April, October) see 70-90%, while low season (June) drops to 50-60%. iHousing properties average higher due to multi-platform listing and dynamic pricing."
+  },
+  {
+    question: "How much can I charge for Airbnb in Melaka during peak season?",
+    answer: "Peak season rates for a 2BR condo: RM400-700/night (December being highest). Shoulder season: RM300-450/night. Low season: RM280-350/night. Chinese New Year and year-end holidays command premium rates of RM500-700/night."
+  },
+  {
+    question: "What are the peak and low seasons for Airbnb in Melaka?",
+    answer: "Peak seasons: January (CNY), April (Melaka birthday), October (Deepavali), November-December (year-end holidays). Shoulder seasons: February, March, May, July, August, September. Low season: June (monsoon + school sessions). Weekends are consistently strong year-round."
+  },
+  {
+    question: "How do I maximize Airbnb income during low season in Melaka?",
+    answer: "Target different segments (business travelers, digital nomads, medical tourists), offer extended stay discounts (10-30% off for 7-30 nights), use dynamic pricing, list on multiple platforms (Airbnb, Booking.com, Agoda, VRBO), and schedule maintenance during low-occupancy windows."
+  }
+];
+
 const content = `
-<h1>Airbnb Seasonality in Melaka: Complete Month-by-Month Occupancy Guide</h1>
+<h1>Airbnb Seasonality Melaka 2026: Complete Month-by-Month Occupancy Guide</h1>
 
 <h2>Understanding Melaka's Tourism Calendar to Maximize Your Airbnb Income Year-Round</h2>
 
@@ -496,9 +520,37 @@ const content = `
 
 <p><strong>Don't leave money on the table</strong> by ignoring seasonality.</p>
 
-<p>WhatsApp iHousing today to optimize your year-round Airbnb income.</p>
+<p>WhatsApp iHousing today at <strong>+60166996688</strong> to optimize your year-round Airbnb income.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<details>
+  <summary><strong>When is the best month to book Airbnb in Melaka?</strong></summary>
+  <p>December is peak season with 80-90% occupancy due to school holidays, Christmas, and New Year. January is also strong (70-85% occupancy) during CNY. April sees 75-85% occupancy for Melaka's birthday celebrations. June is lowest season at 55-65% occupancy.</p>
+</details>
+
+<details>
+  <summary><strong>What is the average Airbnb occupancy rate in Melaka?</strong></summary>
+  <p>Annual average occupancy is 60-70% for well-managed properties. Peak months (December, January, April, October) see 70-90%, while low season (June) drops to 50-60%. iHousing properties average higher due to multi-platform listing and dynamic pricing.</p>
+</details>
+
+<details>
+  <summary><strong>How much can I charge for Airbnb in Melaka during peak season?</strong></summary>
+  <p>Peak season rates for a 2BR condo: RM400-700/night (December being highest). Shoulder season: RM300-450/night. Low season: RM280-350/night. Chinese New Year and year-end holidays command premium rates of RM500-700/night.</p>
+</details>
+
+<details>
+  <summary><strong>What are the peak and low seasons for Airbnb in Melaka?</strong></summary>
+  <p>Peak seasons: January (CNY), April (Melaka birthday), October (Deepavali), November-December (year-end holidays). Shoulder seasons: February, March, May, July, August, September. Low season: June (monsoon + school sessions). Weekends are consistently strong year-round.</p>
+</details>
+
+<details>
+  <summary><strong>How do I maximize Airbnb income during low season in Melaka?</strong></summary>
+  <p>Target different segments (business travelers, digital nomads, medical tourists), offer extended stay discounts (10-30% off for 7-30 nights), use dynamic pricing, list on multiple platforms (Airbnb, Booking.com, Agoda, VRBO), and schedule maintenance during low-occupancy windows.</p>
+</details>
 `;
 ---
+<FAQSchema faqs={faqs} />
 <BlogPost
   title={title}
   description={description}

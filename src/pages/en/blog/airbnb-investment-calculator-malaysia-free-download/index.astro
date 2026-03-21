@@ -1,19 +1,67 @@
 ---
 import BlogPost from '@/layouts/BlogPost.astro';
 
-const title = "Airbnb Investment Calculator Malaysia: Free Download from iHousing";
-const description = "Download our free Airbnb investment calculator for Melaka properties. Calculate ROI, occupancy rates, and potential returns. Accurate projections based on real 2026 data.";
-const date = "2026-01-28";
+const title = "Airbnb Investment Calculator Malaysia 2026 | Free ROI Download | 700+ Properties";
+const description = "Free Airbnb investment calculator for Malaysia properties. Calculate ROI, occupancy, and returns based on REAL data from 700+ managed properties since 2017. Download instantly via WhatsApp.";
+const date = "2026-03-22";
 const category = "educational";
 const language = "en";
 const image = "/images/blog/airbnb-investment-calculator-malaysia.jpg";
 
+// FAQ Schema
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How accurate is the Airbnb investment calculator for Malaysia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our calculator projections are typically within +/- 10% of actual returns. It's built on real data from 700+ managed properties in Melaka since 2017, not theoretical assumptions. We update the data quarterly to reflect current market conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What ROI can I expect from Airbnb in Melaka?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ROI varies by location: Jonker Walk (UNESCO zone) typically yields 25-35% total ROI, Melaka Raya 15-22%, Pantai Kundur 18-25%, and Alor Gajah 16-23%. These include rental yield plus property appreciation. Use our free calculator for projections specific to your property."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I download the free Airbnb calculator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "WhatsApp +60166996688 with the message 'CALCULATOR' and we'll send you the download link immediately. No signup required. You'll receive the Excel spreadsheet, instruction guide, Melaka data sheet, and video tutorial."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does management fee affect my Airbnb investment returns?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Significantly. Commission-based management (18-25% of revenue) can reduce your returns by RM7,000-10,000 annually compared to flat fee models (RM200-300/month). Our calculator lets you compare both models to see the impact on your specific investment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What expenses should I include when calculating Airbnb ROI in Malaysia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Include: management fees, cleaning costs (RM60-120 per stay), utilities (RM300-600/month), maintenance (5-8% of revenue), platform fees (Airbnb 3%, Booking.com 15%), and insurance (RM1,200-2,400/year). Our calculator includes all these automatically."
+      }
+    }
+  ]
+};
+
 const content = `
-<h1>Airbnb Investment Calculator Malaysia: Free Download from iHousing</h1>
+<h1>Airbnb Investment Calculator Malaysia 2026 | Free ROI Download</h1>
 
 <h2>Accurate ROI Projections for Melaka Airbnb Investments</h2>
 
-<p>Considering an Airbnb investment in Melaka? Making informed decisions requires <strong>accurate financial projections</strong>, not guesswork. After managing <strong>100+ properties across Melaka for 8 years</strong>, iHousing has developed a comprehensive investment calculator based on <strong>real performance data</strong>, not optimistic assumptions.</p>
+<p>Considering an Airbnb investment in Melaka? Making informed decisions requires <strong>accurate financial projections</strong>, not guesswork. After managing <strong>700+ properties across Melaka since 2017</strong>, iHousing has developed a comprehensive investment calculator based on <strong>real performance data</strong>, not optimistic assumptions.</p>
 
 <p>Our <strong>free Airbnb investment calculator</strong> helps you:</p>
 
@@ -37,7 +85,7 @@ const content = `
 <li><strong>Management fee impact:</strong> Commission structures significantly reduce returns</li>
 </ul>
 
-<p><strong>iHousing's calculator</strong> uses <strong>real Melaka data</strong> from 100+ properties over 8 years.</p>
+<p><strong>iHousing's calculator</strong> uses <strong>real Melaka data</strong> from 700+ properties since 2017 (8+ years experience).</p>
 
 <h2>Calculator Features: What's Included</h2>
 
@@ -318,7 +366,7 @@ const content = `
 
 <h2>Calculator Accuracy Guarantee</h2>
 
-<p>Our calculator is built on <strong>real data from 100+ properties</strong> over 8 years:</p>
+<p>Our calculator is built on <strong>real data from 700+ properties</strong> since 2017 (8+ years experience):</p>
 
 <ul>
 <li><strong>Accuracy range:</strong> Projections typically within +/- 10% of actual</li>
@@ -389,7 +437,34 @@ const content = `
 
 <p><em>Already own a property? Our calculator can also analyze your current performance and identify optimization opportunities. WhatsApp us to discuss.</em></p>
 
-<p><strong>iHousing manages 100+ properties across Melaka</strong> with flat monthly fees (RM200-300 for Parkland Avenue). Our calculator is built on real data from our managed portfolio, delivering accurate projections you can trust.</p>
+<p><strong>iHousing manages 700+ properties across Melaka since 2017</strong> with flat monthly fees (RM200-300 for Parkland Avenue). Our calculator is built on real data from our managed portfolio, delivering accurate projections you can trust.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<details class="mb-4 border border-gray-200 rounded-lg">
+<summary class="p-4 cursor-pointer font-semibold bg-gray-50 hover:bg-gray-100">How accurate is the Airbnb investment calculator for Malaysia?</summary>
+<div class="p-4 border-t">Our calculator projections are typically within +/- 10% of actual returns. It's built on real data from 700+ managed properties in Melaka since 2017, not theoretical assumptions. We update the data quarterly to reflect current market conditions.</div>
+</details>
+
+<details class="mb-4 border border-gray-200 rounded-lg">
+<summary class="p-4 cursor-pointer font-semibold bg-gray-50 hover:bg-gray-100">What ROI can I expect from Airbnb in Melaka?</summary>
+<div class="p-4 border-t">ROI varies by location: Jonker Walk (UNESCO zone) typically yields 25-35% total ROI, Melaka Raya 15-22%, Pantai Kundur 18-25%, and Alor Gajah 16-23%. These include rental yield plus property appreciation. Use our free calculator for projections specific to your property.</div>
+</details>
+
+<details class="mb-4 border border-gray-200 rounded-lg">
+<summary class="p-4 cursor-pointer font-semibold bg-gray-50 hover:bg-gray-100">How do I download the free Airbnb calculator?</summary>
+<div class="p-4 border-t">WhatsApp +60166996688 with the message 'CALCULATOR' and we'll send you the download link immediately. No signup required. You'll receive the Excel spreadsheet, instruction guide, Melaka data sheet, and video tutorial.</div>
+</details>
+
+<details class="mb-4 border border-gray-200 rounded-lg">
+<summary class="p-4 cursor-pointer font-semibold bg-gray-50 hover:bg-gray-100">Does management fee affect my Airbnb investment returns?</summary>
+<div class="p-4 border-t">Significantly. Commission-based management (18-25% of revenue) can reduce your returns by RM7,000-10,000 annually compared to flat fee models (RM200-300/month). Our calculator lets you compare both models to see the impact on your specific investment.</div>
+</details>
+
+<details class="mb-4 border border-gray-200 rounded-lg">
+<summary class="p-4 cursor-pointer font-semibold bg-gray-50 hover:bg-gray-100">What expenses should I include when calculating Airbnb ROI in Malaysia?</summary>
+<div class="p-4 border-t">Include: management fees, cleaning costs (RM60-120 per stay), utilities (RM300-600/month), maintenance (5-8% of revenue), platform fees (Airbnb 3%, Booking.com 15%), and insurance (RM1,200-2,400/year). Our calculator includes all these automatically.</div>
+</details>
 `;
 ---
 
@@ -400,6 +475,7 @@ const content = `
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
     <meta name="description" content={description}>
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
 </head>
 <body>
     <BlogPost {title} {description} {image} {date} {category} {language} {content} />

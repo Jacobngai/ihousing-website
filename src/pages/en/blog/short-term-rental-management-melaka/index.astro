@@ -1,20 +1,45 @@
 ---
 import BlogPost from '@/layouts/BlogPost.astro';
+import FAQSchema from '@/components/FAQSchema.astro';
 
-const title = "Short Term Rental Management Melaka: Why 2025 Is the Best Time to Start";
-const description = "Looking for short term rental management in Melaka? Learn why 2025 is prime time, ROI potential, how to choose a manager, and market trends. Real data from 100+ properties. WhatsApp for analysis.";
+const title = "Short Term Rental Management Melaka 2026 | Complete STR Guide | 700+ Properties";
+const description = "Short term rental management Melaka with flat fee or commission options. 700+ properties managed since 2017. Why 2026 is prime time: ROI potential, how to choose a manager. Free analysis via WhatsApp.";
 const image = "/images/blog/short-term-rental-management-melaka.jpg";
-const date = "2025-01-24";
+const date = "2026-03-23";
 const category = "solution-aware-roi";
 const language = "en";
 
+const faqs = [
+  {
+    question: "How much does short term rental management cost in Melaka?",
+    answer: "Management fees in Melaka range from flat fee RM200-400/month to 15-25% commission. iHousing offers transparent flat fee pricing for Parkland Avenue (RM200-300/month) and custom quotes for other condos. No hidden fees, no markup on cleaning or maintenance."
+  },
+  {
+    question: "Is short term rental management worth it in Melaka?",
+    answer: "Yes - professionally managed properties achieve 35-38% occupancy vs 19-22% for self-managed. This translates to RM25,000-35,000 more annual revenue. After management fees, you still net significantly more with professional management plus zero time investment."
+  },
+  {
+    question: "What does short term rental management include in Melaka?",
+    answer: "Full-service management includes: property setup & staging, professional photography, multi-platform listing (5 platforms), dynamic pricing, guest communication, cleaning coordination, maintenance handling, monthly financial reports, and compliance with MOTAC regulations."
+  },
+  {
+    question: "Can I switch short term rental managers in Melaka?",
+    answer: "Yes - most contracts allow termination with 30 days notice. iHousing has a smooth onboarding process for owners switching from other managers. We handle listing transfers, calendar sync, and existing booking handoffs."
+  },
+  {
+    question: "What is the best location for short term rental in Melaka?",
+    answer: "Bandar Hilir (town centre near Jonker Street) delivers highest ROI: 28-35% occupancy, RM200-260/night rates, 6.5-8% ROI. Klebang Beach and Ayer Keroh are strong alternatives with lower entry prices. Avoid Bukit Beruang (student area) for Airbnb."
+  }
+];
+
 // Content as HTML directly - simpler and more reliable
 const content = `
-<h1>Short Term Rental Management Melaka: Why 2025 Is the Best Time to Start</h1>
+<h1>Short Term Rental Management Melaka 2026: Complete Guide | 700+ Properties</h1>
 
 <strong>Melaka's short-term rental market is booming.</strong>
 
-<p>2024 saw:</p>
+<p>2024 saw:
+</p>
 <ul>
 <li>18% increase in tourist arrivals</li></ul>
 
@@ -27,9 +52,10 @@ const content = `
 <ul>
 <li>Weekend getaway demand at all-time highs</li></ul>
 
-<strong>If you own a condo in Melaka, 2025 presents a prime opportunity.</strong>
+<strong>If you own a condo in Melaka, 2026 presents a prime opportunity.</strong>
 
-<p>But successful short-term rental management requires:</p>
+<p>But successful short-term rental management requires:
+</p>
 <ul>
 <li>Understanding the market</li></ul>
 
@@ -42,7 +68,7 @@ const content = `
 <ul>
 <li>Guest experience excellence</li></ul>
 
-<strong>This guide covers everything you need to know about short-term rental management in Melaka for 2025.</strong>
+<strong>This guide covers everything you need to know about short-term rental management in Melaka for 2026.</strong>
 
 <h2>Why Melaka? Market Overview</h2>
 
@@ -50,7 +76,7 @@ const content = `
 
 <strong>Historic State, Modern Appeal:</strong>
 
-<h3>2025 Market Outlook</h3>
+<h3>2026 Market Outlook</h3>
 
 <strong>What's Driving Growth:</strong>
 
@@ -143,7 +169,8 @@ const content = `
 
 <h3>Full-Service Management (iHousing Approach)</h3>
 
-<p>#### Phase 1: Setup & Launch</p>
+<p>#### Phase 1: Setup & Launch
+</p>
 
 <strong>Week 1-2: Property Assessment</strong>
 <ul>
@@ -197,7 +224,8 @@ const content = `
 <ul>
 <li>Initial booking push</li></ul>
 
-<p>#### Phase 2: Ongoing Operations</p>
+<p>#### Phase 2: Ongoing Operations
+</p>
 
 <strong>Daily Tasks:</strong>
 <ul>
@@ -255,7 +283,7 @@ const content = `
 
 <strong>What Professional Managers Handle:</strong>
 
-<h2>The 2025 Advantage: Why Start Now?</h2>
+<h2>The 2026 Advantage: Why Start Now?</h2>
 
 <h3>Favorable Market Conditions</h3>
 
@@ -270,7 +298,7 @@ const content = `
 <li>2024: Full recovery (+10% vs. 2019)</li></ul>
 
 <ul>
-<li>2025: Growth trajectory continuing</li></ul>
+<li>2025-2026: Growth trajectory continuing</li></ul>
 
 <strong>2. Rate Premium Achievable</strong>
 <ul>
@@ -545,11 +573,12 @@ const content = `
 <ul>
 <li>60% more bookings</li></ul>
 
-<h2>2025 Melaka Locations: Where to Invest</h2>
+<h2>2026 Melaka Locations: Where to Invest</h2>
 
 <h3>Top Performing Areas</h3>
 
-<p>#### 1. Bandar Hilir (Town Centre)</p>
+<p>#### 1. Bandar Hilir (Town Centre)
+</p>
 
 <strong>Characteristics:</strong>
 <ul>
@@ -581,7 +610,8 @@ const content = `
 <ul>
 <li>ROI: 6.5-8%</li></ul>
 
-<p>#### 2. Klebang Beach (Coastal)</p>
+<p>#### 2. Klebang Beach (Coastal)
+</p>
 
 <strong>Characteristics:</strong>
 <ul>
@@ -610,7 +640,8 @@ const content = `
 <ul>
 <li>ROI: 5.8-7%</li></ul>
 
-<p>#### 3. Ayer Keroh (Highway Access)</p>
+<p>#### 3. Ayer Keroh (Highway Access)
+</p>
 
 <strong>Characteristics:</strong>
 <ul>
@@ -636,7 +667,8 @@ const content = `
 <ul>
 <li>ROI: 5.5-7%</li></ul>
 
-<p>#### 4. Bukit Beruang (Student Area)</p>
+<p>#### 4. Bukit Beruang (Student Area)
+</p>
 
 <strong>Characteristics:</strong>
 <ul>
@@ -664,9 +696,9 @@ const content = `
 
 <h3>Our Track Record</h3>
 
-<strong>8 Years, 100+ Properties:</strong>
+<strong>Since 2017, 700+ Properties:</strong>
 <ul>
-<li>Launched 2017</li></ul>
+<li>Launched 2017 (8+ years experience)</li></ul>
 
 <ul>
 <li>Survived and thrived through pandemic</li></ul>
@@ -690,7 +722,7 @@ const content = `
 <ul>
 <li>5-platform distribution</li></ul>
 
-<h3>Our Advantages for 2025</h3>
+<h3>Our Advantages for 2026</h3>
 
 <strong>1. MOTAC Compliance Expertise</strong>
 <ul>
@@ -748,11 +780,11 @@ const content = `
 <ul>
 <li>No markups</li></ul>
 
-<h3>Our 2025 Projections</h3>
+<h3>Our 2026 Projections</h3>
 
-<strong>For New Properties Starting in 2025:</strong>
+<strong>For New Properties Starting in 2026:</strong>
 
-<em>Based on 2024 performance trends, 2025 market outlook</em>
+<em>Based on 2024-2025 performance trends, 2026 market outlook</em>
 
 <h2>Get Started with Melaka Short-Term Rental Management</h2>
 
@@ -789,7 +821,7 @@ const content = `
 
 <h2>For Parkland Avenue by the Sea</h2>
 
-<strong>Exclusive 2025 Flat Fee Pricing:</strong>
+<strong>Exclusive 2026 Flat Fee Pricing:</strong>
 <ul>
 <li>1 Room: RM200/month</li></ul>
 
@@ -805,23 +837,52 @@ const content = `
 
 <strong>WhatsApp us for custom pricing.</strong>
 
-<p>Each property is unique. We provide personalized quotes based on your specific situation.</p>
+<p>Each property is unique. We provide personalized quotes based on your specific situation.
+</p>
 
 <strong>Take Action Today:</strong>
 
-<strong>Enter your phone number and we'll WhatsApp you with a free 2025 market analysis and revenue projection.</strong>
+<strong>Enter your phone number and we'll WhatsApp you with a free 2026 market analysis and revenue projection.</strong>
 
-<p>2025 is shaping up to be a fantastic year for Melaka short-term rentals. Don't miss the opportunity. Let us show you what your property can earn.</p>
+<p>2026 is shaping up to be a fantastic year for Melaka short-term rentals. Don't miss the opportunity. Let us show you what your property can earn.
+</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<details>
+<summary><strong>How much does short term rental management cost in Melaka?</strong></summary>
+<p>Management fees in Melaka range from flat fee RM200-400/month to 15-25% commission. iHousing offers transparent flat fee pricing for Parkland Avenue (RM200-300/month) and custom quotes for other condos. No hidden fees, no markup on cleaning or maintenance.</p>
+</details>
+
+<details>
+<summary><strong>Is short term rental management worth it in Melaka?</strong></summary>
+<p>Yes - professionally managed properties achieve 35-38% occupancy vs 19-22% for self-managed. This translates to RM25,000-35,000 more annual revenue. After management fees, you still net significantly more with professional management plus zero time investment.</p>
+</details>
+
+<details>
+<summary><strong>What does short term rental management include in Melaka?</strong></summary>
+<p>Full-service management includes: property setup & staging, professional photography, multi-platform listing (5 platforms), dynamic pricing, guest communication, cleaning coordination, maintenance handling, monthly financial reports, and compliance with MOTAC regulations.</p>
+</details>
+
+<details>
+<summary><strong>Can I switch short term rental managers in Melaka?</strong></summary>
+<p>Yes - most contracts allow termination with 30 days notice. iHousing has a smooth onboarding process for owners switching from other managers. We handle listing transfers, calendar sync, and existing booking handoffs.</p>
+</details>
+
+<details>
+<summary><strong>What is the best location for short term rental in Melaka?</strong></summary>
+<p>Bandar Hilir (town centre near Jonker Street) delivers highest ROI: 28-35% occupancy, RM200-260/night rates, 6.5-8% ROI. Klebang Beach and Ayer Keroh are strong alternatives with lower entry prices. Avoid Bukit Beruang (student area) for Airbnb.</p>
+</details>
 
 <h2>About iHousing</h2>
 
 <strong>Melaka's Leading Short-Term Rental Management Company:</strong>
 
 <ul>
-<li>100+ properties under management</li></ul>
+<li>700+ properties managed since 2017</li></ul>
 
 <ul>
-<li>8 years in Melaka market</li></ul>
+<li>8+ years in Melaka market</li></ul>
 
 <ul>
 <li>62% average occupancy rate</li></ul>
@@ -833,7 +894,7 @@ const content = `
 <li>In-house cleaning team</li></ul>
 
 <ul>
-<li>responsive guest support</li></ul>
+<li>Responsive guest support</li></ul>
 
 <ul>
 <li>MOTAC compliant</li></ul>
@@ -841,9 +902,10 @@ const content = `
 <ul>
 <li>Transparent pricing</li></ul>
 
-<p>We've helped 100+ Melaka owners achieve hands-free passive income. 2025 is the perfect time to join them.</p>
+<p>We've helped 700+ Melaka owners achieve hands-free passive income. 2026 is the perfect time to join them.
+</p>
 
-<em>Ready to explore short-term rental management in Melaka? We'll provide real data, transparent pricing, and honest guidance. No pressure, just facts. WhatsApp us for a free 2025 consultation.</em>
+<em>Ready to explore short-term rental management in Melaka? We'll provide real data, transparent pricing, and honest guidance. No pressure, just facts. WhatsApp us for a free 2026 consultation.</em>
 `;
 ---
 <BlogPost
@@ -854,4 +916,6 @@ const content = `
   category={category}
   language={language}
   content={content}
-/>
+>
+  <FAQSchema faqs={faqs} slot="head" />
+</BlogPost>

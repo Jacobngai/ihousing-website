@@ -1,4 +1,130 @@
 [    {
+        "id": "IH-EXP-112",
+        "client": "iHousing",
+        "date_started": "2026-03-23T06:36:00+08:00",
+        "type": "faq_schema_headline_year_update",
+        "description": "Added FAQ schema (5 questions) to comprehensive Short Term Rental Management Melaka guide (~3,500 words). Core service keyword targeting property owners researching STR management. Updated title to 'Short Term Rental Management Melaka 2026 | Complete STR Guide | 700+ Properties'. Updated all 2025 references to 2026, authority signals (100+ → 700+ properties, 8 years → 8+ years/Since 2017).",
+        "page": "/en/blog/short-term-rental-management-melaka/",
+        "query": "short term rental management melaka",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no data. High-value core service keyword page targeting property owners researching STR management options."
+        },
+        "change": {
+            "old_title": "Short Term Rental Management Melaka: Why 2025 Is the Best Time to Start",
+            "new_title": "Short Term Rental Management Melaka 2026 | Complete STR Guide | 700+ Properties",
+            "old_desc": "Looking for short term rental management in Melaka? Learn why 2025 is prime time, ROI potential, how to choose a manager, and market trends. Real data from 100+ properties. WhatsApp for analysis.",
+            "new_desc": "Short term rental management Melaka with flat fee or commission options. 700+ properties managed since 2017. Why 2026 is prime time: ROI potential, how to choose a manager. Free analysis via WhatsApp.",
+            "action": "added_faq_schema",
+            "questions": [
+                "How much does short term rental management cost in Melaka?",
+                "Is short term rental management worth it in Melaka?",
+                "What does short term rental management include in Melaka?",
+                "Can I switch short term rental managers in Melaka?",
+                "What is the best location for short term rental in Melaka?"
+            ],
+            "content_updates": [
+                "Updated H1 to match new title with 2026",
+                "Added FAQ schema for rich snippet eligibility",
+                "Added visible FAQ section with 5 expandable details elements",
+                "Updated ~10 instances of 2025 to 2026 throughout content",
+                "Updated authority signals: 100+ to 700+ properties",
+                "Updated experience: 8 years to 8+ years / since 2017",
+                "Updated publish date to 2026-03-23"
+            ],
+            "rationale": "Core service keyword page (~3,500 words) covering comprehensive STR management guide for Melaka. Page was dated 2025 with no FAQ schema. FAQ questions target exact searcher concerns: cost, worth, services included, switching managers, best locations. High commercial intent - readers researching management companies are ready to convert."
+        },
+        "check_date": "2026-03-30",
+        "status": "active",
+        "commit": "6a35667"
+    },
+    {
+        "id": "IH-EXP-111",
+        "client": "iHousing",
+        "date_started": "2026-03-22T18:35:00+08:00",
+        "type": "faq_schema_headline_optimization",
+        "description": "Added FAQ schema (5 questions) to high-commercial-intent 'Switch Airbnb Manager Without Losing Bookings' page (~3,000 words). Decision-stage content targeting property owners ready to switch managers. Updated title to 'Switch Airbnb Manager Without Losing Bookings 2026 | Zero Disruption | iHousing Melaka'.",
+        "page": "/en/blog/switch-airbnb-manager-without-losing-bookings/",
+        "query": "switch airbnb manager without losing bookings",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no data. High-commercial-intent decision-stage content targeting property owners considering switching Airbnb management companies."
+        },
+        "change": {
+            "old_title": "Switch Airbnb Manager Without Losing Bookings - Smooth Transition Guide Melaka 2025",
+            "new_title": "Switch Airbnb Manager Without Losing Bookings 2026 | Zero Disruption | iHousing Melaka",
+            "old_desc": "Worried about losing bookings when switching Airbnb managers? Our proven transition process ensures zero disruption. Learn how to switch smoothly in Melaka without affecting your occupancy or reviews.",
+            "new_desc": "Worried about losing bookings when switching Airbnb managers? Our proven 7-step transition process ensures zero disruption. 700+ properties switched since 2017 without losing a single booking.",
+            "action": "added_faq_schema",
+            "questions": [
+                "Will my existing guests be affected when I switch Airbnb managers?",
+                "How long does it take to switch Airbnb managers in Melaka?",
+                "Will I lose my Superhost status if I switch managers?",
+                "What if my current Airbnb manager penalizes me for switching?",
+                "Do I need to be in Melaka to switch Airbnb managers?"
+            ],
+            "content_updates": [
+                "Updated H1 to include 2026 and 'Zero Disruption' hook",
+                "Added FAQ schema for rich snippet eligibility",
+                "Added visible FAQ section with 5 expandable details elements",
+                "Updated authority signals: 100+ to 700+ properties since 2017",
+                "Updated experience: 8 years to 8+ years since 2017",
+                "Updated date from January 2025 to March 2026"
+            ],
+            "rationale": "Decision-stage content targeting property owners frustrated with their current manager. FAQ questions address exact switching concerns: guest disruption, timeline, Superhost status, manager penalties, remote ownership. This is direct lead generation - readers ready to switch find iHousing's Zero Booking Loss Guarantee compelling."
+        },
+        "check_date": "2026-03-29",
+        "status": "active",
+        "commit": "c2947aa"
+    },
+    {
+        "id": "IH-EXP-110",
+        "client": "iHousing",
+        "date_started": "2026-03-22T12:35:00+08:00",
+        "type": "faq_schema_headline_optimization",
+        "description": "Added FAQ schema (5 questions) to high-commercial-intent 'DIY vs Managed Airbnb Melaka' comparison page (~2,500 words). This page directly targets property owners deciding whether to hire management services - iHousing's exact conversion point. Updated title to 'DIY vs Managed Airbnb Melaka 2026 | Which is More Profitable?'",
+        "page": "/en/blog/diy-vs-managed-airbnb-melaka/",
+        "query": "diy vs managed airbnb melaka",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no data. High-commercial-intent comparison page targeting decision-stage property owners."
+        },
+        "change": {
+            "old_title": "DIY vs Managed Airbnb in Melaka: What's Right for Your Property?",
+            "new_title": "DIY vs Managed Airbnb Melaka 2026 | Which is More Profitable? | iHousing",
+            "old_desc": "You bought a property for passive income, not a second job. Here's how to decide between managing your own Airbnb in Melaka or hiring a property manager - real numbers from 100+ Melaka properties.",
+            "new_desc": "Should you manage your Melaka Airbnb yourself or hire a property manager? Real comparison from 700+ properties since 2017. See costs, income, and time investment.",
+            "action": "added_faq_schema",
+            "questions": [
+                "Should I manage my Melaka Airbnb myself or hire a property manager?",
+                "How much does Airbnb property management cost in Melaka?",
+                "Is managed Airbnb more profitable than DIY in Melaka?",
+                "What does an Airbnb property manager in Melaka actually do?",
+                "Can I switch from DIY to managed Airbnb later?"
+            ],
+            "content_updates": [
+                "Updated H1 to include 2026 and match title",
+                "Added FAQ schema for rich snippet eligibility",
+                "Added visible FAQ section with 5 expandable details elements",
+                "Updated authority signals: 100+ to 700+ properties, added 'since 2017'",
+                "Added WhatsApp CTA link in About section"
+            ],
+            "rationale": "Decision-stage comparison content - readers are actively choosing between DIY and hiring management. FAQ questions address exact decision factors: cost, profitability, services, and switching. This is iHousing's most direct conversion path: reader decides 'managed' and contacts iHousing immediately."
+        },
+        "check_date": "2026-03-29",
+        "status": "active",
+        "commit": "af7c8eb"
+    },
+    {
         "id": "IH-EXP-109",
         "client": "iHousing",
         "date_started": "2026-03-22T06:35:00+08:00",

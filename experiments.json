@@ -1,4 +1,47 @@
 [    {
+        "id": "IH-EXP-113",
+        "client": "iHousing",
+        "date_started": "2026-03-23T12:36:00+08:00",
+        "type": "faq_schema_headline_authority_update",
+        "description": "Added FAQ schema (5 questions) to comprehensive Handling Airbnb Guest Issues guide (~4,500 words). Operational content covering midnight calls, property damage, difficult guests, emergencies, and bad reviews. Updated title to 'Handling Airbnb Guest Issues Melaka 2026 | Complete Problem-Solving Guide | Since 2017'. Updated all authority signals (100+ → 700+ properties since 2017).",
+        "page": "/en/blog/handling-airbnb-guest-issues-melaka-complete-guide/",
+        "query": "handling airbnb guest issues melaka",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no data. Comprehensive operational guide (~4,500 words) for hosts dealing with common guest problems. High-value content for DIY hosts considering professional management."
+        },
+        "change": {
+            "old_title": "Handling Airbnb Guest Issues in Melaka: The Complete Playbook for Every Problem",
+            "new_title": "Handling Airbnb Guest Issues Melaka 2026 | Complete Problem-Solving Guide | Since 2017",
+            "old_desc": "From midnight noise complaints to property damage, here's how to handle every Airbnb guest issue in Melaka. Real solutions from managing 100+ properties.",
+            "new_desc": "How to handle Airbnb guest issues: AC not working, noise complaints, property damage, lockouts. Real playbook from managing 700+ properties since 2017. 24/7 solutions.",
+            "action": "added_faq_schema",
+            "questions": [
+                "What's the most common Airbnb guest complaint in Melaka?",
+                "How do I handle property damage from Airbnb guests?",
+                "What should I do if guests show up with extra people?",
+                "How do I respond to a bad Airbnb review?",
+                "When should I hire professional Airbnb management in Melaka?"
+            ],
+            "content_updates": [
+                "Updated H1/title to include 2026 and 'Since 2017' authority signal",
+                "Added FAQ schema for rich snippet eligibility (JSON-LD)",
+                "Added visible FAQ section with 5 expandable details elements",
+                "Updated authority signals: 100+ → 700+ properties since 2017",
+                "Updated '8 years' references to 'since 2017'",
+                "Updated meta description with specific issues: AC, noise, damage, lockouts",
+                "Updated publish date to 2026-03-23"
+            ],
+            "rationale": "Comprehensive operational guide (~4,500 words) covering every common guest issue: midnight calls (AC, WiFi, pests), property damage claims, difficult guests, emergencies, and review damage control. DIY hosts reading this content are prime candidates for professional management. FAQ questions target exact host concerns: common complaints, damage handling, extra guests, bad reviews, and when to hire help. Authority signals (700+ since 2017) build trust."
+        },
+        "check_date": "2026-03-30",
+        "status": "active",
+        "commit": "75215c6"
+    },
+    {
         "id": "IH-EXP-112",
         "client": "iHousing",
         "date_started": "2026-03-23T06:36:00+08:00",

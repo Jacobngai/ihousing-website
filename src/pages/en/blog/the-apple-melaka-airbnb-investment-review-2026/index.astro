@@ -2,19 +2,68 @@
 import BlogPost from '../../../../layouts/BlogPost.astro';
 
 export const frontmatter = {
-	title: "The Apple Melaka Review 2026: Is It a Good Airbnb Investment?",
-	description: "An honest review of The Apple Melaka for Airbnb investors. We analyze occupancy rates, ROI, and how it compares to Atlantis and Silverscape in 2026.",
-	date: "2026-02-12",
+	title: "The Apple Melaka Airbnb Investment 2026 | 7-9% ROI Review | 700+ Properties",
+	description: "Is The Apple Melaka good for Airbnb investment? Real 2026 data: 7-9% ROI, RM280+ nightly rates, 65-75% occupancy. How it compares to Atlantis & Silverscape. 700+ properties managed since 2017.",
+	date: "2026-03-24",
 	category: "property-review",
 	image: "/images/blog/the-apple-melaka-airbnb-review-2026.jpg",
 	author: "iHousing Team"
 };
+
+const faqSchema = {
+	"@context": "https://schema.org",
+	"@type": "FAQPage",
+	"mainEntity": [
+		{
+			"@type": "Question",
+			"name": "Is The Apple Melaka a good Airbnb investment in 2026?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Yes, The Apple Melaka yields 7-9% ROI for Airbnb in 2026. It commands premium rates (RM280-350/night) and attracts couples/business travelers. Lower occupancy (65-75%) than Atlantis, but higher nightly rates and lower maintenance costs due to adult guests."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "How much can I earn from Airbnb at The Apple Melaka?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "A 2-bedroom unit at The Apple Melaka earns RM5,500-7,000/month gross revenue. After cleaning, utilities (~RM1,200), and management fees (~RM350), net operating income is RM4,000-5,450/month. Cash-flow positive if mortgage is under RM3,500."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "What is the difference between The Apple and Atlantis Melaka for Airbnb?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "The Apple targets couples/business travelers with RM280-350 rates and 65-75% occupancy. Atlantis targets families with RM200-250 rates and 75-85% occupancy. The Apple has lower wear-and-tear (adult guests) but higher entry cost. Atlantis has higher volume but more maintenance."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "Is Airbnb allowed at The Apple Melaka in 2026?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Yes, The Apple Melaka remains Airbnb-friendly in 2026 with Commercial Strata Title. Follow management rules and maintain professional standards. The hotel-grade management keeps common areas pristine—important for guest reviews."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "What type of guests book The Apple Melaka on Airbnb?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "The Apple attracts couples, business travelers, and luxury tourists—not large families. The lack of a kids' water park and premium positioning means fewer noisy groups. For owners, this means less furniture damage and longer-lasting furnishings."
+			}
+		}
+	]
+};
 ---
 
 <BlogPost {...frontmatter}>
+	<script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+	
 	<div class="bg-blue-50 p-6 rounded-lg mb-8">
-		<h2 class="text-xl font-bold text-blue-800 mb-2">The Apple: Luxury Living or Airbnb Goldmine?</h2>
-		<p class="text-blue-700"><strong>The Verdict:</strong> The Apple Melaka is the top choice for <strong>premium travelers and couples</strong> who value location over "kid amenities." While Atlantis wins on family volume, The Apple commands higher nightly rates (RM280+) and attracts better-behaved guests. In 2026, it's yielding a solid <strong>7-9% ROI</strong> for our owners.</p>
+		<h2 class="text-xl font-bold text-blue-800 mb-2">The Apple Melaka Airbnb Investment 2026: Premium Property, Premium Returns</h2>
+		<p class="text-blue-700"><strong>The Verdict:</strong> The Apple Melaka is the top choice for <strong>premium travelers and couples</strong> who value location over "kid amenities." While Atlantis wins on family volume, The Apple commands higher nightly rates (RM280+) and attracts better-behaved guests. In 2026, it's yielding a solid <strong>7-9% ROI</strong> for our owners. iHousing manages <strong>700+ properties since 2017</strong>—here's our honest analysis.</p>
 	</div>
 
 	<p>If you've driven through Melaka recently, you can't miss <strong>The Apple</strong>. Sitting tall next to the Courtyard by Marriott on Jalan Tun Sri Lanang, it looks more like a luxury hotel than a typical condo. And that's exactly why it's interesting for Airbnb investors.</p>
@@ -112,10 +161,39 @@ export const frontmatter = {
 	<p><strong>Buy The Apple IF:</strong> You want a prestigious property, prefer dealing with fewer (but higher-paying) guests, and value long-term asset appreciation in a prime location.</p>
 	<p><strong>Look elsewhere IF:</strong> You want maximum occupancy volume at all costs (go Atlantis) or want a low-cost entry point (look at older apartments).</p>
 
+	<h2 class="text-2xl font-bold mt-8 mb-4">Frequently Asked Questions</h2>
+	
+	<div class="space-y-4 mb-8">
+		<details class="bg-gray-50 p-4 rounded-lg">
+			<summary class="font-bold cursor-pointer">Is The Apple Melaka a good Airbnb investment in 2026?</summary>
+			<p class="mt-2 text-gray-700">Yes, The Apple Melaka yields 7-9% ROI for Airbnb in 2026. It commands premium rates (RM280-350/night) and attracts couples/business travelers. Lower occupancy (65-75%) than Atlantis, but higher nightly rates and lower maintenance costs due to adult guests.</p>
+		</details>
+		
+		<details class="bg-gray-50 p-4 rounded-lg">
+			<summary class="font-bold cursor-pointer">How much can I earn from Airbnb at The Apple Melaka?</summary>
+			<p class="mt-2 text-gray-700">A 2-bedroom unit at The Apple Melaka earns RM5,500-7,000/month gross revenue. After cleaning, utilities (~RM1,200), and management fees (~RM350), net operating income is RM4,000-5,450/month. Cash-flow positive if mortgage is under RM3,500.</p>
+		</details>
+		
+		<details class="bg-gray-50 p-4 rounded-lg">
+			<summary class="font-bold cursor-pointer">What is the difference between The Apple and Atlantis Melaka for Airbnb?</summary>
+			<p class="mt-2 text-gray-700">The Apple targets couples/business travelers with RM280-350 rates and 65-75% occupancy. Atlantis targets families with RM200-250 rates and 75-85% occupancy. The Apple has lower wear-and-tear (adult guests) but higher entry cost. Atlantis has higher volume but more maintenance.</p>
+		</details>
+		
+		<details class="bg-gray-50 p-4 rounded-lg">
+			<summary class="font-bold cursor-pointer">Is Airbnb allowed at The Apple Melaka in 2026?</summary>
+			<p class="mt-2 text-gray-700">Yes, The Apple Melaka remains Airbnb-friendly in 2026 with Commercial Strata Title. Follow management rules and maintain professional standards. The hotel-grade management keeps common areas pristine—important for guest reviews.</p>
+		</details>
+		
+		<details class="bg-gray-50 p-4 rounded-lg">
+			<summary class="font-bold cursor-pointer">What type of guests book The Apple Melaka on Airbnb?</summary>
+			<p class="mt-2 text-gray-700">The Apple attracts couples, business travelers, and luxury tourists—not large families. The lack of a kids' water park and premium positioning means fewer noisy groups. For owners, this means less furniture damage and longer-lasting furnishings.</p>
+		</details>
+	</div>
+
 	<div class="bg-blue-100 p-8 rounded-lg mt-8 text-center">
 		<h3 class="text-2xl font-bold text-blue-900 mb-4">Thinking of Investing in The Apple?</h3>
-		<p class="mb-6 text-blue-800">Don't guess the numbers. Get a free, detailed earnings projection for your specific unit type.</p>
-		<a href="https://wa.me/601116126688?text=Hi%20iHousing,%20I'm%20interested%20in%20The%20Apple%20Melaka%20investment%20ROI" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 shadow-lg transform hover:-translate-y-1">
+		<p class="mb-6 text-blue-800">Don't guess the numbers. Get a free, detailed earnings projection for your specific unit type. iHousing manages 700+ properties since 2017.</p>
+		<a href="https://wa.me/60166996688?text=Hi%20iHousing,%20I'm%20interested%20in%20The%20Apple%20Melaka%20investment%20ROI" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 shadow-lg transform hover:-translate-y-1">
 			<i class="fab fa-whatsapp mr-2"></i> Get Free ROI Calculation
 		</a>
 	</div>

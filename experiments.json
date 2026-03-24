@@ -1,4 +1,170 @@
 [    {
+        "id": "IH-EXP-117",
+        "client": "iHousing",
+        "date_started": "2026-03-25T02:36:00+08:00",
+        "type": "faq_schema_headline_authority_update",
+        "description": "Added FAQ schema (5 questions) to Silverscape Residence Melaka investment guide (~10,000 words). Comprehensive property-specific guide with real ROI data, cost breakdowns, performance comparisons vs other condos. Updated title to 'Silverscape Residence Melaka Airbnb 2026 | Investment Review | 700+ Properties'. Added authority signals (700+ properties since 2017).",
+        "page": "/en/blog/silverscape-residence-melaka-airbnb-investment-guide/",
+        "query": "silverscape residence melaka airbnb investment",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no data. Comprehensive ~10,000 word property investment guide with real performance data (2-BR earns RM6,500-8,500/month, 70-80% occupancy). Silverscape is near Jonker Walk - iHousing's best performing area. Very high commercial intent - investors evaluating specific buildings."
+        },
+        "change": {
+            "old_title": "Silverscape Residence Melaka: The Airbnb Investment That Actually Works",
+            "new_title": "Silverscape Residence Melaka Airbnb 2026 | Investment Review | 700+ Properties",
+            "old_desc": "Real performance data: Silverscape Residence units earn RM7,500/month with 75% occupancy. We manage multiple units here and share what owners actually make.",
+            "new_desc": "Is Silverscape Residence good for Airbnb investment? Real performance data from 700+ managed properties since 2017. 2-BR units earn RM6,500-8,500/month with 70-80% occupancy.",
+            "action": "added_faq_schema",
+            "questions": [
+                "How much can I really earn from Silverscape Airbnb?",
+                "Is Silverscape Residence approved for Airbnb?",
+                "What's the difference between Silverscape and other Melaka condos for Airbnb?",
+                "Should I furnish my Silverscape unit myself or hire someone?",
+                "How long does it take to get consistent Airbnb bookings at Silverscape?"
+            ],
+            "content_updates": [
+                "Updated H1/title to include '2026', 'Investment Review' and '700+ Properties' authority signal",
+                "Updated meta description with authority signals (700+ properties since 2017)",
+                "Added FAQ schema for rich snippet eligibility (JSON-LD with 5 questions)",
+                "Updated authority signals: 'multiple units' → '700+ properties since 2017'",
+                "Updated publish date to 2026-03-25"
+            ],
+            "rationale": "Massive ~10,000 word Silverscape property guide with comprehensive ROI data, cost breakdowns, comparison tables (vs The Apple, Hatten Square, Parkland), real performance data by unit type, common investor mistakes, and decision framework. FAQ questions address exact investor concerns: real income potential, Airbnb approval, competitive advantage, furnishing strategy, and booking timeline. Very high commercial intent - investors evaluating specific buildings before purchase."
+        },
+        "check_date": "2026-04-01",
+        "status": "active",
+        "commit": "17b89ed"
+    },
+    {
+        "id": "IH-EXP-116",
+        "client": "iHousing",
+        "date_started": "2026-03-24T06:36:00+08:00",
+        "type": "faq_schema_headline_authority_update",
+        "description": "Added FAQ schema (5 questions) to Jonker Walk Airbnb Investment Guide 2026 (~3,500 words). Comprehensive location-based investment guide covering ROI data, top condos, pricing strategies, and case studies. Updated title to 'Jonker Walk Airbnb Investment 2026 | Complete ROI Guide | 700+ Properties'. Added authority signals (700+ properties since 2017).",
+        "page": "/en/blog/jonker-walk-airbnb-investment-guide-2026/",
+        "query": "jonker walk airbnb investment",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no data. High-value comprehensive guide (~3,500 words) covering Melaka's most profitable Airbnb location. Jonker Walk delivers 25-35% ROI vs 10-22% elsewhere. Key investment content."
+        },
+        "change": {
+            "old_title": "Jonker Walk Airbnb Investment Guide 2026: Complete ROI Breakdown",
+            "new_title": "Jonker Walk Airbnb Investment 2026 | Complete ROI Guide | 700+ Properties",
+            "old_desc": "Discover how Jonker Walk (Melaka UNESCO Heritage Zone) delivers 25-35% ROI for Airbnb investors. Real data, occupancy rates, and income projections for 2026. RM10,000-15,000 monthly income potential.",
+            "new_desc": "Jonker Walk delivers 25-35% ROI for Airbnb investors. Real 2026 data: RM10,000-15,000/month income potential, 70-80% occupancy. Complete guide from 700+ managed properties since 2017.",
+            "action": "added_faq_schema",
+            "questions": [
+                "Is Jonker Walk a good location for Airbnb investment in Melaka?",
+                "How much can I earn from Airbnb near Jonker Walk?",
+                "What ROI can I expect from a Jonker Walk Airbnb property?",
+                "Which condos near Jonker Walk are best for Airbnb?",
+                "How does Jonker Walk compare to other Melaka locations for Airbnb?"
+            ],
+            "content_updates": [
+                "Updated H1/title to include 'Complete ROI Guide' and '700+ Properties' authority signal",
+                "Added FAQ schema for rich snippet eligibility (JSON-LD)",
+                "Added visible FAQ section with 5 expandable details elements",
+                "Updated authority signals: '100+ properties' → '700+ properties since 2017'",
+                "Updated date from January 2026 to March 2026"
+            ],
+            "rationale": "Comprehensive Jonker Walk investment guide (~3,500 words) with ROI data, performance tables, condo rankings, and case study. This is iHousing's flagship location content - Jonker Walk is Melaka's most profitable area (25-35% ROI vs 10-22% elsewhere). FAQ questions address exact investor concerns: location quality, income potential, ROI expectations, best buildings, and location comparison. Very high commercial intent."
+        },
+        "check_date": "2026-03-31",
+        "status": "active",
+        "commit": "50b50f7"
+    },
+    {
+        "id": "IH-EXP-115",
+        "client": "iHousing",
+        "date_started": "2026-03-24T00:36:00+08:00",
+        "type": "faq_schema_headline_authority_update",
+        "description": "Added FAQ schema (5 questions) to The Apple Melaka investment review (~1,200 words). Property-specific content targeting premium investors comparing Apple vs Atlantis. Updated title to 'The Apple Melaka Airbnb Investment 2026 | 7-9% ROI Review | 700+ Properties'. Added authority signals (700+ properties since 2017).",
+        "page": "/en/blog/the-apple-melaka-airbnb-investment-review-2026/",
+        "query": "the apple melaka airbnb investment",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no data. Premium property investment review comparing The Apple vs Atlantis for Airbnb. High commercial intent - investors evaluating specific buildings for higher ROI."
+        },
+        "change": {
+            "old_title": "The Apple Melaka Review 2026: Is It a Good Airbnb Investment?",
+            "new_title": "The Apple Melaka Airbnb Investment 2026 | 7-9% ROI Review | 700+ Properties",
+            "old_desc": "An honest review of The Apple Melaka for Airbnb investors. We analyze occupancy rates, ROI, and how it compares to Atlantis and Silverscape in 2026.",
+            "new_desc": "Is The Apple Melaka good for Airbnb investment? Real 2026 data: 7-9% ROI, RM280+ nightly rates, 65-75% occupancy. How it compares to Atlantis & Silverscape. 700+ properties managed since 2017.",
+            "action": "added_faq_schema",
+            "questions": [
+                "Is The Apple Melaka a good Airbnb investment in 2026?",
+                "How much can I earn from Airbnb at The Apple Melaka?",
+                "What is the difference between The Apple and Atlantis Melaka for Airbnb?",
+                "Is Airbnb allowed at The Apple Melaka in 2026?",
+                "What type of guests book The Apple Melaka on Airbnb?"
+            ],
+            "content_updates": [
+                "Updated H1/title to include 2026 and '7-9% ROI' hook with 700+ authority signal",
+                "Added FAQ schema for rich snippet eligibility (JSON-LD)",
+                "Added visible FAQ section with 5 expandable details elements",
+                "Added authority signals: 700+ properties since 2017 in intro and CTA",
+                "Updated WhatsApp number to +60166996688",
+                "Updated publish date to 2026-03-24"
+            ],
+            "rationale": "Premium property investment review (~1,200 words) with detailed ROI comparison (The Apple vs Atlantis). Page had no FAQ schema and generic title. The Apple targets couples/business travelers with higher rates (RM280-350) but lower occupancy (65-75%) than family-focused Atlantis. FAQ questions address exact investor concerns: ROI potential, earnings, property comparison, legality, and guest profiles. High commercial intent - readers comparing specific buildings."
+        },
+        "check_date": "2026-03-31",
+        "status": "active",
+        "commit": "a77667b"
+    },
+    {
+        "id": "IH-EXP-114",
+        "client": "iHousing",
+        "date_started": "2026-03-23T18:36:00+08:00",
+        "type": "faq_schema_headline_authority_update",
+        "description": "Added FAQ schema (5 questions) to Novo 8 Residence investment guide (~1,500 words). Property-specific content targeting investors interested in family-focused Airbnb properties. Updated title to 'Novo 8 Residence Melaka Airbnb 2026 | Family Investment Guide | Since 2017'. Updated authority signals (multiple units → 700+ properties since 2017).",
+        "page": "/en/blog/novo-8-residence-melaka-airbnb-investment-guide/",
+        "query": "novo 8 residence melaka airbnb",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no data. Property-specific investment guide with ROI comparison vs Silverscape. High commercial intent - investors considering specific buildings."
+        },
+        "change": {
+            "old_title": "Novo 8 Residence Melaka: The Family-Friendly Airbnb Profit Machine",
+            "new_title": "Novo 8 Residence Melaka Airbnb 2026 | Family Investment Guide | Since 2017",
+            "old_desc": "Why Novo 8 Residence is outperforming Silverscape for family bookings. Real ROI data, occupancy rates, and why Kampung Morten is the new Airbnb hotspot.",
+            "new_desc": "Novo 8 Residence outperforms Silverscape for families: 82% occupancy vs 68%. Real ROI data from 700+ managed properties since 2017. Why Kampung Morten is Melaka's hidden gem.",
+            "action": "added_faq_schema",
+            "questions": [
+                "Is Novo 8 Residence good for Airbnb investment in Melaka?",
+                "How much can I earn from Airbnb at Novo 8 Residence?",
+                "Why does Novo 8 have higher occupancy than Silverscape?",
+                "What management fee does iHousing charge for Novo 8 units?",
+                "Is Novo 8 Residence close to Jonker Walk and tourist attractions?"
+            ],
+            "content_updates": [
+                "Updated H1/title to include 2026 and 'Since 2017' authority signal",
+                "Added FAQ schema for rich snippet eligibility (JSON-LD)",
+                "Added visible FAQ section with 5 expandable details elements",
+                "Updated authority signals: 'multiple units' → '700+ properties since 2017'",
+                "Updated meta description with occupancy comparison (82% vs 68%)",
+                "Updated publish date to 2026-03-23"
+            ],
+            "rationale": "Property-specific investment guide targeting investors considering Novo 8 Residence. Unique angle: family-focused bookings with 82% occupancy vs 68% at Silverscape. FAQ questions address exact investor concerns: ROI potential, income expectations, occupancy comparison, management fees, and location convenience. High commercial intent - readers comparing specific buildings for investment."
+        },
+        "check_date": "2026-03-30",
+        "status": "active",
+        "commit": "4ee8881"
+    },
+    {
         "id": "IH-EXP-113",
         "client": "iHousing",
         "date_started": "2026-03-23T12:36:00+08:00",

@@ -1,4 +1,95 @@
 [    {
+        "id": "IH-EXP-119",
+        "client": "iHousing",
+        "date_started": "2026-03-25T14:36:00+08:00",
+        "type": "content_expansion_faq_schema",
+        "description": "Major content expansion for Airbnb Financing Options Malaysia page. Critical content mismatch fixed: title promised financing guide but content was generic iHousing boilerplate (~350 words). Expanded to 1800+ words with comprehensive financing comparison, ROI calculations, bank rate tables, and FAQ schema.",
+        "page": "/en/blog/airbnb-financing-options-malaysia/",
+        "query": "airbnb financing options malaysia",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no baseline data. Critical content mismatch: title promised comprehensive financing guide but content was generic placeholder (~350 words). High commercial intent keyword for property investors researching how to fund their Airbnb investment."
+        },
+        "change": {
+            "old_title": "Airbnb Financing Options Malaysia: How to Fund Your Investment Property",
+            "new_title": "Airbnb Financing Options Malaysia 2026 | Loan vs Cash Investment Guide | 700+ Properties",
+            "old_desc": "Complete guide to financing Melaka Airbnb property. Bank loans, margin financing, cash purchase pros/cons. ROI calculations.",
+            "new_desc": "How to finance your Airbnb investment property in Malaysia. Bank loans, flexi loans, cash purchase ROI comparison. Real numbers from 700+ managed properties since 2017.",
+            "action": "content_expansion_faq_schema",
+            "word_count_before": 350,
+            "word_count_after": 1800,
+            "questions": [
+                "Should I buy an Airbnb investment property with cash or loan in Malaysia?",
+                "What is the minimum down payment for Airbnb property in Malaysia?",
+                "Which Malaysian banks offer the best rates for Airbnb investment property?",
+                "Can foreigners finance Airbnb property in Malaysia?",
+                "How does financing affect my Airbnb ROI calculation?"
+            ],
+            "content_updates": [
+                "Complete content rewrite from generic placeholder to comprehensive financing guide",
+                "Added 4 financing options comparison: bank loans, flexi loans, cash, developer financing",
+                "Added ROI comparison table: cash purchase (12%) vs 70% financing (29.5%)",
+                "Added Malaysian bank rate comparison table (Maybank, Public Bank, CIMB, Hong Leong, RHB, HSBC)",
+                "Added loan eligibility section: DSR, income calculation, rental income consideration",
+                "Added hidden costs breakdown: stamp duty, legal fees, MRTA, valuation",
+                "Added FAQ schema with 5 investor-focused questions (JSON-LD)",
+                "Added visible FAQ section with expandable details",
+                "Updated authority signals: 700+ properties since 2017",
+                "Updated publish date to 2026-03-25"
+            ],
+            "rationale": "Critical content mismatch: title promised 'complete guide to financing' but content was just generic iHousing pitch with no actual financing information. This is a high commercial intent keyword targeting investors researching how to fund their property purchase. Comprehensive expansion covers every financing option with real numbers, bank comparisons, and ROI calculations. FAQ questions address exact investor concerns: cash vs loan, down payments, bank rates, foreigner eligibility, and ROI impact."
+        },
+        "check_date": "2026-04-01",
+        "status": "active",
+        "commit": "4ad3135"
+    },
+    {
+        "id": "IH-EXP-118",
+        "client": "iHousing",
+        "date_started": "2026-03-25T08:34:00+08:00",
+        "type": "faq_schema_headline_authority_update",
+        "description": "Added FAQ schema (5 questions) to The Atlantis Melaka Airbnb investment review (~1,500 words). Property-specific guide for Melaka's #1 family-choice Airbnb condo in Kota Laksamana. Updated title to 'The Atlantis Melaka Airbnb Investment 2026 | Family-Choice ROI Review | 700+ Properties'. Added authority signals and visible FAQ section.",
+        "page": "/en/blog/the-atlantis-melaka-airbnb-investment-review-2026/",
+        "query": "the atlantis melaka airbnb",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no baseline data. The Atlantis is Melaka's #1 family-choice Airbnb building with resort-style water park. 75-80% occupancy, RM5,200-9,000/month revenue for 2-3BR units. Located in Kota Laksamana near Jonker Street."
+        },
+        "change": {
+            "old_title": "The Atlantis Melaka Review: Is This Kota Laksamana Condo Still the Best Airbnb Investment?",
+            "new_title": "The Atlantis Melaka Airbnb Investment 2026 | Family-Choice ROI Review | 700+ Properties",
+            "old_desc": "Everything you need to know about investing in The Atlantis Melaka in 2026. We break down the real occupancy rates, nightly prices, and why Kota Laksamana is the heart of Melaka's Airbnb boom.",
+            "new_desc": "Is The Atlantis Melaka still the best Airbnb investment? Real 2026 data: 75-80% occupancy, RM5,200-9,000/month revenue. Kota Laksamana location analysis from 700+ managed properties since 2017.",
+            "action": "added_faq_schema",
+            "questions": [
+                "Is The Atlantis Melaka still a good Airbnb investment in 2026?",
+                "How much can I earn from Airbnb at The Atlantis Melaka?",
+                "What makes The Atlantis better than other Melaka condos for Airbnb?",
+                "What are the challenges of Airbnb at The Atlantis Melaka?",
+                "How do I maximize ROI at The Atlantis Melaka?"
+            ],
+            "content_updates": [
+                "Updated H1/title with '2026', 'Family-Choice ROI Review' and '700+ Properties' authority signal",
+                "Updated meta description with authority signals (700+ properties since 2017)",
+                "Added FAQ schema for rich snippet eligibility (JSON-LD with 5 questions)",
+                "Added visible FAQ section with 5 expandable details elements",
+                "Updated authority signals: '50+ units' → '700+ properties since 2017'",
+                "Fixed WhatsApp number to correct business line (+60166996688)",
+                "Updated publish date to 2026-03-25"
+            ],
+            "rationale": "The Atlantis is Melaka's family-choice Airbnb kingpin with resort-style water park attracting KL/Singapore families. Kota Laksamana location is 3-5 min from Jonker Street food. Page had comprehensive ROI data (2-BR: RM5,200-6,000/month at 78% occupancy; 3-BR: RM7,500-9,000/month at 72% occupancy) but no FAQ schema and outdated title without authority signals. FAQ questions address exact investor concerns: ROI potential, earnings, competitive advantages, challenges, and optimization strategies."
+        },
+        "check_date": "2026-04-01",
+        "status": "active",
+        "commit": "5b9bd3f"
+    },
+    {
         "id": "IH-EXP-117",
         "client": "iHousing",
         "date_started": "2026-03-25T02:36:00+08:00",

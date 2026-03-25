@@ -1,7 +1,7 @@
 {
   "property": "sc-domain:ihousing.net",
   "error": "<HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/sc-domain%3Aihousing.net/searchAnalytics/query?alt=json returned \"User does not have sufficient permission for site 'sc-domain:ihousing.net'. See also: https://support.google.com/webmasters/answer/2451999.\". Details: \"[{'message': \"User does not have sufficient permission for site 'sc-domain:ihousing.net'. See also: https://support.google.com/webmasters/answer/2451999.\", 'domain': 'global', 'reason': 'forbidden'}]\">",
-  "fetchedAt": "2026-03-17T15:13:23.080330",
+  "fetchedAt": "2026-03-25T14:51:13.549032",
   "data": [],
   "totals": {
     "clicks": 0,

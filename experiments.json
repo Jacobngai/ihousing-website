@@ -1,4 +1,91 @@
 [    {
+        "id": "IH-EXP-122",
+        "client": "iHousing",
+        "date_started": "2026-03-26T12:37:00+08:00",
+        "type": "faq_schema_headline_authority_update",
+        "description": "Added FAQ schema (5 questions) to Ong Kim Wee Residence investment guide (~3,000 words). Property-specific guide with affordable entry point analysis (RM250K-400K), 10% ROI data, guest profile breakdown. Updated title to 'Ong Kim Wee Residence Airbnb Investment 2026 | 10% ROI Guide | 700+ Properties'. Updated all authority signals (15+ → 700+ properties since 2017).",
+        "page": "/en/blog/ong-kim-wee-residence-airbnb-investment-melaka/",
+        "query": "ong kim wee residence airbnb melaka",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no baseline data. Property-specific investment guide targeting first-time investors seeking affordable Melaka entry point. ~3,000 words with comprehensive ROI analysis, guest profiles, and competitive comparison."
+        },
+        "change": {
+            "old_title": "Ong Kim Wee Residence Airbnb Investment Guide — Melaka 2026",
+            "new_title": "Ong Kim Wee Residence Airbnb Investment 2026 | 10% ROI Guide | 700+ Properties",
+            "old_desc": "Complete investment analysis of Ong Kim Wee Residence for Airbnb hosting in Melaka. Location review, revenue potential, setup costs, and why iHousing recommends this property for short-term rentals.",
+            "new_desc": "Is Ong Kim Wee Residence good for Airbnb? Real 2026 data: 65-70% occupancy, RM3,500-5,000/month income, 10% ROI. Complete investment guide from 700+ managed properties since 2017.",
+            "action": "added_faq_schema",
+            "questions": [
+                "Is Ong Kim Wee Residence a good Airbnb investment in Melaka?",
+                "How much can I earn from Airbnb at Ong Kim Wee Residence?",
+                "What is the ROI for Ong Kim Wee Residence Airbnb?",
+                "How does Ong Kim Wee compare to Silverscape and Parkland Residence?",
+                "What type of guests book Ong Kim Wee Residence on Airbnb?"
+            ],
+            "content_updates": [
+                "Updated H1/title with '2026', '10% ROI' hook, and '700+ Properties' authority signal",
+                "Updated meta description with specific ROI data (65-70% occupancy, 10% ROI, RM3,500-5,000/month)",
+                "Added FAQ schema for rich snippet eligibility (JSON-LD with 5 questions)",
+                "Added visible FAQ section with 5 expandable details elements",
+                "Updated authority signals: '15+ properties' → '700+ properties since 2017'",
+                "Added WhatsApp CTA link (+60166996688)",
+                "Updated publish date to 2026-03-26"
+            ],
+            "rationale": "Ong Kim Wee Residence targets first-time investors with affordable entry (RM250K-400K vs RM450-500K for premium condos). Page had comprehensive ~3,000 word content with ROI calculations, guest profiles, comparison tables, but no FAQ schema and outdated authority signals (15+ vs 700+). FAQ questions address exact investor concerns: ROI potential, income expectations, competitive comparison with Silverscape/Parkland, and guest demographics. High commercial intent - readers evaluating specific affordable buildings for Airbnb investment."
+        },
+        "check_date": "2026-04-02",
+        "status": "active",
+        "commit": "8b30119"
+    },
+    {
+        "id": "IH-EXP-121",
+        "client": "iHousing",
+        "date_started": "2026-03-26T06:37:00+08:00",
+        "type": "faq_schema_headline_authority_update",
+        "description": "Added FAQ schema (5 questions) to comprehensive Dutch Square (Red Square) investment guide (~5,000 words). Location-specific guide covering all 3 proximity zones with detailed ROI data, property options, guest profiles, and case studies. Updated title to 'Dutch Square Airbnb Investment Melaka 2026 | Heritage Zone ROI Guide | 700+ Properties'.",
+        "page": "/en/blog/dutch-square-airbnb-investment-melaka-guide/",
+        "query": "dutch square airbnb investment melaka",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no baseline data. Comprehensive ~5,000 word location investment guide covering Melaka's premium heritage zone. Dutch Square is Melaka's most photographed landmark with 4.5M annual visitors. High commercial intent - investors evaluating heritage zone properties."
+        },
+        "change": {
+            "old_title": "Dutch Square (Red Square) Melaka Airbnb Investment: Heritage Zone ROI Guide",
+            "new_title": "Dutch Square Airbnb Investment Melaka 2026 | Heritage Zone ROI Guide | 700+ Properties",
+            "old_desc": "Complete guide to investing in Airbnb properties near Melaka's iconic Dutch Square. Learn about property options, guest profiles, revenue potential, and strategies for this prime heritage location.",
+            "new_desc": "Is Dutch Square a good Airbnb location? Complete 2026 guide: Core zone earns RM320-450/night at 74-78% occupancy. Real ROI data from 700+ managed properties since 2017.",
+            "action": "added_faq_schema",
+            "questions": [
+                "Is Dutch Square a good location for Airbnb investment in Melaka?",
+                "How much can I earn from Airbnb near Dutch Square?",
+                "What is the ROI for Dutch Square Airbnb properties?",
+                "Which zone near Dutch Square is best for Airbnb investment?",
+                "What type of guests book Airbnb near Dutch Square?"
+            ],
+            "content_updates": [
+                "Updated H1/title with '2026' and '700+ Properties' authority signal",
+                "Updated meta description with zone-specific ROI data",
+                "Added FAQ schema for rich snippet eligibility (JSON-LD with 5 questions)",
+                "Added visible FAQ section with 5 expandable details elements",
+                "Added authority signals: '700+ properties since 2017' in intro and CTA",
+                "Updated visitor statistics from 2024 to 2026 (4.2M → 4.5M)",
+                "Added WhatsApp CTA link (+60166996688)",
+                "Updated publish date to 2026-03-26"
+            ],
+            "rationale": "Dutch Square is Melaka's premium Airbnb location (UNESCO heritage zone). Comprehensive ~5,000 word guide covers 3 proximity zones with detailed investment profiles: Core (0-200m, RM320-450/night, 7.1-8.5% ROI), Primary (200-500m, RM280-400/night, 8.0-9.1% ROI), Secondary (500-800m, RM240-340/night, 7.2-8.5% ROI). Includes case studies, guest profiles (60% international heritage tourists), and marketing strategies. FAQ questions address exact investor concerns: location quality, earnings, ROI, best zone, and guest types. Very high commercial intent - investors evaluating heritage zone opportunities."
+        },
+        "check_date": "2026-04-02",
+        "status": "active",
+        "commit": "02a22e0"
+    },
+    {
         "id": "IH-EXP-120",
         "client": "iHousing",
         "date_started": "2026-03-25T20:37:00+08:00",

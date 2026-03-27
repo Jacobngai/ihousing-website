@@ -1,73 +1,256 @@
 ---
-import BlogPost from '@/layouts/BlogPost.astro';
+import BaseLayout from '@/layouts/BaseLayout.astro';
 
-const title = "Airbnb Host Insurance Malaysia: What Coverage Do You Need?";
-const description = "Complete insurance guide for Melaka Airbnb hosts. Public liability, contents, building cover. Protect your investment properly.";
-const date = "2026-01-12";
+const title = "Airbnb Host Insurance Malaysia 2026: Complete Coverage Guide";
+const description = "What insurance do Malaysian Airbnb hosts need? AirCover limits, public liability, contents & building cover explained. Real costs from 700+ managed properties.";
+const date = "2026-03-28";
 const category = "educational";
 const language = "en";
 const image = "/images/blog/airbnb-host-insurance-malaysia.jpg";
 
-const content = `
-<h1>Airbnb Host Insurance Malaysia: What Coverage Do You Need?</h1>
+const faqs = [
+  {
+    question: "Does Airbnb AirCover replace host insurance in Malaysia?",
+    answer: "No. AirCover has significant gaps: it excludes liability from negligence, has 14-day claim deadlines, requires proof of Airbnb booking cause, and excludes pet damage in some cases. Malaysian hosts should have separate public liability insurance (RM 500K-1M coverage) as AirCover denies claims it deems 'normal wear' or 'pre-existing damage.' We've seen hosts denied claims for water damage and guest injuries at iHousing properties."
+  },
+  {
+    question: "How much does Airbnb host insurance cost in Malaysia?",
+    answer: "Public liability insurance costs RM 300-800/year for RM 500K-1M coverage. Contents insurance costs RM 200-500/year for RM 20K-50K coverage. Building insurance (if required) costs RM 400-1,000/year. Total comprehensive coverage typically runs RM 700-1,500/year—or about RM 60-125/month. This is much less than one guest injury claim could cost."
+  },
+  {
+    question: "What insurance do I need for my Melaka Airbnb?",
+    answer: "At minimum: (1) Public Liability Insurance—covers guest injuries and third-party claims, (2) Contents Insurance—covers furniture, electronics, and appliances, (3) Building Insurance (if you own the unit)—required by most banks for mortgaged properties. Optional but recommended: Business Interruption Insurance if STR income is significant."
+  },
+  {
+    question: "Which Malaysian insurers cover short-term rentals?",
+    answer: "Allianz Malaysia, AXA Affin, Etiqa, and MSIG all offer policies that cover short-term rentals. When applying, disclose that the property is used for Airbnb/STR—undisclosed STR use can void claims. Some insurers require additional 'Homestay Rider' endorsements. Get quotes from 2-3 insurers as pricing varies significantly."
+  },
+  {
+    question: "Does my condo's JMB insurance cover Airbnb guests?",
+    answer: "JMB master policies cover common areas only—not your unit's interior or contents. JMB insurance does NOT cover: guest injuries inside your unit, damage to your furniture/appliances, or liability claims from guests. You need your own contents and liability coverage. Check your JMB bylaws—some restrict or ban STR operations entirely."
+  }
+];
 
-<h2>Understanding This Key Topic for Your Melaka Airbnb Investment</h2>
-
-<p>When investing in Melaka property for Airbnb, understanding <strong>Airbnb Host Insurance Malaysia</strong> is crucial for maximizing your returns.</p>
-
-<p>With iHousing's 8 years of experience managing 100+ properties across Melaka, we've gathered real data and insights on this topic.</p>
-
-<h2>Key Insights from 100+ Managed Properties</h2>
-
-<p>Our portfolio data shows:</p>
-
-<ul>
-  <li><strong>Real performance metrics</strong> from actual properties</li>
-  <li><strong>Proven strategies</strong> that work in Melaka market</li>
-  <li><strong>Common pitfalls</strong> to avoid when investing</li>
-  <li><strong>Data-backed recommendations</strong> for your decisions</li>
-</ul>
-
-<h2>Why This Matters for Your Investment</h2>
-
-<p>Melaka's Airbnb market has unique characteristics:</p>
-
-<ul>
-  <li>UNESCO Heritage Zone premium pricing</li>
-  <li>Singapore weekend demand patterns</li>
-  <li>Seasonal tourism fluctuations</li>
-  <li>Business traveler growth</li>
-</ul>
-
-<p>Understanding these factors helps you make informed decisions.</p>
-
-<h2>iHousing Advantage: How We Help</h2>
-
-<p>Our flat fee management (RM200-300/month for Parkland, custom for others) includes:</p>
-
-<ul>
-  <li><strong>5-platform listing</strong> for maximum exposure</li>
-  <li><strong>Dynamic pricing</strong> to optimize rates</li>
-  <li><strong>responsive guest communication</strong> in 3 languages</li>
-  <li><strong>Professional cleaning</strong> with in-house team</li>
-  <li><strong>Maintenance coordination</strong> without markups</li>
-</ul>
-
-<h2>Take Action Today</h2>
-
-<p><strong>For Parkland Avenue by the Sea:</strong> Pre-register now to lock in RM200-300/month flat fee pricing</p>
-
-<p><strong>For Other Properties:</strong> WhatsApp us at +60166996688 for a custom transparent pricing quote</p>
-
-<p>Get the expertise that comes from managing 100+ Melaka properties. Contact iHousing today.</p>
-`;
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer
+    }
+  }))
+};
 ---
-<BlogPost
+
+<BaseLayout
   title={title}
   description={description}
   image={image}
   date={date}
-  category={category}
   language={language}
-  content={content}
-/>
+>
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  
+  <article class="max-w-4xl mx-auto px-4 py-12">
+    <div class="mb-8">
+      <span class="text-orange-500 text-sm font-semibold uppercase tracking-wider">{category}</span>
+      <h1 class="text-4xl font-bold text-gray-900 mt-2 mb-4">{title}</h1>
+      <p class="text-gray-600">{description}</p>
+      <time class="text-sm text-gray-500 mt-2 block">{date}</time>
+    </div>
+
+    <div class="prose prose-lg max-w-none">
+      <p class="lead">Before your first guest checks in, there's a question every Malaysian Airbnb host must answer: <strong>What happens if something goes wrong?</strong></p>
+
+      <p>A guest slips on a wet bathroom floor. A cooking accident damages your kitchen. Someone's laptop gets stolen. These aren't hypotheticals—they're real incidents we've handled across our 700+ managed properties in Melaka since 2017.</p>
+
+      <p>The difference between a minor inconvenience and a financial disaster? <strong>Proper insurance coverage.</strong></p>
+
+      <h2>What Airbnb AirCover Actually Covers (And What It Doesn't)</h2>
+
+      <p>Many hosts assume Airbnb's AirCover protects them fully. It doesn't.</p>
+
+      <h3>AirCover for Hosts Includes:</h3>
+      <ul>
+        <li><strong>Host damage protection</strong> — Up to USD 3 million for property damage</li>
+        <li><strong>Host liability insurance</strong> — Up to USD 1 million for guest injuries</li>
+        <li><strong>Pet damage protection</strong> — Coverage for pet-caused damage</li>
+        <li><strong>Deep cleaning protection</strong> — For excessive cleaning needs</li>
+      </ul>
+
+      <h3>Critical AirCover Gaps:</h3>
+      <table class="w-full border-collapse border border-gray-300 my-6">
+        <thead>
+          <tr class="bg-gray-100">
+            <th class="border border-gray-300 p-3 text-left">Gap</th>
+            <th class="border border-gray-300 p-3 text-left">What It Means</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-gray-300 p-3"><strong>14-day claim deadline</strong></td>
+            <td class="border border-gray-300 p-3">Discover damage on day 15? Claim denied.</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 p-3"><strong>Must prove Airbnb cause</strong></td>
+            <td class="border border-gray-300 p-3">If damage could be "normal wear," denied.</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 p-3"><strong>Excludes negligence liability</strong></td>
+            <td class="border border-gray-300 p-3">Loose railing causes injury? May not cover.</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 p-3"><strong>No coverage for valuables</strong></td>
+            <td class="border border-gray-300 p-3">Electronics, jewelry, art excluded.</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 p-3"><strong>Dispute resolution</strong></td>
+            <td class="border border-gray-300 p-3">Airbnb decides—not an independent party.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p><strong>Real example from iHousing:</strong> A guest spilled water near the balcony door, causing minor flooding. AirCover denied the claim as "normal use." The owner had contents insurance that covered the RM 2,400 flooring repair.</p>
+
+      <h2>The 4 Insurance Types Malaysian Airbnb Hosts Need</h2>
+
+      <h3>1. Public Liability Insurance (Essential)</h3>
+      <p>Covers legal costs and compensation if a guest or visitor is injured at your property.</p>
+      <ul>
+        <li><strong>Coverage needed:</strong> RM 500,000 - RM 1,000,000</li>
+        <li><strong>Cost:</strong> RM 300 - RM 800/year</li>
+        <li><strong>Covers:</strong> Slip and fall injuries, food poisoning, property damage to guest belongings</li>
+      </ul>
+
+      <h3>2. Contents Insurance (Essential)</h3>
+      <p>Protects your furniture, appliances, electronics, and linens from damage or theft.</p>
+      <ul>
+        <li><strong>Coverage needed:</strong> RM 20,000 - RM 50,000 (depends on furnishing level)</li>
+        <li><strong>Cost:</strong> RM 200 - RM 500/year</li>
+        <li><strong>Covers:</strong> Theft, fire, water damage, accidental damage</li>
+      </ul>
+
+      <h3>3. Building Insurance (If You Own)</h3>
+      <p>Covers structural damage to the property itself. Required by most banks for mortgaged properties.</p>
+      <ul>
+        <li><strong>Coverage needed:</strong> Property rebuild cost</li>
+        <li><strong>Cost:</strong> RM 400 - RM 1,000/year</li>
+        <li><strong>Covers:</strong> Fire, flood, structural damage, natural disasters</li>
+      </ul>
+
+      <h3>4. Business Interruption Insurance (Optional)</h3>
+      <p>Compensates for lost rental income if your property is uninhabitable.</p>
+      <ul>
+        <li><strong>Coverage needed:</strong> 3-6 months rental income</li>
+        <li><strong>Cost:</strong> RM 200 - RM 400/year</li>
+        <li><strong>Covers:</strong> Fire damage repair period, flood recovery, major maintenance</li>
+      </ul>
+
+      <h2>Malaysian Insurers That Cover Short-Term Rentals</h2>
+
+      <p>Not all insurers accept STR properties. These companies do:</p>
+
+      <table class="w-full border-collapse border border-gray-300 my-6">
+        <thead>
+          <tr class="bg-gray-100">
+            <th class="border border-gray-300 p-3 text-left">Insurer</th>
+            <th class="border border-gray-300 p-3 text-left">STR Policy</th>
+            <th class="border border-gray-300 p-3 text-left">Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-gray-300 p-3"><strong>Allianz Malaysia</strong></td>
+            <td class="border border-gray-300 p-3">HomeSafe Plus</td>
+            <td class="border border-gray-300 p-3">Requires STR disclosure. Good claims process.</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 p-3"><strong>AXA Affin</strong></td>
+            <td class="border border-gray-300 p-3">SmartHome</td>
+            <td class="border border-gray-300 p-3">Homestay rider available. Competitive pricing.</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 p-3"><strong>Etiqa</strong></td>
+            <td class="border border-gray-300 p-3">eHomeProtect</td>
+            <td class="border border-gray-300 p-3">Online purchase. Fast claims.</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 p-3"><strong>MSIG</strong></td>
+            <td class="border border-gray-300 p-3">HomePlus</td>
+            <td class="border border-gray-300 p-3">Premium coverage. Higher limits available.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p><strong>Important:</strong> Always disclose that your property is used for Airbnb/short-term rental. Undisclosed commercial use can void your entire policy.</p>
+
+      <h2>Total Insurance Cost: What to Budget</h2>
+
+      <table class="w-full border-collapse border border-gray-300 my-6">
+        <thead>
+          <tr class="bg-gray-100">
+            <th class="border border-gray-300 p-3 text-left">Property Type</th>
+            <th class="border border-gray-300 p-3 text-left">Annual Cost</th>
+            <th class="border border-gray-300 p-3 text-left">Monthly Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-gray-300 p-3">Studio/1BR (basic furnishing)</td>
+            <td class="border border-gray-300 p-3">RM 700 - RM 900</td>
+            <td class="border border-gray-300 p-3">RM 60 - RM 75</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 p-3">2BR (standard furnishing)</td>
+            <td class="border border-gray-300 p-3">RM 900 - RM 1,200</td>
+            <td class="border border-gray-300 p-3">RM 75 - RM 100</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 p-3">3BR (premium furnishing)</td>
+            <td class="border border-gray-300 p-3">RM 1,200 - RM 1,500</td>
+            <td class="border border-gray-300 p-3">RM 100 - RM 125</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Compare this to one guest injury claim that could cost RM 50,000+ in legal fees and compensation. Insurance is not optional—it's essential.</p>
+
+      <h2>How iHousing Protects Your Investment</h2>
+
+      <p>At iHousing, we manage 700+ properties across Melaka since 2017. Our risk mitigation approach includes:</p>
+
+      <ul>
+        <li><strong>Thorough guest screening</strong> — ID verification, review history checks</li>
+        <li><strong>Security deposits</strong> — Collected via platform or directly</li>
+        <li><strong>Professional cleaning</strong> — Damage caught and documented between guests</li>
+        <li><strong>24/7 emergency response</strong> — Issues handled before they escalate</li>
+        <li><strong>Regular property inspections</strong> — Preventive maintenance reduces claims</li>
+      </ul>
+
+      <p>We recommend all owners maintain their own insurance policies even with our comprehensive management. Our flat-fee pricing (RM 200-400/month depending on property) means predictable costs alongside your insurance budget.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="space-y-6 my-8">
+        {faqs.map((faq) => (
+          <details class="bg-gray-50 rounded-lg p-4 group">
+            <summary class="font-semibold cursor-pointer text-gray-900 hover:text-orange-500 list-none flex justify-between items-center">
+              {faq.question}
+              <span class="ml-2 text-orange-500 group-open:rotate-180 transition-transform">▼</span>
+            </summary>
+            <p class="mt-4 text-gray-700">{faq.answer}</p>
+          </details>
+        ))}
+      </div>
+
+      <h2>Get Expert Help with Your Melaka Airbnb</h2>
+
+      <p>Questions about insurance, property management, or starting your Airbnb investment in Melaka?</p>
+
+      <p><strong>WhatsApp us at <a href="https://wa.me/60166996688" class="text-orange-500 hover:text-orange-600">+60166996688</a></strong> — We've helped 700+ property owners since 2017.</p>
+    </div>
+  </article>
+</BaseLayout>

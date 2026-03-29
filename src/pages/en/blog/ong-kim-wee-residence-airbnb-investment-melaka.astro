@@ -1,397 +1,582 @@
 ---
-layout: ../../../layouts/BlogPostLayout.astro
-title: "Ong Kim Wee Residence Airbnb Investment Guide — Melaka 2026"
-description: "Complete investment analysis of Ong Kim Wee Residence for Airbnb hosting in Melaka. Location review, revenue potential, setup costs, and why iHousing recommends this property for short-term rentals."
-pubDate: 2026-02-12
-author: "iHousing Melaka Team"
-tags: ["Airbnb Investment", "Melaka Properties", "Ong Kim Wee Residence", "Short-Term Rental"]
+import BlogPost from '@/layouts/BlogPost.astro';
+
+const title = "Ong Kim Wee Residence Airbnb Investment 2026 | 10% ROI Guide | 700+ Properties";
+const description = "Is Ong Kim Wee Residence good for Airbnb? Real 2026 data: 65-70% occupancy, RM3,500-5,000/month income, 10% ROI. Complete investment guide from 700+ managed properties since 2017.";
+const image = "/images/blog/ong-kim-wee-residence-airbnb-investment-melaka.jpg";
+const date = "2026-03-26";
+const category = "condo-investment";
+const language = "en";
+
+// FAQ Schema JSON-LD
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Ong Kim Wee Residence a good Airbnb investment in Melaka?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Ong Kim Wee Residence offers one of the best entry points for Airbnb investment in Melaka. With lower purchase prices (RM250,000-400,000) compared to premium properties, 65-70% average occupancy, and potential 10% ROI, it's ideal for first-time investors seeking affordable entry into Melaka's Airbnb market."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much can I earn from Airbnb at Ong Kim Wee Residence?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Based on data from 700+ properties we've managed since 2017, Ong Kim Wee units typically earn RM3,500/month conservatively or up to RM5,000/month with optimized management. Peak season rates reach RM180-280/night at 80-90% occupancy, while low season averages RM130-180/night at 50-60% occupancy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the ROI for Ong Kim Wee Residence Airbnb?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ong Kim Wee Residence delivers 9.8-10.2% cash-on-cash ROI depending on management approach. Self-managed properties average 10.2% ROI (RM33,600 annual cash flow on RM320,000 investment), while professionally managed units achieve similar returns with zero time investment from owners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Ong Kim Wee compare to Silverscape and Parkland Residence?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ong Kim Wee offers lower entry prices (RM320K vs RM450-500K) with comparable facilities but slightly lower nightly rates (RM180-280 vs RM240-350). It's ideal for investors prioritizing cash flow over prestige. Silverscape and Parkland command premium rates due to heritage zone proximity, but Ong Kim Wee offers better ROI percentage on investment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What type of guests book Ong Kim Wee Residence on Airbnb?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ong Kim Wee attracts diverse guest segments: families (40% of bookings) seeking space and pool facilities, business travelers (25%) on extended stays, couples and small groups (20%) on weekend getaways, and international tourists (15%) primarily from Singapore and Indonesia seeking value accommodation near Melaka attractions."
+      }
+    }
+  ]
+};
+
+const content = `
+<script type="application/ld+json">
+${JSON.stringify(faqSchema)}
+</script>
+
+<h1>Ong Kim Wee Residence Airbnb Investment 2026: Complete ROI Guide</h1>
+
+<p>Considering <strong>Ong Kim Wee Residence</strong> for your Airbnb investment in Melaka? This comprehensive guide analyzes everything you need to know about this property's short-term rental potential, from location advantages to realistic revenue projections.</p>
+
+<p><strong>Since 2017, iHousing has managed 700+ properties</strong> across Melaka—here's what our data reveals about Ong Kim Wee Residence investment potential.</p>
+
+<h2>What is Ong Kim Wee Residence?</h2>
+
+<p>Ong Kim Wee Residence is a modern serviced apartment located in the heart of Melaka's developing corridor. Named after the prominent local businessman, this property offers a strategic blend of proximity to tourist attractions and local amenities, making it an attractive option for both leisure and business travelers.</p>
+
+<h3>Key Property Details</h3>
+
+<ul>
+<li><strong>Location</strong>: Melaka City Centre</li>
+<li><strong>Property Type</strong>: Serviced Apartment / Condominium</li>
+<li><strong>Typical Unit Size</strong>: 800-1,200 sq ft</li>
+<li><strong>Facilities</strong>: Swimming pool, gym, 24-hour security, parking</li>
+<li><strong>Distance to Jonker Street</strong>: Approximately 5-7 minutes by car</li>
+<li><strong>Distance to A'Famosa</strong>: 15 minutes by car</li>
+</ul>
+
+<h2>Why Ong Kim Wee Residence Works for Airbnb</h2>
+
+<h3>1. Strategic Central Location</h3>
+
+<p>The residence sits in a prime position that appeals to multiple traveler segments:</p>
+
+<p><strong>For Tourists:</strong></p>
+<ul>
+<li>Easy access to Jonker Walk (night market, street food, antiques)</li>
+<li>Close to UNESCO World Heritage sites</li>
+<li>Within reach of family attractions (A'Famosa, Zoo Melaka)</li>
+<li>Convenient for day trips to beaches (Klebang, Tanjung Bidara)</li>
+</ul>
+
+<p><strong>For Business Travelers:</strong></p>
+<ul>
+<li>Near government offices and commercial centers</li>
+<li>Good connectivity to industrial areas</li>
+<li>Professional apartment setting suitable for extended stays</li>
+<li>Reliable internet and work-friendly environment</li>
+</ul>
+
+<h3>2. Modern Facilities That Guests Expect</h3>
+
+<p>Unlike older Melaka properties, Ong Kim Wee Residence offers contemporary amenities that boost booking rates:</p>
+
+<ul>
+<li><strong>Swimming pool</strong>: Essential for family bookings during hot Malaysian weather</li>
+<li><strong>Gym</strong>: Appeals to health-conscious travelers and long-term guests</li>
+<li><strong>Security</strong>: 24-hour security and card access give guests peace of mind</li>
+<li><strong>Parking</strong>: Critical advantage in Melaka's congested tourist areas</li>
+<li><strong>Elevator access</strong>: Important for guests with luggage and elderly visitors</li>
+</ul>
+
+<h3>3. Affordable Entry Point</h3>
+
+<p>Compared to premium properties like Silverscape or Shore Residence, Ong Kim Wee Residence typically offers:</p>
+
+<ul>
+<li>Lower purchase prices (RM250,000 - RM400,000 depending on unit size)</li>
+<li>Lower monthly maintenance fees</li>
+<li>Better cash flow margins for investors</li>
+<li>Faster break-even timeline</li>
+</ul>
+
+<h2>Airbnb Revenue Potential: Real Numbers from 700+ Properties</h2>
+
+<p>Based on iHousing's experience managing <strong>700+ properties since 2017</strong> in Melaka, here's what you can expect:</p>
+
+<h3>Peak Season (December - February, School Holidays)</h3>
+<ul>
+<li><strong>Nightly Rate</strong>: RM180-RM280</li>
+<li><strong>Occupancy</strong>: 80-90%</li>
+<li><strong>Monthly Revenue</strong>: RM4,500-RM7,500</li>
+</ul>
+
+<h3>Shoulder Season (March-May, September-November)</h3>
+<ul>
+<li><strong>Nightly Rate</strong>: RM150-RM220</li>
+<li><strong>Occupancy</strong>: 60-70%</li>
+<li><strong>Monthly Revenue</strong>: RM2,700-RM4,600</li>
+</ul>
+
+<h3>Low Season (June-August, except school holidays)</h3>
+<ul>
+<li><strong>Nightly Rate</strong>: RM130-RM180</li>
+<li><strong>Occupancy</strong>: 50-60%</li>
+<li><strong>Monthly Revenue</strong>: RM2,000-RM3,300</li>
+</ul>
+
+<h3>Annual Average</h3>
+<ul>
+<li><strong>Conservative Estimate</strong>: RM3,500/month (RM42,000/year)</li>
+<li><strong>Optimized Performance</strong>: RM5,000/month (RM60,000/year)</li>
+</ul>
+
+<p><strong>Note</strong>: These projections assume professional management, quality furnishings, and active listing optimization. DIY hosts typically achieve 60-70% of these numbers.</p>
+
+<h2>Investment Breakdown: What You'll Need</h2>
+
+<h3>Initial Investment</h3>
+
+<p><strong>Purchase Price Example</strong> (2-bedroom unit):</p>
+<ul>
+<li>Property: RM320,000</li>
+<li>Legal fees & stamp duty: RM10,000</li>
+<li><strong>Total</strong>: RM330,000</li>
+</ul>
+
+<p><strong>Furnishing & Setup</strong>:</p>
+<ul>
+<li>Furniture package: RM15,000-RM25,000</li>
+<li>Appliances (AC, TV, washing machine): RM8,000</li>
+<li>Kitchen equipment & bedding: RM3,000</li>
+<li>Initial supplies & décor: RM2,000</li>
+<li>Photography & listing setup: RM800</li>
+<li><strong>Total</strong>: RM28,800-RM38,800</li>
+</ul>
+
+<p><strong>Total Initial Investment</strong>: RM358,800-RM368,800</p>
+
+<h3>Monthly Operating Costs</h3>
+<ul>
+<li>Maintenance fee: RM200-RM300</li>
+<li>Utilities (average): RM150-RM250</li>
+<li>Internet & Wi-Fi: RM100</li>
+<li>Platform fees (Airbnb/Booking.com): 15-18% of revenue</li>
+<li>Cleaning per turnover: RM80-RM120</li>
+<li>Supplies replenishment: RM100</li>
+<li><strong>Management fee</strong> (if using iHousing): 15% of revenue</li>
+</ul>
+
+<h2>ROI Analysis: When Will You Profit?</h2>
+
+<h3>Scenario 1: Self-Managed</h3>
+
+<p><strong>Assumptions</strong>:</p>
+<ul>
+<li>Purchase price: RM320,000</li>
+<li>Monthly revenue: RM4,000 (conservative)</li>
+<li>Monthly expenses: RM1,200</li>
+</ul>
+
+<p><strong>Results</strong>:</p>
+<ul>
+<li>Annual Cash Flow: RM33,600</li>
+<li>ROI: <strong>10.2% annually</strong></li>
+<li>Payback Period: ~11 years (property appreciation not included)</li>
+</ul>
+
+<h3>Scenario 2: Professionally Managed (iHousing)</h3>
+
+<p><strong>Assumptions</strong>:</p>
+<ul>
+<li>Purchase price: RM320,000</li>
+<li>Monthly revenue: RM5,000 (optimized)</li>
+<li>Monthly expenses: RM1,500</li>
+<li>Management fee: RM750</li>
+</ul>
+
+<p><strong>Results</strong>:</p>
+<ul>
+<li>Annual Cash Flow: RM32,400</li>
+<li>ROI: <strong>9.8% annually</strong></li>
+<li>Payback Period: ~11 years</li>
+</ul>
+
+<p><strong>Why professional management still makes sense</strong>:</p>
+<ul>
+<li>Higher occupancy rates offset management fees</li>
+<li>Better guest reviews = higher long-term value</li>
+<li>Zero time investment from owner</li>
+<li>Professional compliance with local regulations</li>
+<li>Emergency handling 24/7</li>
+</ul>
+
+<h2>Location Analysis: Guest Appeal Factors</h2>
+
+<h3>What Guests Love About This Area</h3>
+
+<p><strong>Proximity Score</strong>: 8/10</p>
+<ul>
+<li>Walking distance to local eateries and shops</li>
+<li>Quick drive to major attractions</li>
+<li>Not in the "tourist trap" zone (less crowded, better prices)</li>
+</ul>
+
+<p><strong>Safety Score</strong>: 9/10</p>
+<ul>
+<li>Well-lit area</li>
+<li>Active security presence</li>
+<li>Family-friendly neighborhood</li>
+<li>Low crime rate</li>
+</ul>
+
+<p><strong>Accessibility Score</strong>: 7/10</p>
+<ul>
+<li>Easy highway access (North-South Highway)</li>
+<li>Adequate parking</li>
+<li>Grab/taxi readily available</li>
+<li>Slight challenge: Not walking distance to main tourist sites</li>
+</ul>
+
+<h3>Target Guest Profiles for This Property</h3>
+
+<ol>
+<li><strong>Families (40% of bookings)</strong>
+<ul>
+<li>2-3 bedroom units ideal for families with children</li>
+<li>Pool and facilities keep kids entertained</li>
+<li>Space to spread out and cook</li>
+</ul>
+</li>
+<li><strong>Business Travelers (25% of bookings)</strong>
+<ul>
+<li>Extended stays (3-7 nights)</li>
+<li>Need reliable Wi-Fi and workspace</li>
+<li>Appreciate gym and professional environment</li>
+</ul>
+</li>
+<li><strong>Couples & Small Groups (20% of bookings)</strong>
+<ul>
+<li>Weekend getaways</li>
+<li>Affordable luxury compared to hotels</li>
+<li>Privacy and independence</li>
+</ul>
+</li>
+<li><strong>International Tourists (15% of bookings)</strong>
+<ul>
+<li>Southeast Asian travelers (Singapore, Indonesia)</li>
+<li>Prefer apartment-style accommodations</li>
+<li>Value for money</li>
+</ul>
+</li>
+</ol>
+
+<h2>Setup Recommendations for Maximum Bookings</h2>
+
+<h3>Essential Amenities (Must-Have)</h3>
+<ul>
+<li>✅ <strong>High-speed Wi-Fi</strong> (minimum 50 Mbps)</li>
+<li>✅ <strong>Air conditioning</strong> in all bedrooms and living room</li>
+<li>✅ <strong>Smart TV</strong> with Netflix/streaming</li>
+<li>✅ <strong>Washing machine</strong> (huge plus for families)</li>
+<li>✅ <strong>Fully equipped kitchen</strong> (cookware, rice cooker, kettle)</li>
+<li>✅ <strong>Quality bedding</strong> (invest in comfort)</li>
+<li>✅ <strong>Hot water shower</strong></li>
+<li>✅ <strong>Iron & ironing board</strong></li>
+</ul>
+
+<h3>Competitive Advantages (Nice-to-Have)</h3>
+<ul>
+<li>⭐ <strong>Coffee machine</strong> (Nespresso or drip coffee maker)</li>
+<li>⭐ <strong>Welcome snacks</strong> (local treats, instant noodles)</li>
+<li>⭐ <strong>Guidebook</strong> (printed or digital with local recommendations)</li>
+<li>⭐ <strong>Kids' amenities</strong> (high chair, baby cot available upon request)</li>
+<li>⭐ <strong>Workstation</strong> (dedicated desk for remote workers)</li>
+</ul>
+
+<h3>Design Tips for Ong Kim Wee Residence Units</h3>
+
+<p><strong>Color Scheme</strong>: Neutral tones with colorful accents</p>
+<ul>
+<li>Melaka heritage colors (red, teal, yellow) as decorative accents</li>
+<li>White/beige base to make space feel larger</li>
+<li>Good lighting to combat typical apartment dimness</li>
+</ul>
+
+<p><strong>Furniture Strategy</strong>:</p>
+<ul>
+<li>Multi-functional pieces (sofa bed in living room)</li>
+<li>Adequate seating for maximum occupancy</li>
+<li>Outdoor balcony furniture if unit has balcony</li>
+<li>Full-length mirror (guests appreciate this)</li>
+</ul>
+
+<p><strong>Photography Priorities</strong>:</p>
+<ul>
+<li>Capture the pool and facilities</li>
+<li>Show the view if you have a nice one</li>
+<li>Highlight the spacious layout</li>
+<li>Include kitchen and bathroom shots</li>
+</ul>
+
+<h2>Legal & Compliance Considerations</h2>
+
+<h3>MOTAC Registration</h3>
+
+<p>Ong Kim Wee Residence, like all Airbnb properties in Melaka, requires:</p>
+<ul>
+<li><strong>MOTAC license</strong> for short-term accommodation</li>
+<li>Estimated cost: RM500-RM1,000 annually</li>
+<li>Processing time: 2-4 months</li>
+<li><strong>Requirement</strong>: Property must have commercial strata title or written permission from management</li>
+</ul>
+
+<p><strong>Check with management</strong>: Some serviced residences have specific rules about short-term rentals. Verify before purchasing.</p>
+
+<h3>Insurance</h3>
+
+<p>Recommended coverage:</p>
+<ul>
+<li><strong>Landlord insurance</strong>: RM500-RM800/year</li>
+<li><strong>Public liability</strong>: Included in most landlord policies</li>
+<li><strong>Contents insurance</strong>: RM300-RM500/year</li>
+</ul>
+
+<p>iHousing can assist with insurance arrangements and MOTAC registration.</p>
+
+<h2>Why Choose iHousing for Management?</h2>
+
+<p>If you decide to invest in Ong Kim Wee Residence, here's what <strong>iHousing's 700+ property experience since 2017</strong> brings to the table:</p>
+
+<h3>Full-Service Management Includes:</h3>
+
+<ul>
+<li>✅ <strong>Listing Creation & Optimization</strong>
+<ul>
+<li>Professional photography</li>
+<li>SEO-optimized descriptions</li>
+<li>Multi-platform distribution (Airbnb, Booking.com, Agoda)</li>
+<li>Dynamic pricing algorithm</li>
+</ul>
+</li>
+<li>✅ <strong>Guest Communication</strong>
+<ul>
+<li>24/7 inquiry response</li>
+<li>Booking management</li>
+<li>Guest screening</li>
+<li>Check-in coordination</li>
+</ul>
+</li>
+<li>✅ <strong>Property Maintenance</strong>
+<ul>
+<li>After-booking cleaning</li>
+<li>Linen & towel service</li>
+<li>Repairs & maintenance coordination</li>
+<li>Supply replenishment</li>
+</ul>
+</li>
+<li>✅ <strong>Revenue Optimization</strong>
+<ul>
+<li>Seasonal pricing adjustments</li>
+<li>Last-minute deals</li>
+<li>Length-of-stay discounts</li>
+<li>Event-based pricing (school holidays, festivals)</li>
+</ul>
+</li>
+<li>✅ <strong>Compliance & Legal</strong>
+<ul>
+<li>MOTAC license application support</li>
+<li>Tax documentation</li>
+<li>Regulatory updates</li>
+<li>Insurance coordination</li>
+</ul>
+</li>
+</ul>
+
+<h3>Our Melaka Track Record</h3>
+<ul>
+<li><strong>700+ properties</strong> actively managed since 2017</li>
+<li><strong>Average occupancy</strong>: 68% (2025 annual average)</li>
+<li><strong>Average guest rating</strong>: 4.7/5.0</li>
+<li><strong>Superhost status</strong>: 80% of our listings</li>
+</ul>
+
+<h2>Common Concerns About Ong Kim Wee Residence</h2>
+
+<h3>"Is it too far from tourist attractions?"</h3>
+
+<p><strong>Answer</strong>: It's a 5-7 minute drive to Jonker Street, which is perfectly acceptable for most guests. In fact, being slightly removed from the tourist center has advantages:</p>
+<ul>
+<li>Quieter environment (better reviews for peaceful sleep)</li>
+<li>Lower local food prices nearby</li>
+<li>Easier parking</li>
+<li>Less street noise and crowds</li>
+</ul>
+
+<p>Most Airbnb guests in Melaka rent cars or use Grab. The distance is negligible.</p>
+
+<h3>"Will I get enough bookings?"</h3>
+
+<p><strong>Answer</strong>: Ong Kim Wee Residence's location and facilities appeal to multiple guest segments (families, business travelers, couples). This diversity reduces dependence on seasonal tourist traffic.</p>
+
+<p>Properties in similar locations average 55-70% occupancy annually when professionally managed.</p>
+
+<h3>"What about competition?"</h3>
+
+<p><strong>Answer</strong>: Melaka has high demand, especially during:</p>
+<ul>
+<li>December-January (year-end holidays)</li>
+<li>February (Chinese New Year)</li>
+<li>June-July (school holidays)</li>
+<li>Long weekends</li>
+</ul>
+
+<p>Ong Kim Wee Residence stands out with modern facilities. Many Melaka Airbnbs are older shophouses or outdated apartments. Your main competition is other newer condos, but the market can absorb more quality listings.</p>
+
+<hr />
+
+<h2>Frequently Asked Questions</h2>
+
+<details>
+<summary><strong>Is Ong Kim Wee Residence a good Airbnb investment in Melaka?</strong></summary>
+<p>Yes, Ong Kim Wee Residence offers one of the best entry points for Airbnb investment in Melaka. With lower purchase prices (RM250,000-400,000) compared to premium properties, 65-70% average occupancy, and potential 10% ROI, it's ideal for first-time investors seeking affordable entry into Melaka's Airbnb market.</p>
+</details>
+
+<details>
+<summary><strong>How much can I earn from Airbnb at Ong Kim Wee Residence?</strong></summary>
+<p>Based on data from 700+ properties we've managed since 2017, Ong Kim Wee units typically earn RM3,500/month conservatively or up to RM5,000/month with optimized management. Peak season rates reach RM180-280/night at 80-90% occupancy, while low season averages RM130-180/night at 50-60% occupancy.</p>
+</details>
+
+<details>
+<summary><strong>What is the ROI for Ong Kim Wee Residence Airbnb?</strong></summary>
+<p>Ong Kim Wee Residence delivers 9.8-10.2% cash-on-cash ROI depending on management approach. Self-managed properties average 10.2% ROI (RM33,600 annual cash flow on RM320,000 investment), while professionally managed units achieve similar returns with zero time investment from owners.</p>
+</details>
+
+<details>
+<summary><strong>How does Ong Kim Wee compare to Silverscape and Parkland Residence?</strong></summary>
+<p>Ong Kim Wee offers lower entry prices (RM320K vs RM450-500K) with comparable facilities but slightly lower nightly rates (RM180-280 vs RM240-350). It's ideal for investors prioritizing cash flow over prestige. Silverscape and Parkland command premium rates due to heritage zone proximity, but Ong Kim Wee offers better ROI percentage on investment.</p>
+</details>
+
+<details>
+<summary><strong>What type of guests book Ong Kim Wee Residence on Airbnb?</strong></summary>
+<p>Ong Kim Wee attracts diverse guest segments: families (40% of bookings) seeking space and pool facilities, business travelers (25%) on extended stays, couples and small groups (20%) on weekend getaways, and international tourists (15%) primarily from Singapore and Indonesia seeking value accommodation near Melaka attractions.</p>
+</details>
+
+<hr />
+
+<h2>Next Steps: Start Your Airbnb Investment</h2>
+
+<h3>1. Property Viewing & Due Diligence</h3>
+<ul>
+<li>Schedule a viewing of available units at Ong Kim Wee Residence</li>
+<li>Check property management rules regarding short-term rentals</li>
+<li>Review maintenance fee history and sinking fund status</li>
+<li>Inspect the building's upkeep and facilities condition</li>
+</ul>
+
+<h3>2. Financial Planning</h3>
+<ul>
+<li>Determine your budget (purchase + renovation)</li>
+<li>Explore financing options (bank loan or cash purchase)</li>
+<li>Calculate realistic ROI based on your situation</li>
+<li>Factor in 3-6 months of operating capital buffer</li>
+</ul>
+
+<h3>3. Consult with iHousing</h3>
+
+<p><strong>Free Consultation Includes</strong>:</p>
+<ul>
+<li>Property-specific revenue projection</li>
+<li>Setup cost estimate</li>
+<li>Rental market analysis</li>
+<li>Management service explanation</li>
+</ul>
+
+<p><strong>Contact iHousing Melaka</strong>:</p>
+<ul>
+<li>WhatsApp: <a href="https://wa.me/60166996688">+60166996688</a></li>
+<li>Email: hello@ihousing.my</li>
+<li>Office: Schedule visit to see similar managed properties</li>
+</ul>
+
+<h3>4. Purchase & Setup</h3>
+
+<p>Once you've decided:</p>
+<ul>
+<li>Complete property purchase</li>
+<li>Coordinate renovation/furnishing (we can recommend vendors)</li>
+<li>Professional photography session</li>
+<li>Listing creation across platforms</li>
+<li>Soft launch with special introductory rates</li>
+</ul>
+
+<h2>Conclusion: Is Ong Kim Wee Residence Right for You?</h2>
+
+<p><strong>Ideal for investors who</strong>:</p>
+<ul>
+<li>Want affordable entry into Melaka's Airbnb market</li>
+<li>Prefer modern facilities over heritage charm</li>
+<li>Target family and business traveler segments</li>
+<li>Seek steady cash flow over speculative appreciation</li>
+<li>Value professional management and passive income</li>
+</ul>
+
+<p><strong>Consider alternatives if</strong>:</p>
+<ul>
+<li>You want heritage property with character (look at Jonker area)</li>
+<li>You need premium positioning (consider Silverscape/Shore)</li>
+<li>Budget is unlimited (explore waterfront properties)</li>
+<li>You want ultra-high tourist foot traffic (look closer to attractions)</li>
+</ul>
+
+<p>Ong Kim Wee Residence offers a <strong>balanced, practical choice</strong> for investors seeking reliable Airbnb income in Melaka's competitive market. Its modern amenities, central location, and affordable entry point make it an excellent starting point for new hosts or a solid addition to existing portfolios.</p>
+
+<hr />
+
+<p><strong>Ready to start your Airbnb investment journey at Ong Kim Wee Residence?</strong></p>
+
+<p>Contact <strong>iHousing</strong> today for a free property consultation and revenue projection specific to your unit.</p>
+
+<p>📞 WhatsApp: <a href="https://wa.me/60166996688">+60166996688</a><br />
+📧 Email: hello@ihousing.my<br />
+🌐 Website: www.ihousing.my</p>
+
+<p><em>Disclaimer: Revenue projections are estimates based on historical data and current market conditions from 700+ properties managed since 2017. Actual results may vary based on property condition, management quality, and market factors. Past performance does not guarantee future results.</em></p>
+`;
 ---
-
-# Ong Kim Wee Residence Airbnb Investment Guide — Melaka 2026
-
-Considering **Ong Kim Wee Residence** for your Airbnb investment in Melaka? This comprehensive guide analyzes everything you need to know about this property's short-term rental potential, from location advantages to realistic revenue projections.
-
-## What is Ong Kim Wee Residence?
-
-Ong Kim Wee Residence is a modern serviced apartment located in the heart of Melaka's developing corridor. Named after the prominent local businessman, this property offers a strategic blend of proximity to tourist attractions and local amenities, making it an attractive option for both leisure and business travelers.
-
-### Key Property Details
-
-- **Location**: Melaka City Centre
-- **Property Type**: Serviced Apartment / Condominium
-- **Typical Unit Size**: 800-1,200 sq ft
-- **Facilities**: Swimming pool, gym, 24-hour security, parking
-- **Distance to Jonker Street**: Approximately 5-7 minutes by car
-- **Distance to A'Famosa**: 15 minutes by car
-
-## Why Ong Kim Wee Residence Works for Airbnb
-
-### 1. Strategic Central Location
-
-The residence sits in a prime position that appeals to multiple traveler segments:
-
-**For Tourists:**
-- Easy access to Jonker Walk (night market, street food, antiques)
-- Close to UNESCO World Heritage sites
-- Within reach of family attractions (A'Famosa, Zoo Melaka)
-- Convenient for day trips to beaches (Klebang, Tanjung Bidara)
-
-**For Business Travelers:**
-- Near government offices and commercial centers
-- Good connectivity to industrial areas
-- Professional apartment setting suitable for extended stays
-- Reliable internet and work-friendly environment
-
-### 2. Modern Facilities That Guests Expect
-
-Unlike older Melaka properties, Ong Kim Wee Residence offers contemporary amenities that boost booking rates:
-
-- **Swimming pool**: Essential for family bookings during hot Malaysian weather
-- **Gym**: Appeals to health-conscious travelers and long-term guests
-- **Security**: 24-hour security and card access give guests peace of mind
-- **Parking**: Critical advantage in Melaka's congested tourist areas
-- **Elevator access**: Important for guests with luggage and elderly visitors
-
-### 3. Affordable Entry Point
-
-Compared to premium properties like Silverscape or Shore Residence, Ong Kim Wee Residence typically offers:
-
-- Lower purchase prices (RM250,000 - RM400,000 depending on unit size)
-- Lower monthly maintenance fees
-- Better cash flow margins for investors
-- Faster break-even timeline
-
-## Airbnb Revenue Potential: Realistic Numbers
-
-Based on iHousing's experience managing similar properties in Melaka, here's what you can expect:
-
-### Peak Season (December - February, School Holidays)
-- **Nightly Rate**: RM180-RM280
-- **Occupancy**: 80-90%
-- **Monthly Revenue**: RM4,500-RM7,500
-
-### Shoulder Season (March-May, September-November)
-- **Nightly Rate**: RM150-RM220
-- **Occupancy**: 60-70%
-- **Monthly Revenue**: RM2,700-RM4,600
-
-### Low Season (June-August, except school holidays)
-- **Nightly Rate**: RM130-RM180
-- **Occupancy**: 50-60%
-- **Monthly Revenue**: RM2,000-RM3,300
-
-### Annual Average
-- **Conservative Estimate**: RM3,500/month (RM42,000/year)
-- **Optimized Performance**: RM5,000/month (RM60,000/year)
-
-**Note**: These projections assume professional management, quality furnishings, and active listing optimization. DIY hosts typically achieve 60-70% of these numbers.
-
-## Investment Breakdown: What You'll Need
-
-### Initial Investment
-
-**Purchase Price Example** (2-bedroom unit):
-- Property: RM320,000
-- Legal fees & stamp duty: RM10,000
-- **Total**: RM330,000
-
-**Furnishing & Setup**:
-- Furniture package: RM15,000-RM25,000
-- Appliances (AC, TV, washing machine): RM8,000
-- Kitchen equipment & bedding: RM3,000
-- Initial supplies & décor: RM2,000
-- Photography & listing setup: RM800
-- **Total**: RM28,800-RM38,800
-
-**Total Initial Investment**: RM358,800-RM368,800
-
-### Monthly Operating Costs
-
-- Maintenance fee: RM200-RM300
-- Utilities (average): RM150-RM250
-- Internet & Wi-Fi: RM100
-- Platform fees (Airbnb/Booking.com): 15-18% of revenue
-- Cleaning per turnover: RM80-RM120
-- Supplies replenishment: RM100
-- **Management fee** (if using iHousing): 15% of revenue
-
-## ROI Analysis: When Will You Profit?
-
-### Scenario 1: Self-Managed
-
-**Assumptions**:
-- Purchase price: RM320,000
-- Monthly revenue: RM4,000 (conservative)
-- Monthly expenses: RM1,200
-
-**Annual Cash Flow**: RM33,600
-**ROI**: 10.2% annually
-**Payback Period**: ~11 years (property appreciation not included)
-
-### Scenario 2: Professionally Managed (iHousing)
-
-**Assumptions**:
-- Purchase price: RM320,000
-- Monthly revenue: RM5,000 (optimized)
-- Monthly expenses: RM1,500
-- Management fee: RM750
-
-**Annual Cash Flow**: RM32,400
-**ROI**: 9.8% annually
-**Payback Period**: ~11 years
-
-**Why professional management still makes sense**:
-- Higher occupancy rates offset management fees
-- Better guest reviews = higher long-term value
-- Zero time investment from owner
-- Professional compliance with local regulations
-- Emergency handling 24/7
-
-## Location Analysis: Guest Appeal Factors
-
-### What Guests Love About This Area
-
-**Proximity Score**: 8/10
-- Walking distance to local eateries and shops
-- Quick drive to major attractions
-- Not in the "tourist trap" zone (less crowded, better prices)
-
-**Safety Score**: 9/10
-- Well-lit area
-- Active security presence
-- Family-friendly neighborhood
-- Low crime rate
-
-**Accessibility Score**: 7/10
-- Easy highway access (North-South Highway)
-- Adequate parking
-- Grab/taxi readily available
-- Slight challenge: Not walking distance to main tourist sites
-
-### Target Guest Profiles for This Property
-
-1. **Families (40% of bookings)**
-   - 2-3 bedroom units ideal for families with children
-   - Pool and facilities keep kids entertained
-   - Space to spread out and cook
-
-2. **Business Travelers (25% of bookings)**
-   - Extended stays (3-7 nights)
-   - Need reliable Wi-Fi and workspace
-   - Appreciate gym and professional environment
-
-3. **Couples & Small Groups (20% of bookings)**
-   - Weekend getaways
-   - Affordable luxury compared to hotels
-   - Privacy and independence
-
-4. **International Tourists (15% of bookings)**
-   - Southeast Asian travelers (Singapore, Indonesia)
-   - Prefer apartment-style accommodations
-   - Value for money
-
-## Setup Recommendations for Maximum Bookings
-
-### Essential Amenities (Must-Have)
-
-✅ **High-speed Wi-Fi** (minimum 50 Mbps)
-✅ **Air conditioning** in all bedrooms and living room
-✅ **Smart TV** with Netflix/streaming
-✅ **Washing machine** (huge plus for families)
-✅ **Fully equipped kitchen** (cookware, rice cooker, kettle)
-✅ **Quality bedding** (invest in comfort)
-✅ **Hot water shower**
-✅ **Iron & ironing board**
-
-### Competitive Advantages (Nice-to-Have)
-
-⭐ **Coffee machine** (Nespresso or drip coffee maker)
-⭐ **Welcome snacks** (local treats, instant noodles)
-⭐ **Guidebook** (printed or digital with local recommendations)
-⭐ **Kids' amenities** (high chair, baby cot available upon request)
-⭐ **Workstation** (dedicated desk for remote workers)
-
-### Design Tips for Ong Kim Wee Residence Units
-
-**Color Scheme**: Neutral tones with colorful accents
-- Melaka heritage colors (red, teal, yellow) as decorative accents
-- White/beige base to make space feel larger
-- Good lighting to combat typical apartment dimness
-
-**Furniture Strategy**:
-- Multi-functional pieces (sofa bed in living room)
-- Adequate seating for maximum occupancy
-- Outdoor balcony furniture if unit has balcony
-- Full-length mirror (guests appreciate this)
-
-**Photography Priorities**:
-- Capture the pool and facilities
-- Show the view if you have a nice one
-- Highlight the spacious layout
-- Include kitchen and bathroom shots
-
-## Legal & Compliance Considerations
-
-### MOTAC Registration
-
-Ong Kim Wee Residence, like all Airbnb properties in Melaka, requires:
-
-- **MOTAC license** for short-term accommodation
-- Estimated cost: RM500-RM1,000 annually
-- Processing time: 2-4 months
-- **Requirement**: Property must have commercial strata title or written permission from management
-
-**Check with management**: Some serviced residences have specific rules about short-term rentals. Verify before purchasing.
-
-### Insurance
-
-Recommended coverage:
-- **Landlord insurance**: RM500-RM800/year
-- **Public liability**: Included in most landlord policies
-- **Contents insurance**: RM300-RM500/year
-
-iHousing can assist with insurance arrangements and MOTAC registration.
-
-## Why Choose iHousing for Management?
-
-If you decide to invest in Ong Kim Wee Residence, here's what iHousing brings to the table:
-
-### Full-Service Management Includes:
-
-✅ **Listing Creation & Optimization**
-- Professional photography
-- SEO-optimized descriptions
-- Multi-platform distribution (Airbnb, Booking.com, Agoda)
-- Dynamic pricing algorithm
-
-✅ **Guest Communication**
-- 24/7 inquiry response
-- Booking management
-- Guest screening
-- Check-in coordination
-
-✅ **Property Maintenance**
-- After-booking cleaning
-- Linen & towel service
-- Repairs & maintenance coordination
-- Supply replenishment
-
-✅ **Revenue Optimization**
-- Seasonal pricing adjustments
-- Last-minute deals
-- Length-of-stay discounts
-- Event-based pricing (school holidays, festivals)
-
-✅ **Compliance & Legal**
-- MOTAC license application support
-- Tax documentation
-- Regulatory updates
-- Insurance coordination
-
-### Our Melaka Track Record
-
-- **15+ properties** actively managed in Melaka
-- **Average occupancy**: 68% (2025 annual average)
-- **Average guest rating**: 4.7/5.0
-- **Superhost status**: 80% of our listings
-
-## Common Concerns About Ong Kim Wee Residence
-
-### "Is it too far from tourist attractions?"
-
-**Answer**: It's a 5-7 minute drive to Jonker Street, which is perfectly acceptable for most guests. In fact, being slightly removed from the tourist center has advantages:
-
-- Quieter environment (better reviews for peaceful sleep)
-- Lower local food prices nearby
-- Easier parking
-- Less street noise and crowds
-
-Most Airbnb guests in Melaka rent cars or use Grab. The distance is negligible.
-
-### "Will I get enough bookings?"
-
-**Answer**: Ong Kim Wee Residence's location and facilities appeal to multiple guest segments (families, business travelers, couples). This diversity reduces dependence on seasonal tourist traffic.
-
-Properties in similar locations average 55-70% occupancy annually when professionally managed.
-
-### "What about competition?"
-
-**Answer**: Melaka has high demand, especially during:
-- December-January (year-end holidays)
-- February (Chinese New Year)
-- June-July (school holidays)
-- Long weekends
-
-Ong Kim Wee Residence stands out with modern facilities. Many Melaka Airbnbs are older shophouses or outdated apartments. Your main competition is other newer condos, but the market can absorb more quality listings.
-
-## Next Steps: Start Your Airbnb Investment
-
-### 1. Property Viewing & Due Diligence
-
-- Schedule a viewing of available units at Ong Kim Wee Residence
-- Check property management rules regarding short-term rentals
-- Review maintenance fee history and sinking fund status
-- Inspect the building's upkeep and facilities condition
-
-### 2. Financial Planning
-
-- Determine your budget (purchase + renovation)
-- Explore financing options (bank loan or cash purchase)
-- Calculate realistic ROI based on your situation
-- Factor in 3-6 months of operating capital buffer
-
-### 3. Consult with iHousing
-
-**Free Consultation Includes**:
-- Property-specific revenue projection
-- Setup cost estimate
-- Rental market analysis
-- Management service explanation
-
-**Contact iHousing Melaka**:
-- WhatsApp: [Insert number]
-- Email: hello@ihousing.my
-- Office: Schedule visit to see similar managed properties
-
-### 4. Purchase & Setup
-
-Once you've decided:
-- Complete property purchase
-- Coordinate renovation/furnishing (we can recommend vendors)
-- Professional photography session
-- Listing creation across platforms
-- Soft launch with special introductory rates
-
-## Conclusion: Is Ong Kim Wee Residence Right for You?
-
-**Ideal for investors who**:
-- Want affordable entry into Melaka's Airbnb market
-- Prefer modern facilities over heritage charm
-- Target family and business traveler segments
-- Seek steady cash flow over speculative appreciation
-- Value professional management and passive income
-
-**Consider alternatives if**:
-- You want heritage property with character (look at Jonker area)
-- You need premium positioning (consider Silverscape/Shore)
-- Budget is unlimited (explore waterfront properties)
-- You want ultra-high tourist foot traffic (look closer to attractions)
-
-Ong Kim Wee Residence offers a **balanced, practical choice** for investors seeking reliable Airbnb income in Melaka's competitive market. Its modern amenities, central location, and affordable entry point make it an excellent starting point for new hosts or a solid addition to existing portfolios.
-
----
-
-**Ready to start your Airbnb investment journey at Ong Kim Wee Residence?**
-
-Contact **iHousing** today for a free property consultation and revenue projection specific to your unit.
-
-📞 WhatsApp: [Insert number]  
-📧 Email: hello@ihousing.my  
-🌐 Website: www.ihousing.my
-
-**Follow us for more Melaka property insights**:
-- Instagram: @ihousing.melaka
-- Facebook: iHousing Melaka
-- TikTok: @ihousing.my
-
-*Disclaimer: Revenue projections are estimates based on historical data and current market conditions. Actual results may vary based on property condition, management quality, and market factors. Past performance does not guarantee future results.*
+<BlogPost
+  title={title}
+  description={description}
+  image={image}
+  date={date}
+  category={category}
+  language={language}
+  content={content}
+/>

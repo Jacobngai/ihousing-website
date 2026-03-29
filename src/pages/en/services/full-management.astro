@@ -1,22 +1,73 @@
 ---
 import Layout from '@/layouts/Layout.astro';
 
-const title = 'Full Airbnb Management Service Melaka | iHousing';
-const description = 'Complete Airbnb property management in Melaka. We handle guests, cleaning, maintenance, and everything else. 100+ properties managed. WhatsApp us for custom pricing.';
+const title = 'Full Airbnb Management Melaka 2026 | 700+ Properties | iHousing';
+const description = 'Complete Airbnb property management in Melaka. We handle guests, cleaning, maintenance, pricing. 700+ properties managed since 2017. 68% average occupancy. WhatsApp for custom pricing.';
 const image = 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200';
 
 const contactFormLink = '/en/contact-form/';
+
+// FAQ Schema JSON-LD
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does full Airbnb management cost in Melaka?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "iHousing offers competitive pricing for full Airbnb management in Melaka. Unlike traditional managers charging 20-25%, we provide custom pricing based on your property. Contact us for a quote tailored to your specific unit and location."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's included in iHousing's full management service?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our full management service includes: 24/7 guest communication, professional cleaning after every stay, maintenance coordination, dynamic AI pricing, listings on 5 platforms (Airbnb, Booking.com, Agoda, Expedia, Agoda Homes), professional photography, and monthly income reports. Completely hands-off for owners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many Airbnb properties does iHousing manage in Melaka?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Since 2017, iHousing has managed 700+ properties across Melaka. Our portfolio includes units at Silverscape, The Shore, Parkland Residence, Ong Kim Wee, and properties throughout the heritage zone. This experience gives us deep market knowledge and negotiating power with suppliers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What occupancy rate can I expect with iHousing management?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our managed properties achieve 68% average annual occupancy across all seasons. Peak season (December-January, Chinese New Year, school holidays) reaches 85-95% occupancy. Our dynamic pricing and multi-platform strategy maximizes bookings throughout the year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can iHousing help me set up a new Airbnb property from scratch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! We offer complete setup services including renovation consultation (data-driven design), furnishing, professional photography, MOTAC license guidance, and optimized listing creation. Many owners start with empty units and we transform them into profitable Airbnbs."
+      }
+    }
+  ]
+};
 ---
 
 <Layout title={title} description={description} image={image}>
+  <head slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </head>
   <main>
     <!-- Hero Section -->
     <section class="relative bg-gradient-to-br from-green-900 via-green-800 to-emerald-900 text-white py-20 lg:py-28">
       <div class="absolute inset-0 bg-black/30"></div>
       <div class="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <p class="text-green-300 font-semibold mb-4 text-lg">Complete Hands-Off Service</p>
+        <p class="text-green-300 font-semibold mb-4 text-lg">700+ Properties Managed Since 2017</p>
         <h1 class="text-3xl lg:text-5xl font-bold leading-tight mb-6">
-          Full Airbnb Management
+          Full Airbnb Management Melaka
         </h1>
         <p class="text-xl lg:text-2xl text-green-100 mb-8 max-w-3xl mx-auto">
           We handle everything. Guest communication, cleaning, maintenance, pricing. You just receive income.
@@ -164,6 +215,33 @@ const contactFormLink = '/en/contact-form/';
       </div>
     </section>
 
+    <!-- Track Record -->
+    <section class="py-16 bg-green-50">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-10 text-center">
+          Our Melaka Track Record
+        </h2>
+        <div class="grid md:grid-cols-4 gap-6 text-center">
+          <div class="bg-white p-6 rounded-xl shadow-sm">
+            <p class="text-4xl font-bold text-green-600 mb-2">700+</p>
+            <p class="text-gray-600">Properties Managed</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow-sm">
+            <p class="text-4xl font-bold text-green-600 mb-2">68%</p>
+            <p class="text-gray-600">Average Occupancy</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow-sm">
+            <p class="text-4xl font-bold text-green-600 mb-2">4.7/5</p>
+            <p class="text-gray-600">Guest Rating</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow-sm">
+            <p class="text-4xl font-bold text-green-600 mb-2">Since 2017</p>
+            <p class="text-gray-600">Years Experience</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Comparison -->
     <section class="py-16 bg-gray-900 text-white">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -196,6 +274,42 @@ const contactFormLink = '/en/contact-form/';
       </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section class="py-16 bg-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-10 text-center">
+          Frequently Asked Questions
+        </h2>
+        
+        <div class="space-y-4">
+          <details class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+            <summary class="font-bold text-gray-900 cursor-pointer">How much does full Airbnb management cost in Melaka?</summary>
+            <p class="mt-4 text-gray-700">iHousing offers competitive pricing for full Airbnb management in Melaka. Unlike traditional managers charging 20-25%, we provide custom pricing based on your property. Contact us for a quote tailored to your specific unit and location.</p>
+          </details>
+
+          <details class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+            <summary class="font-bold text-gray-900 cursor-pointer">What's included in iHousing's full management service?</summary>
+            <p class="mt-4 text-gray-700">Our full management service includes: 24/7 guest communication, professional cleaning after every stay, maintenance coordination, dynamic AI pricing, listings on 5 platforms (Airbnb, Booking.com, Agoda, Expedia, Agoda Homes), professional photography, and monthly income reports. Completely hands-off for owners.</p>
+          </details>
+
+          <details class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+            <summary class="font-bold text-gray-900 cursor-pointer">How many Airbnb properties does iHousing manage in Melaka?</summary>
+            <p class="mt-4 text-gray-700">Since 2017, iHousing has managed 700+ properties across Melaka. Our portfolio includes units at Silverscape, The Shore, Parkland Residence, Ong Kim Wee, and properties throughout the heritage zone. This experience gives us deep market knowledge and negotiating power with suppliers.</p>
+          </details>
+
+          <details class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+            <summary class="font-bold text-gray-900 cursor-pointer">What occupancy rate can I expect with iHousing management?</summary>
+            <p class="mt-4 text-gray-700">Our managed properties achieve 68% average annual occupancy across all seasons. Peak season (December-January, Chinese New Year, school holidays) reaches 85-95% occupancy. Our dynamic pricing and multi-platform strategy maximizes bookings throughout the year.</p>
+          </details>
+
+          <details class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+            <summary class="font-bold text-gray-900 cursor-pointer">Can iHousing help me set up a new Airbnb property from scratch?</summary>
+            <p class="mt-4 text-gray-700">Yes! We offer complete setup services including renovation consultation (data-driven design), furnishing, professional photography, MOTAC license guidance, and optimized listing creation. Many owners start with empty units and we transform them into profitable Airbnbs.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
     <!-- CTA -->
     <section class="py-20 bg-green-700 text-white">
       <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -203,7 +317,7 @@ const contactFormLink = '/en/contact-form/';
           Ready to Go Hands-Off?
         </h2>
         <p class="text-xl text-green-100 mb-8">
-          Let's have a quick chat about your property. No obligations, just friendly advice.
+          Let's have a quick chat about your property. No obligations, just friendly advice from 700+ properties worth of experience.
         </p>
         <a href={contactFormLink} class="inline-block bg-yellow-500 hover:bg-yellow-400 text-green-900 font-bold py-4 px-12 rounded-lg text-xl transition-all transform hover:scale-105 shadow-lg">
           Contact Us Now

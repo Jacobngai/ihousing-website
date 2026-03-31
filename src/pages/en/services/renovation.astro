@@ -1,25 +1,76 @@
 ---
 import Layout from '@/layouts/Layout.astro';
 
-const title = 'Airbnb Renovation Melaka | Data-Driven Design That Actually Increases Bookings';
-const description = 'We\'ve completed 100+ Airbnb renovations in Melaka. We know what guests actually book - not what you think looks good. Stop wasting money on design that doesn\'t add value.';
+const title = 'Airbnb Renovation Melaka 2026 | Data-Driven Design | 700+ Properties';
+const description = 'Data-driven Airbnb renovation in Melaka. We\'ve renovated 700+ properties since 2017 — we know what guests actually book. Stop wasting money on design that doesn\'t increase bookings.';
 const image = 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200';
 
 const contactFormLink = '/en/contact-form/';
+
+// FAQ Schema for Rich Snippets
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does Airbnb renovation cost in Melaka?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Effective Airbnb renovations in Melaka range from RM5,000 (basic furnishing) to RM50,000 (complete overhaul). Based on our data from 700+ properties, strategic RM15,000-20,000 renovations focused on guest experience often outperform RM50,000+ 'luxury' renovations in booking rates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to renovate before listing my property on Airbnb?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not necessarily. If your unit is clean, functional, and has basic furnishings, we can list it as-is. Then we can upgrade strategically based on guest feedback and your budget. Many properties start earning immediately while planning renovations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What renovations actually increase Airbnb bookings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Based on data from 700+ properties: quality mattress and bedding, fast reliable WiFi, smart TV, work-ready desk setup, good lighting and mirrors, and blackout curtains. These guest-focused upgrades consistently increase bookings and 5-star reviews."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What renovations should I avoid for Airbnb?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our data shows these don't increase bookings: premium marble flooring (guests don't notice), designer accent walls (can turn guests off), luxury furniture sets (comfort matters more than brand), and excessive artwork/decor (makes spaces feel smaller)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does Airbnb renovation take in Melaka?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Basic furnishing and setup takes 1-2 weeks. Full renovation with contractor work typically takes 4-8 weeks depending on scope. We project manage everything so you don't have to coordinate contractors yourself."
+      }
+    }
+  ]
+};
 ---
 
 <Layout title={title} description={description} image={image}>
+  <!-- FAQ Schema -->
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  
   <main>
     <!-- Hero Section -->
     <section class="relative bg-gradient-to-br from-purple-900 via-violet-900 to-indigo-900 text-white py-20 lg:py-28">
       <div class="absolute inset-0 bg-black/30"></div>
       <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <p class="text-purple-300 font-semibold mb-4 text-lg">100+ Renovations. Real Data. Real Results.</p>
+        <p class="text-purple-300 font-semibold mb-4 text-lg">700+ Properties Managed Since 2017. Real Data. Real Results.</p>
         <h1 class="text-3xl lg:text-5xl font-bold leading-tight mb-6">
           Your Design Taste Is Costing You Bookings
         </h1>
         <p class="text-xl lg:text-2xl text-purple-100 mb-8 max-w-3xl mx-auto">
-          We've renovated 100+ Airbnb properties in Melaka. Here's what we learned:
+          We've renovated and managed 700+ Airbnb properties in Melaka since 2017. Here's what we learned:
           <br class="hidden sm:block">
           What you think looks good ≠ What guests actually book.
         </p>
@@ -67,7 +118,7 @@ const contactFormLink = '/en/contact-form/';
           We Have the Data. You Have an Opinion.
         </h2>
         <p class="text-center text-gray-600 mb-12 text-lg">
-          After 100+ renovations and managing 100+ properties, we know what guests actually book.
+          After managing 700+ properties since 2017, we know what guests actually book.
         </p>
 
         <!-- What Actually Adds Value -->
@@ -180,18 +231,22 @@ const contactFormLink = '/en/contact-form/';
           Because we're not guessing. We're sharing what actually works.
         </p>
 
-        <div class="grid md:grid-cols-3 gap-8 mb-12">
+        <div class="grid md:grid-cols-4 gap-8 mb-12">
           <div>
-            <p class="text-5xl font-bold text-yellow-400 mb-2">100+</p>
-            <p class="text-gray-300">Renovations Completed</p>
-          </div>
-          <div>
-            <p class="text-5xl font-bold text-yellow-400 mb-2">100+</p>
+            <p class="text-5xl font-bold text-yellow-400 mb-2">700+</p>
             <p class="text-gray-300">Properties Managed</p>
           </div>
           <div>
-            <p class="text-5xl font-bold text-yellow-400 mb-2">8</p>
-            <p class="text-gray-300">Years of Data</p>
+            <p class="text-5xl font-bold text-yellow-400 mb-2">68%</p>
+            <p class="text-gray-300">Avg. Occupancy</p>
+          </div>
+          <div>
+            <p class="text-5xl font-bold text-yellow-400 mb-2">4.7★</p>
+            <p class="text-gray-300">Guest Rating</p>
+          </div>
+          <div>
+            <p class="text-5xl font-bold text-yellow-400 mb-2">2017</p>
+            <p class="text-gray-300">Since</p>
           </div>
         </div>
 
@@ -276,27 +331,37 @@ const contactFormLink = '/en/contact-form/';
       </div>
     </section>
 
-    <!-- Quick FAQ -->
+    <!-- Quick FAQ - Schema-enabled -->
     <section class="py-16 bg-white">
       <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-2xl font-bold text-gray-900 mb-8 text-center">
-          Common Questions We Get
+          Frequently Asked Questions
         </h2>
 
         <div class="space-y-4">
           <details class="bg-gray-50 p-6 rounded-xl">
+            <summary class="font-bold text-gray-900 cursor-pointer">How much does Airbnb renovation cost in Melaka?</summary>
+            <p class="mt-3 text-gray-600">Effective Airbnb renovations in Melaka range from RM5,000 (basic furnishing) to RM50,000 (complete overhaul). Based on our data from 700+ properties, strategic RM15,000-20,000 renovations focused on guest experience often outperform RM50,000+ "luxury" renovations in booking rates.</p>
+          </details>
+
+          <details class="bg-gray-50 p-6 rounded-xl">
             <summary class="font-bold text-gray-900 cursor-pointer">Do I need to renovate before listing on Airbnb?</summary>
-            <p class="mt-3 text-gray-600">Not necessarily. If your unit is clean, functional, and has basic furnishings, we can list it as-is. Then we can upgrade strategically based on guest feedback and your budget.</p>
+            <p class="mt-3 text-gray-600">Not necessarily. If your unit is clean, functional, and has basic furnishings, we can list it as-is. Then we can upgrade strategically based on guest feedback and your budget. Many properties start earning immediately while planning renovations.</p>
           </details>
 
           <details class="bg-gray-50 p-6 rounded-xl">
-            <summary class="font-bold text-gray-900 cursor-pointer">How much should I budget for renovation?</summary>
-            <p class="mt-3 text-gray-600">It depends on your starting point. We've seen effective renovations range from RM5,000 (basic furnishing) to RM50,000 (complete overhaul). The key is spending on things that actually increase bookings, not on "impressive" features.</p>
+            <summary class="font-bold text-gray-900 cursor-pointer">What renovations actually increase Airbnb bookings?</summary>
+            <p class="mt-3 text-gray-600">Based on data from 700+ properties: quality mattress and bedding, fast reliable WiFi, smart TV, work-ready desk setup, good lighting and mirrors, and blackout curtains. These guest-focused upgrades consistently increase bookings and 5-star reviews.</p>
           </details>
 
           <details class="bg-gray-50 p-6 rounded-xl">
-            <summary class="font-bold text-gray-900 cursor-pointer">Can't I just design it myself?</summary>
-            <p class="mt-3 text-gray-600">You can. But our data shows that owner-designed renovations typically underperform by 30-40% in booking rates compared to our data-driven approach. The question is: can you afford to lose 30-40% of your potential income?</p>
+            <summary class="font-bold text-gray-900 cursor-pointer">What renovations should I avoid for Airbnb?</summary>
+            <p class="mt-3 text-gray-600">Our data shows these don't increase bookings: premium marble flooring (guests don't notice), designer accent walls (can turn guests off), luxury furniture sets (comfort matters more than brand), and excessive artwork/decor (makes spaces feel smaller).</p>
+          </details>
+
+          <details class="bg-gray-50 p-6 rounded-xl">
+            <summary class="font-bold text-gray-900 cursor-pointer">How long does Airbnb renovation take in Melaka?</summary>
+            <p class="mt-3 text-gray-600">Basic furnishing and setup takes 1-2 weeks. Full renovation with contractor work typically takes 4-8 weeks depending on scope. We project manage everything so you don't have to coordinate contractors yourself.</p>
           </details>
         </div>
       </div>

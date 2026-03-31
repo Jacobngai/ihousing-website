@@ -1,25 +1,63 @@
 ---
 import Layout from '@/layouts/Layout.astro';
 
-const title = 'How iHousing Airbnb Management Works | Step-by-Step Guide';
-const description = 'Learn how our Airbnb management service works from signup to first booking. Simple 3-step process to start earning from your Melaka property.';
+const title = 'How Airbnb Management Works Melaka 2026 | 3-Step Process | iHousing';
+const description = 'Start earning from your Melaka property in 2 weeks. Simple 3-step process: Consultation → Setup → Earn. 700+ properties managed since 2017. Free consultation.';
 const image = 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200';
 
 const contactFormLink = '/en/contact-form/';
+
+// FAQ data for schema and display
+const faqs = [
+  {
+    question: "How long does it take to start earning from my Airbnb?",
+    answer: "With iHousing, you can start earning in as little as 2-3 weeks. Week 1 is consultation and agreement, Week 2 is photography and listing creation, and by Week 3 your property goes live and can receive bookings."
+  },
+  {
+    question: "What do I need to provide for Airbnb management?",
+    answer: "You need to provide: property access (keys or smart lock), a furnished property (or use our renovation service), working utilities (water, electric, wifi), and sign a service agreement. That's it - we handle everything else."
+  },
+  {
+    question: "How does iHousing's management process work?",
+    answer: "Our 3-step process: Step 1 Consultation - we assess your property and estimate income. Step 2 Setup - we do professional photography and create optimized listings on 5 platforms. Step 3 Earn - we handle all guests, cleaning, and maintenance while you receive monthly income."
+  },
+  {
+    question: "Can iHousing help if my property isn't furnished yet?",
+    answer: "Yes! We offer renovation and furnishing services specifically designed for Airbnb. We've completed 100+ Airbnb renovations in Melaka and know exactly what guests book - helping you spend money on things that actually increase bookings."
+  },
+  {
+    question: "What is included in iHousing's ongoing management?",
+    answer: "Full management includes: 24/7 guest communication, check-in/check-out coordination, professional cleaning after each stay, maintenance and repairs, pricing optimization, multi-platform listing management, and monthly income reports and payments."
+  }
+];
 ---
 
 <Layout title={title} description={description} image={image}>
   <main>
+    <!-- FAQ Schema JSON-LD -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer
+        }
+      }))
+    })} />
+
     <!-- Hero Section -->
     <section class="relative bg-gradient-to-br from-emerald-700 via-green-700 to-teal-700 text-white py-20 lg:py-28">
       <div class="absolute inset-0 bg-black/20"></div>
       <div class="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <p class="text-emerald-200 font-semibold mb-4 text-lg">Simple 3-Step Process</p>
+        <p class="text-emerald-200 font-semibold mb-4 text-lg">700+ Properties Managed Since 2017</p>
         <h1 class="text-3xl lg:text-5xl font-bold leading-tight mb-6">
-          How It Works
+          How Airbnb Management Works in Melaka
         </h1>
         <p class="text-xl lg:text-2xl text-emerald-100 mb-8 max-w-3xl mx-auto">
-          From signup to first booking in as little as 2 weeks. We handle everything.
+          From signup to first booking in as little as 2 weeks. Simple 3-step process.
         </p>
         <a href={contactFormLink} class="inline-block bg-yellow-500 hover:bg-yellow-400 text-green-900 font-bold py-4 px-10 rounded-lg text-xl transition-all transform hover:scale-105 shadow-lg">
           Get Started Now
@@ -279,6 +317,23 @@ const contactFormLink = '/en/contact-form/';
       </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section class="py-16 bg-gray-50">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-8 text-center">
+          Frequently Asked Questions
+        </h2>
+        <div class="space-y-4">
+          {faqs.map((faq) => (
+            <details class="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
+              <summary class="font-bold text-gray-900 cursor-pointer text-lg">{faq.question}</summary>
+              <p class="mt-4 text-gray-600 leading-relaxed">{faq.answer}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
     <!-- CTA -->
     <section class="py-20 bg-emerald-700 text-white">
       <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -286,7 +341,7 @@ const contactFormLink = '/en/contact-form/';
           Ready to Get Started?
         </h2>
         <p class="text-xl text-emerald-100 mb-8">
-          Let's have a quick chat about your property. Free consultation, no obligations.
+          700+ property owners trust us. Free consultation, no obligations.
         </p>
         <a href={contactFormLink} class="inline-block bg-yellow-500 hover:bg-yellow-400 text-green-900 font-bold py-4 px-12 rounded-lg text-xl transition-all transform hover:scale-105 shadow-lg">
           Contact Us Now

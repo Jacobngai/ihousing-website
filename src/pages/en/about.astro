@@ -1,12 +1,35 @@
 ---
 import Layout from '@/layouts/Layout.astro';
 
-const title = 'About iHousing | Melaka Airbnb Property Management Company';
-const description = 'Learn about iHousing - Melaka\'s trusted Airbnb management company since 2017. 100+ properties, custom pricing, 8 years experience, multi-platform listing.';
+const title = 'About iHousing | Melaka Airbnb Property Management 2026 | 700+ Properties';
+const description = 'iHousing: Melaka\'s trusted Airbnb management company since 2017. 700+ properties managed, flat fee pricing, 8+ years experience, 5 platform listings.';
 const image = 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200';
+
+const faq = [
+  {
+    question: "Who is iHousing and how long have you been managing Airbnb in Melaka?",
+    answer: "iHousing was founded in 2017, making us one of Melaka's most experienced Airbnb management companies. We've managed 700+ properties across Melaka including Silverscape, Atlantis, Parkland, and The Shore."
+  },
+  {
+    question: "Why does iHousing charge flat fee instead of commission?",
+    answer: "We believe property owners should keep more of their income. Traditional 20% commission means paying RM800 on a RM4,000 month. Our flat fee model saves owners thousands annually - the more you earn, the more you keep."
+  },
+  {
+    question: "Which condos does iHousing manage properties in?",
+    answer: "We manage properties across Melaka's popular condominiums including Silverscape Residence, The Shore, Imperio, Novo 8, Century Mahkota, Wave Residence, Atlantis, and we're the official partner for Parkland Avenue."
+  },
+  {
+    question: "What platforms does iHousing list my property on?",
+    answer: "We list your property on 5 major booking platforms: Airbnb, Booking.com, Agoda, Expedia, and TripAdvisor. This gives you 60% more booking opportunities than single-platform managers."
+  },
+  {
+    question: "How do I get started with iHousing Airbnb management?",
+    answer: "Simply WhatsApp us for a free property evaluation. We'll visit your unit, provide a revenue estimate based on 700+ properties of experience, and discuss the best management plan for your needs."
+  }
+];
 ---
 
-<Layout title={title} description={description} image={image}>
+<Layout title={title} description={description} image={image} faq={faq}>
   <main>
     <!-- Hero Section -->
     <section class="relative bg-gradient-to-br from-green-900 via-green-800 to-emerald-900 text-white py-20 lg:py-28">
@@ -17,7 +40,7 @@ const image = 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200'
           Melaka's Trusted Airbnb Management Partner
         </h1>
         <p class="text-xl lg:text-2xl text-green-100 mb-8 max-w-3xl mx-auto">
-          8 years of experience. 100+ properties managed. Custom flat fee pricing.
+          8+ years of experience. 700+ properties managed since 2017. Flat fee pricing.
           <br class="hidden sm:block">
           We help property owners earn more while paying less.
         </p>
@@ -41,7 +64,7 @@ const image = 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200'
             Instead of percentage-based fees, we introduced <strong>flat monthly pricing</strong> that saves you money compared to traditional 20% commission. This means our clients keep more of their income, especially when their properties are performing well.
           </p>
           <p class="text-lg mb-6">
-            Today, we manage <strong>over 100 properties</strong> across Melaka's most popular condominiums. We're the official Airbnb management partner for Parkland Avenue by the Sea, and we've helped hundreds of owners maximize their rental income.
+            Today, we manage <strong>700+ properties</strong> across Melaka's most popular condominiums. We're the official Airbnb management partner for Parkland Avenue by the Sea, and we've helped hundreds of owners maximize their rental income since 2017.
           </p>
         </div>
       </div>
@@ -113,11 +136,11 @@ const image = 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200'
 
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
           <div class="text-center">
-            <p class="text-5xl lg:text-6xl font-bold text-green-600 mb-2">100+</p>
+            <p class="text-5xl lg:text-6xl font-bold text-green-600 mb-2">700+</p>
             <p class="text-gray-600">Properties Managed</p>
           </div>
           <div class="text-center">
-            <p class="text-5xl lg:text-6xl font-bold text-green-600 mb-2">8</p>
+            <p class="text-5xl lg:text-6xl font-bold text-green-600 mb-2">8+</p>
             <p class="text-gray-600">Years Experience</p>
           </div>
           <div class="text-center">
@@ -224,6 +247,27 @@ const image = 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200'
           <a href="/en/properties/" class="block p-4 bg-green-100 rounded-lg hover:bg-green-200 border-2 border-green-500 transition-all text-center">
             <p class="text-green-800 font-semibold">View All →</p>
           </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-gray-50">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-8 text-center">
+          Frequently Asked Questions
+        </h2>
+        <div class="space-y-4">
+          {faq.map((item) => (
+            <details class="bg-white rounded-lg shadow-sm border border-gray-200">
+              <summary class="p-6 cursor-pointer font-semibold text-gray-900 hover:text-green-700">
+                {item.question}
+              </summary>
+              <div class="px-6 pb-6 text-gray-600">
+                {item.answer}
+              </div>
+            </details>
+          ))}
         </div>
       </div>
     </section>

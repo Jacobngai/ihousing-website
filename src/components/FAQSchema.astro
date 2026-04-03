@@ -1,0 +1,32 @@
+---
+interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+interface Props {
+  faqs?: FAQItem[];
+  items?: FAQItem[];
+}
+
+const { faqs = [], items = [] } = Astro.props as Props;
+const faqItems = faqs.length ? faqs : items;
+---
+
+{faqItems.length > 0 && (
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faqItems.map((faq) => ({
+        '@type': 'Question',
+        name: faq.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: faq.answer,
+        },
+      })),
+    })}
+  />
+)}

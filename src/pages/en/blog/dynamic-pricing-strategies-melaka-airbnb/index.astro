@@ -1,6 +1,5 @@
 ---
 import BlogPost from '@/layouts/BlogPost.astro';
-import { FAQPageJsonLd } from 'astro-seo-schema';
 
 const title = "Airbnb Pricing Strategy Melaka 2026 | Dynamic Pricing Guide | 700+ Properties";
 const description = "How top Melaka Airbnb hosts earn 25-35% more with dynamic pricing. Weekend premiums, seasonal rates, event-based pricing. Real data from 700+ managed properties.";
@@ -595,17 +594,6 @@ const content = `
 <em>Ready to maximize your Airbnb revenue? Let's talk. We'll analyze your current pricing, implement dynamic strategies, and ensure you're earning the maximum possible from your Melaka property. WhatsApp us for a free pricing assessment.</em>
 `;
 ---
-<FAQPageJsonLd
-  mainEntity={faqData.map(faq => ({
-    "@type": "Question",
-    name: faq.question,
-    acceptedAnswer: {
-      "@type": "Answer",
-      text: faq.answer
-    }
-  }))}
-/>
-
 <BlogPost
   title={title}
   description={description}
@@ -614,4 +602,5 @@ const content = `
   category={category}
   language={language}
   content={content}
+  faq={faqData}
 />

@@ -1,0 +1,44 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  language?: string;
+  date?: string;
+}
+
+const {
+  title = 'iHousing',
+  description = 'iHousing Melaka',
+  image,
+  language = 'en',
+  date,
+} = Astro.props as Props;
+
+const siteUrl = import.meta.env.PUBLIC_SITE_URL || 'https://www.ihousing.net';
+const ogImage = image ? `${siteUrl}${image.startsWith('http') ? '' : ''}${image}` : `${siteUrl}/images/og-default.jpg`;
+---
+
+<!DOCTYPE html>
+<html lang={language}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:url" content={Astro.url.href} />
+    {date && <meta property="article:published_time" content={date} />}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  </head>
+  <body class="antialiased font-sans bg-white text-gray-900">
+    <slot />
+  </body>
+</html>

@@ -3,7 +3,7 @@ title: "Airbnb Operating Costs Malaysia 2026: Melaka Complete Guide | 700+ Prope
 description: "How much does it REALLY cost to run Airbnb in Melaka 2026? Utilities RM300-600/mo, maintenance 2% gross, platform fees 15-20%. Real data from 700+ managed properties."
 author: "iHousing Team"
 publishDate: "2026-02-20"
-category: "Revenue & Fees"
+category: "Management Tips"
 tags: ["Airbnb Melaka", "Operating Costs", "ROI", "Property Investment"]
 locale: "en"
 featured: false

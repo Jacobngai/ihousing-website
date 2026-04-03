@@ -2,7 +2,8 @@
 title: "Airbnb Commission Rate Malaysia 2026: The Secret Costs You're Not Told"
 description: "How much does Airbnb really take? Breakdown of host fees, guest service fees, and the 'hidden' commission costs in Malaysia."
 publishDate: 2026-02-18
-category: "Revenue & Fees"
+category: "Management Tips"
+locale: 'en'
 author: "iHousing Team"
 tags: ["Airbnb Malaysia", "Commission", "Property Management", "Melaka"]
 ---

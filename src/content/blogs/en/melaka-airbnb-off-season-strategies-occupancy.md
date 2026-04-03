@@ -3,7 +3,7 @@ title: "Melaka Airbnb Off-Season: How to Keep Bookings Coming When Tourism Slows
 description: "Off-season doesn't mean zero bookings. 8 years in Melaka taught us how to maintain 60%+ occupancy year-round. Here's the playbook smart hosts use."
 author: "iHousing"
 publishDate: "2026-03-04"
-category: "Revenue Optimization"
+category: "Market Analysis"
 tags: ["Melaka Airbnb", "Off-Season Strategy", "Occupancy Rate", "Revenue Management", "Property Management Melaka"]
 keywords: ["melaka airbnb off season", "low season airbnb malaysia", "airbnb occupancy tips", "melaka slow season rentals"]
 locale: "en"

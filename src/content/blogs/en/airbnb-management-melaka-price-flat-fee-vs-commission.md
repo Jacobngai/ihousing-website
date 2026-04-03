@@ -1,7 +1,10 @@
 ---
 title: "Airbnb Management Melaka Price: Flat Fee vs Commission"
 description: "Confused by Airbnb management Melaka price models? Discover how a flat fee beats 20% commission for ROI. Transparent pricing for Melaka hosts in 2026."
-pubDate: 2026-03-09
+publishDate: 2026-03-09
+updatedDate: 2026-04-03
+category: "Management Tips"
+locale: 'en'
 author: "iHousing Melaka"
 tags: ["Airbnb Management", "Melaka", "Pricing", "ROI"]
 layout: "../../../layouts/BlogPost.astro"

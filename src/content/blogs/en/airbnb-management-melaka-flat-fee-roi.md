@@ -3,7 +3,7 @@ title: "Airbnb Management Melaka: Why We're the Only Company Offering Flat Fees 
 description: "Tired of losing 20-30% of your Melaka Airbnb income to management commissions? Learn how iHousing's flat fee model puts RM1,500+ more in your pocket every month."
 author: "iHousing Team"
 publishDate: 2026-02-24
-category: Airbnb Management
+category: Management Tips
 tags:
   - Airbnb Management Melaka
   - Airbnb Management Fee

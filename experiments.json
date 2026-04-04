@@ -1,5 +1,50 @@
 [
     {
+        "id": "IH-EXP-133",
+        "client": "iHousing",
+        "date_started": "2026-04-04T17:30:00+08:00",
+        "type": "faq_schema_authority_update",
+        "description": "Added FAQ schema (5 questions) to Airbnb vs Long-Term Rental analysis page. Updated title to 'Airbnb vs Long-Term Rental Melaka 2026 | ROI Comparison | 700+ Properties Managed'. Added authority signals (700+ properties since 2017). Fixed WhatsApp CTA to correct number (+60166996688). Added About iHousing section.",
+        "page": "/en/blog/airbnb-vs-long-term-rental-melaka-investment-analysis-2026/",
+        "query": "airbnb vs long term rental melaka",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no baseline data. Investment comparison page for property owners deciding between rental strategies. Had no FAQ schema, missing authority signals, and wrong WhatsApp number."
+        },
+        "change": {
+            "old_title": "Airbnb vs. Long-Term Rental: Melaka Investment Analysis 2026",
+            "new_title": "Airbnb vs Long-Term Rental Melaka 2026 | ROI Comparison | 700+ Properties Managed",
+            "old_desc": "Should you rent your Melaka condo monthly or list it on Airbnb? We analyze the 2026 ROI, vacancy rates, and management effort to help you decide.",
+            "new_desc": "Airbnb vs long-term rental in Melaka: which earns more? Real 2026 data from 700+ properties managed since 2017. Airbnb yields 7-11% vs 3-4% long-term. See the numbers.",
+            "action": "faq_schema_authority_update",
+            "questions": [
+                "Is Airbnb more profitable than long-term rental in Melaka?",
+                "What occupancy rate can I expect for Airbnb in Melaka?",
+                "How much work is Airbnb vs long-term rental?",
+                "What are the risks of Airbnb vs long-term rental?",
+                "Should I switch from long-term to Airbnb in Melaka?"
+            ],
+            "content_updates": [
+                "Updated title with 'ROI Comparison' and '700+ Properties Managed' authority signal",
+                "Updated meta description with real data (7-11% vs 3-4% ROI)",
+                "Added FAQ schema for rich snippet eligibility (JSON-LD with 5 questions)",
+                "Added visible FAQ section with 5 expandable details elements",
+                "Updated authority signals: '700+ properties managed since 2017'",
+                "Added About iHousing section with occupancy stats and USPs",
+                "Fixed WhatsApp CTA link to correct number (+60166996688)"
+            ],
+            "rationale": "Investment comparison page targeting property owners deciding between rental strategies. High commercial intent - owners comparing ROI want management solutions. FAQ schema addresses exact investor concerns. Authority signals (700+ properties, 60%+ occupancy) build trust for management conversion."
+        },
+        "check_date": "2026-04-11",
+        "status": "active",
+        "commit": "d07825d",
+        "deployed": "pending_vercel_build",
+        "reported_to_channel": true
+    },
+    {
         "id": "IH-EXP-132",
         "client": "iHousing",
         "date_started": "2026-04-04T05:30:00+08:00",

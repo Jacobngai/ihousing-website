@@ -1,5 +1,99 @@
 [
     {
+        "id": "IH-EXP-135",
+        "client": "iHousing",
+        "date_started": "2026-04-05T23:38:00+08:00",
+        "type": "faq_schema_headline_authority_update",
+        "description": "Added FAQ schema (5 questions) to Digital Nomad Setup Guide. Updated title to 'Digital Nomad Airbnb Setup Melaka 2026 | Remote Work Guide | 700+ Properties'. Added authority signals (700+ properties since 2017). Converted from BlogPost to BaseLayout. Added visible FAQ section. Fixed WhatsApp CTA.",
+        "page": "/en/blog/digital-nomad-setup-guide-melaka-airbnb/",
+        "query": "digital nomad airbnb melaka",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no baseline data. Marketing guide for attracting digital nomads and remote workers. Had no FAQ schema, outdated authority signals (30% increase instead of 40%), and placeholder WhatsApp number (60123456789)."
+        },
+        "change": {
+            "old_title": "How to Attract Digital Nomads to Your Melaka Airbnb (2026)",
+            "new_title": "Digital Nomad Airbnb Setup Melaka 2026 | Remote Work Guide | 700+ Properties",
+            "old_desc": "Fill your empty weekdays with remote workers. Learn the essential setup (ergonomic chair, high-speed WiFi, monitor) to make your Melaka Airbnb a digital nomad haven.",
+            "new_desc": "How to attract digital nomads to your Melaka Airbnb. Workspace setup, TIME Fibre WiFi, ergonomic essentials. Real insights from 700+ managed properties since 2017.",
+            "action": "faq_schema_headline_authority_update",
+            "questions": [
+                "What do digital nomads need in a Melaka Airbnb?",
+                "Is Melaka good for digital nomads in 2026?",
+                "How much does it cost to set up an Airbnb for digital nomads?",
+                "How do I market my Airbnb to remote workers?",
+                "What internet speed do digital nomads need for Airbnb?"
+            ],
+            "content_updates": [
+                "Updated title with '2026' and '700+ Properties' authority signal",
+                "Updated meta description with '700+ managed properties since 2017' authority",
+                "Added FAQ schema for rich snippet eligibility (JSON-LD with 5 questions)",
+                "Added visible FAQ section with 5 expandable details elements",
+                "Updated authority signals: '30% increase' → '40% increase in remote work bookings since 2024'",
+                "Added About iHousing section with 60%+ occupancy stats",
+                "Fixed WhatsApp CTA link from placeholder (60123456789) to correct number (+60166996688)",
+                "Converted from BlogPost to BaseLayout with structured content",
+                "Added cost table with ROI timeline",
+                "Added article schema markup"
+            ],
+            "rationale": "Digital nomad/remote work market is growing fast. This guide targets hosts wanting to fill empty mid-week nights. FAQ schema enables rich snippets for 'digital nomad airbnb' queries. Authority signals (700+ since 2017) build trust. Remote workers often book weekly/monthly = higher total revenue."
+        },
+        "check_date": "2026-04-12",
+        "status": "active",
+        "commit": "4df5519",
+        "deployed": "pending_vercel_build",
+        "reported_to_channel": true
+    },
+    {
+        "id": "IH-EXP-134",
+        "client": "iHousing",
+        "date_started": "2026-04-05T17:30:00+08:00",
+        "type": "faq_schema_headline_authority_update",
+        "description": "Added FAQ schema (5 questions) to comprehensive Airbnb Check-In Process Guide Malaysia (~3,000+ words). Updated title to 'Airbnb Check-In Process Malaysia 2026 | Self Check-In Guide | 700+ Properties'. Updated all authority signals (100+ → 700+ properties since 2017, 8 years → 8+ years). Converted from BlogPost to BaseLayout. Added visible FAQ section.",
+        "page": "/en/blog/airbnb-check-in-process-guide-malaysia/",
+        "query": "airbnb check in process malaysia",
+        "baseline": {
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0,
+            "position": 0,
+            "note": "GSC API access issue for ihousing.my - no baseline data. Comprehensive operational guide (~3,000+ words) covering smart lock setup, guest communication templates, self check-in workflows, and common mistakes. Had no FAQ schema, outdated authority signals (100+ vs 700+), dated 2025."
+        },
+        "change": {
+            "old_title": "Airbnb Check-In Process Guide Malaysia - Seamless Guest Welcome System",
+            "new_title": "Airbnb Check-In Process Malaysia 2026 | Self Check-In Guide | 700+ Properties",
+            "old_desc": "Complete guide to Airbnb check-in process for Malaysia hosts. Includes self check-in setup, smart lock installation, guest communication templates, and Melaka-specific considerations.",
+            "new_desc": "Complete Airbnb check-in guide for Malaysia hosts. Smart lock setup, guest communication templates, self check-in system. Real insights from 700+ managed properties since 2017.",
+            "action": "faq_schema_headline_authority_update",
+            "questions": [
+                "What is the best check-in system for Airbnb in Malaysia?",
+                "When should I send the Airbnb access code to guests?",
+                "Do I need a backup access system for my Airbnb smart lock?",
+                "What time do most guests check in to Airbnb in Melaka?",
+                "Should I charge late check-in fees for Airbnb?"
+            ],
+            "content_updates": [
+                "Updated title with '2026' and '700+ Properties' authority signal",
+                "Updated meta description with '700+ managed properties since 2017' authority",
+                "Added FAQ schema for rich snippet eligibility (JSON-LD with 5 questions)",
+                "Added visible FAQ section with 5 expandable details elements",
+                "Updated authority signals: '100+ properties' → '700+ properties since 2017'",
+                "Updated experience: '8 years' → '8+ years since 2017'",
+                "Converted from BlogPost to BaseLayout with structured content",
+                "Added WhatsApp CTA link to correct number (+60166996688)"
+            ],
+            "rationale": "Comprehensive operational guide for hosts setting up self check-in systems. Targets high-intent hosts seeking to professionalize their operations. FAQ questions address exact concerns: best check-in method, code timing, backup systems, arrival patterns, and late fees. Authority signals (700+ since 2017) build trust for management services."
+        },
+        "check_date": "2026-04-12",
+        "status": "active",
+        "commit": "19581a5",
+        "deployed": "pending_vercel_build",
+        "reported_to_channel": true
+    },
+    {
         "id": "IH-EXP-133",
         "client": "iHousing",
         "date_started": "2026-04-04T17:30:00+08:00",
